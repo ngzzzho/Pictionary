@@ -1,8 +1,9 @@
 # 🎨 Pictionary Party
 
-A single-iPad **Pictionary host console** for game night. The iPad shows the
-word to the drawer, runs the round timer, and lets you tap whoever guessed
-correctly — scoring is automatic.
+A single-device **Pictionary host console** for game night — designed for
+iPad, fully usable on iPhone too. The screen shows the word to the drawer,
+runs the round timer, and lets you tap whoever guessed correctly — scoring
+is automatic.
 
 No installs, no accounts, no server: it's a plain HTML/CSS/JS web app that
 works offline once loaded.
@@ -19,9 +20,11 @@ works offline once loaded.
    Every built-in word passes the "a 7-year-old knows it and can recognize
    the drawing" test.
 3. The app announces whose turn it is: **pass the iPad to the drawer**, who
-   taps to secretly reveal the word (swap it if it's too hard).
-4. **Start drawing** — the countdown ring runs, with tick sounds in the last
-   5 seconds and a buzzer at zero. Tap the timer to pause.
+   taps to secretly reveal the word. Too hard? Swap it — but only **once per
+   round**, and never after the timer starts.
+4. **Start drawing** — a "go" chime kicks off the countdown ring, ticks count
+   down the last 10 seconds (urgent in the last 5), and a buzzer sounds at
+   zero. Tap the timer to pause.
 5. When someone shouts the right answer, **tap that player's tile**:
    the guesser gets **+1** and the drawer gets **+1** (classic rules), with
    a confetti burst 🎊. Mis-tapped? There's an Undo. Nobody got it? Tap 🏳️.

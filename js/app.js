@@ -88,10 +88,22 @@ const sound = {
     osc.start(t);
     osc.stop(t + dur + 0.05);
   },
-  tick() { this.play(1000, 0.07, 'square', 0.06); },
+  // Soft tick from 10s left, urgent double-tick in the last 5s.
+  tick(urgent) {
+    if (urgent) {
+      this.play(1250, 0.07, 'square', 0.16);
+      this.play(1250, 0.05, 'square', 0.12, 0.1);
+    } else {
+      this.play(950, 0.06, 'square', 0.1);
+    }
+  },
+  go() {
+    this.play(660, 0.12, 'sine', 0.18);
+    this.play(880, 0.16, 'sine', 0.18, 0.12);
+  },
   buzzer() {
-    this.play(196, 0.55, 'sawtooth', 0.18);
-    this.play(147, 0.65, 'sawtooth', 0.18, 0.05);
+    this.play(196, 0.55, 'sawtooth', 0.2);
+    this.play(147, 0.65, 'sawtooth', 0.2, 0.05);
   },
   chime() {
     [523, 659, 784, 1047].forEach((f, i) => this.play(f, 0.2, 'sine', 0.14, i * 0.09));
@@ -260,6 +272,7 @@ function startGame() {
     totalRounds: s.roundsEach > 0 ? s.roundsEach * players.length : null,
     phase: 'handoff', // handoff | reveal | drawing | result
     word: null,
+    swapUsed: false, // one swap per round, before the timer starts
     timer: { duration: s.seconds * 1000, msLeft: s.seconds * 1000, running: false, endAt: null },
     result: null,
     history: [], // one entry per finished round, for the final recap
@@ -290,6 +303,9 @@ function toReveal() {
 
 function swapWord() {
   const g = state.game;
+  // One swap per round, and never after the drawer confirmed (timer started).
+  if (g.phase !== 'reveal' || g.swapUsed) return;
+  g.swapUsed = true;
   g.word = drawWord(g);
   persist();
   render();
@@ -303,6 +319,7 @@ function startDrawing() {
   g.timer.endAt = Date.now() + g.timer.duration;
   lastTickSecond = null;
   sound.ensure();
+  sound.go();
   persist();
   render();
 }
@@ -390,6 +407,7 @@ function nextRound() {
   g.round += 1;
   g.drawerPos = (g.drawerPos + 1) % g.players.length;
   g.word = null;
+  g.swapUsed = false;
   g.result = null;
   g.phase = 'handoff';
   g.timer.msLeft = g.timer.duration;
@@ -425,6 +443,7 @@ function playAgain() {
   g.drawerPos = 0;
   g.round = 1;
   g.word = null;
+  g.swapUsed = false;
   g.result = null;
   g.history = [];
   g.phase = 'handoff';
@@ -448,7 +467,7 @@ setInterval(() => {
   const sec = Math.ceil(ms / 1000);
   if (sec !== lastTickSecond) {
     lastTickSecond = sec;
-    if (sec > 0 && sec <= 5) sound.tick();
+    if (sec > 0 && sec <= 10) sound.tick(sec <= 5);
   }
   syncTimerDom(ms);
   if (ms <= 0) endRound('timeout');
@@ -662,7 +681,9 @@ function revealHtml(g) {
     <div class="word-card">${esc(g.word)}</div>
     <p class="subtle">Don't let anyone else see! 😉</p>
     <button class="btn primary big" data-action="start-drawing">▶ Start drawing — ${Math.round(g.timer.duration / 1000)}s</button>
-    <button class="btn ghost big" data-action="swap-word">🔄 Give me a different word</button>
+    ${g.swapUsed
+      ? '<p class="hint" style="text-align:center">Swap used — this is your word now. You can do it! 💪</p>'
+      : '<button class="btn ghost big" data-action="swap-word">🔄 Give me a different word (once per round)</button>'}
   </div>`;
 }
 
@@ -677,7 +698,6 @@ function drawingHtml(g) {
       ${timerHtml(g)}
       <button class="peek-btn" data-peek id="peek-btn" aria-label="Hold to peek at the word">👁 Hold to peek word</button>
       <div class="row" style="justify-content:center">
-        <button class="btn ghost" data-action="swap-word">🔄 Swap word</button>
         <button class="btn soft-danger" data-action="give-up">🏳️ Nobody got it</button>
       </div>
     </div>
