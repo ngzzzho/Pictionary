@@ -11,21 +11,29 @@ works offline once loaded.
 
 ## How a round works
 
-1. **Register players** on the setup screen (names are remembered for next time).
-2. Pick a **topic** — Animals 🐾, Occupations 💼, Sports ⚽, or Mixed 🎲 —
-   plus the **round time** (30/60/90/120s) and how many times each player draws.
+1. **Register players** on the setup screen (names are remembered for next
+   time; a fresh device starts with the family roster pre-loaded).
+2. Pick a **topic** — Animals 🐾, Occupations 💼, Sports ⚽, Food 🍕,
+   Everyday Things 🏠, your own My Words ✏️ list, or Mixed 🎲 — plus the
+   **round time** (30/60/90/120s) and how many times each player draws.
+   Every built-in word passes the "a 7-year-old knows it and can recognize
+   the drawing" test.
 3. The app announces whose turn it is: **pass the iPad to the drawer**, who
    taps to secretly reveal the word (swap it if it's too hard).
 4. **Start drawing** — the countdown ring runs, with tick sounds in the last
    5 seconds and a buzzer at zero. Tap the timer to pause.
 5. When someone shouts the right answer, **tap that player's tile**:
-   the guesser gets **+1** and the drawer gets **+1** (classic rules).
-   Mis-tapped? There's an Undo. Nobody got it? Tap 🏳️.
+   the guesser gets **+1** and the drawer gets **+1** (classic rules), with
+   a confetti burst 🎊. Mis-tapped? There's an Undo. Nobody got it? Tap 🏳️.
 6. The drawer **rotates automatically** each round. At the end you get final
-   standings with a winner celebration 🏆.
+   standings with a winner celebration 🏆 and a **word recap** of every
+   round — who drew what and who guessed it.
 
 Handy details:
 
+- **My Words** ✏️: build a custom topic right in the app (family jokes,
+  Cantonese-culture words, cartoon characters…). Saved on the device; five
+  words or more makes it playable, and custom words join the Mixed deck.
 - **Hold-to-peek** button during a round lets the operator check the word
   without showing it to everyone.
 - Words are shuffled and **don't repeat** until the whole deck is used up.
@@ -37,7 +45,8 @@ Handy details:
 ## Using it on your iPad
 
 Open the live URL in Safari, then **Share → Add to Home Screen** to get a
-full-screen, app-like experience.
+full-screen app with its own paint-palette icon. It's a full PWA: after the
+first load it **works offline** — no Wi-Fi needed at the party.
 
 ## Hosting / deployment
 
@@ -63,18 +72,24 @@ python3 -m http.server 8000
 
 ## Customizing word lists
 
-Edit `js/words.js`. Each topic is just a key with a label, an emoji, and a
-word list — add a new topic and the app (including the Mixed deck) picks it
-up automatically.
+Quick additions: use the in-app **My Words** topic. For permanent topics,
+edit `js/words.js` — each topic is just a key with a label, an emoji, and a
+word list; add a new topic and the app (including the Mixed deck) picks it
+up automatically. Keep words kid-friendly and drawable.
+
+After changing `sw.js`'s cached asset list, bump its `CACHE` version string
+so installed iPads pick up the new files.
 
 ## Roadmap ideas
 
-- [ ] Custom word lists editable in-app (saved on the device)
+- [x] Custom word lists editable in-app (saved on the device) — *My Words*
+- [x] More topics — *Food, Everyday Things*
+- [x] Full offline PWA install (service worker + manifest + icons)
+- [x] Round-by-round word recap at the final screen
 - [ ] Team mode (two teams, alternating drawers)
 - [ ] Speed bonus scoring (more points for faster guesses)
 - [ ] In-app drawing canvas + AirPlay mirroring to a TV
 - [ ] Multi-device buzzer mode (players join from their phones with a room code)
-- [ ] More topics (Movies, Food, Places, Idioms) and bilingual EN/中文 word lists
+- [ ] Bilingual EN/中文 word lists
 - [ ] Word difficulty tiers with bonus points
 - [ ] Game-night history and stats
-- [ ] Full offline PWA install (service worker + manifest)

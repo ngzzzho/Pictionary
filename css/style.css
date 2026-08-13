@@ -512,6 +512,49 @@ button {
   content: ' ✏️';
 }
 
+.word-chip {
+  padding-left: 14px;
+}
+
+/* ---------- final recap ---------- */
+.recap-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 4px;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 16px;
+}
+
+.recap-row:last-child {
+  border-bottom: 0;
+}
+
+.recap-row .r-num {
+  width: 26px;
+  text-align: center;
+  font-weight: 800;
+  color: var(--muted);
+  flex: none;
+}
+
+.recap-row .r-word {
+  flex: 1;
+  min-width: 0;
+  font-weight: 800;
+  text-transform: capitalize;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.recap-row .r-meta {
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
 /* ---------- overlay / modal ---------- */
 .overlay {
   position: fixed;

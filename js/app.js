@@ -57,7 +57,11 @@ const K = {
   settings: 'pp_settings',
   game: 'pp_game',
   muted: 'pp_muted',
+  customWords: 'pp_custom_words',
 };
+
+const DEFAULT_ROSTER = ['Isaac', 'Enoch', 'Winnie', 'Stephen'];
+const CUSTOM_MIN_WORDS = 5;
 
 /* ===================== sound ===================== */
 
@@ -115,26 +119,41 @@ document.addEventListener('visibilitychange', () => {
 
 /* ===================== state ===================== */
 
+const savedRoster = store.get(K.roster, null);
+
 const state = {
   screen: 'setup', // setup | game | final
-  roster: store.get(K.roster, []), // [{id, name}]
+  // An empty roster is re-seeded with the family defaults.
+  roster: savedRoster && savedRoster.length
+    ? savedRoster
+    : DEFAULT_ROSTER.map((name) => ({ id: uid(), name })),
   settings: Object.assign(
     { topic: 'animals', seconds: 60, roundsEach: 2 }, // roundsEach 0 = endless
     store.get(K.settings, {})
   ),
+  customWords: store.get(K.customWords, []), // [string]
   game: store.get(K.game, null),
-  ui: { showScores: false, error: '', refocus: false },
+  ui: { showScores: false, error: '', wordError: '', refocus: false, refocusWord: false },
 };
 
-const TOPIC_KEYS = [...Object.keys(WORD_BANK), 'mixed'];
+// 'custom' (My Words) only shows up once it has words.
+function topicKeys() {
+  const keys = [...Object.keys(WORD_BANK)];
+  if (state.customWords.length) keys.push('custom');
+  keys.push('mixed');
+  return keys;
+}
 
 function topicInfo(key) {
   if (key === 'mixed') {
     return {
       label: 'Mixed',
       emoji: '🎲',
-      words: Object.values(WORD_BANK).flatMap((t) => t.words),
+      words: [...Object.values(WORD_BANK).flatMap((t) => t.words), ...state.customWords],
     };
+  }
+  if (key === 'custom') {
+    return { label: 'My Words', emoji: '✏️', words: [...state.customWords] };
   }
   return WORD_BANK[key];
 }
@@ -190,8 +209,45 @@ function saveSettings() {
   store.set(K.settings, state.settings);
 }
 
+function addCustomWord(rawWord) {
+  const word = rawWord.trim().replace(/\s+/g, ' ').slice(0, 30);
+  if (!word) return;
+  if (state.customWords.length >= 200) {
+    state.ui.wordError = 'Maximum 200 custom words.';
+    render();
+    return;
+  }
+  if (state.customWords.some((w) => w.toLowerCase() === word.toLowerCase())) {
+    state.ui.wordError = `"${word}" is already in your list.`;
+    render();
+    return;
+  }
+  state.customWords.push(word);
+  state.ui.wordError = '';
+  state.ui.refocusWord = true;
+  store.set(K.customWords, state.customWords);
+  render();
+}
+
+function removeCustomWord(word) {
+  state.customWords = state.customWords.filter((w) => w !== word);
+  state.ui.wordError = '';
+  store.set(K.customWords, state.customWords);
+  if (!state.customWords.length && state.settings.topic === 'custom') {
+    state.settings.topic = 'animals';
+    saveSettings();
+  }
+  render();
+}
+
+function canStartGame() {
+  if (state.roster.length < 2) return false;
+  if (state.settings.topic === 'custom' && state.customWords.length < CUSTOM_MIN_WORDS) return false;
+  return true;
+}
+
 function startGame() {
-  if (state.roster.length < 2) return;
+  if (!canStartGame()) return;
   const s = state.settings;
   const players = state.roster.map((p) => ({ id: p.id, name: p.name, score: 0 }));
   state.game = {
@@ -206,6 +262,7 @@ function startGame() {
     word: null,
     timer: { duration: s.seconds * 1000, msLeft: s.seconds * 1000, running: false, endAt: null },
     result: null,
+    history: [], // one entry per finished round, for the final recap
   };
   state.screen = 'game';
   state.ui.showScores = false;
@@ -273,9 +330,10 @@ function endRound(type, winnerId = null) {
   g.timer.msLeft = msLeftAtEnd;
 
   const deltas = [];
+  let winner = null;
+  const drawer = g.players[g.drawerPos];
   if (type === 'correct' && winnerId) {
-    const winner = g.players.find((p) => p.id === winnerId);
-    const drawer = g.players[g.drawerPos];
+    winner = g.players.find((p) => p.id === winnerId);
     if (winner) {
       winner.score += 1;
       deltas.push({ id: winner.id, delta: 1 });
@@ -288,6 +346,15 @@ function endRound(type, winnerId = null) {
   } else if (type === 'timeout') {
     sound.buzzer();
   }
+
+  if (!g.history) g.history = []; // games saved before recaps existed
+  g.history.push({
+    round: g.round,
+    word: g.word,
+    drawer: drawer ? drawer.name : '',
+    winner: winner ? winner.name : null,
+    type,
+  });
 
   g.result = { type, winnerId, word: g.word, deltas, msLeftAtEnd };
   g.phase = 'result';
@@ -303,6 +370,7 @@ function undoResult() {
     const p = g.players.find((pl) => pl.id === d.id);
     if (p) p.score -= d.delta;
   });
+  if (g.history) g.history.pop();
   g.result = null;
   g.phase = 'drawing';
   // Resume paused, and leave at least a second so play can continue.
@@ -358,6 +426,7 @@ function playAgain() {
   g.round = 1;
   g.word = null;
   g.result = null;
+  g.history = [];
   g.phase = 'handoff';
   g.timer.msLeft = g.timer.duration;
   g.timer.running = false;
@@ -469,7 +538,8 @@ function timerHtml(g) {
 
 function setupHtml() {
   const s = state.settings;
-  const canStart = state.roster.length >= 2;
+  const canStart = canStartGame();
+  const needsCustomWords = s.topic === 'custom' && state.customWords.length < CUSTOM_MIN_WORDS;
   const totalRounds = s.roundsEach > 0 ? s.roundsEach * state.roster.length : null;
 
   const resume = state.game
@@ -491,12 +561,20 @@ function setupHtml() {
     )
     .join('');
 
-  const topicChips = TOPIC_KEYS.map((key) => {
+  const topicChips = topicKeys().map((key) => {
     const t = topicInfo(key);
     return `<button class="chip${s.topic === key ? ' on' : ''}" data-action="set-topic" data-topic="${key}">
       ${t.emoji} ${esc(t.label)} <small>${t.words.length} words</small>
     </button>`;
   }).join('');
+
+  const customChips = state.customWords
+    .map(
+      (w) => `<span class="player-chip word-chip">${esc(w)}
+        <button class="x" data-action="remove-word" data-word="${esc(w)}" aria-label="Remove ${esc(w)}">✕</button>
+      </span>`
+    )
+    .join('');
 
   const timeChips = [30, 60, 90, 120]
     .map(
@@ -528,6 +606,17 @@ function setupHtml() {
       <div class="chips">${topicChips}</div>
     </div>
     <div class="card">
+      <h2 class="section-title">✏️ My Words (${state.customWords.length})</h2>
+      <form class="add-row" data-form="add-word">
+        <input id="word-input" type="text" placeholder="Add your own word — family jokes welcome!" maxlength="30"
+          autocomplete="off" autocapitalize="none" enterkeyhint="done">
+        <button class="btn primary" type="submit">Add</button>
+      </form>
+      <div class="player-chips">${customChips || `<p class="hint" style="margin:0">Build your own topic! Add at least ${CUSTOM_MIN_WORDS} words and "My Words" appears as a topic (they join the Mixed deck too).</p>`}</div>
+      ${state.ui.wordError ? `<p class="error">${esc(state.ui.wordError)}</p>` : ''}
+      ${state.customWords.length > 0 && state.customWords.length < CUSTOM_MIN_WORDS ? `<p class="hint">${CUSTOM_MIN_WORDS - state.customWords.length} more word${CUSTOM_MIN_WORDS - state.customWords.length === 1 ? '' : 's'} to make this topic playable.</p>` : ''}
+    </div>
+    <div class="card">
       <h2 class="section-title">Round time</h2>
       <div class="chips">${timeChips}</div>
     </div>
@@ -537,7 +626,11 @@ function setupHtml() {
       <p class="hint">${totalRounds ? `${totalRounds} rounds total — every player draws ${s.roundsEach}×.` : 'Play freely and end the game whenever you like.'}</p>
     </div>
     <button class="btn primary big" data-action="start-game" ${canStart ? '' : 'disabled'}>
-      ${canStart ? '🚀 Start game' : 'Add at least 2 players to start'}
+      ${canStart
+        ? '🚀 Start game'
+        : needsCustomWords
+          ? `Add at least ${CUSTOM_MIN_WORDS} custom words to play "My Words"`
+          : 'Add at least 2 players to start'}
     </button>
   </div>`;
 }
@@ -601,6 +694,17 @@ function drawingHtml(g) {
   </div>`;
 }
 
+function confettiHtml(count) {
+  const pieces = Array.from({ length: count }, () => {
+    const left = Math.random() * 100;
+    const delay = Math.random() * 1.2;
+    const dur = 2.8 + Math.random() * 2.5;
+    const color = AVATAR_COLORS[Math.floor(Math.random() * AVATAR_COLORS.length)];
+    return `<span style="left:${left.toFixed(1)}vw;background:${color};animation-duration:${dur.toFixed(2)}s;animation-delay:${delay.toFixed(2)}s"></span>`;
+  }).join('');
+  return `<div class="confetti" aria-hidden="true">${pieces}</div>`;
+}
+
 function resultHtml(g) {
   const r = g.result;
   const drawer = g.players[g.drawerPos];
@@ -622,7 +726,7 @@ function resultHtml(g) {
     headline = 'Round skipped';
     sub = 'No points this round.';
   }
-  return `<div class="card stage">
+  return `${r.type === 'correct' ? confettiHtml(28) : ''}<div class="card stage">
     <div class="big-emoji">${emoji}</div>
     <h2>${headline}</h2>
     <p class="subtle">The word was</p>
@@ -673,14 +777,21 @@ function finalHtml() {
   const top = ranked[0]?.score ?? 0;
   const winners = ranked.filter((p) => p.score === top);
   const winnerLine = winners.map((p) => esc(p.name)).join(' & ');
-  const confetti = Array.from({ length: 60 }, () => {
-    const left = Math.random() * 100;
-    const delay = Math.random() * 2.5;
-    const dur = 2.8 + Math.random() * 2.5;
-    const color = AVATAR_COLORS[Math.floor(Math.random() * AVATAR_COLORS.length)];
-    return `<span style="left:${left.toFixed(1)}vw;background:${color};animation-duration:${dur.toFixed(2)}s;animation-delay:${delay.toFixed(2)}s"></span>`;
-  }).join('');
-  return `<div class="confetti" aria-hidden="true">${confetti}</div>
+  const history = g.history || [];
+  const recap = history
+    .map((h) => {
+      const outcome = h.type === 'correct'
+        ? `🎉 ${esc(h.winner)}`
+        : h.type === 'timeout' ? '⏰ nobody' : '🏳️ skipped';
+      return `<div class="recap-row">
+        <span class="r-num">${h.round}</span>
+        <span class="r-word">${esc(h.word)}</span>
+        <span class="r-meta">✏️ ${esc(h.drawer)}</span>
+        <span class="r-meta">${outcome}</span>
+      </div>`;
+    })
+    .join('');
+  return `${confettiHtml(60)}
   <div class="wrap">
     <div class="topbar"><h1 class="title">🏁 Final Results</h1></div>
     <div class="winner-card">
@@ -692,6 +803,10 @@ function finalHtml() {
       <h2 class="section-title">Standings</h2>
       ${scoreListHtml(g.players)}
     </div>
+    ${recap ? `<div class="card">
+      <h2 class="section-title">Word recap</h2>
+      ${recap}
+    </div>` : ''}
     <button class="btn primary big" data-action="play-again">🔁 Play again (same players)</button>
     <button class="btn ghost big" data-action="new-setup">⚙️ Back to setup</button>
   </div>`;
@@ -720,16 +835,26 @@ function render() {
     const input = $('#player-input');
     if (input) input.focus();
   }
+  if (state.ui.refocusWord) {
+    state.ui.refocusWord = false;
+    const input = $('#word-input');
+    if (input) input.focus();
+  }
 }
 
 /* ===================== events ===================== */
 
 document.addEventListener('submit', (e) => {
-  const form = e.target.closest('[data-form="add-player"]');
+  const form = e.target.closest('[data-form]');
   if (!form) return;
   e.preventDefault();
-  const input = $('#player-input');
-  addPlayer(input ? input.value : '');
+  if (form.dataset.form === 'add-player') {
+    const input = $('#player-input');
+    addPlayer(input ? input.value : '');
+  } else if (form.dataset.form === 'add-word') {
+    const input = $('#word-input');
+    addCustomWord(input ? input.value : '');
+  }
 });
 
 document.addEventListener('click', (e) => {
@@ -740,6 +865,9 @@ document.addEventListener('click', (e) => {
   switch (action) {
     case 'remove-player':
       removePlayer(el.dataset.id);
+      break;
+    case 'remove-word':
+      removeCustomWord(el.dataset.word);
       break;
     case 'set-topic':
       state.settings.topic = el.dataset.topic;
@@ -843,5 +971,12 @@ document.addEventListener('contextmenu', (e) => {
 });
 
 /* ===================== boot ===================== */
+
+// Offline support: cache the app so it works with no internet at the party.
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch(() => { /* e.g. file:// */ });
+  });
+}
 
 render();
