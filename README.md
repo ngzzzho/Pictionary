@@ -42,10 +42,17 @@ full-screen, app-like experience.
 ## Hosting / deployment
 
 Pushes to `main`/`master` (and `claude/**` branches) auto-deploy via the
-GitHub Actions workflow in `.github/workflows/deploy.yml`. The workflow tries
-to enable GitHub Pages by itself on first run; if the deploy step fails, enable
-it once manually: **Settings → Pages → Source: "GitHub Actions"**, then re-run
-the workflow.
+GitHub Actions workflow in `.github/workflows/deploy.yml`.
+
+One-time setup by the repo owner (the workflow cannot do this itself on a
+private repo):
+
+1. GitHub Pages needs a **public** repo on GitHub's Free plan. Either make
+   this repo public (**Settings → General → Danger Zone → Change visibility**)
+   or use a paid plan. Note that a Pages site is publicly reachable either way.
+2. **Settings → Pages → Build and deployment → Source: "GitHub Actions"**.
+3. Re-run the *Deploy to GitHub Pages* workflow from the **Actions** tab (or
+   push any commit). The app goes live at the URL above.
 
 Run it locally by opening `index.html`, or:
 
