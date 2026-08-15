@@ -2,7 +2,7 @@
 
 // Network-first with cache fallback: always fresh when online, fully
 // playable offline. Bump the version when the asset list changes.
-const CACHE = 'pictionary-party-v2';
+const CACHE = 'pictionary-party-v3';
 const ASSETS = [
   './',
   './index.html',

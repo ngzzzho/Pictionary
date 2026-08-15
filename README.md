@@ -20,8 +20,10 @@ works offline once loaded.
    Every built-in word passes the "a 7-year-old knows it and can recognize
    the drawing" test.
 3. The app announces whose turn it is: **pass the iPad to the drawer**, who
-   taps to secretly reveal the word. Too hard? Swap it — but only **once per
-   round**, and never after the timer starts.
+   taps to secretly reveal the word — shown in English with the
+   **Traditional Chinese (Hong Kong) label underneath** (e.g. PINEAPPLE BUN
+   菠蘿包), so young kids can read it too. Too hard? Swap it — but only
+   **once per round**, and never after the timer starts.
 4. **Start drawing** — a "go" chime kicks off the countdown ring, ticks count
    down the last 10 seconds (urgent in the last 5), and a buzzer sounds at
    zero. Tap the timer to pause.
@@ -93,6 +95,6 @@ so installed iPads pick up the new files.
 - [ ] Speed bonus scoring (more points for faster guesses)
 - [ ] In-app drawing canvas + AirPlay mirroring to a TV
 - [ ] Multi-device buzzer mode (players join from their phones with a room code)
-- [ ] Bilingual EN/中文 word lists
+- [x] Bilingual EN/中文 word cards (Hong Kong Cantonese vocabulary)
 - [ ] Word difficulty tiers with bonus points
 - [ ] Game-night history and stats

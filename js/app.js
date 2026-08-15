@@ -501,6 +501,14 @@ function avatarHtml(name, idx, cls = '') {
   return `<span class="avatar ${cls}" style="background:${avatarColor(idx)}">${esc(initials(name))}</span>`;
 }
 
+// Chinese label for a built-in word; custom words have none.
+const zhFor = (word) => (typeof WORD_ZH !== 'undefined' && WORD_ZH[word]) || '';
+
+function wordCardHtml(word, styleAttr = '') {
+  const z = zhFor(word);
+  return `<div class="word-card"${styleAttr}>${esc(word)}${z ? `<div class="word-zh">${esc(z)}</div>` : ''}</div>`;
+}
+
 function scoreListHtml(players, opts = {}) {
   const { deltas = [], drawerId = null } = opts;
   const deltaMap = Object.fromEntries(deltas.map((d) => [d.id, d.delta]));
@@ -678,7 +686,7 @@ function revealHtml(g) {
   const drawer = g.players[g.drawerPos];
   return `<div class="card stage">
     <p class="subtle" style="margin-top:0">✏️ ${esc(drawer.name)}, your word is…</p>
-    <div class="word-card">${esc(g.word)}</div>
+    ${wordCardHtml(g.word)}
     <p class="subtle">Don't let anyone else see! 😉</p>
     <button class="btn primary big" data-action="start-drawing">▶ Start drawing — ${Math.round(g.timer.duration / 1000)}s</button>
     ${g.swapUsed
@@ -750,7 +758,7 @@ function resultHtml(g) {
     <div class="big-emoji">${emoji}</div>
     <h2>${headline}</h2>
     <p class="subtle">The word was</p>
-    <div class="word-card" style="margin-top:6px">${esc(r.word)}</div>
+    ${wordCardHtml(r.word, ' style="margin-top:6px"')}
     <p class="subtle">${sub}</p>
     <button class="btn primary big" data-action="${isLast ? 'finish-game' : 'next-round'}">
       ${isLast ? '🏆 See final results' : '➡️ Next round'}
@@ -803,9 +811,10 @@ function finalHtml() {
       const outcome = h.type === 'correct'
         ? `🎉 ${esc(h.winner)}`
         : h.type === 'timeout' ? '⏰ nobody' : '🏳️ skipped';
+      const z = zhFor(h.word);
       return `<div class="recap-row">
         <span class="r-num">${h.round}</span>
-        <span class="r-word">${esc(h.word)}</span>
+        <span class="r-word">${esc(h.word)}${z ? `<span class="r-zh">${esc(z)}</span>` : ''}</span>
         <span class="r-meta">✏️ ${esc(h.drawer)}</span>
         <span class="r-meta">${outcome}</span>
       </div>`;
@@ -977,7 +986,10 @@ function setPeek(on) {
   const btn = $('#peek-btn');
   if (!btn || !state.game) return;
   btn.classList.toggle('peeking', on);
-  btn.textContent = on ? state.game.word : '👁 Hold to peek word';
+  const z = zhFor(state.game.word);
+  btn.textContent = on
+    ? state.game.word + (z ? ` · ${z}` : '')
+    : '👁 Hold to peek word';
 }
 
 document.addEventListener('pointerdown', (e) => {
