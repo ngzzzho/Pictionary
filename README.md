@@ -15,10 +15,11 @@ works offline once loaded.
 1. **Register players** on the setup screen (names are remembered for next
    time; a fresh device starts with the family roster pre-loaded).
 2. Pick a **topic** — Animals 🐾, Occupations 💼, Sports ⚽, Food 🍕,
-   Everyday Things 🏠, your own My Words ✏️ list, or Mixed 🎲 — plus the
-   **round time** (30/60/90/120s) and how many times each player draws.
-   Every built-in word passes the "a 7-year-old knows it and can recognize
-   the drawing" test.
+   Everyday Things 🏠, Hong Kong 🇭🇰, Cartoons 📺, Actions 🏃, Nature 🌈,
+   Festivals 🎉, Fairy Tales 🧚, your own My Words ✏️ list, or Mixed 🎲
+   (648 words) — plus the **round time** (30/60/90/120s) and how many times
+   each player draws. Every built-in word passes the "a 7-year-old knows it
+   and can recognize the drawing" test.
 3. The app announces whose turn it is: **pass the iPad to the drawer**, who
    taps to secretly reveal the word — shown in English with the
    **Traditional Chinese (Hong Kong) label underneath** (e.g. PINEAPPLE BUN
@@ -88,7 +89,8 @@ so installed iPads pick up the new files.
 ## Roadmap ideas
 
 - [x] Custom word lists editable in-app (saved on the device) — *My Words*
-- [x] More topics — *Food, Everyday Things*
+- [x] More topics — *Food, Everyday Things, Hong Kong, Cartoons, Actions,
+      Nature, Festivals, Fairy Tales*
 - [x] Full offline PWA install (service worker + manifest + icons)
 - [x] Round-by-round word recap at the final screen
 - [ ] Team mode (two teams, alternating drawers)
