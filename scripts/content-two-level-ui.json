@@ -1,0 +1,68 @@
+{
+  "en": {
+    "medium": "Standard",
+    "mediumHint": "Familiar ideas, jobs and everyday actions. Use a few visual clues.",
+    "generalHint": "Mix easy and standard cards. Mixed topics also include your custom words.",
+    "pausedDeck": "The word bank now uses Easy and Standard. Choose a topic and level for your next game."
+  },
+  "zh": {
+    "medium": "標準",
+    "mediumHint": "常見事物、職業和日常動作，可用幾個特徵提示。",
+    "generalHint": "混合簡單與標準題目。選「混合題材」亦會加入你的自訂詞。",
+    "pausedDeck": "題庫現提供簡單與標準。請為下一局選擇題材及難度。"
+  },
+  "zh-Hans": {
+    "medium": "标准",
+    "mediumHint": "常见事物、职业和日常动作，可用几个特征提示。",
+    "generalHint": "混合简单与标准题目。选「混合题材」也会加入你的自定义词。",
+    "pausedDeck": "题库现提供简单与标准。请为下一局选择题材及难度。"
+  },
+  "ja": {
+    "medium": "ふつう",
+    "mediumHint": "身近なもの、職業、日常の動作。いくつかの特徴をヒントに描こう。",
+    "generalHint": "かんたんとふつうのお題を混ぜます。テーマをミックスにすると、自分のお題も入ります。",
+    "pausedDeck": "お題の難易度は「かんたん」と「ふつう」になりました。次のゲームのテーマと難易度を選んでください。"
+  },
+  "ko": {
+    "medium": "보통",
+    "mediumHint": "익숙한 사물, 직업, 일상 동작을 몇 가지 특징으로 표현해요.",
+    "generalHint": "쉬움과 보통 문제를 섞어요. 주제를 혼합으로 고르면 직접 만든 단어도 포함돼요.",
+    "pausedDeck": "이제 쉬움과 보통 난이도를 제공해요. 다음 게임의 주제와 난이도를 선택해 주세요."
+  },
+  "de": {
+    "medium": "Standard",
+    "mediumHint": "Bekannte Begriffe, Berufe und Alltagshandlungen. Zeichne ein paar typische Merkmale.",
+    "generalHint": "Mischt leichte und Standardkarten. Gemischte Themen enthalten auch deine eigenen Wörter.",
+    "pausedDeck": "Es gibt jetzt die Stufen Leicht und Standard. Wähle ein Thema und eine Stufe für dein nächstes Spiel."
+  },
+  "fr": {
+    "medium": "Standard",
+    "mediumHint": "Des idées familières, des métiers et des gestes du quotidien. Dessine quelques indices visuels.",
+    "generalHint": "Mélange les cartes faciles et standard. Les thèmes mélangés incluent aussi tes mots personnels.",
+    "pausedDeck": "Les niveaux sont désormais Facile et Standard. Choisis un thème et un niveau pour la prochaine partie."
+  },
+  "es": {
+    "medium": "Estándar",
+    "mediumHint": "Ideas conocidas, profesiones y acciones cotidianas. Dibuja algunas pistas visuales.",
+    "generalHint": "Mezcla tarjetas fáciles y estándar. Los temas mezclados también incluyen tus propias palabras.",
+    "pausedDeck": "Ahora hay dos niveles: Fácil y Estándar. Elige un tema y un nivel para tu próxima partida."
+  },
+  "pt": {
+    "medium": "Padrão",
+    "mediumHint": "Ideias conhecidas, profissões e ações do dia a dia. Desenhe algumas pistas visuais.",
+    "generalHint": "Mistura cartas fáceis e padrão. Os temas mistos também incluem suas palavras personalizadas.",
+    "pausedDeck": "Agora os níveis são Fácil e Padrão. Escolha um tema e um nível para a próxima partida."
+  },
+  "it": {
+    "medium": "Standard",
+    "mediumHint": "Idee familiari, mestieri e azioni quotidiane. Disegna alcuni indizi visivi.",
+    "generalHint": "Mescola carte facili e standard. I temi misti includono anche le tue parole personalizzate.",
+    "pausedDeck": "Ora i livelli sono Facile e Standard. Scegli un tema e un livello per la prossima partita."
+  },
+  "ar": {
+    "medium": "عادي",
+    "mediumHint": "أشياء مألوفة ومهن وأفعال يومية. ارسم بعض السمات التي تساعد على التخمين.",
+    "generalHint": "يمزج البطاقات السهلة والعادية. تشمل المواضيع المختلطة كلماتك الخاصة أيضاً.",
+    "pausedDeck": "المستويان الآن هما سهل وعادي. اختر موضوعاً ومستوى للعبة التالية."
+  }
+}

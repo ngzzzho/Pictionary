@@ -1,0 +1,211 @@
+/* Content V2: responsive subject/playlists and explicit pool recovery. */
+.content-picker {
+  min-width: 0;
+}
+.content-picker > h2 {
+  margin-block-start: 24px;
+}
+.setup-panel .content-picker .playlist-grid {
+  grid-template-columns: minmax(0, 1fr);
+  align-items: stretch;
+}
+.setup-panel .content-picker .subject-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 130px), 1fr));
+  align-items: stretch;
+}
+.setup-panel .content-picker .topic {
+  min-width: 0;
+  height: auto;
+  min-height: 148px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9px;
+  padding: 15px 10px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.setup-panel .content-picker .playlist {
+  background-color: #eef9f5;
+}
+.setup-panel .content-picker .topic strong,
+.setup-panel .content-picker .topic small,
+.setup-panel .content-picker .topic em {
+  display: block;
+  max-width: 100%;
+  line-height: 1.35;
+}
+.setup-panel .content-picker .topic em {
+  font-size: 0.88rem;
+  font-style: normal;
+  color: #345767;
+}
+.setup-panel .content-picker .topic small {
+  margin-block-start: auto;
+  font-size: 0.82rem;
+}
+.setup-panel .content-picker .topic:disabled {
+  opacity: 0.72;
+  filter: grayscale(0.45);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+.setup-panel .content-picker .topic.selected:disabled {
+  outline: 3px solid #a55837;
+  outline-offset: 1px;
+}
+.choice-unavailable {
+  display: block;
+  margin-block-start: 5px;
+  color: #713e2c;
+}
+.difficulty-options .options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.difficulty-options .option {
+  flex: 1 1 100px;
+  min-width: 0;
+  min-height: 48px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.pool-capacity {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-block: 20px 10px;
+  padding: 14px;
+  border-radius: 16px;
+  background: #edf6f4;
+  color: #24475b;
+}
+.pool-capacity p {
+  margin: 0;
+  min-width: 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+.pool-capacity strong {
+  display: block;
+  font-size: 1.2rem;
+  font-variant-numeric: tabular-nums;
+}
+.unique-rule,
+.legacy-theme,
+.legacy-repeat,
+.active-card-pair,
+.swap-reserved {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  color: #345767;
+}
+.pool-recovery {
+  margin-block: 14px;
+  padding: 14px;
+  border: 2px solid #c88555;
+  border-radius: 16px;
+  background: #fff3df;
+}
+.pool-recovery > p {
+  margin-block: 0 12px;
+  line-height: 1.5;
+}
+.pool-recovery > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.pool-recovery .btn {
+  flex: 1 1 140px;
+  min-width: 0;
+  min-height: 48px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  margin: 0;
+}
+.active-card-pair {
+  padding: 10px 12px;
+  border-inline-start: 3px solid #408677;
+  background: #eef7f4;
+  border-radius: 8px;
+}
+.swap-reserved,
+.legacy-repeat {
+  max-width: 32rem;
+  margin-inline: auto;
+}
+@media (max-width: 420px) {
+  .setup-panel .content-picker .playlist-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .setup-panel .content-picker .playlist {
+    display: grid;
+    grid-template-columns: 48px minmax(0, 1fr);
+    min-height: 108px;
+    gap: 4px 12px;
+    text-align: start;
+  }
+  .setup-panel .content-picker .playlist > span:first-child {
+    grid-row: 1 / 4;
+    width: 48px;
+    height: 48px;
+  }
+  .setup-panel .content-picker .playlist > span .pack-icon {
+    width: 34px;
+    height: 34px;
+  }
+  .setup-panel .content-picker .playlist small {
+    margin-block-start: 0;
+  }
+  .pool-capacity {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .pool-capacity p {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+  .pool-capacity strong {
+    flex-shrink: 0;
+  }
+}
+@media (orientation: landscape) and (max-height: 500px) {
+  .setup-panel .content-picker .topic {
+    min-height: 130px;
+    padding-block: 12px;
+  }
+}
+:root.large-text .setup-panel .content-picker .playlist-grid,
+:root.large-text .setup-panel .content-picker .subject-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 180px), 1fr));
+}
+:root.large-text .pool-capacity {
+  grid-template-columns: minmax(0, 1fr);
+}
+/* Long bilingual scenes need the card and Start button together on short
+   phones. Reclaim decorative space before reducing reading or touch sizes. */
+@media (orientation: portrait) and (max-height: 600px) and (max-width: 600px) {
+  :root:not(.large-text) .reveal-stage {
+    padding-block: 4px;
+  }
+  :root:not(.large-text) .reveal-stage .secret-ticket {
+    padding-top: 0;
+    margin-bottom: 4px;
+  }
+  :root:not(.large-text) .reveal-stage .ticket-icon {
+    display: none;
+  }
+  :root:not(.large-text) .reveal-stage .secret-ticket .word-card {
+    padding: 12px;
+    transform: none;
+  }
+  :root:not(.large-text) .reveal-stage > .primary {
+    min-height: 60px;
+  }
+}

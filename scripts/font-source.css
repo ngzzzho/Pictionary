@@ -1,0 +1,53 @@
+/* Bundled OFL fonts. Full glyph sets are retained for player names/custom words. */
+@font-face {
+  font-family: "Fredoka";
+  src: url("../assets/fonts/fredoka.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rubik";
+  src: url("../assets/fonts/rubik.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GenSen Rounded";
+  src: url("../assets/fonts/gensen-rounded-tw-medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GenSen Rounded";
+  src: url("../assets/fonts/gensen-rounded-tw-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600 1000;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans Arabic";
+  src: url("../assets/fonts/noto-sans-arabic.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans JP";
+  src: url("../assets/fonts/noto-sans-jp.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url("../assets/fonts/noto-sans-kr.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}

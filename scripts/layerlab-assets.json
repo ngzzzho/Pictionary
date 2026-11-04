@@ -1,0 +1,1954 @@
+[
+  {
+    "file": "assets/layerlab/button-red.png",
+    "source": "PNG/PNG_Light/Component/Button/Button_Demo_Common/Btn_Rectangle00_n_Red.png",
+    "sha256": "2bf4d572b4ba21fc0562d38ecb5f7e75b937532b295650054811b941093aa4c7",
+    "bytes": 2552,
+    "width": 94,
+    "height": 138,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Button/Button_Demo_Common/Btn_Rectangle00_n_Red.png",
+    "spriteBorder": {
+      "left": 47,
+      "bottom": 69,
+      "right": 47,
+      "top": 69
+    },
+    "cssSlice": [
+      68,
+      46,
+      68,
+      46
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/button-green.png",
+    "source": "PNG/PNG_Light/Component/Button/Button_Demo_Common/Btn_Rectangle00_n_Green.png",
+    "sha256": "2a82a74079d7da1be30150a584c4a3f19b847334f196ed66a1fe67fdd7cd202a",
+    "bytes": 2497,
+    "width": 94,
+    "height": 138,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Button/Button_Demo_Common/Btn_Rectangle00_n_Green.png",
+    "spriteBorder": {
+      "left": 47,
+      "bottom": 70,
+      "right": 47,
+      "top": 68
+    },
+    "cssSlice": [
+      67,
+      46,
+      68,
+      46
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/button-orange.png",
+    "source": "PNG/PNG_Light/Component/Button/Button_Demo_Common/Btn_Rectangle00_n_Orange.png",
+    "sha256": "46f2a02bd48e7ee307b0c96a2cbb98f17c4401906f569a2447a9e560e61a4c8a",
+    "bytes": 2281,
+    "width": 94,
+    "height": 138,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Button/Button_Demo_Common/Btn_Rectangle00_n_Orange.png",
+    "spriteBorder": {
+      "left": 47,
+      "bottom": 91,
+      "right": 47,
+      "top": 47
+    },
+    "cssSlice": [
+      46,
+      46,
+      89,
+      46
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/button-white.png",
+    "source": "PNG/PNG_Light/Component/Button/Button_Custom/Btn_Rectangle00_n_White1.png",
+    "sha256": "4cda7f504fc317dfbbfad205389f6eacc11224cdf1a255ce1fb7d5a15597827d",
+    "bytes": 2319,
+    "width": 94,
+    "height": 138,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Button/Button_Custom/Btn_Rectangle00_n_White1.png",
+    "spriteBorder": {
+      "left": 47,
+      "bottom": 70,
+      "right": 47,
+      "top": 68
+    },
+    "cssSlice": [
+      67,
+      46,
+      68,
+      46
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/button-white2.png",
+    "source": "PNG/PNG_Light/Component/Button/Button_Custom/Btn_Rectangle00_n_White2.png",
+    "sha256": "05f16e3c7744d22b55ae2a8939c849fbad9fca3dd107a5b2f2f7c1c4243b1c99",
+    "bytes": 1398,
+    "width": 90,
+    "height": 138,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Button/Button_Custom/Btn_Rectangle00_n_White2.png",
+    "spriteBorder": {
+      "left": 45,
+      "bottom": 0,
+      "right": 45,
+      "top": 0
+    },
+    "cssSlice": [
+      0,
+      44,
+      0,
+      44
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/button-disabled.png",
+    "source": "PNG/PNG_Light/Component/Button/Button_Demo_Light/Btn_Rectangle00_d.png",
+    "sha256": "72eb742dd965127f3de7e7500e7a5dba77c7ddb6865d58abd46f65b381f52140",
+    "bytes": 2426,
+    "width": 94,
+    "height": 138,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Button/Button_Demo_Light/Btn_Rectangle00_d.png",
+    "spriteBorder": {
+      "left": 46,
+      "bottom": 69,
+      "right": 48,
+      "top": 69
+    },
+    "cssSlice": [
+      68,
+      46,
+      68,
+      45
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/button-square.png",
+    "source": "PNG/PNG_Light/Component/Button/Button_Demo_Light/Btn_IconButton_Square.png",
+    "sha256": "455eb29ec9a0448f2f6fcae23fda8d501677b76ad0209c1e7493fa2cd4a0300e",
+    "bytes": 768,
+    "width": 72,
+    "height": 72,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Button/Button_Demo_Light/Btn_IconButton_Square.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/button-circle.png",
+    "source": "PNG/PNG_Light/Component/Button/Button_Demo_Light/Btn_IconButton_Circle_90.png",
+    "sha256": "48d2c29474cadbceaa1fdc9c727af2b7b08d84e25f8b467efa5004ce624c3a7c",
+    "bytes": 1775,
+    "width": 90,
+    "height": 90,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Button/Button_Demo_Light/Btn_IconButton_Circle_90.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/button-circle-red.png",
+    "source": "PNG/PNG_Light/Component/Button/Button_Demo_Common/Btn_IconButton_Circle_90_red.png",
+    "sha256": "45c3f024bb3208354a96bb11f27df2ea1615410b97b86d7ba5e1ac350c6eef6b",
+    "bytes": 1789,
+    "width": 90,
+    "height": 90,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Button/Button_Demo_Common/Btn_IconButton_Circle_90_red.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/menu-button.png",
+    "source": "PNG/PNG_Light/Component/Button/Button_Demo_Light/Btn_MenuButton_Rectangle00_n.png",
+    "sha256": "527be164e98544f05040db0bd6664b5891785fb5fda53bdd9b24235f29ce2e7c",
+    "bytes": 1409,
+    "width": 100,
+    "height": 96,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Button/Button_Demo_Light/Btn_MenuButton_Rectangle00_n.png",
+    "spriteBorder": {
+      "left": 50,
+      "bottom": 48,
+      "right": 50,
+      "top": 48
+    },
+    "cssSlice": [
+      47,
+      49,
+      47,
+      49
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/menu-button-active.png",
+    "source": "PNG/PNG_Light/Component/Button/Button_Demo_Light/Btn_MenuButton_Rectangle00_s.png",
+    "sha256": "3787a4da96fcf0ca6a075902dd0a8d9953adc3cbc661b3d0166064a6b52128a3",
+    "bytes": 1477,
+    "width": 100,
+    "height": 96,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Button/Button_Demo_Light/Btn_MenuButton_Rectangle00_s.png",
+    "spriteBorder": {
+      "left": 50,
+      "bottom": 48,
+      "right": 50,
+      "top": 48
+    },
+    "cssSlice": [
+      47,
+      49,
+      47,
+      49
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/panel.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Custom/BasicFrame_Rectangle01_l_White.png",
+    "sha256": "38921df4c9607f463f9b6fd75bad4b4bad81ba8e91ff925eb42106804dbcf05f",
+    "bytes": 1402,
+    "width": 92,
+    "height": 93,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Custom/BasicFrame_Rectangle01_l_White.png",
+    "spriteBorder": {
+      "left": 46,
+      "bottom": 47,
+      "right": 46,
+      "top": 46
+    },
+    "cssSlice": [
+      45,
+      45,
+      45,
+      45
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/card-word.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Custom/CardFrame01_White2.png",
+    "sha256": "5b1022e40dd3e77cc49a8dcf66484a59eef0276ca4e2c5511c6c3e2102235cb6",
+    "bytes": 5053,
+    "width": 420,
+    "height": 530,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Custom/CardFrame01_White2.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/card-sticker.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Custom/CardFrame01_White1.png",
+    "sha256": "bebfa81303c25d6645a51a8c33999009ef53923c778abb3b71928547e7bddf09",
+    "bytes": 2172,
+    "width": 144,
+    "height": 145,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Custom/CardFrame01_White1.png",
+    "spriteBorder": {
+      "left": 73,
+      "bottom": 73,
+      "right": 71,
+      "top": 72
+    },
+    "cssSlice": [
+      71,
+      70,
+      71,
+      71
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/item-frame.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Custom/ItemFrame01_White2.png",
+    "sha256": "5db76e187c6f206d680f03048c04b23cfab9d87a46bad2142a877787c542f6d0",
+    "bytes": 1939,
+    "width": 84,
+    "height": 84,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Custom/ItemFrame01_White2.png",
+    "spriteBorder": {
+      "left": 42,
+      "bottom": 42,
+      "right": 42,
+      "top": 42
+    },
+    "cssSlice": [
+      41,
+      41,
+      41,
+      41
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/item-frame-icon.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Custom/ItemFrame01_White3.png",
+    "sha256": "7f009d19c18bc061ad91b7451ff61e27e808670cd62ac2ee8eedb09dd09dd350",
+    "bytes": 794,
+    "width": 48,
+    "height": 48,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Custom/ItemFrame01_White3.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/item-focus.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Demo_Light/ItemFrame01_Focus.png",
+    "sha256": "b9b01437e3b991d2ebaa2c4580064664fb18a44ead8bc7e60fcc70e785519318",
+    "bytes": 3471,
+    "width": 102,
+    "height": 102,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Light/ItemFrame01_Focus.png",
+    "spriteBorder": {
+      "left": 51,
+      "bottom": 51,
+      "right": 51,
+      "top": 51
+    },
+    "cssSlice": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/list-row.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Demo_Light/ListFrame01_n.png",
+    "sha256": "938ce2666881d4698d9c451c0d51ed173119c03fca4ddc4245a05300dbbc7003",
+    "bytes": 1379,
+    "width": 92,
+    "height": 92,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Light/ListFrame01_n.png",
+    "spriteBorder": {
+      "left": 46,
+      "bottom": 46,
+      "right": 46,
+      "top": 46
+    },
+    "cssSlice": [
+      45,
+      45,
+      45,
+      45
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/list-row-selected.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Demo_Light/ListFrame01_s.png",
+    "sha256": "96e6ad4f4eacbe2dea7657f9c37f9a22620f8addfa0291307b087f4c2567a41f",
+    "bytes": 2201,
+    "width": 92,
+    "height": 96,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Light/ListFrame01_s.png",
+    "spriteBorder": {
+      "left": 46,
+      "bottom": 48,
+      "right": 46,
+      "top": 48
+    },
+    "cssSlice": [
+      47,
+      45,
+      47,
+      45
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/tab-menu.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Custom/TabMenuFrame_White.png",
+    "sha256": "8a2d4cc1e19b7345174c5541548eb854dfec7023bc50e8052931300bd8d10bba",
+    "bytes": 1464,
+    "width": 103,
+    "height": 105,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Custom/TabMenuFrame_White.png",
+    "spriteBorder": {
+      "left": 51,
+      "bottom": 53,
+      "right": 52,
+      "top": 52
+    },
+    "cssSlice": [
+      51,
+      50,
+      51,
+      50
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/table-cell.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Custom/TableFrame01_White1.png",
+    "sha256": "7f0d9dfc7fc0b2fa0a1dc7ce7bddbb4f8a4e6cfdef376dbad0d7860bd342cd0d",
+    "bytes": 1676,
+    "width": 112,
+    "height": 112,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Custom/TableFrame01_White1.png",
+    "spriteBorder": {
+      "left": 56,
+      "bottom": 56,
+      "right": 56,
+      "top": 56
+    },
+    "cssSlice": [
+      55,
+      55,
+      55,
+      55
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/picture-frame.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Custom/PictureFrame00_White1.png",
+    "sha256": "58a3959028074b58329b122d5ea812bea33403f68d80d826942e6f3b9931f6f8",
+    "bytes": 8222,
+    "width": 231,
+    "height": 232,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Custom/PictureFrame00_White1.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/divider.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Custom/LineFrame_White.png",
+    "sha256": "e2ed8b7d5dfe50126ed9220343156b3909155b7ae331531837ab50789aeddead",
+    "bytes": 170,
+    "width": 60,
+    "height": 6,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Custom/LineFrame_White.png",
+    "spriteBorder": {
+      "left": 30,
+      "bottom": 0,
+      "right": 30,
+      "top": 0
+    },
+    "cssSlice": [
+      0,
+      29,
+      0,
+      29
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/ring-large.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Custom/BasicFrame_Circle_154_White.png",
+    "sha256": "ab075de8f6b5454531d44071f1d96a776f606d061b5b8455895d4538b2068b01",
+    "bytes": 2675,
+    "width": 154,
+    "height": 154,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Custom/BasicFrame_Circle_154_White.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/ring-red.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Demo_Common/BasicFrame_Circle_116_Red.png",
+    "sha256": "dbac5725271ac3a8107d819d0e8d7ce95ba68ebc62d37597ae6a31f24572a543",
+    "bytes": 1981,
+    "width": 116,
+    "height": 117,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Common/BasicFrame_Circle_116_Red.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/ring-blue.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Demo_Common/BasicFrame_Circle_116_Blue.png",
+    "sha256": "545fc0a609b5c8d3547781f326290bd074f0c998a8711760c0ce15f11a8de840",
+    "bytes": 1980,
+    "width": 116,
+    "height": 117,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Common/BasicFrame_Circle_116_Blue.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/ring-green.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Demo_Common/BasicFrame_Circle_116_Green1.png",
+    "sha256": "a4de9eec9b7dddae447e4a15c5301f8ae59bb2ce80f213b01a3be87c6447f730",
+    "bytes": 1980,
+    "width": 116,
+    "height": 117,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Common/BasicFrame_Circle_116_Green1.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/ring-sky.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Demo_Common/BasicFrame_Circle_116_Sky.png",
+    "sha256": "4a87fb115a6a8d7714a6f6e6bb450b17e80c442e09cb789a59795f8f002c5ccd",
+    "bytes": 1994,
+    "width": 116,
+    "height": 117,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Common/BasicFrame_Circle_116_Sky.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/ring-brown.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Demo_Common/BasicFrame_Circle_116_Brown.png",
+    "sha256": "c95bf364f26277ccc89c627608e9ce54444e96b8f83bec45b2a9a14046b43389",
+    "bytes": 1983,
+    "width": 116,
+    "height": 117,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Common/BasicFrame_Circle_116_Brown.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/ring-mint.png",
+    "source": "PNG/PNG_Light/Component/Frame/Frame_Demo_Common/BasicFrame_Circle_116_Green2.png",
+    "sha256": "de07930d1e15f835a8b56710ac055064b7d2247141f8a648657cc4999e918257",
+    "bytes": 1991,
+    "width": 116,
+    "height": 117,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Frame/Frame_Demo_Common/BasicFrame_Circle_116_Green2.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/popup-body.png",
+    "source": "PNG/PNG_Light/Component/Popup/Popup_Custom/Popup_White1_Body.png",
+    "sha256": "13168c50f0bb8c8f823b7d1aa1e9eec2555622e4053c2aaef5be1f0156a4173c",
+    "bytes": 2158,
+    "width": 140,
+    "height": 140,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Popup/Popup_Custom/Popup_White1_Body.png",
+    "spriteBorder": {
+      "left": 70,
+      "bottom": 70,
+      "right": 70,
+      "top": 70
+    },
+    "cssSlice": [
+      69,
+      69,
+      69,
+      69
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/popup-topbar.png",
+    "source": "PNG/PNG_Light/Component/Popup/Popup_Custom/Popup_White4_TopBar02.png",
+    "sha256": "a97ab5b3f523ccd82861ec529e94222bb5a1601e27200e1bc883a62836a9aa7a",
+    "bytes": 1352,
+    "width": 140,
+    "height": 140,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Popup/Popup_Custom/Popup_White4_Topbar02.png",
+    "spriteBorder": {
+      "left": 70,
+      "bottom": 40,
+      "right": 70,
+      "top": 100
+    },
+    "cssSlice": [
+      98,
+      69,
+      39,
+      69
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/slider-frame.png",
+    "source": "PNG/PNG_Light/Component/Slider/Slider_Demo_Light/Slider01_Frame.png",
+    "sha256": "e5f8bf67359f1e9ad3f03f0bcf1147bed502ed313e2e35d18c06d32d55b11671",
+    "bytes": 642,
+    "width": 44,
+    "height": 54,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Slider/Slider_Demo_Light/Slider01_Frame.png",
+    "spriteBorder": {
+      "left": 22,
+      "bottom": 27,
+      "right": 22,
+      "top": 27
+    },
+    "cssSlice": [
+      26,
+      21,
+      26,
+      21
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/slider-fill.png",
+    "source": "PNG/PNG_Light/Component/Slider/Slider_Demo_Light/Slider01_Fill.png",
+    "sha256": "ac787888fd295ef52bbca7f7f7b9b35d69c5cd2b3483bcd250e8f6a03d5b45de",
+    "bytes": 198,
+    "width": 6,
+    "height": 54,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Slider/Slider_Demo_Light/Slider01_Fill.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 27,
+      "right": 5,
+      "top": 27
+    },
+    "cssSlice": [
+      26,
+      4,
+      26,
+      0
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/slider-low-frame.png",
+    "source": "PNG/PNG_Light/Component/Slider/Slider_Demo_Light/Slider23_Frame.png",
+    "sha256": "88bd9e3bf90126bb1fbb6304df012d81ffeb751f8f58bc3488ea1c3b97fd54fb",
+    "bytes": 511,
+    "width": 32,
+    "height": 42,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Slider/Slider_Demo_Light/Slider23_Frame.png",
+    "spriteBorder": {
+      "left": 16,
+      "bottom": 0,
+      "right": 16,
+      "top": 0
+    },
+    "cssSlice": [
+      0,
+      15,
+      0,
+      15
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/slider-low-fill.png",
+    "source": "PNG/PNG_Light/Component/Slider/Slider_Demo_Light/Slider23_Fill_Red.png",
+    "sha256": "3788959de85969087016dc9f282e76ab8a4a2fbb6445142fa22c53fbddc196d3",
+    "bytes": 104,
+    "width": 4,
+    "height": 42,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Slider/Slider_Demo_Light/Slider23_Fill_Red.png",
+    "spriteBorder": {
+      "left": 2,
+      "bottom": 0,
+      "right": 2,
+      "top": 0
+    },
+    "cssSlice": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/ribbon-blue.png",
+    "source": "PNG/PNG_Light/Component/Label/Label_Ribbon00_Color_Blue.png",
+    "sha256": "1bf47b889167eaf7f26e0be719db0e86fbf0c935b3c1175829e3e64267e04cf4",
+    "bytes": 4472,
+    "width": 317,
+    "height": 146,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Label/Label_Ribbon00_Color_Blue.png",
+    "spriteBorder": {
+      "left": 158,
+      "bottom": 0,
+      "right": 159,
+      "top": 0
+    },
+    "cssSlice": [
+      0,
+      157,
+      0,
+      157
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/tag-white.png",
+    "source": "PNG/PNG_Light/Component/Label/Label_Tag01_White.png",
+    "sha256": "a13db18e3ba6bbc94e574cdca0c853bb5f1a26383135d1627dd7c99b8e9c3350",
+    "bytes": 810,
+    "width": 50,
+    "height": 54,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Label/Label_Tag01_White.png",
+    "spriteBorder": {
+      "left": 25,
+      "bottom": 0,
+      "right": 25,
+      "top": 0
+    },
+    "cssSlice": [
+      0,
+      24,
+      0,
+      24
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/tag-red.png",
+    "source": "PNG/PNG_Light/Component/Label/Label_Tag01_Color_Red.png",
+    "sha256": "6099bda395820c9fb9bb1d94c29e797947d7c86d8828faccc1c53c202286947e",
+    "bytes": 910,
+    "width": 49,
+    "height": 54,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Label/Label_Tag01_Color_Red.png",
+    "spriteBorder": {
+      "left": 25,
+      "bottom": 0,
+      "right": 24,
+      "top": 0
+    },
+    "cssSlice": [
+      0,
+      23,
+      0,
+      23
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/tag-blue.png",
+    "source": "PNG/PNG_Light/Component/Label/Label_Tag01_Color_Blue.png",
+    "sha256": "e05b23e9d26e2f544637ebcb101233f7969304d5c48047e4f693932317801dc1",
+    "bytes": 805,
+    "width": 50,
+    "height": 54,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Label/Label_Tag01_Color_Blue.png",
+    "spriteBorder": {
+      "left": 25,
+      "bottom": 0,
+      "right": 25,
+      "top": 0
+    },
+    "cssSlice": [
+      0,
+      24,
+      0,
+      24
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/tag-green.png",
+    "source": "PNG/PNG_Light/Component/Label/Label_Tag01_Color_Green.png",
+    "sha256": "da4b4d1c2ca045c2f874732e02ed6bcd461f13594dfbe9299ca96cd57d43c3d2",
+    "bytes": 827,
+    "width": 50,
+    "height": 54,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Label/Label_Tag01_Color_Green.png",
+    "spriteBorder": {
+      "left": 25,
+      "bottom": 0,
+      "right": 25,
+      "top": 0
+    },
+    "cssSlice": [
+      0,
+      24,
+      0,
+      24
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/selected.png",
+    "source": "PNG/PNG_Light/Component/UI_Etc/Toggle_Check_On.png",
+    "sha256": "3d81a5b1e2f038adc1babb0e271fd966c1b1dc65b4e7e5c09978a2a5a7adf425",
+    "bytes": 2078,
+    "width": 78,
+    "height": 78,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/UI_Etc/Toggle_Check_On.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/switch-on.png",
+    "source": "PNG/PNG_Light/Component/UI_Etc/Toggle_Switch_Frame_On.png",
+    "sha256": "749aa8b7c897bee7f4c07a63012d4c7d4c0c87596a2898a51b9fa04e1ac8a610",
+    "bytes": 1750,
+    "width": 196,
+    "height": 96,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Frame_On.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/switch-off.png",
+    "source": "PNG/PNG_Light/Component/UI_Etc/Toggle_Switch_Frame_Off_Light.png",
+    "sha256": "49ba02d03bec2223e7dcb3fa875916a69f126fd07088cde94e8b58225d4a352e",
+    "bytes": 1743,
+    "width": 196,
+    "height": 96,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Frame_Off_Light.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/switch-handle.png",
+    "source": "PNG/PNG_Light/Component/UI_Etc/Toggle_Switch_Handle.png",
+    "sha256": "2bbf34349579cacdca1c6cb6c51ae85b9e05a43ce2ab9890e4eb578832a8fd7b",
+    "bytes": 1203,
+    "width": 80,
+    "height": 80,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/UI_Etc/Toggle_Switch_Handle.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/input-frame.png",
+    "source": "PNG/PNG_Light/Component/UI_Etc/InputField_Frame.png",
+    "sha256": "48583e1eccf050b25b2a26b9bdc4868ba7abfb3149ef4185b081cb8ff4021447",
+    "bytes": 1179,
+    "width": 82,
+    "height": 82,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/UI_Etc/InputField_Frame.png",
+    "spriteBorder": {
+      "left": 41,
+      "bottom": 41,
+      "right": 41,
+      "top": 41
+    },
+    "cssSlice": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/icon-home.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_home_1.png",
+    "sha256": "c8f6df0e914e901be444f5d4a78fcdae0e945616023d878dd36702e1961501e6",
+    "bytes": 2353,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/128/PictoIcon_Home_1.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-add.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_symbol_plus.png",
+    "sha256": "72fff25780d11930363261a03aee8dba43759daafb42dfba6c5ac9893bcdfb05",
+    "bytes": 2104,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/512/PictoIcon_Symbol_Plus.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-share.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_share.png",
+    "sha256": "fd390dad4dd8c8e6cbb58e097a228854f44e84556bb764f6ef267e11f2d3d3d2",
+    "bytes": 3159,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/128/PictoIcon_Share.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-photo.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_photo.png",
+    "sha256": "93d688d8b38a3946ce37d231da4254a713c5674eb4ba1d4aef91aecbf0b9e691",
+    "bytes": 2365,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/256/PictoIcon_Photo.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-topic-transport.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_car.png",
+    "sha256": "bbfe1364dcda4b45661894b6ec8f3d5b895b78542c8c02e15079ea8c33ae50cf",
+    "bytes": 3115,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/512/PictoIcon_Car.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-topic-space.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_rocket.png",
+    "sha256": "cc2b5371bf47f39d51cfa076919f2eea55c7c5efcc7987930c57ac9dfdab8d5f",
+    "bytes": 3112,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/128/PictoIcon_Rocket.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-download.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_download.png",
+    "sha256": "16794a0e851dcfe14135d1fbb5075bdeb32c3ca68fff4525b292bf40a3cdf98b",
+    "bytes": 2035,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/256/PictoIcon_Download.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-back.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_arrow_left.png",
+    "sha256": "c7dfb24cbeff2eb4be6f7fbdbaf531ab2688d072ffb046eacce15dc530f79c53",
+    "bytes": 2339,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/512/PictoIcon_Arrow_Left.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-close.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_symbol_x.png",
+    "sha256": "6e83f0229743d720f5f68a1ef4539fb220ea7ff5aab0cc6c678544d6ba9ac436",
+    "bytes": 3169,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/64/PictoIcon_Symbol_X.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-check.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_symbol_check.png",
+    "sha256": "4eb96c8f491936d80cb460c962bb55d7a82b513d2cb428f109b63b031673222a",
+    "bytes": 2755,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/256/PictoIcon_Symbol_Check.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-pause.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_player_pause.png",
+    "sha256": "502f8d09dee86d36b83bd0f9728600bfee4417ef98f2986386896064acf2a728",
+    "bytes": 1451,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/128/PictoIcon_Player_Pause.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-play.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_player_play.png",
+    "sha256": "f44b11face662a7e4fbbf3fa0448035c9144b58ae38a1143a761fbc56bde8048",
+    "bytes": 2035,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/512/PictoIcon_Player_Play.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-undo.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_player_rw.png",
+    "sha256": "fc88e57226c697a4be086bb68f05ecfb579223ee54a45c4e81c6d40b51de6a24",
+    "bytes": 2614,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/64/PictoIcon_Player_Rw.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-redo.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_player_fw.png",
+    "sha256": "078f973a890ba3508c093d98271fd70b2950980a8fb2feff81c6867d3bb40bf6",
+    "bytes": 2602,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/64/PictoIcon_Player_Fw.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-clear.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_delete_1.png",
+    "sha256": "c9ac540da3b22daf5dda62c7524e50dfa06ea5e2e3284d6e0d9f92cfc93b6cc3",
+    "bytes": 2293,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/512/PictoIcon_Delete_1.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-palette.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_color.png",
+    "sha256": "82019da83a3d40f86c7ffa6a2a9909b419af7d4ddc015aafeefcd4e4e0b384ee",
+    "bytes": 3642,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/512/PictoIcon_Color.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-peek.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_eye_show.png",
+    "sha256": "ed8deef390fcf95a9697323b5fc75c0e52ced07a20dd8a316d9a0e813c8c0ace",
+    "bytes": 3897,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/256/PictoIcon_Eye_Show.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-topic-mixed.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_mix.png",
+    "sha256": "f54810c8fc44c8db04d605d86c8ad2b18327f5c62de16ef6bb28f46714cc4d9d",
+    "bytes": 3360,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/256/PictoIcon_Mix.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-topic-animals.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_paw.png",
+    "sha256": "41cc3546c1dfd8f2f0fa5d501f57d8ed6f20d07a5359ad34ae48e5399a281f17",
+    "bytes": 3460,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/64/PictoIcon_Paw.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-topic-occupations.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_tool_1.png",
+    "sha256": "b9773f2a073869baff0b9c0874043e3ed51f545ca3a14b93606932c0a61291e1",
+    "bytes": 2949,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/64/PictoIcon_Tool_1.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-topic-sports.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_shoes.png",
+    "sha256": "418f92cbd5b181b62989e5edc92a13ba5a2e35f9cafcbfa295999f67fe8d310a",
+    "bytes": 1958,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/64/PictoIcon_Shoes.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-topic-hongkong.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_ship.png",
+    "sha256": "0a9bfc9e91d16ccb41d4ec63f4ab2273136836a48e88a2fb5313c1fcfec1b7a9",
+    "bytes": 3068,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/64/PictoIcon_Ship.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-topic-actions.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_run.png",
+    "sha256": "2a18e4dbbbcf8f7d82f00a4b0546966696f36b5a0c04a65e7ede39ed2cc3aa8b",
+    "bytes": 3378,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/512/PictoIcon_Run.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/sound-on.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_sound_on.png",
+    "sha256": "fc4a78d35b6cf30e131d9590823ee5778a0c01a8761f933b305352862f4af037",
+    "bytes": 2987,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/512/PictoIcon_Sound_On.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/sound-off.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_sound_off.png",
+    "sha256": "1c0811630c1914efbbfa34d48e3b06793e7308e3e7d1823af0a63343d6677b07",
+    "bytes": 3071,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/256/PictoIcon_Sound_Off.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-topic-food.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_pizza.png",
+    "sha256": "70b429b5916e8c88dbfd009778817562d31dd8f999966587ab54cf52f1e8a735",
+    "bytes": 18863,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/Original/Itemicon_Pizza.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-topic-things.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_home.png",
+    "sha256": "a9467510c9e7791f5b288e153ee077512994564570276d31718df426ddb84327",
+    "bytes": 7873,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/Original/Itemicon_Home.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-topic-cartoons.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_tv.png",
+    "sha256": "c5f03eb2b9cf6b0dd86aee8ef025fe48f73c5210ea5043c8634688c90ccf1406",
+    "bytes": 10966,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/Original/Itemicon_Tv.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-topic-nature.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_rainbow.png",
+    "sha256": "3bf62a6ce7af4e8f024d056c55ade2d2e77d3bdd92943b36e93da8dcf4799d51",
+    "bytes": 5621,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/128/Itemicon_Rainbow.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-topic-festivals.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_gift_red.png",
+    "sha256": "f25b71063d1b5ad7f90a48e988d138d58f9e28b61d19f23e030a17d18b11c770",
+    "bytes": 4744,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/256/Itemicon_Gift_Red.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-topic-fairytales.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_unicorn.png",
+    "sha256": "ba7533fcd86a0f682d41de9eb5bb3ce8b5a2d151ecb25de7848f7d49e5dfc3d3",
+    "bytes": 9574,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/128/Itemicon_Unicorn.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/pencil.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_pencil.png",
+    "sha256": "3d572fec37e7c17ae604d6cecd1dd00eb43591c69ba2373675b8cbacb9a96b66",
+    "bytes": 5059,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/Original/Itemicon_Pencil.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-hourglass.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_hourglass.png",
+    "sha256": "16c82b8346689f82717e4dad3cddd091a0e4e2bb984b87bb89acb90534eb928b",
+    "bytes": 7009,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/256/Itemicon_Hourglass.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-bulb.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_bulb.png",
+    "sha256": "005d22b6d406ba3f647ffa048dd9bd6a977e9650d5b49960434a0b98944186cc",
+    "bytes": 6614,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/Original/Itemicon_Bulb.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-heart.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_heart.png",
+    "sha256": "f8ea74aebc04e6d66ee878741fbd57d36c9bac7a46c1dc1ad2bed5ab4608c6c2",
+    "bytes": 4075,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/Original/Itemicon_Heart.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-flag.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_flag_0_red.png",
+    "sha256": "fa7fcc28b5d86a5a3e5ef6287d3aacea13d851744becf1ddc137cd1bfad05502",
+    "bytes": 5011,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/512/Itemicon_Flag_0_Red.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-friends.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_friends.png",
+    "sha256": "5c270014aab9eb75f2c93f2e52edc4c5e81837253f85c95d0f4e934f6cfe03bd",
+    "bytes": 7399,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/Original/Itemicon_Friends.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/icon-replay.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_refresh.png",
+    "sha256": "06cae89f39b85d3fece6ebc5c01f8908b2f8226bef1460ac1ee66db7896d046f",
+    "bytes": 3207,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/512/PictoIcon_Refresh.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/star.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_star_0.png",
+    "sha256": "de37c7cccd5280e2a38de07ac20524b8c354a964d781a4c4256c50449ebd8259",
+    "bytes": 5458,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/128/Itemicon_Star_0.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/book.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_book_blue.png",
+    "sha256": "ed8e628e558d87dd19f2d6162529684aa9b844e04a6af026ed9bcf116a60b1cd",
+    "bytes": 3184,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/512/Itemicon_Book_Blue.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/trophy.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_trophy_gold.png",
+    "sha256": "fbcd1b0b74c24d65cc063c62499464d5d546fd6ececbd385fd7f1263ea711596",
+    "bytes": 5803,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/128/Itemicon_Trophy_Gold.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/settings.png",
+    "source": "PNG/PNG_Light/Component/Icon_ItemIcons_(x2)/ItemIcons_128/itemicon_setting.png",
+    "sha256": "92e5e51ad5ec4c1a6fb76710001da769b4f3713cfe28546bbee0cbec371c9d1f",
+    "bytes": 9899,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_ItemIcons/Original/Itemicon_Setting.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/bg-sky.png",
+    "source": "PNG/PNG_Light/Demo/Demo_Background/Background_Gradatient01_Sky.png",
+    "sha256": "c9df3d4d1cdd35103f18718bf874ded44c27150ee01079a06f114988db3e2ba6",
+    "bytes": 328,
+    "width": 4,
+    "height": 1440,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Demo/Demo_Background/Background_Gradatient01_Sky.png",
+    "spriteBorder": {
+      "left": 2,
+      "bottom": 0,
+      "right": 2,
+      "top": 0
+    },
+    "cssSlice": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "sliceAdjusted": true
+  },
+  {
+    "file": "assets/layerlab/bg-pattern.png",
+    "source": "PNG/PNG_Light/Demo/Demo_Background/Background_pattern.png",
+    "sha256": "867fb3aa7f9d85ba3c4c7bbe22175d14b030edda013d73bc6f7f14ea14547b42",
+    "bytes": 31525,
+    "width": 852,
+    "height": 1440,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Demo/Demo_Background/Background_pattern.png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-settings.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_setting_1.png",
+    "sha256": "59152923963d4b0c16a2c45fde52d39b2ded4b80124b01fd9aa15b586803fec5",
+    "bytes": 3141,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/256/PictoIcon_Setting_1.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-book.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_book_1.png",
+    "sha256": "94ee4e49bb21ee74162ada92e86512d2c194f7cd4855442b5481b224b9c94776",
+    "bytes": 1820,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/128/PictoIcon_Book_1.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-pencil.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_pencil.png",
+    "sha256": "6192e0c760901d1e0731224de514bdd77ab2ac7d287cfadd558aaeab76a5c4f0",
+    "bytes": 2165,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/256/PictoIcon_Pencil.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-trophy.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_trophy_1.png",
+    "sha256": "b2a18b3c7d74bd8dee997d81c93f410aa00ac749d37f0e9ebeca101df9940bf3",
+    "bytes": 3144,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/512/PictoIcon_Trophy_1.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-star.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_star.png",
+    "sha256": "3c3db71033f5a257375df9fe15d18684b225ffa0e3635f8cdd655e51c1d6d48a",
+    "bytes": 2632,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/512/PictoIcon_Star.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-heart.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_love.png",
+    "sha256": "6367b40340c9dd3f3317ed36f7b338d6752e05cad5fad7267d7f6f9cfbf6a2a6",
+    "bytes": 2807,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/512/PictoIcon_Love.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-friends.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_friend.png",
+    "sha256": "920ae173bb3971d4419347f5ce435cc7cca47c167f25fcc9a733eee81d4cfbec",
+    "bytes": 2920,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/256/PictoIcon_Friend.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-hourglass.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_hourglass.png",
+    "sha256": "4f81d1d5d75358c22d7c504a4b54057352bcc3f453952b27f5c4c6756f075b7a",
+    "bytes": 2963,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/512/PictoIcon_Hourglass.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-bulb.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_bulb.png",
+    "sha256": "0399f60a656fe18b50231cebedf883f71320779f8cfbf73ed0627ffc9de1328e",
+    "bytes": 3378,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/64/PictoIcon_Bulb.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-flag.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_flag_1.png",
+    "sha256": "ef5c2a8ff9a7e7374d5a2d5f8069b7db09d2df316e954fa03aa0b7fd1f558215",
+    "bytes": 2866,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/256/PictoIcon_Flag_1.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-topic-food.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_apple.png",
+    "sha256": "ce1e750259c94a1f53e147a17a8b22dcf3afc225006c65fc71cd190f825d4ed5",
+    "bytes": 3042,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/128/PictoIcon_Apple.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-topic-things.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_home_2.png",
+    "sha256": "75f9efa193fc4abbae3b7309fbb00e31bccecae4f540bb2d1d05a30b08836c60",
+    "bytes": 3091,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/128/PictoIcon_Home_2.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-topic-cartoons.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_tv.png",
+    "sha256": "8fa3980e63f336534978d96528b7f5ba79cc28105c4f872587a880561282166f",
+    "bytes": 2568,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/128/PictoIcon_Tv.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-topic-nature.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_tree.png",
+    "sha256": "5da9e69b11b54b1c8bca072e1d5a2487645483aa5c31f3dc0f237e6a19a03705",
+    "bytes": 2871,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/512/PictoIcon_Tree.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-topic-festivals.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_gift_1.png",
+    "sha256": "927c4bd38d41cbbfec3f13941e50f62492177bc86c47f9ab1c47e50f4ee53b7e",
+    "bytes": 2203,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/128/PictoIcon_Gift_1.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  },
+  {
+    "file": "assets/layerlab/picto-topic-fairytales.png",
+    "source": "PNG/PNG_Light/Component/Icon_PictoIcons_(x2)/PictoIcons_128/Pictoicon_unicorn.png",
+    "sha256": "060c4b9418fb483ba5f01b357b49f3180c487723f649767f8911454cdc128056",
+    "bytes": 3894,
+    "width": 128,
+    "height": 128,
+    "unityPath": "Assets/Layer Lab/GUI Pro-SimpleCasual/ResourcesData/Sprites/Components/Icon_PictoIcons/64/PictoIcon_Unicorn.Png",
+    "spriteBorder": {
+      "left": 0,
+      "bottom": 0,
+      "right": 0,
+      "top": 0
+    },
+    "cssSlice": null,
+    "sliceAdjusted": false
+  }
+]

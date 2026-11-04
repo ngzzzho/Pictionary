@@ -1,0 +1,32 @@
+[
+  {
+    "file": "assets/characters/sketch-cat-welcome-v1.png",
+    "sha256": "b1daa5329bbfc3f037d1fd76d0cc0052ca9398e4cefc3d96059d4c03a20f0d08",
+    "bytes": 1290768,
+    "width": 1254,
+    "height": 1254,
+    "source": "built-in image_gen",
+    "pose": "welcome",
+    "hasTransparency": true
+  },
+  {
+    "file": "assets/characters/sketch-cat-secret-v1.png",
+    "sha256": "d47be8dab07b88d584222561b629b9283b4d8b805df47e8efae25ee21f44fb35",
+    "bytes": 1153389,
+    "width": 1254,
+    "height": 1254,
+    "source": "built-in image_gen",
+    "pose": "secret",
+    "hasTransparency": true
+  },
+  {
+    "file": "assets/characters/sketch-cat-celebrate-v1.png",
+    "sha256": "72a679f8ce41253631ad4c9e4d04e21c990aa7dd50788189781519398e5f62a5",
+    "bytes": 1141283,
+    "width": 1254,
+    "height": 1254,
+    "source": "built-in image_gen",
+    "pose": "celebrate",
+    "hasTransparency": true
+  }
+]

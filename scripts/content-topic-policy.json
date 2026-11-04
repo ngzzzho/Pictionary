@@ -1,0 +1,119 @@
+{
+  "edition": 6,
+  "selectionPolicy": "topic-unions-mainstream",
+  "baselineFile": "scripts/content-topic-baseline.json",
+  "inputSHA256": "09a701d11fb9db71d0ce1651e5aeb1c7e22d1533d6b69f848d0f7dd7e298939f",
+  "expectedInputActive": 612,
+  "expectedInputHeld": 456,
+  "keys": [
+    "animals",
+    "food",
+    "things",
+    "actions",
+    "occupations",
+    "nature",
+    "transport"
+  ],
+  "baseTopicMap": {
+    "animals": "animals",
+    "food": "food",
+    "things": "things",
+    "actions": "actions",
+    "sports": "actions",
+    "occupations": "occupations",
+    "nature": "nature",
+    "transport": "transport",
+    "places": "transport",
+    "science": "things",
+    "fantasy": "occupations",
+    "celebrations": "things"
+  },
+  "wordTopics": {
+    "w:animals:dragon": "animals",
+    "w:animals:unicorn": "animals",
+    "w:occupations:superhero": "occupations",
+    "w:occupations:wizard": "occupations",
+    "w:things:robot": "things",
+    "w:things:magnet": "things",
+    "w:things:telescope": "things",
+    "w:things:magnifying-glass": "things",
+    "w:nature:earth": "nature",
+    "w:nature:alien": "occupations",
+    "w:nature:ufo": "transport",
+    "w:festivals:firecracker": "things",
+    "w:festivals:fireworks": "nature",
+    "w:festivals:lantern": "things",
+    "w:festivals:christmas-tree": "things",
+    "w:festivals:santa-claus": "occupations",
+    "w:festivals:christmas-stocking": "things",
+    "w:festivals:angel": "occupations",
+    "w:festivals:jack-o-lantern": "things",
+    "w:festivals:ghost": "occupations",
+    "w:festivals:vampire": "occupations",
+    "w:festivals:mummy": "occupations",
+    "w:festivals:easter-egg": "things",
+    "w:festivals:party-hat": "things",
+    "w:fairytales:mermaid": "occupations",
+    "w:fairytales:witch": "occupations",
+    "w:fairytales:fairy": "occupations",
+    "w:fairytales:giant": "occupations",
+    "w:fairytales:genie": "occupations",
+    "w:fairytales:magic-lamp": "things",
+    "w:fairytales:magic-carpet": "transport",
+    "w:fairytales:magic-wand": "things",
+    "n:microscope": "things",
+    "n:thermometer": "things",
+    "n:test-tube": "things",
+    "n:battery": "things",
+    "n:human-skeleton": "nature",
+    "n:lungs": "nature",
+    "n:human-heart": "nature",
+    "n:plant-roots": "nature",
+    "n:solar-panel": "things",
+    "n:crystal-ball": "things",
+    "n:knight-s-helmet": "things",
+    "n:shield": "things",
+    "n:sword": "things",
+    "n:castle-gate": "transport",
+    "n:castle-moat": "transport",
+    "n:drawbridge": "transport",
+    "n:confetti": "things",
+    "n:ribbon-bow": "things",
+    "n:gift-bag": "things",
+    "n:balloon-arch": "things",
+    "n:blowing-up-a-balloon": "actions",
+    "n:parade-float": "transport",
+    "n:cutting-a-celebration-cake": "actions",
+    "w:things:digger": "transport",
+    "w:things:crane": "transport",
+    "n:charging-an-electric-car": "actions"
+  },
+  "topicAliases": {
+    "sports": "actions",
+    "places": "transport",
+    "science": "things",
+    "fantasy": "occupations",
+    "celebrations": "things"
+  },
+  "minimumTopicSize": 50,
+  "rationale": "Consolidate thin standalone subjects; keep all original active words and difficulties. New concepts require explicit concrete cues and all locale labels. Held entries stay byte-equivalent. Category selections are unions, then difficulty filters apply.",
+  "expectedAdditions": 73,
+  "translationRepairs": {
+    "n:unicycle": {
+      "ja": "一輪車（乗り物）"
+    },
+    "n:corkscrew": {
+      "zh-Hans": "螺旋开瓶器"
+    },
+    "n:knitting": {
+      "zh": "織毛冷",
+      "zh-Hans": "棒针编织"
+    },
+    "n:toilet-paper": {
+      "ko": "두루마리 화장지"
+    },
+    "n:juggler": {
+      "ar": "بهلوان بالكرات"
+    }
+  }
+}

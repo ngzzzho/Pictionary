@@ -1,0 +1,54 @@
+[
+  {
+    "file": "assets/fonts/gensen-rounded-tw-medium.woff2",
+    "family": "GenSen Rounded 2 TW Medium",
+    "bytes": 7748268,
+    "sha256": "10fac6dbc84f3be036f42fcd05738785dc105d07c05b8f67fc569b874a221a7d",
+    "source": "https://raw.githubusercontent.com/ButTaiwan/gensen-font/d347d3fffcb45e08857052433a0b432ed4f7ace8/otf/TW/GenSenRounded2TW-M.otf",
+    "sourceSha256": "b8286a42c534d31ca136c377ab3a3add7cf63058c67de8fec78e784ab26ec077",
+    "license": "OFL-1.1",
+    "licenseFile": "assets/fonts/GenSenRounded-OFL.txt",
+    "conversion": "Lossless WOFF2 container conversion; no glyph subsetting",
+    "unicodeCodepoints": 35382,
+    "glyphs": 37634
+  },
+  {
+    "file": "assets/fonts/gensen-rounded-tw-bold.woff2",
+    "family": "GenSen Rounded 2 TW Bold",
+    "bytes": 7946960,
+    "sha256": "5802355e72b1d3bc794fd023dbad7b0cc59857361b2377ed9f0d14722d8418b4",
+    "source": "https://raw.githubusercontent.com/ButTaiwan/gensen-font/d347d3fffcb45e08857052433a0b432ed4f7ace8/otf/TW/GenSenRounded2TW-B.otf",
+    "sourceSha256": "050f9ebf394faab3c0ba59092ae3e4b6686b349eadb3018d76d385c5829a1267",
+    "license": "OFL-1.1",
+    "licenseFile": "assets/fonts/GenSenRounded-OFL.txt",
+    "conversion": "Lossless WOFF2 container conversion; no glyph subsetting",
+    "unicodeCodepoints": 35382,
+    "glyphs": 37634
+  },
+  {
+    "file": "assets/fonts/noto-sans-jp.woff2",
+    "family": "Noto Sans JP",
+    "bytes": 4349992,
+    "sha256": "ab784cf556e1c7deea04d8f6f41871340d4dd7c9f35a10bb0a1614126fae29c9",
+    "source": "https://raw.githubusercontent.com/google/fonts/66928797f271fed5ee428544e7229685e2d90127/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf",
+    "sourceSha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+    "license": "OFL-1.1",
+    "licenseFile": "assets/fonts/NotoSansJP-OFL.txt",
+    "conversion": "Lossless WOFF2 container conversion; no glyph subsetting",
+    "unicodeCodepoints": 16732,
+    "glyphs": 17936
+  },
+  {
+    "file": "assets/fonts/noto-sans-kr.woff2",
+    "family": "Noto Sans KR",
+    "bytes": 3908432,
+    "sha256": "baed5288b3c1096cde4580ef69932be11a93b0c6d5d767d5be4fb40e4101093d",
+    "source": "https://raw.githubusercontent.com/google/fonts/66928797f271fed5ee428544e7229685e2d90127/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf",
+    "sourceSha256": "194018e6b2b293a7964f037b25c0249ce1418bc9ab3c971060a03aa57861e252",
+    "license": "OFL-1.1",
+    "licenseFile": "assets/fonts/NotoSansKR-OFL.txt",
+    "conversion": "Lossless WOFF2 container conversion; no glyph subsetting",
+    "unicodeCodepoints": 23174,
+    "glyphs": 24964
+  }
+]

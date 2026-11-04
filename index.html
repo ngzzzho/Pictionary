@@ -1,24 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
-  <title>Pictionary Party</title>
-  <meta name="description" content="A single-iPad Pictionary host: word prompts, round timer, and scoring for game night.">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="Pictionary">
-  <meta name="theme-color" content="#4f46e5">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎨</text></svg>">
-  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <div id="app"></div>
-  <noscript><p style="color:#fff;text-align:center;padding:40px">Pictionary Party needs JavaScript to run.</p></noscript>
-  <script src="js/words.js"></script>
-  <script src="js/app.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <title>Sketch &amp; Guess</title>
+    <meta
+      name="description"
+      content="A little drawing game for family and friends. Play together, offline."
+    />
+    <meta name="theme-color" content="#44cad9" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Sketch & Guess" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="icon" href="icons/icon-192.png" type="image/png" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/ios-layout.css" />
+    <link rel="stylesheet" href="css/layerlab-slices.css" />
+    <link rel="stylesheet" href="css/layerlab.css" />
+    <link rel="stylesheet" href="css/iphone-ux.css" />
+    <link rel="stylesheet" href="css/game-ui.css" />
+    <link rel="stylesheet" href="css/gallery-ui.css" />
+    <link rel="stylesheet" href="css/backup-ui.css" />
+    <link rel="stylesheet" href="css/tv-ui.css" />
+    <link rel="stylesheet" href="css/localization.css" />
+    <link rel="stylesheet" href="css/content-ui.css" />
+    <link rel="stylesheet" href="css/motion.css" />
+    <link rel="stylesheet" href="css/compact-ui.css" />
+    <link rel="stylesheet" href="css/purchases.css" />
+    <link
+      rel="preload"
+      href="assets/characters/sketch-cat-welcome-v1.png"
+      as="image"
+    />
+  </head>
+  <body>
+    <div id="notices"></div>
+    <div id="app">
+      <main class="boot-screen" role="status" aria-live="polite">
+        <img
+          src="assets/characters/sketch-cat-welcome-v1.png"
+          width="180"
+          height="180"
+          alt=""
+        />
+        <h1>Sketch &amp; Guess</h1>
+        <p aria-label="Loading">…</p>
+      </main>
+    </div>
+    <noscript>請啟用 JavaScript。Please enable JavaScript.</noscript>
+    <script type="module" src="js/app.js"></script>
+  </body>
 </html>

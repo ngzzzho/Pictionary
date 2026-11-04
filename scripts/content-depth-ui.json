@@ -1,0 +1,46 @@
+{
+  "en": {
+    "home": "Home & daily life",
+    "equipment": "Tools & play"
+  },
+  "zh": {
+    "home": "居家與日用",
+    "equipment": "工具與玩樂"
+  },
+  "zh-Hans": {
+    "home": "居家与日用",
+    "equipment": "工具与玩乐"
+  },
+  "ja": {
+    "home": "住まいと日用品",
+    "equipment": "道具と遊び"
+  },
+  "ko": {
+    "home": "집과 생활용품",
+    "equipment": "도구와 놀이"
+  },
+  "de": {
+    "home": "Wohnen & Alltag",
+    "equipment": "Werkzeuge & Spiel"
+  },
+  "fr": {
+    "home": "Maison et quotidien",
+    "equipment": "Outils et jeux"
+  },
+  "es": {
+    "home": "Hogar y vida diaria",
+    "equipment": "Herramientas y juegos"
+  },
+  "pt": {
+    "home": "Casa e dia a dia",
+    "equipment": "Ferramentas e diversão"
+  },
+  "it": {
+    "home": "Casa e vita quotidiana",
+    "equipment": "Attrezzi e giochi"
+  },
+  "ar": {
+    "home": "المنزل والحياة اليومية",
+    "equipment": "الأدوات واللعب"
+  }
+}

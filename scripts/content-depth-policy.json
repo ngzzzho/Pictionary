@@ -1,0 +1,309 @@
+{
+  "edition": 7,
+  "selectionPolicy": "topic-depth-reviewed",
+  "baselineFile": "scripts/content-depth-baseline.json",
+  "inputSHA256": "a252aea44704433e1d302ea0244be1be110a8c6a234e0cab761546297f7ff512",
+  "expectedInputActive": 685,
+  "expectedInputHeld": 456,
+  "expectedAdditions": 94,
+  "keys": [
+    "animals",
+    "food",
+    "home",
+    "equipment",
+    "actions",
+    "occupations",
+    "nature",
+    "transport"
+  ],
+  "wordTopics": {
+    "w:things:chair": "home",
+    "w:things:table": "home",
+    "w:things:bed": "home",
+    "w:things:pillow": "home",
+    "w:things:blanket": "home",
+    "w:things:sofa": "home",
+    "w:things:lamp": "home",
+    "w:things:clock": "home",
+    "w:things:mirror": "home",
+    "w:things:window": "home",
+    "w:things:door": "home",
+    "w:things:key": "home",
+    "w:things:umbrella": "home",
+    "w:things:backpack": "home",
+    "w:things:book": "equipment",
+    "w:things:pencil": "equipment",
+    "w:things:eraser": "equipment",
+    "w:things:ruler": "equipment",
+    "w:things:scissors": "equipment",
+    "w:things:glue": "equipment",
+    "w:things:paintbrush": "equipment",
+    "w:things:computer": "home",
+    "w:things:keyboard": "home",
+    "w:things:phone": "home",
+    "w:things:television": "home",
+    "w:things:camera": "equipment",
+    "w:things:headphones": "home",
+    "w:things:microphone": "equipment",
+    "w:things:robot": "equipment",
+    "w:things:light-bulb": "home",
+    "w:things:candle": "home",
+    "w:things:flashlight": "equipment",
+    "w:things:fan": "home",
+    "w:things:air-conditioner": "home",
+    "w:things:refrigerator": "home",
+    "w:things:microwave": "home",
+    "w:things:kettle": "home",
+    "w:things:cup": "home",
+    "w:things:plate": "home",
+    "w:things:bowl": "home",
+    "w:things:chopsticks": "home",
+    "w:things:fork": "home",
+    "w:things:spoon": "home",
+    "w:things:straw": "home",
+    "w:things:bottle": "home",
+    "w:things:lunchbox": "home",
+    "w:things:toothbrush": "home",
+    "w:things:toothpaste": "home",
+    "w:things:soap": "home",
+    "w:things:towel": "home",
+    "w:things:comb": "home",
+    "w:things:glasses": "home",
+    "w:things:sunglasses": "home",
+    "w:things:hat": "home",
+    "w:things:shoes": "home",
+    "w:things:socks": "home",
+    "w:things:gloves": "home",
+    "w:things:scarf": "home",
+    "w:things:t-shirt": "home",
+    "w:things:dress": "home",
+    "w:things:watch": "home",
+    "w:things:ring": "home",
+    "w:things:necklace": "home",
+    "w:things:wallet": "home",
+    "w:things:coin": "home",
+    "w:things:piggy-bank": "home",
+    "w:things:teddy-bear": "equipment",
+    "w:things:doll": "equipment",
+    "w:things:balloon": "equipment",
+    "w:things:kite": "equipment",
+    "w:things:building-blocks": "equipment",
+    "w:things:puzzle": "equipment",
+    "w:things:dice": "equipment",
+    "w:things:playing-cards": "equipment",
+    "w:things:swing": "equipment",
+    "w:things:slide": "equipment",
+    "w:things:seesaw": "equipment",
+    "w:things:traffic-light": "home",
+    "w:things:ladder": "equipment",
+    "w:things:broom": "home",
+    "w:things:bucket": "home",
+    "w:things:hammer": "equipment",
+    "w:things:rope": "equipment",
+    "w:things:tent": "equipment",
+    "w:things:map": "equipment",
+    "w:things:treasure-chest": "equipment",
+    "w:things:crown": "equipment",
+    "w:things:magnet": "equipment",
+    "w:things:telescope": "equipment",
+    "w:things:magnifying-glass": "equipment",
+    "w:things:medal": "equipment",
+    "w:things:trophy": "equipment",
+    "w:things:present": "equipment",
+    "w:things:envelope": "home",
+    "w:things:stamp": "home",
+    "w:things:mailbox": "home",
+    "w:things:trash-can": "home",
+    "w:things:toilet": "home",
+    "w:things:bathtub": "home",
+    "w:things:stairs": "home",
+    "w:things:elevator": "home",
+    "w:things:escalator": "home",
+    "w:hongkong:ferris-wheel": "equipment",
+    "w:festivals:firecracker": "equipment",
+    "w:festivals:lantern": "equipment",
+    "w:festivals:christmas-tree": "equipment",
+    "w:festivals:christmas-stocking": "equipment",
+    "w:festivals:jingle-bell": "equipment",
+    "w:festivals:jack-o-lantern": "equipment",
+    "w:festivals:easter-egg": "equipment",
+    "w:festivals:party-hat": "equipment",
+    "w:fairytales:magic-lamp": "equipment",
+    "w:fairytales:magic-wand": "equipment",
+    "n:zipper": "home",
+    "n:button": "home",
+    "n:clothes-peg": "home",
+    "n:safety-pin": "home",
+    "n:paper-clip": "equipment",
+    "n:spool-of-thread": "equipment",
+    "n:sock-puppet": "equipment",
+    "n:nesting-dolls": "equipment",
+    "n:snow-globe": "equipment",
+    "n:hourglass": "equipment",
+    "n:pinwheel": "equipment",
+    "n:paper-fan": "home",
+    "n:dustpan": "home",
+    "n:rolling-pin": "home",
+    "n:whisk": "home",
+    "n:funnel": "home",
+    "n:colander": "home",
+    "n:oven-glove": "home",
+    "n:apron": "home",
+    "n:watering-can": "equipment",
+    "n:wheelbarrow": "equipment",
+    "n:rubber-duck": "equipment",
+    "n:sleeping-bag": "equipment",
+    "n:binoculars": "equipment",
+    "n:accordion": "equipment",
+    "n:maracas": "equipment",
+    "n:xylophone": "equipment",
+    "n:microscope": "equipment",
+    "n:thermometer": "equipment",
+    "n:test-tube": "equipment",
+    "n:battery": "equipment",
+    "n:solar-panel": "equipment",
+    "n:crystal-ball": "equipment",
+    "n:knight-s-helmet": "equipment",
+    "n:shield": "equipment",
+    "n:sword": "equipment",
+    "n:confetti": "equipment",
+    "n:ribbon-bow": "equipment",
+    "n:gift-bag": "equipment",
+    "n:balloon-arch": "equipment",
+    "n:guitar": "equipment",
+    "n:piano": "equipment",
+    "n:violin": "equipment",
+    "n:trumpet": "equipment",
+    "n:drum": "equipment",
+    "n:saxophone": "equipment",
+    "n:washing-machine": "home",
+    "n:vacuum-cleaner": "home",
+    "n:hairdryer": "home",
+    "n:sewing-machine": "equipment",
+    "n:stapler": "equipment",
+    "n:paint-palette": "equipment",
+    "n:saw": "equipment",
+    "n:screwdriver": "equipment",
+    "n:wrench": "equipment",
+    "n:pliers": "equipment",
+    "n:shovel": "equipment",
+    "n:rake": "equipment",
+    "n:clothes-iron": "home",
+    "n:shopping-trolley": "home",
+    "n:suitcase": "home",
+    "n:stroller": "home",
+    "n:wheelchair": "home",
+    "n:rocking-chair": "home",
+    "n:hammock": "home",
+    "n:rocking-horse": "equipment",
+    "n:yo-yo": "equipment",
+    "n:spinning-top": "equipment",
+    "n:boomerang": "equipment",
+    "n:trousers": "home",
+    "n:skirt": "home",
+    "n:belt": "home",
+    "n:teapot": "home",
+    "n:grater": "home",
+    "n:corkscrew": "home",
+    "n:tea-bag": "home",
+    "n:toilet-paper": "home",
+    "n:hanger": "home"
+  },
+  "topicAliases": {
+    "things": "home+equipment",
+    "sports": "actions",
+    "places": "transport",
+    "science": "home+equipment",
+    "fantasy": "occupations",
+    "celebrations": "home+equipment"
+  },
+  "minimumTopicCounts": {
+    "animals": 91,
+    "food": 95,
+    "home": 98,
+    "equipment": 93,
+    "actions": 131,
+    "occupations": 88,
+    "nature": 93,
+    "transport": 90
+  },
+  "target": "About 100 per coherent subject; actual reviewed capacity wins over padding. Retain Activities131 rather than split into56/75.",
+  "rejectedProposals": {
+    "n:clam": "Cannot distinguish living bivalve from oyster/shell reliably; translations disagree in specificity.",
+    "n:macaron": "Pastry-specific texture insufficient to distinguish a sandwich cookie.",
+    "n:eclair": "Narrow pastry shape not reliably distinguished from iced bun or filled doughnut.",
+    "n:hotel-porter": "Uniform and luggage do not establish the hotel employment role.",
+    "n:museum": "An exhibit skeleton remains a more likely target than the entire museum."
+  },
+  "revisions": {
+    "n:mouth": {
+      "drawCue": "Close-up open mouth with teeth and a tongue inside; an arrow points to the whole opening, not an individual tooth."
+    },
+    "n:thumb": {
+      "drawCue": "Open palm with all five digits spread, short thick thumb projecting sideways; arrow points only to the thumb."
+    },
+    "n:leg": {
+      "drawCue": "Body with one bare leg visible from hip to ankle, ending in a small foot; arrow points to the long limb.",
+      "labels": {
+        "ko": "사람의 다리"
+      }
+    },
+    "n:paw-print": {
+      "labels": {
+        "ko": "동물 발자국",
+        "ar": "أثر قدم حيوان"
+      }
+    },
+    "n:lily-pad": {
+      "drawCue": "Round floating water-lily leaf with a V-shaped notch, stem entering water; arrow points to the leaf. A frog is optional but must not be the focal target."
+    },
+    "n:beehive": {
+      "drawCue": "Hanging open honeycomb with several large hexagonal cells and bees entering around it; arrow points to the whole nest."
+    },
+    "n:atom": {
+      "labels": {
+        "ar": "ذَرّة (فيزياء)"
+      }
+    },
+    "n:ice-cube": {
+      "labels": {
+        "ja": "角氷"
+      }
+    },
+    "n:garage": {
+      "labels": {
+        "zh": "車庫"
+      }
+    },
+    "n:hair-salon": {
+      "drawCue": "Whole shop interior with two styling chairs facing separate mirrors, a hair-washing basin and a hanging hairdryer; no isolated stylist as the focal target."
+    },
+    "n:airship": {
+      "labels": {
+        "zh": "飛艇"
+      }
+    },
+    "n:snowmobile": {
+      "labels": {
+        "ar": "دراجة ثلجية"
+      }
+    },
+    "n:swordfish": {
+      "labels": {
+        "pt": "espadarte"
+      }
+    },
+    "n:cheerleader": {
+      "labels": {
+        "ar": "مؤدّي تشجيع استعراضي",
+        "es": "porrista"
+      }
+    },
+    "n:samurai": {
+      "labels": {
+        "zh": "日本武士",
+        "zh-Hans": "日本武士"
+      }
+    }
+  }
+}

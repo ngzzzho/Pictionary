@@ -1,0 +1,920 @@
+/* Phone-first forms: text gets the available width; actions have their own row.
+   Extended lists and accessibility text can scroll without covering controls. */
+.btn.has-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.btn.has-icon::after {
+  display: none;
+}
+.btn.has-icon > .pack-icon,
+.btn.has-icon > .tool-symbol {
+  flex: 0 0 auto;
+}
+.btn.has-icon > span {
+  width: auto;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: auto;
+}
+.screen-setup {
+  box-sizing: border-box;
+  height: var(--visible-height, 100dvh);
+  min-height: 0;
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr) auto;
+  gap: 10px;
+  padding: max(10px, env(safe-area-inset-top))
+    max(12px, env(safe-area-inset-right)) max(10px, env(safe-area-inset-bottom))
+    max(12px, env(safe-area-inset-left));
+  overflow: hidden;
+}
+.screen-setup > header {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 48px;
+}
+.screen-setup > .steps {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 4px;
+  gap: 6px;
+  align-items: stretch;
+}
+.screen-setup .steps > button {
+  justify-content: flex-start;
+  gap: 5px;
+  min-height: 44px;
+  line-height: 1.2;
+  font-size: 0.88rem;
+}
+.screen-setup .steps > button > .step-number {
+  width: 28px;
+  height: 28px;
+  flex: none;
+  font-size: 0.9rem;
+}
+.screen-setup .step-label {
+  font-weight: 600;
+}
+.screen-setup > .setup-panel {
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+  margin: 0 auto;
+  padding: 14px 16px;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scroll-padding-block: 12px;
+  overflow-anchor: none;
+  border-radius: 20px;
+}
+.screen-setup > .bottom-actions {
+  position: static;
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  gap: 10px;
+  background: none;
+  border-radius: 0;
+}
+.screen-setup .bottom-actions > .btn {
+  width: 100%;
+  min-width: 0;
+  min-height: 54px;
+  margin: 0;
+  padding: 10px 12px 14px;
+  font-size: 1.12rem;
+  line-height: 1.25;
+}
+.screen-setup .bottom-actions .btn > .pack-icon {
+  width: 20px;
+  height: 20px;
+}
+.setup-panel h1,
+.setup-panel .section-title {
+  font-size: 1.3rem;
+  line-height: 1.25;
+  margin: 0 0 10px;
+}
+.setup-panel h2 {
+  font-size: 1rem;
+  line-height: 1.3;
+  margin: 12px 0 8px;
+}
+.setup-panel .roster-hint,
+.setup-panel .mode-explanation {
+  margin: 6px 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  text-align: center;
+}
+.setup-panel .add-row {
+  margin: 8px 0 12px;
+  gap: 8px;
+}
+.setup-panel .add-row input {
+  min-height: 48px;
+  padding: 10px 12px;
+  font-size: 1rem;
+}
+.setup-panel .add-button {
+  min-height: 48px;
+  padding: 8px 12px 12px;
+  font-size: 1rem;
+  gap: 4px;
+}
+.setup-panel .add-button .pack-icon {
+  width: 22px;
+  height: 22px;
+}
+.setup-panel .player-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+.setup-panel .player-row {
+  grid-template-columns: minmax(0, 1fr) 44px;
+  gap: 4px;
+  padding: 3px 4px 3px 10px;
+  border-radius: 12px;
+  min-height: 48px;
+}
+.setup-panel .player-row > .avatar {
+  display: none;
+}
+.setup-panel .player-row > span:not(.avatar) {
+  font-size: 0.94rem;
+  line-height: 1.25;
+}
+.setup-panel .player-row .remove {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+}
+.setup-panel .player-row:has(.team-badge) .team-badge {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  min-height: 44px;
+  margin: 0;
+}
+.setup-panel .player-row:has(.team-badge) .remove {
+  grid-column: 2;
+}
+.setup-panel .mode-grid:not(.two) {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 7px;
+}
+.setup-panel .mode-grid:not(.two) .choice {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  padding: 7px 12px;
+  min-height: 48px;
+  text-align: start;
+}
+.setup-panel .choice-icon,
+.setup-panel .topic > span:first-child {
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  border-radius: 10px;
+}
+.setup-panel .choice-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+.setup-panel .choice-icon .pack-icon,
+.setup-panel .topic > span .pack-icon {
+  width: 24px;
+  height: 24px;
+}
+.setup-panel .choice strong,
+.setup-panel .topic strong {
+  font-size: 1rem;
+  line-height: 1.3;
+}
+.setup-panel .mode-grid.two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.setup-panel .mode-grid.two .choice {
+  min-height: 0;
+  padding: 10px;
+  gap: 6px;
+}
+.setup-panel .mode-grid.two .choice small {
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+.setup-panel .options {
+  gap: 6px;
+}
+.setup-panel .option {
+  min-height: 44px;
+  padding: 9px 10px;
+  font-size: 1rem;
+}
+.setup-panel .difficulty-options .options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.setup-panel .difficulty-options .option {
+  flex: none;
+  font-size: 0.94rem;
+}
+.content-picker > h2 {
+  margin-top: 12px;
+}
+.subject-picker,
+.card-preview-disclosure,
+.settings-data {
+  min-width: 0;
+}
+.subject-picker > summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 64px;
+  padding: 10px 12px;
+  border: 2px solid #558c93;
+  border-radius: 14px;
+  background: #f0faf6;
+  cursor: pointer;
+  list-style: none;
+}
+.subject-picker > summary::-webkit-details-marker {
+  display: none;
+}
+.subject-picker > summary::after {
+  content: "⌄";
+  font-size: 1.35rem;
+  flex: none;
+}
+.subject-picker[open] > summary::after {
+  content: "⌃";
+}
+.subject-picker > summary > span:nth-child(2) {
+  flex: 1;
+  min-width: 0;
+}
+.subject-picker summary strong,
+.subject-picker summary small {
+  display: block;
+  overflow-wrap: anywhere;
+}
+.subject-picker summary strong {
+  font-size: 1.05rem;
+}
+.subject-picker summary small {
+  font-size: 0.82rem;
+}
+.subject-current-icon .pack-icon {
+  width: 32px;
+  height: 32px;
+}
+.subject-count {
+  font-size: 0.94rem;
+  font-variant-numeric: tabular-nums;
+}
+.subject-choices {
+  padding: 12px 0 4px;
+}
+.topic-multi-hint {
+  margin: 0 0 10px;
+  font-size: 0.94rem;
+  line-height: 1.4;
+}
+.topic-total {
+  display: block;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.topics-done-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 12px 0 4px;
+}
+.topics-done-row > span {
+  min-width: 0;
+  font-size: 0.94rem;
+  overflow-wrap: anywhere;
+}
+.topics-done-row > .btn {
+  min-height: 48px;
+  width: auto;
+  margin: 0;
+  padding: 10px 18px;
+}
+.setup-panel .content-picker .subject-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.setup-panel .content-picker .topic {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  min-height: 70px;
+  padding: 9px;
+  gap: 4px 8px;
+  text-align: start;
+}
+.setup-panel .content-picker .topic > span {
+  grid-row: 1 / 3;
+}
+.setup-panel .content-picker .topic small {
+  grid-column: 2;
+  font-size: 0.82rem;
+  margin: 0;
+}
+.setup-panel .content-picker .playlist em {
+  grid-column: 2;
+  font-size: 0.85rem;
+}
+.setup-panel .deck-guidance,
+.setup-panel .unique-rule {
+  font-size: 0.85rem;
+  line-height: 1.35;
+  margin: 6px 0;
+}
+.setup-panel .pool-capacity {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 8px 10px;
+  margin: 10px 0 4px;
+  gap: 6px 12px;
+}
+.setup-panel .pool-capacity p {
+  display: block;
+  flex: 1 1 80px;
+  text-align: center;
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+.setup-panel .pool-capacity strong {
+  display: block;
+  font-size: 1rem;
+}
+.card-language-picker > .hint {
+  background: none;
+  padding: 0;
+  margin: 6px 0 10px;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+.language-fields {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.language-fields label {
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+.language-fields select {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 48px;
+  margin-top: 6px;
+  font-size: 0.94rem;
+  padding-block: 8px;
+}
+.card-preview-disclosure > summary,
+.settings-data > summary {
+  overflow-wrap: anywhere;
+  min-height: 44px;
+  padding: 10px 2px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.card-language-preview {
+  margin: 6px 0 12px;
+}
+.setup-ready-character {
+  width: 62px;
+  height: 62px;
+}
+.setup-ready-character > .pack-icon {
+  width: 26px;
+  height: 26px;
+}
+.setup-step-3 .ready-roster {
+  margin: 6px 0 12px;
+  gap: 6px;
+}
+.setup-step-3 .ready-roster > span {
+  padding: 4px 8px;
+  font-size: 0.88rem;
+}
+.setup-step-3 .ready-roster .avatar {
+  width: 26px;
+  height: 26px;
+  font-size: 0.72rem;
+}
+.setup-step-3 .summary-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+.setup-step-3 .summary-grid p {
+  padding: 8px;
+  font-size: 0.82rem;
+  text-align: start;
+  line-height: 1.25;
+}
+.setup-step-3 .summary-grid strong {
+  font-size: 1rem;
+  margin-top: 3px;
+  overflow-wrap: anywhere;
+}
+.screen-settings > .panel {
+  padding: 16px;
+}
+.screen-settings h1 {
+  margin: 0 0 12px;
+  font-size: 1.4rem;
+}
+.screen-settings h2 {
+  margin: 12px 0 8px;
+  font-size: 1.05rem;
+}
+.settings-language-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  min-height: 56px;
+  padding: 10px 12px;
+  border: 2px solid #558c93;
+  border-radius: 14px;
+  background: #f0faf6;
+  color: var(--ink);
+  text-align: start;
+  font: inherit;
+}
+.settings-language-row > span {
+  font-size: 0.9rem;
+}
+.settings-language-row strong {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+}
+.settings-language-row .ui-glyph {
+  width: 24px;
+  height: 24px;
+}
+.settings-sound-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 8px 0;
+}
+.settings-sound-row h2 {
+  margin: 0;
+}
+.settings-sound-row .btn {
+  min-height: 48px;
+  margin: 0;
+  padding: 8px 16px;
+}
+.screen-settings .settings-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.screen-settings .settings-actions .btn {
+  min-width: 0;
+  padding: 10px 12px;
+  font-size: 1rem;
+}
+.settings-data {
+  margin-top: 8px;
+}
+.screen-languages .language-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 12px 0;
+}
+.screen-languages .language-grid .option {
+  min-width: 0;
+  padding: 10px 6px;
+  font-size: 1rem;
+}
+.screen-languages > .btn {
+  display: none;
+} /* Header already has an accessible Back action. */
+@media (min-width: 700px) and (max-height: 500px) {
+  .screen-setup {
+    gap: 6px;
+    padding-block: max(6px, env(safe-area-inset-top))
+      max(6px, env(safe-area-inset-bottom));
+  }
+  .screen-setup .steps > button {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .screen-setup .steps {
+    padding: 0;
+  }
+  .screen-setup .bottom-actions > .btn {
+    min-height: 48px;
+    padding-block: 8px 12px;
+  }
+  .setup-panel .mode-grid:not(.two) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .setup-panel .mode-grid:not(.two) .choice {
+    grid-template-columns: 28px minmax(0, 1fr);
+  }
+}
+@media (max-width: 359px) {
+  .screen-setup {
+    padding-inline: max(8px, env(safe-area-inset-left))
+      max(8px, env(safe-area-inset-right));
+    gap: 8px;
+  }
+  .screen-setup > .setup-panel {
+    padding: 12px;
+  }
+  .screen-setup .bottom-actions .btn > .pack-icon {
+    display: none;
+  }
+  .screen-setup .steps > button {
+    font-size: 0.8rem;
+  }
+  .screen-settings .settings-actions {
+    grid-template-columns: 1fr;
+  }
+}
+/* Prefer one readable scroll at accessibility sizes; never crop text to fit. */
+:root.large-text .screen-setup {
+  height: auto;
+  min-height: var(--visible-height, 100dvh);
+  overflow: visible;
+  grid-template-rows: auto auto auto auto;
+}
+:root.large-text .screen-setup > .setup-panel {
+  overflow: visible;
+}
+:root.large-text .screen-setup .steps > button {
+  justify-content: flex-start;
+}
+:root.large-text .screen-setup .step-number {
+  width: 1.6em;
+  height: 1.6em;
+}
+:root.large-text .setup-panel .add-button {
+  width: 100%;
+  min-width: 0;
+  white-space: normal;
+}
+:root.large-text .screen-setup .bottom-actions {
+  grid-template-columns: minmax(0, 1fr);
+}
+:root.large-text .screen-setup .bottom-actions .btn {
+  font-size: 1.05rem;
+}
+:root.large-text .setup-panel .player-list,
+:root.large-text .setup-panel .content-picker .subject-grid,
+:root.large-text .setup-panel .mode-grid,
+:root.large-text .setup-panel .mode-grid.two,
+:root.large-text .setup-panel .mode-grid:not(.two),
+:root.large-text .language-fields,
+:root.large-text .screen-settings .settings-actions,
+:root.large-text .screen-languages .language-grid {
+  grid-template-columns: minmax(0, 1fr);
+}
+:root.large-text .setup-panel .mode-grid:not(.two) .choice {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  text-align: start;
+}
+:root.large-text .setup-panel .difficulty-options .options {
+  display: flex;
+  flex-wrap: wrap;
+}
+:root.large-text .setup-panel .difficulty-options .option {
+  flex: 1 1 100%;
+}
+:root.keyboard-open .screen-setup {
+  gap: 6px;
+}
+:root.keyboard-open .screen-setup > .steps {
+  display: none;
+}
+:root.keyboard-open .screen-setup {
+  grid-template-rows: auto minmax(0, 1fr) auto;
+}
+
+/* Keep the next action reachable while long answers/recaps scroll above it. */
+.screen-game.phase-handoff, .screen-game.phase-reveal, .screen-game.phase-result {
+  padding-bottom: calc(var(--forward-height, 94px) + 24px + env(safe-area-inset-bottom));
+}
+.screen-game.phase-handoff [data-action="reveal"],
+.screen-game.phase-reveal [data-action="draw"],
+.screen-game.phase-result .result-actions {
+  position: fixed;
+  z-index: 20;
+  bottom: max(12px, env(safe-area-inset-bottom));
+  left: max(12px, env(safe-area-inset-left));
+  right: max(12px, env(safe-area-inset-right));
+  width: auto;
+  max-width: 680px;
+  margin: 0 auto;
+}
+.screen-game.phase-result .result-actions {
+  display: flex;
+  gap: 10px;
+  padding: 8px;
+  background: #e1f7f0;
+  border-radius: 22px;
+  box-shadow: 0 -4px 18px #174b601a;
+}
+.screen-game.phase-result .result-actions .primary { flex: 1; margin: 0; }
+.palette-sheet .swatches { display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); gap: 10px; }
+.palette-sheet .swatch { min-width: 44px; min-height: 44px; width: 100%; border: 2px solid #466675; }
+.share-card-preview { display: block; width: 100%; max-height: 50dvh; object-fit: contain; border-radius: 12px; }
+.share-answer { display: flex; align-items: center; justify-content: center; gap: 12px; min-height: 48px; font-weight: 700; }
+.share-answer input { width: 24px; height: 24px; accent-color: #247680; }
+.artwork-sheet { max-height: calc(var(--visible-height,100dvh) - 28px); overflow-y: auto; }
+.artwork-sheet .artwork-actions { position: sticky; bottom: 0; background: #fff; padding-block: 10px; }
+
+/* A transformed shell would make fixed actions scroll with its contents. */
+.screen-game.phase-handoff.screen-enter,
+.screen-game.phase-reveal.screen-enter,
+.screen-game.phase-result.screen-enter { animation: none; transform: none; }
+.screen-game.phase-handoff,
+.screen-game.phase-reveal,
+.screen-game.phase-result {
+  height: var(--visible-height,100dvh);
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.screen-game.phase-handoff > .stage,
+.screen-game.phase-reveal > .stage,
+.screen-game.phase-result > .stage {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scroll-padding-block: 12px;
+  width: 100%;
+}
+.screen-game.phase-handoff > header,
+.screen-game.phase-reveal > header,
+.screen-game.phase-result > header,
+.screen-game > .play-caption { flex: 0 0 auto; }
+.screen-game.phase-result > .score-details { flex: 0 0 auto; max-height: 18dvh; overflow-y: auto; margin-block: 4px; }
+.screen-game.phase-result > .end-action { flex: 0 0 auto; margin-block: 0; }
+.screen-game.phase-handoff.screen-enter > .stage,
+.screen-game.phase-reveal.screen-enter > .stage,
+.screen-game.phase-result.screen-enter > .stage { animation: none; transform: none; }
+.screen-game.phase-result .result-actions > .btn { width: auto; min-width: 0; margin: 0; }
+.screen-game.phase-result .result-actions > .text { flex: 0 0 auto; max-width: 35%; }
+@media (max-width: 380px) {
+  .palette-sheet .swatches { grid-template-columns: repeat(4,minmax(0,1fr)); }
+}
+/* Only the forward action floats; Undo remains with the result content. */
+.screen-game.phase-result .result-actions {
+  position: static; display: block; width: 100%; padding: 0;
+  background: none; box-shadow: none;
+}
+.screen-game.phase-result .result-actions > .primary {
+  position: fixed; z-index: 20;
+  bottom: max(12px,env(safe-area-inset-bottom));
+  left: max(12px,env(safe-area-inset-left));
+  right: max(12px,env(safe-area-inset-right));
+  width: auto; max-width: 680px; margin: 0 auto;
+}
+.screen-game.phase-result .result-actions > .text { max-width: none; margin: 6px auto; }
+
+/* Setup is the first place the player needs a permanently reachable action.
+   Keep controls in the visual viewport, including when the keyboard pans it. */
+.screen-setup,
+:root.large-text .screen-setup {
+  height: var(--visible-height,100dvh);
+  min-height: 0;
+  overflow: hidden;
+  grid-template-rows: auto auto minmax(0,1fr);
+  padding-bottom: calc(var(--forward-height,82px) + 26px + env(safe-area-inset-bottom));
+}
+.screen-setup > .setup-panel,
+:root.large-text .screen-setup > .setup-panel {
+  min-height: 0;
+  overflow-y: auto;
+}
+.screen-setup > .bottom-actions,
+:root.large-text .screen-setup > .bottom-actions {
+  position: fixed;
+  z-index: 30;
+  top: calc(var(--visible-top,0px) + var(--visible-height,100dvh) - var(--forward-height,82px) - max(10px,env(safe-area-inset-bottom)));
+  bottom: auto;
+  left: max(10px,env(safe-area-inset-left));
+  right: max(10px,env(safe-area-inset-right));
+  width: auto;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 22px;
+  background: #d6f2ec;
+  box-shadow: 0 -4px 18px #194b6226;
+  grid-template-columns: minmax(0,0.8fr) minmax(0,1.2fr);
+}
+.screen-setup > .bottom-actions > .btn { min-width: 0; }
+:root.keyboard-open .screen-setup { grid-template-rows: auto minmax(0,1fr); }
+.screen-intro,
+:root.large-text .screen-intro {
+  height: var(--visible-height,100dvh);
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  padding-bottom: calc(var(--forward-height,82px) + 26px + env(safe-area-inset-bottom));
+}
+.screen-intro > .intro-panel {
+  min-height: 0;
+  overflow-y: auto;
+  width: 100%;
+  animation: none;
+  transform: none;
+}
+.screen-intro [data-action="intro-start"] {
+  position: fixed;
+  z-index: 30;
+  top: calc(var(--visible-top,0px) + var(--visible-height,100dvh) - var(--forward-height,82px) - max(10px,env(safe-area-inset-bottom)));
+  bottom: auto;
+  left: max(12px,env(safe-area-inset-left));
+  right: max(12px,env(safe-area-inset-right));
+  width: auto;
+  min-width: 0;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+/* At accessibility sizes, scroll the entire setup above the fixed actions.
+   Header and step labels must not consume the panel's remaining height. */
+:root.large-text .screen-setup {
+  display: block;
+  height: calc(var(--visible-height,100dvh) - var(--forward-height,82px) - 26px - env(safe-area-inset-bottom));
+  overflow-y: auto;
+  padding-bottom: 16px;
+}
+:root.large-text .screen-setup > .setup-panel { overflow: visible; margin-top: 12px; }
+:root.large-text .screen-setup > .steps { margin-top: 12px; }
+@media (max-width: 480px) {
+  :root.large-text .screen-setup > .bottom-actions { grid-template-columns: minmax(0,1fr); }
+  :root.large-text .screen-setup > .bottom-actions .btn > span { overflow-wrap: normal; }
+}
+
+/* Preview the actual queue, not a promise of equal personal turns in odd teams. */
+.team-turn-preview { margin-block: 12px; text-align: start; }
+.team-turn-preview ul { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 6px 16px; }
+.team-turn-preview li { display: flex; justify-content: space-between; gap: 8px; min-width: 0; }
+.team-turn-preview li span { overflow-wrap: anywhere; }
+.team-turn-preview li strong { flex: none; }
+
+/* Keep all live drawing actions above the home indicator on short phones. */
+@media (orientation: landscape) and (max-height: 500px) {
+  .phase-drawing .play-sidebar { gap: 4px; padding: 4px; }
+  .phase-drawing .timer { flex: 0 0 auto; }
+  .phase-drawing #timer { min-height: 44px; display: flex; align-items: center; justify-content: center; gap: 8px; }
+  .phase-drawing #timer strong { font-size: 1.7rem; line-height: 1; }
+  .phase-drawing #timer small { margin: 0; }
+  .phase-drawing .time-track { flex: 0 0 5px; margin: 0; }
+  .phase-drawing .play-sidebar > .btn,
+  .phase-drawing .play-sidebar > .peek { min-height: 44px; flex-shrink: 0; padding-block: 6px; }
+  .phase-drawing .compact-tools { padding-block: 2px; }
+  .palette-sheet { max-height: calc(100dvh - max(12px,env(safe-area-inset-top)) - max(12px,env(safe-area-inset-bottom))); }
+  .palette-sheet > h2 { margin-block: 0 4px; }
+  .palette-sheet > p { margin-block: 4px; }
+  .palette-sheet .canvas-tools { gap: 8px; padding-block: 4px; }
+  .palette-sheet .swatches { display: grid; grid-template-columns: repeat(6,44px); gap: 4px; }
+  .palette-sheet > .btn { margin-top: 8px; min-height: 44px; }
+}
+@media (orientation: landscape) and (max-height: 500px) {
+  .palette-sheet { width: min(700px,calc(100vw - env(safe-area-inset-left) - env(safe-area-inset-right) - 24px)); padding: 12px; }
+  .palette-sheet .canvas-tools { display: grid; grid-template-columns: 284px minmax(0,1fr); align-items: center; padding: 4px; }
+  .palette-sheet .tools { display: grid; grid-template-columns: repeat(2,minmax(44px,1fr)); gap: 4px; }
+  .palette-sheet .tools [data-action="eraser"] { grid-column: auto; }
+  .palette-sheet .tool { min-height: 44px; padding: 4px; }
+}
+@media (orientation: landscape) and (max-height: 500px) {
+  .palette-sheet > h2 { font-size: 24px; line-height: 1.15; }
+  .palette-sheet > p { font-size: 16px; line-height: 1.25; }
+  .palette-sheet > .btn { padding-block: 8px; margin-bottom: 0; }
+}
+
+/* Device review: sections have one reading edge; long values get a full row. */
+.setup-panel .setup-section { border-top: 1px solid #b9d5d5; margin-top: 18px; padding-top: 16px; text-align: start; }
+.setup-panel .setup-section > h2 { margin: 0 0 10px; text-align: start; }
+.setup-panel .setup-section > p { margin-block: 10px 0; }
+.setup-panel .language-fields { grid-template-columns: 1fr; gap: 12px; }
+.setup-panel .language-fields label { text-align: start; display: grid; min-width: 0; }
+.setup-panel .language-fields select { width: 100%; }
+.setup-panel .active-card-pair { text-align: start; margin: 0 0 12px; }
+.setup-panel .pool-capacity { align-items: stretch; }
+.setup-panel .pool-capacity > p { display: flex; flex-direction: column; justify-content: space-between; gap: 6px; }
+.ready-summary { text-align: start; border-top: 1px solid #b9d5d5; margin-top: 16px; padding-top: 8px; }
+.setup-step-3 .summary-grid { gap: 0 16px; }
+.setup-step-3 .summary-grid p { margin: 0; padding: 10px 0; border-bottom: 1px solid #d7e6e6; }
+.setup-step-3 .summary-grid strong { overflow-wrap: normal; word-break: normal; }
+.summary-detail { padding-block: 12px; border-bottom: 1px solid #d7e6e6; }
+.summary-detail > span { display: block; color: #526776; font-size: .82rem; margin-bottom: 6px; }
+.summary-detail > strong { display: block; line-height: 1.4; text-wrap: pretty; }
+.summary-language-list { display: flex; flex-wrap: wrap; gap: 6px 14px; font-weight: 700; }
+.summary-language-list bdi { display: block; }
+.purchase-panel { text-align: start; }
+.purchase-panel .purchase-overview h1 { margin: 0 0 20px; line-height: 1.2; text-wrap: balance; }
+.purchase-panel .purchase-overview p { margin: 12px 0; line-height: 1.45; }
+.purchase-panel .purchase-actions { display: grid; gap: 12px; padding-top: 16px; margin-top: 16px; border-top: 1px solid #b9d5d5; }
+.purchase-panel .purchase-actions .btn { margin: 0; width: 100%; }
+.purchase-panel .purchase-status { background: #edf7f5; border-inline-start: 4px solid #287b71; padding: 12px; margin: 16px 0 0; }
+@media (min-width: 760px) {
+ .setup-panel .language-fields { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+.setup-panel .setup-section { margin-top: 8px; padding-top: 8px; }
+.setup-panel .setup-section > h2 { margin-bottom: 8px; }
+.setup-panel .language-fields { gap: 6px; }
+.setup-panel .language-fields select { margin-top: 4px; }
+.setup-panel .pool-capacity { margin-block: 4px; }
+.setup-panel .pool-capacity > p { margin: 0; }
+.setup-panel .capacity-section > p { margin-block: 6px 0; }
+.setup-panel .pool-capacity { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 8px; }
+.setup-panel .pool-capacity > p { min-width: 0; display: grid; grid-template-rows: 1fr auto; gap: 2px; }
+
+/* TV connection/recovery must have a reachable action before any scrolling. */
+.shell.screen-tv, .shell.screen-tv-safe {
+  height: var(--visible-height,100dvh); min-height: 0; overflow: hidden;
+  display: flex; flex-direction: column; gap: 12px;
+  padding-bottom: calc(var(--forward-height,160px) + 24px + env(safe-area-inset-bottom));
+  animation: none; transform: none;
+}
+.screen-tv > header { flex: none; }
+.screen-tv > .tv-panel, .screen-tv-safe > .tv-panel {
+  min-height: 0; overflow-y: auto; flex: 1; margin: 0; width: 100%;
+}
+.screen-tv > .tv-actions, .screen-tv-safe > .tv-actions {
+  position: fixed; z-index: 30;
+  top: calc(var(--visible-top,0px) + var(--visible-height,100dvh) - var(--forward-height,160px) - max(10px,env(safe-area-inset-bottom)));
+  left: max(10px,env(safe-area-inset-left)); right: max(10px,env(safe-area-inset-right));
+  max-width: 940px; margin: 0 auto; padding: 8px; gap: 8px;
+  background: #d6f2ec; border-radius: 22px; box-shadow: 0 -4px 18px #194b6226;
+}
+.tv-actions .btn { min-height: 48px; margin: 0; line-height: 1.25; }
+@media (orientation: landscape) and (max-height: 500px) {
+ .screen-tv > .tv-actions, .screen-tv-safe > .tv-actions { grid-template-columns: repeat(3,minmax(0,1fr)); }
+}
+
+/* Team identity must remain readable over both licensed colored tags. */
+.team-chip.team-0, .team-chip.team-1,
+.team-badge.team-0, .team-badge.team-1 {
+  color: #fff; -webkit-text-fill-color: #fff;
+  text-shadow: 0 1px 2px #123d5499;
+  overflow-wrap: anywhere;
+}
+.team-name-editor { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin-block: 16px; text-align: start; }
+.team-name-editor label { min-width: 0; font-weight: 700; }
+.team-name-editor input { display: block; width: 100%; min-width: 0; margin-top: 6px; font-size: 18px; }
+@media (max-width: 430px) { .team-name-editor { grid-template-columns: 1fr; } }
+.shell.playing, .shell.playing canvas, .shell.playing img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none; user-select: none;
+}
+.shell.playing input { -webkit-user-select: text; user-select: text; -webkit-touch-callout: default; }
+#drawing-canvas { touch-action: none; }
+.team-chip { display: inline-block; max-width: 100%; line-height: 1.3; white-space: normal; }
+/* Old solid team fills must not show through the transparent tag corners. */
+.team-chip.team-0, .team-chip.team-1,
+.team-badge.team-0, .team-badge.team-1 { background: transparent; }
+
+/* Keep export controls reachable on iPad and short landscape viewports. */
+.artwork-sheet[open] { display: flex; flex-direction: column; max-height: calc(100dvh - 32px); overflow-y: auto; }
+.artwork-sheet .share-card-preview { flex: 1 1 auto; min-height: 60px; max-height: 38dvh; }
+.artwork-sheet .modal-heading, .artwork-sheet .share-answer, .artwork-sheet .artwork-actions { flex-shrink: 0; }
+.artwork-sheet .artwork-actions { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); position: sticky; bottom: 0; z-index: 2; }
+.screen-game.phase-result .result-actions { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); }
+.screen-game.phase-result .result-actions > .primary { grid-column: 1 / -1; }
+.screen-game.phase-result .result-actions > .btn { max-width: none; width: 100%; margin: 0; }
+@media (max-height: 500px) and (orientation: landscape) {
+ .screen-game.phase-result .result-actions { grid-template-columns: repeat(3,minmax(0,1fr)); }
+ .screen-game.phase-result .result-actions > .primary { grid-column: auto; }
+ .artwork-sheet .share-card-preview { max-height: 20dvh; }
+}

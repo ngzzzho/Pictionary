@@ -1,0 +1,31 @@
+{
+  "identifier": "1EB85057-3C01-4E6A-A2EA-C21674F59ABC",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "1.99",
+      "familyShareable": false,
+      "internalID": "1000001",
+      "localizations": [
+        {
+          "description": "All cards, custom topics and future content and feature updates. One purchase, no subscription.",
+          "displayName": "Full Game \u2014 Lifetime Unlock",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.local.familydraw.fullversion",
+      "referenceName": "Full Game Lifetime Unlock",
+      "type": "NonConsumable"
+    }
+  ],
+  "settings": {
+    "_failTransactionsEnabled": false,
+    "_locale": "en_US",
+    "_storefront": "USA"
+  },
+  "subscriptionGroups": [],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

@@ -1,0 +1,4790 @@
+{
+  "base": "zh",
+  "code": "zh-TW",
+  "words": {
+    "w:animals:rabbit": {
+      "source": "兔仔",
+      "text": "兔子"
+    },
+    "w:animals:koala": {
+      "source": "樹熊",
+      "text": "無尾熊"
+    },
+    "w:animals:monkey": {
+      "source": "馬騮",
+      "text": "猴子"
+    },
+    "w:animals:donkey": {
+      "source": "驢仔",
+      "text": "驢子"
+    },
+    "w:animals:octopus": {
+      "source": "八爪魚",
+      "text": "章魚"
+    },
+    "w:animals:mosquito": {
+      "source": "蚊",
+      "text": "蚊子"
+    },
+    "w:occupations:doctor": {
+      "source": "醫生",
+      "text": "醫師"
+    },
+    "w:occupations:surgeon": {
+      "source": "外科醫生",
+      "text": "外科醫師"
+    },
+    "w:occupations:pilot": {
+      "source": "機師",
+      "text": "飛行員"
+    },
+    "w:occupations:flight-attendant": {
+      "source": "空中服務員",
+      "text": "空服員"
+    },
+    "w:occupations:waiter": {
+      "source": "侍應",
+      "text": "服務生"
+    },
+    "w:occupations:plumber": {
+      "source": "水喉匠",
+      "text": "水管工"
+    },
+    "w:occupations:construction-worker": {
+      "source": "地盤工人",
+      "text": "建築工人"
+    },
+    "w:occupations:referee": {
+      "source": "球證",
+      "text": "裁判"
+    },
+    "w:occupations:taxi-driver": {
+      "source": "的士司機",
+      "text": "計程車司機"
+    },
+    "w:occupations:bus-driver": {
+      "source": "巴士司機",
+      "text": "公車司機"
+    },
+    "w:occupations:delivery-rider": {
+      "source": "外賣車手",
+      "text": "外送員"
+    },
+    "w:occupations:hairdresser": {
+      "source": "髮型師",
+      "text": "美髮師"
+    },
+    "w:sports:table-tennis": {
+      "source": "乒乓球",
+      "text": "桌球"
+    },
+    "w:sports:badminton": {
+      "source": "羽毛球",
+      "text": "羽球"
+    },
+    "w:sports:billiards": {
+      "source": "桌球",
+      "text": "撞球"
+    },
+    "w:sports:fencing": {
+      "source": "劍擊",
+      "text": "擊劍"
+    },
+    "w:sports:trampoline": {
+      "source": "彈床",
+      "text": "彈跳床"
+    },
+    "w:sports:cycling": {
+      "source": "踩單車",
+      "text": "騎腳踏車"
+    },
+    "w:sports:skateboarding": {
+      "source": "踩滑板",
+      "text": "玩滑板"
+    },
+    "w:sports:roller-skating": {
+      "source": "滾軸溜冰",
+      "text": "溜輪鞋"
+    },
+    "w:sports:surfing": {
+      "source": "滑浪",
+      "text": "衝浪"
+    },
+    "w:sports:swimming": {
+      "source": "游水",
+      "text": "游泳"
+    },
+    "w:sports:rock-climbing": {
+      "source": "攀石",
+      "text": "攀岩"
+    },
+    "w:sports:hiking": {
+      "source": "行山",
+      "text": "登山健行"
+    },
+    "w:sports:chess": {
+      "source": "國際象棋",
+      "text": "西洋棋"
+    },
+    "w:sports:bungee-jumping": {
+      "source": "笨豬跳",
+      "text": "高空彈跳"
+    },
+    "w:food:pizza": {
+      "source": "薄餅",
+      "text": "披薩"
+    },
+    "w:food:hamburger": {
+      "source": "漢堡包",
+      "text": "漢堡"
+    },
+    "w:food:sandwich": {
+      "source": "三文治",
+      "text": "三明治"
+    },
+    "w:food:toast": {
+      "source": "多士",
+      "text": "吐司"
+    },
+    "w:food:bacon": {
+      "source": "煙肉",
+      "text": "培根"
+    },
+    "w:food:sausage": {
+      "source": "腸仔",
+      "text": "香腸"
+    },
+    "w:food:spaghetti": {
+      "source": "意大利長麵",
+      "text": "義大利長麵"
+    },
+    "w:food:pancake": {
+      "source": "班戟",
+      "text": "美式鬆餅"
+    },
+    "w:food:waffle": {
+      "source": "窩夫",
+      "text": "格子鬆餅"
+    },
+    "w:food:donut": {
+      "source": "冬甩",
+      "text": "甜甜圈"
+    },
+    "w:food:cookie": {
+      "source": "曲奇",
+      "text": "餅乾"
+    },
+    "w:food:cupcake": {
+      "source": "紙杯蛋糕",
+      "text": "杯子蛋糕"
+    },
+    "w:food:chocolate": {
+      "source": "朱古力",
+      "text": "巧克力"
+    },
+    "w:food:lollipop": {
+      "source": "波板糖",
+      "text": "棒棒糖"
+    },
+    "w:food:ice-cream": {
+      "source": "雪糕",
+      "text": "冰淇淋"
+    },
+    "w:food:popsicle": {
+      "source": "雪條",
+      "text": "冰棒"
+    },
+    "w:food:jelly": {
+      "source": "啫喱",
+      "text": "果凍"
+    },
+    "w:food:popcorn": {
+      "source": "爆谷",
+      "text": "爆米花"
+    },
+    "w:food:potato-chips": {
+      "source": "薯片",
+      "text": "洋芋片"
+    },
+    "w:food:gummy-bear": {
+      "source": "熊仔糖",
+      "text": "小熊軟糖"
+    },
+    "w:food:chewing-gum": {
+      "source": "香口膠",
+      "text": "口香糖"
+    },
+    "w:food:honey": {
+      "source": "蜜糖",
+      "text": "蜂蜜"
+    },
+    "w:food:cheese": {
+      "source": "芝士",
+      "text": "起司"
+    },
+    "w:food:orange": {
+      "source": "橙",
+      "text": "柳橙"
+    },
+    "w:food:grapes": {
+      "source": "提子",
+      "text": "葡萄"
+    },
+    "w:food:strawberry": {
+      "source": "士多啤梨",
+      "text": "草莓"
+    },
+    "w:food:cherry": {
+      "source": "車厘子",
+      "text": "櫻桃"
+    },
+    "w:food:pineapple": {
+      "source": "菠蘿",
+      "text": "鳳梨"
+    },
+    "w:food:potato": {
+      "source": "薯仔",
+      "text": "馬鈴薯"
+    },
+    "w:food:carrot": {
+      "source": "紅蘿蔔",
+      "text": "胡蘿蔔"
+    },
+    "w:food:corn": {
+      "source": "粟米",
+      "text": "玉米"
+    },
+    "w:food:broccoli": {
+      "source": "西蘭花",
+      "text": "青花菜"
+    },
+    "w:food:ketchup": {
+      "source": "茄汁",
+      "text": "番茄醬"
+    },
+    "w:food:steak": {
+      "source": "牛扒",
+      "text": "牛排"
+    },
+    "w:things:chair": {
+      "source": "櫈",
+      "text": "椅子"
+    },
+    "w:things:table": {
+      "source": "檯",
+      "text": "桌子"
+    },
+    "w:things:blanket": {
+      "source": "毛氈",
+      "text": "毯子"
+    },
+    "w:things:sofa": {
+      "source": "梳化",
+      "text": "沙發"
+    },
+    "w:things:mirror": {
+      "source": "鏡",
+      "text": "鏡子"
+    },
+    "w:things:key": {
+      "source": "鎖匙",
+      "text": "鑰匙"
+    },
+    "w:things:umbrella": {
+      "source": "雨遮",
+      "text": "雨傘"
+    },
+    "w:things:backpack": {
+      "source": "背囊",
+      "text": "背包"
+    },
+    "w:things:eraser": {
+      "source": "擦膠",
+      "text": "橡皮擦"
+    },
+    "w:things:ruler": {
+      "source": "間尺",
+      "text": "直尺"
+    },
+    "w:things:microphone": {
+      "source": "咪高峰",
+      "text": "麥克風"
+    },
+    "w:things:robot": {
+      "source": "機械人",
+      "text": "機器人"
+    },
+    "w:things:light-bulb": {
+      "source": "燈膽",
+      "text": "燈泡"
+    },
+    "w:things:flashlight": {
+      "source": "電筒",
+      "text": "手電筒"
+    },
+    "w:things:refrigerator": {
+      "source": "雪櫃",
+      "text": "冰箱"
+    },
+    "w:things:kettle": {
+      "source": "水煲",
+      "text": "煮水壺"
+    },
+    "w:things:cup": {
+      "source": "杯",
+      "text": "杯子"
+    },
+    "w:things:plate": {
+      "source": "碟",
+      "text": "盤子"
+    },
+    "w:things:fork": {
+      "source": "叉",
+      "text": "叉子"
+    },
+    "w:things:spoon": {
+      "source": "匙羹",
+      "text": "湯匙"
+    },
+    "w:things:straw": {
+      "source": "飲管",
+      "text": "吸管"
+    },
+    "w:things:bottle": {
+      "source": "水樽",
+      "text": "水瓶"
+    },
+    "w:things:lunchbox": {
+      "source": "飯盒",
+      "text": "便當盒"
+    },
+    "w:things:soap": {
+      "source": "番梘",
+      "text": "肥皂"
+    },
+    "w:things:comb": {
+      "source": "梳",
+      "text": "梳子"
+    },
+    "w:things:scarf": {
+      "source": "頸巾",
+      "text": "圍巾"
+    },
+    "w:things:dress": {
+      "source": "連身裙",
+      "text": "洋裝"
+    },
+    "w:things:necklace": {
+      "source": "頸鏈",
+      "text": "項鍊"
+    },
+    "w:things:wallet": {
+      "source": "銀包",
+      "text": "錢包"
+    },
+    "w:things:piggy-bank": {
+      "source": "錢罌",
+      "text": "撲滿"
+    },
+    "w:things:teddy-bear": {
+      "source": "熊公仔",
+      "text": "泰迪熊"
+    },
+    "w:things:puzzle": {
+      "source": "砌圖",
+      "text": "拼圖"
+    },
+    "w:things:dice": {
+      "source": "骰仔",
+      "text": "骰子"
+    },
+    "w:things:playing-cards": {
+      "source": "啤牌",
+      "text": "撲克牌"
+    },
+    "w:things:swing": {
+      "source": "韆鞦",
+      "text": "鞦韆"
+    },
+    "w:things:slide": {
+      "source": "滑梯",
+      "text": "溜滑梯"
+    },
+    "w:things:seesaw": {
+      "source": "搖搖板",
+      "text": "翹翹板"
+    },
+    "w:things:bus": {
+      "source": "巴士",
+      "text": "公車"
+    },
+    "w:things:tram": {
+      "source": "電車",
+      "text": "路面電車"
+    },
+    "w:things:taxi": {
+      "source": "的士",
+      "text": "計程車"
+    },
+    "w:things:bicycle": {
+      "source": "單車",
+      "text": "腳踏車"
+    },
+    "w:things:motorcycle": {
+      "source": "電單車",
+      "text": "機車"
+    },
+    "w:things:digger": {
+      "source": "挖泥車",
+      "text": "挖土機"
+    },
+    "w:things:ladder": {
+      "source": "梯",
+      "text": "梯子"
+    },
+    "w:things:hammer": {
+      "source": "鎚仔",
+      "text": "槌子"
+    },
+    "w:things:magnet": {
+      "source": "磁石",
+      "text": "磁鐵"
+    },
+    "w:things:elevator": {
+      "source": "升降機",
+      "text": "電梯"
+    },
+    "w:things:escalator": {
+      "source": "扶手電梯",
+      "text": "電扶梯"
+    },
+    "w:hongkong:wet-market": {
+      "source": "街市",
+      "text": "傳統市場"
+    },
+    "w:hongkong:double-decker-bus": {
+      "source": "雙層巴士",
+      "text": "雙層公車"
+    },
+    "w:actions:sneezing": {
+      "source": "打乞嗤",
+      "text": "打噴嚏"
+    },
+    "w:actions:yawning": {
+      "source": "打呵欠",
+      "text": "打哈欠"
+    },
+    "w:actions:crying": {
+      "source": "喊",
+      "text": "哭泣"
+    },
+    "w:actions:washing-face": {
+      "source": "洗面",
+      "text": "洗臉"
+    },
+    "w:actions:taking-a-shower": {
+      "source": "沖涼",
+      "text": "淋浴"
+    },
+    "w:actions:sleeping": {
+      "source": "瞓覺",
+      "text": "睡覺"
+    },
+    "w:actions:waking-up": {
+      "source": "起身",
+      "text": "起床"
+    },
+    "w:actions:driving": {
+      "source": "揸車",
+      "text": "開車"
+    },
+    "w:actions:ironing": {
+      "source": "燙衫",
+      "text": "燙衣服"
+    },
+    "w:actions:hanging-clothes": {
+      "source": "晾衫",
+      "text": "晾衣服"
+    },
+    "w:actions:watering-plants": {
+      "source": "淋花",
+      "text": "澆花"
+    },
+    "w:actions:walking-the-dog": {
+      "source": "放狗",
+      "text": "遛狗"
+    },
+    "w:actions:playing-video-games": {
+      "source": "打機",
+      "text": "玩電玩"
+    },
+    "w:actions:watching-tv": {
+      "source": "睇電視",
+      "text": "看電視"
+    },
+    "w:actions:reading-a-book": {
+      "source": "睇書",
+      "text": "看書"
+    },
+    "w:actions:hugging": {
+      "source": "攬攬",
+      "text": "擁抱"
+    },
+    "w:actions:thumbs-up": {
+      "source": "畀個讚",
+      "text": "比讚"
+    },
+    "w:actions:packing-schoolbag": {
+      "source": "執書包",
+      "text": "整理書包"
+    },
+    "w:nature:rain": {
+      "source": "落雨",
+      "text": "下雨"
+    },
+    "w:nature:puddle": {
+      "source": "水氹",
+      "text": "水窪"
+    },
+    "w:festivals:firecracker": {
+      "source": "炮仗",
+      "text": "鞭炮"
+    },
+    "w:festivals:fireworks": {
+      "source": "煙花",
+      "text": "煙火"
+    },
+    "w:festivals:easter-egg": {
+      "source": "復活蛋",
+      "text": "復活節彩蛋"
+    },
+    "w:fairytales:magic-carpet": {
+      "source": "魔氈",
+      "text": "魔毯"
+    },
+    "w:fairytales:queen": {
+      "source": "皇后",
+      "text": "王后"
+    },
+    "n:avocado": {
+      "source": "牛油果",
+      "text": "酪梨"
+    },
+    "n:cucumber": {
+      "source": "青瓜",
+      "text": "小黃瓜"
+    },
+    "n:onion": {
+      "source": "洋葱",
+      "text": "洋蔥"
+    },
+    "n:pretzel": {
+      "source": "扭結餅",
+      "text": "蝴蝶脆餅"
+    },
+    "n:croissant": {
+      "source": "牛角包",
+      "text": "可頌"
+    },
+    "n:ice-cream-sandwich": {
+      "source": "雪糕三文治",
+      "text": "冰淇淋三明治"
+    },
+    "n:zipper": {
+      "source": "拉鏈",
+      "text": "拉鍊"
+    },
+    "n:safety-pin": {
+      "source": "扣針",
+      "text": "安全別針"
+    },
+    "n:paper-clip": {
+      "source": "萬字夾",
+      "text": "迴紋針"
+    },
+    "n:spool-of-thread": {
+      "source": "線轆",
+      "text": "線軸"
+    },
+    "n:nesting-dolls": {
+      "source": "套娃",
+      "text": "俄羅斯娃娃"
+    },
+    "n:dustpan": {
+      "source": "垃圾鏟",
+      "text": "畚箕"
+    },
+    "n:colander": {
+      "source": "隔水篩",
+      "text": "濾水籃"
+    },
+    "n:oven-glove": {
+      "source": "焗爐手套",
+      "text": "烤箱手套"
+    },
+    "n:rubber-duck": {
+      "source": "膠鴨仔",
+      "text": "橡皮小鴨"
+    },
+    "n:flipping-a-pancake": {
+      "source": "翻班戟",
+      "text": "翻鬆餅"
+    },
+    "n:catching-a-ball": {
+      "source": "接波",
+      "text": "接球"
+    },
+    "n:sticking-out-your-tongue": {
+      "source": "伸脷",
+      "text": "吐舌頭"
+    },
+    "n:looking-through-a-keyhole": {
+      "source": "從鎖匙孔偷看",
+      "text": "從鑰匙孔偷看"
+    },
+    "n:making-a-hand-shadow": {
+      "source": "做手影",
+      "text": "玩手影"
+    },
+    "n:sack-race": {
+      "source": "跳麻包袋比賽",
+      "text": "跳麻布袋比賽"
+    },
+    "n:three-legged-race": {
+      "source": "二人三足",
+      "text": "兩人三腳"
+    },
+    "n:egg-and-spoon-race": {
+      "source": "匙羹運蛋比賽",
+      "text": "湯匙運蛋比賽"
+    },
+    "n:ice-cream-seller": {
+      "source": "雪糕小販",
+      "text": "冰淇淋小販"
+    },
+    "n:crossing-guard": {
+      "source": "學童過路巡邏員",
+      "text": "交通導護員"
+    },
+    "n:maracas": {
+      "source": "沙鎚",
+      "text": "沙鈴"
+    },
+    "n:baked-potato": {
+      "source": "焗薯仔",
+      "text": "烤馬鈴薯"
+    },
+    "n:fruit-tart": {
+      "source": "水果撻",
+      "text": "水果塔"
+    },
+    "n:changing-a-tyre": {
+      "source": "換車胎",
+      "text": "換輪胎"
+    },
+    "n:submarine": {
+      "source": "潛艇",
+      "text": "潛水艇"
+    },
+    "n:tractor": {
+      "source": "拖拉機",
+      "text": "曳引機"
+    },
+    "n:roller-coaster": {
+      "source": "過山車",
+      "text": "雲霄飛車"
+    },
+    "n:supermarket": {
+      "source": "超級市場",
+      "text": "超市"
+    },
+    "n:confetti": {
+      "source": "彩紙碎",
+      "text": "彩紙屑"
+    },
+    "n:blowing-up-a-balloon": {
+      "source": "吹脹氣球",
+      "text": "吹氣球"
+    },
+    "n:parade-float": {
+      "source": "巡遊花車",
+      "text": "遊行花車"
+    },
+    "n:guitar": {
+      "source": "結他",
+      "text": "吉他"
+    },
+    "n:saxophone": {
+      "source": "色士風",
+      "text": "薩克斯風"
+    },
+    "n:vacuum-cleaner": {
+      "source": "吸塵機",
+      "text": "吸塵器"
+    },
+    "n:hairdryer": {
+      "source": "風筒",
+      "text": "吹風機"
+    },
+    "n:sewing-machine": {
+      "source": "衣車",
+      "text": "縫紉機"
+    },
+    "n:stapler": {
+      "source": "釘書機",
+      "text": "訂書機"
+    },
+    "n:screwdriver": {
+      "source": "螺絲批",
+      "text": "螺絲起子"
+    },
+    "n:wrench": {
+      "source": "士巴拿",
+      "text": "扳手"
+    },
+    "n:pliers": {
+      "source": "鉗",
+      "text": "鉗子"
+    },
+    "n:shovel": {
+      "source": "鏟",
+      "text": "鏟子"
+    },
+    "n:rake": {
+      "source": "耙",
+      "text": "耙子"
+    },
+    "n:yo-yo": {
+      "source": "搖搖",
+      "text": "溜溜球"
+    },
+    "n:walnut": {
+      "source": "合桃",
+      "text": "核桃"
+    },
+    "n:taco": {
+      "source": "墨西哥夾餅",
+      "text": "塔可餅"
+    },
+    "n:toilet-paper": {
+      "source": "廁紙",
+      "text": "衛生紙"
+    },
+    "n:knitting": {
+      "source": "織毛冷",
+      "text": "打毛線"
+    },
+    "n:handstand": {
+      "source": "手倒立",
+      "text": "倒立"
+    },
+    "n:shaving": {
+      "source": "剃鬚",
+      "text": "刮鬍子"
+    },
+    "n:arm-wrestling": {
+      "source": "拗手瓜",
+      "text": "比腕力"
+    },
+    "n:railway-track": {
+      "source": "路軌",
+      "text": "鐵軌"
+    },
+    "n:petrol-station": {
+      "source": "油站",
+      "text": "加油站"
+    },
+    "n:cinema": {
+      "source": "戲院",
+      "text": "電影院"
+    },
+    "n:nose": {
+      "source": "鼻",
+      "text": "鼻子"
+    },
+    "n:cockroach": {
+      "source": "曱甴",
+      "text": "蟑螂"
+    },
+    "n:fly-insect": {
+      "source": "烏蠅",
+      "text": "蒼蠅"
+    },
+    "n:bell-pepper": {
+      "source": "燈籠椒",
+      "text": "甜椒"
+    },
+    "n:celery": {
+      "source": "西芹",
+      "text": "西洋芹"
+    },
+    "n:knee": {
+      "source": "膝頭",
+      "text": "膝蓋"
+    },
+    "n:eyelashes": {
+      "source": "眼睫毛",
+      "text": "睫毛"
+    },
+    "n:fingernail": {
+      "source": "手指甲",
+      "text": "指甲"
+    },
+    "n:bus-stop": {
+      "source": "巴士站",
+      "text": "公車站"
+    },
+    "n:hair-salon": {
+      "source": "髮型屋",
+      "text": "美髮店"
+    },
+    "n:roundabout": {
+      "source": "迴旋處",
+      "text": "圓環"
+    },
+    "n:traffic-cone": {
+      "source": "雪糕筒",
+      "text": "交通錐"
+    },
+    "n:street-lamp": {
+      "source": "街燈",
+      "text": "路燈"
+    },
+    "n:jet-ski": {
+      "source": "水上電單車",
+      "text": "水上摩托車"
+    },
+    "n:forklift": {
+      "source": "叉式起重車",
+      "text": "堆高機"
+    },
+    "n:snowmobile": {
+      "source": "雪地電單車",
+      "text": "雪地摩托車"
+    },
+    "n:water-slide": {
+      "source": "滑水梯",
+      "text": "滑水道"
+    },
+    "n:zombie": {
+      "source": "喪屍",
+      "text": "殭屍"
+    },
+    "n:mime": {
+      "source": "默劇演員",
+      "text": "默劇表演者"
+    },
+    "w:animals:dog": {
+      "source": "狗",
+      "text": "狗"
+    },
+    "w:animals:cat": {
+      "source": "貓",
+      "text": "貓"
+    },
+    "w:animals:hamster": {
+      "source": "倉鼠",
+      "text": "倉鼠"
+    },
+    "w:animals:mouse": {
+      "source": "老鼠",
+      "text": "老鼠"
+    },
+    "w:animals:squirrel": {
+      "source": "松鼠",
+      "text": "松鼠"
+    },
+    "w:animals:hedgehog": {
+      "source": "刺蝟",
+      "text": "刺蝟"
+    },
+    "w:animals:fox": {
+      "source": "狐狸",
+      "text": "狐狸"
+    },
+    "w:animals:wolf": {
+      "source": "狼",
+      "text": "狼"
+    },
+    "w:animals:bear": {
+      "source": "熊",
+      "text": "熊"
+    },
+    "w:animals:polar-bear": {
+      "source": "北極熊",
+      "text": "北極熊"
+    },
+    "w:animals:panda": {
+      "source": "熊貓",
+      "text": "熊貓"
+    },
+    "w:animals:kangaroo": {
+      "source": "袋鼠",
+      "text": "袋鼠"
+    },
+    "w:animals:gorilla": {
+      "source": "大猩猩",
+      "text": "大猩猩"
+    },
+    "w:animals:sloth": {
+      "source": "樹懶",
+      "text": "樹懶"
+    },
+    "w:animals:elephant": {
+      "source": "大象",
+      "text": "大象"
+    },
+    "w:animals:giraffe": {
+      "source": "長頸鹿",
+      "text": "長頸鹿"
+    },
+    "w:animals:zebra": {
+      "source": "斑馬",
+      "text": "斑馬"
+    },
+    "w:animals:lion": {
+      "source": "獅子",
+      "text": "獅子"
+    },
+    "w:animals:tiger": {
+      "source": "老虎",
+      "text": "老虎"
+    },
+    "w:animals:leopard": {
+      "source": "豹",
+      "text": "豹"
+    },
+    "w:animals:cheetah": {
+      "source": "獵豹",
+      "text": "獵豹"
+    },
+    "w:animals:rhino": {
+      "source": "犀牛",
+      "text": "犀牛"
+    },
+    "w:animals:hippo": {
+      "source": "河馬",
+      "text": "河馬"
+    },
+    "w:animals:camel": {
+      "source": "駱駝",
+      "text": "駱駝"
+    },
+    "w:animals:deer": {
+      "source": "鹿",
+      "text": "鹿"
+    },
+    "w:animals:horse": {
+      "source": "馬",
+      "text": "馬"
+    },
+    "w:animals:cow": {
+      "source": "牛",
+      "text": "牛"
+    },
+    "w:animals:sheep": {
+      "source": "綿羊",
+      "text": "綿羊"
+    },
+    "w:animals:goat": {
+      "source": "山羊",
+      "text": "山羊"
+    },
+    "w:animals:pig": {
+      "source": "豬",
+      "text": "豬"
+    },
+    "w:animals:chicken": {
+      "source": "雞",
+      "text": "雞"
+    },
+    "w:animals:rooster": {
+      "source": "公雞",
+      "text": "公雞"
+    },
+    "w:animals:duck": {
+      "source": "鴨",
+      "text": "鴨"
+    },
+    "w:animals:goose": {
+      "source": "鵝",
+      "text": "鵝"
+    },
+    "w:animals:turkey": {
+      "source": "火雞",
+      "text": "火雞"
+    },
+    "w:animals:owl": {
+      "source": "貓頭鷹",
+      "text": "貓頭鷹"
+    },
+    "w:animals:eagle": {
+      "source": "老鷹",
+      "text": "老鷹"
+    },
+    "w:animals:parrot": {
+      "source": "鸚鵡",
+      "text": "鸚鵡"
+    },
+    "w:animals:penguin": {
+      "source": "企鵝",
+      "text": "企鵝"
+    },
+    "w:animals:flamingo": {
+      "source": "紅鶴",
+      "text": "紅鶴"
+    },
+    "w:animals:ostrich": {
+      "source": "鴕鳥",
+      "text": "鴕鳥"
+    },
+    "w:animals:peacock": {
+      "source": "孔雀",
+      "text": "孔雀"
+    },
+    "w:animals:swan": {
+      "source": "天鵝",
+      "text": "天鵝"
+    },
+    "w:animals:bat": {
+      "source": "蝙蝠",
+      "text": "蝙蝠"
+    },
+    "w:animals:snake": {
+      "source": "蛇",
+      "text": "蛇"
+    },
+    "w:animals:lizard": {
+      "source": "蜥蜴",
+      "text": "蜥蜴"
+    },
+    "w:animals:crocodile": {
+      "source": "鱷魚",
+      "text": "鱷魚"
+    },
+    "w:animals:turtle": {
+      "source": "烏龜",
+      "text": "烏龜"
+    },
+    "w:animals:frog": {
+      "source": "青蛙",
+      "text": "青蛙"
+    },
+    "w:animals:dinosaur": {
+      "source": "恐龍",
+      "text": "恐龍"
+    },
+    "w:animals:dragon": {
+      "source": "龍",
+      "text": "龍"
+    },
+    "w:animals:unicorn": {
+      "source": "獨角獸",
+      "text": "獨角獸"
+    },
+    "w:animals:shark": {
+      "source": "鯊魚",
+      "text": "鯊魚"
+    },
+    "w:animals:whale": {
+      "source": "鯨魚",
+      "text": "鯨魚"
+    },
+    "w:animals:dolphin": {
+      "source": "海豚",
+      "text": "海豚"
+    },
+    "w:animals:seal": {
+      "source": "海豹",
+      "text": "海豹"
+    },
+    "w:animals:walrus": {
+      "source": "海象",
+      "text": "海象"
+    },
+    "w:animals:jellyfish": {
+      "source": "水母",
+      "text": "水母"
+    },
+    "w:animals:crab": {
+      "source": "蟹",
+      "text": "蟹"
+    },
+    "w:animals:lobster": {
+      "source": "龍蝦",
+      "text": "龍蝦"
+    },
+    "w:animals:seahorse": {
+      "source": "海馬",
+      "text": "海馬"
+    },
+    "w:animals:starfish": {
+      "source": "海星",
+      "text": "海星"
+    },
+    "w:animals:goldfish": {
+      "source": "金魚",
+      "text": "金魚"
+    },
+    "w:animals:snail": {
+      "source": "蝸牛",
+      "text": "蝸牛"
+    },
+    "w:animals:butterfly": {
+      "source": "蝴蝶",
+      "text": "蝴蝶"
+    },
+    "w:animals:caterpillar": {
+      "source": "毛毛蟲",
+      "text": "毛毛蟲"
+    },
+    "w:animals:bee": {
+      "source": "蜜蜂",
+      "text": "蜜蜂"
+    },
+    "w:animals:ant": {
+      "source": "螞蟻",
+      "text": "螞蟻"
+    },
+    "w:animals:spider": {
+      "source": "蜘蛛",
+      "text": "蜘蛛"
+    },
+    "w:animals:ladybug": {
+      "source": "瓢蟲",
+      "text": "瓢蟲"
+    },
+    "w:animals:worm": {
+      "source": "蚯蚓",
+      "text": "蚯蚓"
+    },
+    "w:occupations:nurse": {
+      "source": "護士",
+      "text": "護士"
+    },
+    "w:occupations:dentist": {
+      "source": "牙醫",
+      "text": "牙醫"
+    },
+    "w:occupations:veterinarian": {
+      "source": "獸醫",
+      "text": "獸醫"
+    },
+    "w:occupations:teacher": {
+      "source": "老師",
+      "text": "老師"
+    },
+    "w:occupations:scientist": {
+      "source": "科學家",
+      "text": "科學家"
+    },
+    "w:occupations:astronaut": {
+      "source": "太空人",
+      "text": "太空人"
+    },
+    "w:occupations:sailor": {
+      "source": "水手",
+      "text": "水手"
+    },
+    "w:occupations:ship-captain": {
+      "source": "船長",
+      "text": "船長"
+    },
+    "w:occupations:soldier": {
+      "source": "軍人",
+      "text": "軍人"
+    },
+    "w:occupations:firefighter": {
+      "source": "消防員",
+      "text": "消防員"
+    },
+    "w:occupations:police-officer": {
+      "source": "警察",
+      "text": "警察"
+    },
+    "w:occupations:detective": {
+      "source": "偵探",
+      "text": "偵探"
+    },
+    "w:occupations:spy": {
+      "source": "間諜",
+      "text": "間諜"
+    },
+    "w:occupations:judge": {
+      "source": "法官",
+      "text": "法官"
+    },
+    "w:occupations:chef": {
+      "source": "廚師",
+      "text": "廚師"
+    },
+    "w:occupations:baker": {
+      "source": "麵包師傅",
+      "text": "麵包師傅"
+    },
+    "w:occupations:butcher": {
+      "source": "肉販",
+      "text": "肉販"
+    },
+    "w:occupations:farmer": {
+      "source": "農夫",
+      "text": "農夫"
+    },
+    "w:occupations:fisherman": {
+      "source": "漁夫",
+      "text": "漁夫"
+    },
+    "w:occupations:gardener": {
+      "source": "園丁",
+      "text": "園丁"
+    },
+    "w:occupations:florist": {
+      "source": "花藝師",
+      "text": "花藝師"
+    },
+    "w:occupations:carpenter": {
+      "source": "木匠",
+      "text": "木匠"
+    },
+    "w:occupations:electrician": {
+      "source": "電工",
+      "text": "電工"
+    },
+    "w:occupations:mechanic": {
+      "source": "修車師傅",
+      "text": "修車師傅"
+    },
+    "w:occupations:miner": {
+      "source": "礦工",
+      "text": "礦工"
+    },
+    "w:occupations:blacksmith": {
+      "source": "鐵匠",
+      "text": "鐵匠"
+    },
+    "w:occupations:beekeeper": {
+      "source": "養蜂人",
+      "text": "養蜂人"
+    },
+    "w:occupations:painter": {
+      "source": "畫家",
+      "text": "畫家"
+    },
+    "w:occupations:photographer": {
+      "source": "攝影師",
+      "text": "攝影師"
+    },
+    "w:occupations:writer": {
+      "source": "作家",
+      "text": "作家"
+    },
+    "w:occupations:actor": {
+      "source": "演員",
+      "text": "演員"
+    },
+    "w:occupations:singer": {
+      "source": "歌手",
+      "text": "歌手"
+    },
+    "w:occupations:dancer": {
+      "source": "舞蹈員",
+      "text": "舞蹈員"
+    },
+    "w:occupations:ballerina": {
+      "source": "芭蕾舞者",
+      "text": "芭蕾舞者"
+    },
+    "w:occupations:musician": {
+      "source": "音樂家",
+      "text": "音樂家"
+    },
+    "w:occupations:dj": {
+      "source": "唱片騎師",
+      "text": "唱片騎師"
+    },
+    "w:occupations:magician": {
+      "source": "魔術師",
+      "text": "魔術師"
+    },
+    "w:occupations:clown": {
+      "source": "小丑",
+      "text": "小丑"
+    },
+    "w:occupations:acrobat": {
+      "source": "雜技演員",
+      "text": "雜技演員"
+    },
+    "w:occupations:coach": {
+      "source": "教練",
+      "text": "教練"
+    },
+    "w:occupations:lifeguard": {
+      "source": "救生員",
+      "text": "救生員"
+    },
+    "w:occupations:train-driver": {
+      "source": "火車司機",
+      "text": "火車司機"
+    },
+    "w:occupations:mail-carrier": {
+      "source": "郵差",
+      "text": "郵差"
+    },
+    "w:occupations:librarian": {
+      "source": "圖書館管理員",
+      "text": "圖書館管理員"
+    },
+    "w:occupations:barber": {
+      "source": "理髮師",
+      "text": "理髮師"
+    },
+    "w:occupations:cashier": {
+      "source": "收銀員",
+      "text": "收銀員"
+    },
+    "w:occupations:zookeeper": {
+      "source": "動物園管理員",
+      "text": "動物園管理員"
+    },
+    "w:occupations:security-guard": {
+      "source": "保安員",
+      "text": "保全人員"
+    },
+    "w:occupations:cleaner": {
+      "source": "清潔工人",
+      "text": "清潔工人"
+    },
+    "w:occupations:programmer": {
+      "source": "程式員",
+      "text": "程式設計師"
+    },
+    "w:occupations:pirate": {
+      "source": "海盜",
+      "text": "海盜"
+    },
+    "w:occupations:ninja": {
+      "source": "忍者",
+      "text": "忍者"
+    },
+    "w:occupations:cowboy": {
+      "source": "牛仔",
+      "text": "牛仔"
+    },
+    "w:occupations:knight": {
+      "source": "騎士",
+      "text": "騎士"
+    },
+    "w:occupations:superhero": {
+      "source": "超級英雄",
+      "text": "超級英雄"
+    },
+    "w:occupations:wizard": {
+      "source": "魔法師",
+      "text": "魔法師"
+    },
+    "w:sports:soccer": {
+      "source": "足球",
+      "text": "足球"
+    },
+    "w:sports:basketball": {
+      "source": "籃球",
+      "text": "籃球"
+    },
+    "w:sports:baseball": {
+      "source": "棒球",
+      "text": "棒球"
+    },
+    "w:sports:tennis": {
+      "source": "網球",
+      "text": "網球"
+    },
+    "w:sports:volleyball": {
+      "source": "排球",
+      "text": "排球"
+    },
+    "w:sports:dodgeball": {
+      "source": "閃避球",
+      "text": "躲避球"
+    },
+    "w:sports:golf": {
+      "source": "高爾夫球",
+      "text": "高爾夫球"
+    },
+    "w:sports:bowling": {
+      "source": "保齡球",
+      "text": "保齡球"
+    },
+    "w:sports:darts": {
+      "source": "飛鏢",
+      "text": "飛鏢"
+    },
+    "w:sports:archery": {
+      "source": "射箭",
+      "text": "射箭"
+    },
+    "w:sports:boxing": {
+      "source": "拳擊",
+      "text": "拳擊"
+    },
+    "w:sports:karate": {
+      "source": "空手道",
+      "text": "空手道"
+    },
+    "w:sports:judo": {
+      "source": "柔道",
+      "text": "柔道"
+    },
+    "w:sports:taekwondo": {
+      "source": "跆拳道",
+      "text": "跆拳道"
+    },
+    "w:sports:kung-fu": {
+      "source": "功夫",
+      "text": "功夫"
+    },
+    "w:sports:wrestling": {
+      "source": "摔角",
+      "text": "摔角"
+    },
+    "w:sports:sumo-wrestling": {
+      "source": "相撲",
+      "text": "相撲"
+    },
+    "w:sports:weightlifting": {
+      "source": "舉重",
+      "text": "舉重"
+    },
+    "w:sports:gymnastics": {
+      "source": "體操",
+      "text": "體操"
+    },
+    "w:sports:yoga": {
+      "source": "瑜伽",
+      "text": "瑜伽"
+    },
+    "w:sports:running": {
+      "source": "跑步",
+      "text": "跑步"
+    },
+    "w:sports:hurdles": {
+      "source": "跨欄",
+      "text": "跨欄"
+    },
+    "w:sports:high-jump": {
+      "source": "跳高",
+      "text": "跳高"
+    },
+    "w:sports:long-jump": {
+      "source": "跳遠",
+      "text": "跳遠"
+    },
+    "w:sports:diving": {
+      "source": "跳水",
+      "text": "跳水"
+    },
+    "w:sports:sailing": {
+      "source": "帆船",
+      "text": "帆船"
+    },
+    "w:sports:rowing": {
+      "source": "划艇",
+      "text": "划艇"
+    },
+    "w:sports:kayaking": {
+      "source": "獨木舟",
+      "text": "獨木舟"
+    },
+    "w:sports:fishing": {
+      "source": "釣魚",
+      "text": "釣魚"
+    },
+    "w:sports:ice-skating": {
+      "source": "溜冰",
+      "text": "溜冰"
+    },
+    "w:sports:figure-skating": {
+      "source": "花式溜冰",
+      "text": "花式溜冰"
+    },
+    "w:sports:ice-hockey": {
+      "source": "冰上曲棍球",
+      "text": "冰上曲棍球"
+    },
+    "w:sports:skiing": {
+      "source": "滑雪",
+      "text": "滑雪"
+    },
+    "w:sports:snowboarding": {
+      "source": "滑雪板",
+      "text": "滑雪板"
+    },
+    "w:sports:sledding": {
+      "source": "玩雪橇",
+      "text": "玩雪橇"
+    },
+    "w:sports:horse-riding": {
+      "source": "騎馬",
+      "text": "騎馬"
+    },
+    "w:sports:frisbee": {
+      "source": "飛盤",
+      "text": "飛盤"
+    },
+    "w:sports:tug-of-war": {
+      "source": "拔河",
+      "text": "拔河"
+    },
+    "w:sports:jump-rope": {
+      "source": "跳繩",
+      "text": "跳繩"
+    },
+    "w:sports:hula-hoop": {
+      "source": "呼啦圈",
+      "text": "呼啦圈"
+    },
+    "w:sports:parkour": {
+      "source": "跑酷",
+      "text": "跑酷"
+    },
+    "w:sports:scuba-diving": {
+      "source": "水肺潛水",
+      "text": "水肺潛水"
+    },
+    "w:sports:car-racing": {
+      "source": "賽車",
+      "text": "賽車"
+    },
+    "w:sports:hide-and-seek": {
+      "source": "捉迷藏",
+      "text": "捉迷藏"
+    },
+    "w:sports:hopscotch": {
+      "source": "跳飛機",
+      "text": "跳房子"
+    },
+    "w:food:hot-dog": {
+      "source": "熱狗",
+      "text": "熱狗"
+    },
+    "w:food:french-fries": {
+      "source": "薯條",
+      "text": "薯條"
+    },
+    "w:food:fried-chicken": {
+      "source": "炸雞",
+      "text": "炸雞"
+    },
+    "w:food:fried-egg": {
+      "source": "煎蛋",
+      "text": "煎蛋"
+    },
+    "w:food:noodles": {
+      "source": "麵",
+      "text": "麵"
+    },
+    "w:food:dumpling": {
+      "source": "餃子",
+      "text": "餃子"
+    },
+    "w:food:sushi": {
+      "source": "壽司",
+      "text": "壽司"
+    },
+    "w:food:fried-rice": {
+      "source": "炒飯",
+      "text": "炒飯"
+    },
+    "w:food:dim-sum": {
+      "source": "點心",
+      "text": "點心"
+    },
+    "w:food:steamed-bun": {
+      "source": "包仔",
+      "text": "包子"
+    },
+    "w:food:spring-roll": {
+      "source": "春卷",
+      "text": "春卷"
+    },
+    "w:food:egg-tart": {
+      "source": "蛋撻",
+      "text": "蛋塔"
+    },
+    "w:food:pineapple-bun": {
+      "source": "菠蘿包",
+      "text": "菠蘿包"
+    },
+    "w:food:mooncake": {
+      "source": "月餅",
+      "text": "月餅"
+    },
+    "w:food:hot-pot": {
+      "source": "火鍋",
+      "text": "火鍋"
+    },
+    "w:food:tofu": {
+      "source": "豆腐",
+      "text": "豆腐"
+    },
+    "w:food:instant-noodles": {
+      "source": "即食麵",
+      "text": "泡麵"
+    },
+    "w:food:seaweed": {
+      "source": "紫菜",
+      "text": "紫菜"
+    },
+    "w:food:birthday-cake": {
+      "source": "生日蛋糕",
+      "text": "生日蛋糕"
+    },
+    "w:food:candy": {
+      "source": "糖果",
+      "text": "糖果"
+    },
+    "w:food:pudding": {
+      "source": "布甸",
+      "text": "布丁"
+    },
+    "w:food:marshmallow": {
+      "source": "棉花軟糖",
+      "text": "棉花軟糖"
+    },
+    "w:food:cereal": {
+      "source": "早餐穀物",
+      "text": "早餐穀物"
+    },
+    "w:food:jam": {
+      "source": "果醬",
+      "text": "果醬"
+    },
+    "w:food:peanut-butter": {
+      "source": "花生醬",
+      "text": "花生醬"
+    },
+    "w:food:bread": {
+      "source": "麵包",
+      "text": "麵包"
+    },
+    "w:food:apple": {
+      "source": "蘋果",
+      "text": "蘋果"
+    },
+    "w:food:banana": {
+      "source": "香蕉",
+      "text": "香蕉"
+    },
+    "w:food:watermelon": {
+      "source": "西瓜",
+      "text": "西瓜"
+    },
+    "w:food:mango": {
+      "source": "芒果",
+      "text": "芒果"
+    },
+    "w:food:peach": {
+      "source": "桃",
+      "text": "桃"
+    },
+    "w:food:pear": {
+      "source": "梨",
+      "text": "梨"
+    },
+    "w:food:lemon": {
+      "source": "檸檬",
+      "text": "檸檬"
+    },
+    "w:food:coconut": {
+      "source": "椰子",
+      "text": "椰子"
+    },
+    "w:food:durian": {
+      "source": "榴槤",
+      "text": "榴槤"
+    },
+    "w:food:tomato": {
+      "source": "番茄",
+      "text": "番茄"
+    },
+    "w:food:mushroom": {
+      "source": "蘑菇",
+      "text": "蘑菇"
+    },
+    "w:food:pumpkin": {
+      "source": "南瓜",
+      "text": "南瓜"
+    },
+    "w:food:milk": {
+      "source": "牛奶",
+      "text": "牛奶"
+    },
+    "w:food:juice": {
+      "source": "果汁",
+      "text": "果汁"
+    },
+    "w:food:soda": {
+      "source": "汽水",
+      "text": "汽水"
+    },
+    "w:food:bubble-tea": {
+      "source": "珍珠奶茶",
+      "text": "珍珠奶茶"
+    },
+    "w:food:milkshake": {
+      "source": "奶昔",
+      "text": "奶昔"
+    },
+    "w:food:coffee": {
+      "source": "咖啡",
+      "text": "咖啡"
+    },
+    "w:food:tea": {
+      "source": "茶",
+      "text": "茶"
+    },
+    "w:things:bed": {
+      "source": "床",
+      "text": "床"
+    },
+    "w:things:pillow": {
+      "source": "枕頭",
+      "text": "枕頭"
+    },
+    "w:things:lamp": {
+      "source": "燈",
+      "text": "燈"
+    },
+    "w:things:clock": {
+      "source": "時鐘",
+      "text": "時鐘"
+    },
+    "w:things:window": {
+      "source": "窗",
+      "text": "窗"
+    },
+    "w:things:door": {
+      "source": "門",
+      "text": "門"
+    },
+    "w:things:book": {
+      "source": "書",
+      "text": "書"
+    },
+    "w:things:pencil": {
+      "source": "鉛筆",
+      "text": "鉛筆"
+    },
+    "w:things:scissors": {
+      "source": "剪刀",
+      "text": "剪刀"
+    },
+    "w:things:glue": {
+      "source": "膠水",
+      "text": "膠水"
+    },
+    "w:things:crayon": {
+      "source": "蠟筆",
+      "text": "蠟筆"
+    },
+    "w:things:paintbrush": {
+      "source": "畫筆",
+      "text": "畫筆"
+    },
+    "w:things:computer": {
+      "source": "電腦",
+      "text": "電腦"
+    },
+    "w:things:keyboard": {
+      "source": "鍵盤",
+      "text": "鍵盤"
+    },
+    "w:things:phone": {
+      "source": "電話",
+      "text": "電話"
+    },
+    "w:things:television": {
+      "source": "電視",
+      "text": "電視"
+    },
+    "w:things:camera": {
+      "source": "相機",
+      "text": "相機"
+    },
+    "w:things:headphones": {
+      "source": "耳機",
+      "text": "耳機"
+    },
+    "w:things:candle": {
+      "source": "蠟燭",
+      "text": "蠟燭"
+    },
+    "w:things:fan": {
+      "source": "風扇",
+      "text": "風扇"
+    },
+    "w:things:air-conditioner": {
+      "source": "冷氣機",
+      "text": "冷氣機"
+    },
+    "w:things:microwave": {
+      "source": "微波爐",
+      "text": "微波爐"
+    },
+    "w:things:rice-cooker": {
+      "source": "電飯煲",
+      "text": "電子鍋"
+    },
+    "w:things:bowl": {
+      "source": "碗",
+      "text": "碗"
+    },
+    "w:things:chopsticks": {
+      "source": "筷子",
+      "text": "筷子"
+    },
+    "w:things:toothbrush": {
+      "source": "牙刷",
+      "text": "牙刷"
+    },
+    "w:things:toothpaste": {
+      "source": "牙膏",
+      "text": "牙膏"
+    },
+    "w:things:towel": {
+      "source": "毛巾",
+      "text": "毛巾"
+    },
+    "w:things:glasses": {
+      "source": "眼鏡",
+      "text": "眼鏡"
+    },
+    "w:things:sunglasses": {
+      "source": "太陽眼鏡",
+      "text": "太陽眼鏡"
+    },
+    "w:things:hat": {
+      "source": "帽",
+      "text": "帽"
+    },
+    "w:things:shoes": {
+      "source": "鞋",
+      "text": "鞋"
+    },
+    "w:things:socks": {
+      "source": "襪",
+      "text": "襪"
+    },
+    "w:things:gloves": {
+      "source": "手套",
+      "text": "手套"
+    },
+    "w:things:t-shirt": {
+      "source": "T恤",
+      "text": "T恤"
+    },
+    "w:things:watch": {
+      "source": "手錶",
+      "text": "手錶"
+    },
+    "w:things:ring": {
+      "source": "戒指",
+      "text": "戒指"
+    },
+    "w:things:coin": {
+      "source": "硬幣",
+      "text": "硬幣"
+    },
+    "w:things:doll": {
+      "source": "洋娃娃",
+      "text": "洋娃娃"
+    },
+    "w:things:balloon": {
+      "source": "氣球",
+      "text": "氣球"
+    },
+    "w:things:kite": {
+      "source": "風箏",
+      "text": "風箏"
+    },
+    "w:things:building-blocks": {
+      "source": "積木",
+      "text": "積木"
+    },
+    "w:things:car": {
+      "source": "汽車",
+      "text": "汽車"
+    },
+    "w:things:train": {
+      "source": "火車",
+      "text": "火車"
+    },
+    "w:things:airplane": {
+      "source": "飛機",
+      "text": "飛機"
+    },
+    "w:things:helicopter": {
+      "source": "直升機",
+      "text": "直升機"
+    },
+    "w:things:rocket": {
+      "source": "火箭",
+      "text": "火箭"
+    },
+    "w:things:boat": {
+      "source": "船",
+      "text": "船"
+    },
+    "w:things:ferry": {
+      "source": "渡輪",
+      "text": "渡輪"
+    },
+    "w:things:fire-truck": {
+      "source": "消防車",
+      "text": "消防車"
+    },
+    "w:things:police-car": {
+      "source": "警車",
+      "text": "警車"
+    },
+    "w:things:ambulance": {
+      "source": "救護車",
+      "text": "救護車"
+    },
+    "w:things:truck": {
+      "source": "貨車",
+      "text": "貨車"
+    },
+    "w:things:crane": {
+      "source": "起重機",
+      "text": "起重機"
+    },
+    "w:things:traffic-light": {
+      "source": "紅綠燈",
+      "text": "紅綠燈"
+    },
+    "w:things:broom": {
+      "source": "掃把",
+      "text": "掃把"
+    },
+    "w:things:bucket": {
+      "source": "水桶",
+      "text": "水桶"
+    },
+    "w:things:rope": {
+      "source": "繩",
+      "text": "繩"
+    },
+    "w:things:tent": {
+      "source": "帳篷",
+      "text": "帳篷"
+    },
+    "w:things:map": {
+      "source": "地圖",
+      "text": "地圖"
+    },
+    "w:things:treasure-chest": {
+      "source": "寶箱",
+      "text": "寶箱"
+    },
+    "w:things:crown": {
+      "source": "皇冠",
+      "text": "皇冠"
+    },
+    "w:things:telescope": {
+      "source": "望遠鏡",
+      "text": "望遠鏡"
+    },
+    "w:things:magnifying-glass": {
+      "source": "放大鏡",
+      "text": "放大鏡"
+    },
+    "w:things:medal": {
+      "source": "獎牌",
+      "text": "獎牌"
+    },
+    "w:things:trophy": {
+      "source": "獎盃",
+      "text": "獎盃"
+    },
+    "w:things:present": {
+      "source": "禮物",
+      "text": "禮物"
+    },
+    "w:things:envelope": {
+      "source": "信封",
+      "text": "信封"
+    },
+    "w:things:stamp": {
+      "source": "郵票",
+      "text": "郵票"
+    },
+    "w:things:mailbox": {
+      "source": "信箱",
+      "text": "信箱"
+    },
+    "w:things:trash-can": {
+      "source": "垃圾桶",
+      "text": "垃圾桶"
+    },
+    "w:things:toilet": {
+      "source": "馬桶",
+      "text": "馬桶"
+    },
+    "w:things:bathtub": {
+      "source": "浴缸",
+      "text": "浴缸"
+    },
+    "w:things:stairs": {
+      "source": "樓梯",
+      "text": "樓梯"
+    },
+    "w:hongkong:egg-waffle": {
+      "source": "雞蛋仔",
+      "text": "雞蛋仔"
+    },
+    "w:hongkong:fishball": {
+      "source": "魚蛋",
+      "text": "魚丸"
+    },
+    "w:hongkong:siu-mai": {
+      "source": "燒賣",
+      "text": "燒賣"
+    },
+    "w:hongkong:roast-goose": {
+      "source": "燒鵝",
+      "text": "燒鵝"
+    },
+    "w:hongkong:char-siu": {
+      "source": "叉燒",
+      "text": "叉燒"
+    },
+    "w:hongkong:wonton-noodles": {
+      "source": "雲吞麵",
+      "text": "餛飩麵"
+    },
+    "w:hongkong:congee": {
+      "source": "粥",
+      "text": "粥"
+    },
+    "w:hongkong:french-toast": {
+      "source": "西多士",
+      "text": "港式法式吐司"
+    },
+    "w:hongkong:milk-tea": {
+      "source": "絲襪奶茶",
+      "text": "絲襪奶茶"
+    },
+    "w:hongkong:stinky-tofu": {
+      "source": "臭豆腐",
+      "text": "臭豆腐"
+    },
+    "w:hongkong:dai-pai-dong": {
+      "source": "大牌檔",
+      "text": "大牌檔"
+    },
+    "w:hongkong:cha-chaan-teng": {
+      "source": "茶餐廳",
+      "text": "茶餐廳"
+    },
+    "w:hongkong:minibus": {
+      "source": "小巴",
+      "text": "小巴"
+    },
+    "w:hongkong:cable-car": {
+      "source": "纜車",
+      "text": "纜車"
+    },
+    "w:hongkong:junk-boat": {
+      "source": "中式帆船",
+      "text": "中式帆船"
+    },
+    "w:hongkong:victoria-harbour": {
+      "source": "維多利亞港",
+      "text": "維多利亞港"
+    },
+    "w:hongkong:lion-rock": {
+      "source": "獅子山",
+      "text": "獅子山"
+    },
+    "w:hongkong:big-buddha": {
+      "source": "大佛",
+      "text": "大佛"
+    },
+    "w:hongkong:ferris-wheel": {
+      "source": "摩天輪",
+      "text": "摩天輪"
+    },
+    "w:hongkong:skyscraper": {
+      "source": "摩天大樓",
+      "text": "摩天大樓"
+    },
+    "w:hongkong:bamboo-scaffolding": {
+      "source": "竹棚",
+      "text": "竹棚"
+    },
+    "w:hongkong:neon-sign": {
+      "source": "霓虹招牌",
+      "text": "霓虹招牌"
+    },
+    "w:hongkong:temple": {
+      "source": "廟",
+      "text": "廟"
+    },
+    "w:hongkong:typhoon-signal": {
+      "source": "颱風信號",
+      "text": "颱風信號"
+    },
+    "w:hongkong:mahjong": {
+      "source": "麻雀",
+      "text": "麻將"
+    },
+    "w:hongkong:dragon-dance": {
+      "source": "舞龍",
+      "text": "舞龍"
+    },
+    "w:hongkong:tsing-ma-bridge": {
+      "source": "青馬大橋",
+      "text": "青馬大橋"
+    },
+    "w:actions:snoring": {
+      "source": "打鼻鼾",
+      "text": "打呼"
+    },
+    "w:actions:hiccups": {
+      "source": "打嗝",
+      "text": "打嗝"
+    },
+    "w:actions:coughing": {
+      "source": "咳嗽",
+      "text": "咳嗽"
+    },
+    "w:actions:laughing": {
+      "source": "大笑",
+      "text": "大笑"
+    },
+    "w:actions:smiling": {
+      "source": "微笑",
+      "text": "微笑"
+    },
+    "w:actions:brushing-teeth": {
+      "source": "刷牙",
+      "text": "刷牙"
+    },
+    "w:actions:combing-hair": {
+      "source": "梳頭",
+      "text": "梳頭"
+    },
+    "w:actions:drinking-water": {
+      "source": "飲水",
+      "text": "喝水"
+    },
+    "w:actions:clapping": {
+      "source": "拍手",
+      "text": "拍手"
+    },
+    "w:actions:waving": {
+      "source": "揮手",
+      "text": "揮手"
+    },
+    "w:actions:dancing": {
+      "source": "跳舞",
+      "text": "跳舞"
+    },
+    "w:actions:singing": {
+      "source": "唱歌",
+      "text": "唱歌"
+    },
+    "w:actions:jumping": {
+      "source": "跳",
+      "text": "跳"
+    },
+    "w:actions:crawling": {
+      "source": "爬行",
+      "text": "爬行"
+    },
+    "w:actions:sneaking": {
+      "source": "靜雞雞行",
+      "text": "躡手躡腳"
+    },
+    "w:actions:climbing-a-tree": {
+      "source": "爬樹",
+      "text": "爬樹"
+    },
+    "w:actions:cooking": {
+      "source": "煮飯",
+      "text": "煮飯"
+    },
+    "w:actions:washing-dishes": {
+      "source": "洗碗",
+      "text": "洗碗"
+    },
+    "w:actions:sweeping": {
+      "source": "掃地",
+      "text": "掃地"
+    },
+    "w:actions:mopping": {
+      "source": "拖地",
+      "text": "拖地"
+    },
+    "w:actions:feeding-fish": {
+      "source": "餵魚",
+      "text": "餵魚"
+    },
+    "w:actions:taking-a-selfie": {
+      "source": "自拍",
+      "text": "自拍"
+    },
+    "w:actions:writing": {
+      "source": "寫字",
+      "text": "寫字"
+    },
+    "w:actions:drawing": {
+      "source": "畫畫",
+      "text": "畫畫"
+    },
+    "w:actions:making-a-phone-call": {
+      "source": "講電話",
+      "text": "講電話"
+    },
+    "w:actions:queuing": {
+      "source": "排隊",
+      "text": "排隊"
+    },
+    "w:actions:shaking-hands": {
+      "source": "握手",
+      "text": "握手"
+    },
+    "w:actions:high-five": {
+      "source": "擊掌",
+      "text": "擊掌"
+    },
+    "w:actions:bowing": {
+      "source": "鞠躬",
+      "text": "鞠躬"
+    },
+    "w:actions:stretching": {
+      "source": "伸懶腰",
+      "text": "伸懶腰"
+    },
+    "w:actions:doing-homework": {
+      "source": "做功課",
+      "text": "寫作業"
+    },
+    "w:actions:tying-shoelaces": {
+      "source": "綁鞋帶",
+      "text": "綁鞋帶"
+    },
+    "w:actions:wearing-a-mask": {
+      "source": "戴口罩",
+      "text": "戴口罩"
+    },
+    "w:actions:washing-hands": {
+      "source": "洗手",
+      "text": "洗手"
+    },
+    "w:actions:blowing-bubbles": {
+      "source": "吹泡泡",
+      "text": "吹泡泡"
+    },
+    "w:actions:blowing-out-candles": {
+      "source": "吹蠟燭",
+      "text": "吹蠟燭"
+    },
+    "w:actions:opening-a-present": {
+      "source": "拆禮物",
+      "text": "拆禮物"
+    },
+    "w:actions:whistling": {
+      "source": "吹口哨",
+      "text": "吹口哨"
+    },
+    "w:actions:thinking": {
+      "source": "諗嘢",
+      "text": "思考"
+    },
+    "w:actions:falling-down": {
+      "source": "跌倒",
+      "text": "跌倒"
+    },
+    "w:nature:sun": {
+      "source": "太陽",
+      "text": "太陽"
+    },
+    "w:nature:moon": {
+      "source": "月亮",
+      "text": "月亮"
+    },
+    "w:nature:star": {
+      "source": "星星",
+      "text": "星星"
+    },
+    "w:nature:shooting-star": {
+      "source": "流星",
+      "text": "流星"
+    },
+    "w:nature:rainbow": {
+      "source": "彩虹",
+      "text": "彩虹"
+    },
+    "w:nature:cloud": {
+      "source": "雲",
+      "text": "雲"
+    },
+    "w:nature:lightning": {
+      "source": "閃電",
+      "text": "閃電"
+    },
+    "w:nature:snowman": {
+      "source": "雪人",
+      "text": "雪人"
+    },
+    "w:nature:snowflake": {
+      "source": "雪花",
+      "text": "雪花"
+    },
+    "w:nature:wind": {
+      "source": "風",
+      "text": "風"
+    },
+    "w:nature:tornado": {
+      "source": "龍捲風",
+      "text": "龍捲風"
+    },
+    "w:nature:typhoon": {
+      "source": "颱風",
+      "text": "颱風"
+    },
+    "w:nature:volcano": {
+      "source": "火山",
+      "text": "火山"
+    },
+    "w:nature:mountain": {
+      "source": "山",
+      "text": "山"
+    },
+    "w:nature:river": {
+      "source": "河流",
+      "text": "河流"
+    },
+    "w:nature:waterfall": {
+      "source": "瀑布",
+      "text": "瀑布"
+    },
+    "w:nature:lake": {
+      "source": "湖",
+      "text": "湖"
+    },
+    "w:nature:sea": {
+      "source": "大海",
+      "text": "大海"
+    },
+    "w:nature:wave": {
+      "source": "海浪",
+      "text": "海浪"
+    },
+    "w:nature:island": {
+      "source": "小島",
+      "text": "小島"
+    },
+    "w:nature:beach": {
+      "source": "沙灘",
+      "text": "沙灘"
+    },
+    "w:nature:desert": {
+      "source": "沙漠",
+      "text": "沙漠"
+    },
+    "w:nature:cactus": {
+      "source": "仙人掌",
+      "text": "仙人掌"
+    },
+    "w:nature:forest": {
+      "source": "森林",
+      "text": "森林"
+    },
+    "w:nature:tree": {
+      "source": "樹",
+      "text": "樹"
+    },
+    "w:nature:leaf": {
+      "source": "樹葉",
+      "text": "樹葉"
+    },
+    "w:nature:flower": {
+      "source": "花",
+      "text": "花"
+    },
+    "w:nature:grass": {
+      "source": "草",
+      "text": "草"
+    },
+    "w:nature:rock": {
+      "source": "石頭",
+      "text": "石頭"
+    },
+    "w:nature:cave": {
+      "source": "山洞",
+      "text": "山洞"
+    },
+    "w:nature:sunrise": {
+      "source": "日出",
+      "text": "日出"
+    },
+    "w:nature:sunset": {
+      "source": "日落",
+      "text": "日落"
+    },
+    "w:nature:planet": {
+      "source": "行星",
+      "text": "行星"
+    },
+    "w:nature:earth": {
+      "source": "地球",
+      "text": "地球"
+    },
+    "w:nature:saturn": {
+      "source": "土星",
+      "text": "土星"
+    },
+    "w:nature:alien": {
+      "source": "外星人",
+      "text": "外星人"
+    },
+    "w:nature:ufo": {
+      "source": "飛碟",
+      "text": "飛碟"
+    },
+    "w:nature:iceberg": {
+      "source": "冰山",
+      "text": "冰山"
+    },
+    "w:nature:coral": {
+      "source": "珊瑚",
+      "text": "珊瑚"
+    },
+    "w:nature:seashell": {
+      "source": "貝殼",
+      "text": "貝殼"
+    },
+    "w:nature:sand-castle": {
+      "source": "沙堡",
+      "text": "沙堡"
+    },
+    "w:nature:fire": {
+      "source": "火",
+      "text": "火"
+    },
+    "w:festivals:red-packet": {
+      "source": "利是",
+      "text": "紅包"
+    },
+    "w:festivals:fai-chun": {
+      "source": "揮春",
+      "text": "春聯"
+    },
+    "w:festivals:lion-dance": {
+      "source": "舞獅",
+      "text": "舞獅"
+    },
+    "w:festivals:dragon-boat": {
+      "source": "龍舟",
+      "text": "龍舟"
+    },
+    "w:festivals:rice-dumpling": {
+      "source": "糉",
+      "text": "粽子"
+    },
+    "w:festivals:rice-cake": {
+      "source": "農曆新年年糕",
+      "text": "農曆新年年糕"
+    },
+    "w:festivals:candy-box": {
+      "source": "新年全盒",
+      "text": "新年糖果盒"
+    },
+    "w:festivals:god-of-fortune": {
+      "source": "財神",
+      "text": "財神"
+    },
+    "w:festivals:kumquat-tree": {
+      "source": "年桔",
+      "text": "金桔盆栽"
+    },
+    "w:festivals:lantern": {
+      "source": "燈籠",
+      "text": "燈籠"
+    },
+    "w:festivals:christmas-tree": {
+      "source": "聖誕樹",
+      "text": "聖誕樹"
+    },
+    "w:festivals:santa-claus": {
+      "source": "聖誕老人",
+      "text": "聖誕老人"
+    },
+    "w:festivals:reindeer": {
+      "source": "馴鹿",
+      "text": "馴鹿"
+    },
+    "w:festivals:christmas-stocking": {
+      "source": "聖誕襪",
+      "text": "聖誕襪"
+    },
+    "w:festivals:gingerbread-man": {
+      "source": "薑餅人",
+      "text": "薑餅人"
+    },
+    "w:festivals:candy-cane": {
+      "source": "拐杖糖",
+      "text": "拐杖糖"
+    },
+    "w:festivals:jingle-bell": {
+      "source": "鈴鐺",
+      "text": "鈴鐺"
+    },
+    "w:festivals:angel": {
+      "source": "天使",
+      "text": "天使"
+    },
+    "w:festivals:jack-o-lantern": {
+      "source": "南瓜燈",
+      "text": "南瓜燈"
+    },
+    "w:festivals:ghost": {
+      "source": "鬼",
+      "text": "鬼"
+    },
+    "w:festivals:vampire": {
+      "source": "吸血鬼",
+      "text": "吸血鬼"
+    },
+    "w:festivals:mummy": {
+      "source": "木乃伊",
+      "text": "木乃伊"
+    },
+    "w:festivals:spider-web": {
+      "source": "蜘蛛網",
+      "text": "蜘蛛網"
+    },
+    "w:festivals:easter-bunny": {
+      "source": "復活節兔仔",
+      "text": "復活節兔子"
+    },
+    "w:festivals:party-hat": {
+      "source": "生日帽",
+      "text": "生日帽"
+    },
+    "w:fairytales:mermaid": {
+      "source": "美人魚",
+      "text": "美人魚"
+    },
+    "w:fairytales:witch": {
+      "source": "女巫",
+      "text": "女巫"
+    },
+    "w:fairytales:fairy": {
+      "source": "仙子",
+      "text": "仙子"
+    },
+    "w:fairytales:elf": {
+      "source": "小精靈",
+      "text": "小精靈"
+    },
+    "w:fairytales:giant": {
+      "source": "巨人",
+      "text": "巨人"
+    },
+    "w:fairytales:dwarf": {
+      "source": "小矮人",
+      "text": "小矮人"
+    },
+    "w:fairytales:genie": {
+      "source": "燈神",
+      "text": "燈神"
+    },
+    "w:fairytales:magic-lamp": {
+      "source": "神燈",
+      "text": "神燈"
+    },
+    "w:fairytales:magic-wand": {
+      "source": "魔法棒",
+      "text": "魔法棒"
+    },
+    "w:fairytales:castle": {
+      "source": "城堡",
+      "text": "城堡"
+    },
+    "w:fairytales:princess": {
+      "source": "公主",
+      "text": "公主"
+    },
+    "w:fairytales:prince": {
+      "source": "王子",
+      "text": "王子"
+    },
+    "w:fairytales:king": {
+      "source": "國王",
+      "text": "國王"
+    },
+    "w:fairytales:snow-white": {
+      "source": "白雪公主",
+      "text": "白雪公主"
+    },
+    "w:fairytales:poison-apple": {
+      "source": "毒蘋果",
+      "text": "毒蘋果"
+    },
+    "w:fairytales:cinderella": {
+      "source": "灰姑娘",
+      "text": "仙杜瑞拉"
+    },
+    "w:fairytales:glass-slipper": {
+      "source": "玻璃鞋",
+      "text": "玻璃鞋"
+    },
+    "w:fairytales:little-red-riding-hood": {
+      "source": "小紅帽",
+      "text": "小紅帽"
+    },
+    "w:fairytales:big-bad-wolf": {
+      "source": "童話大野狼",
+      "text": "童話大野狼"
+    },
+    "w:fairytales:three-little-pigs": {
+      "source": "三隻小豬",
+      "text": "三隻小豬"
+    },
+    "w:fairytales:pinocchio": {
+      "source": "皮諾丘（長鼻木偶）",
+      "text": "皮諾丘（長鼻木偶）"
+    },
+    "w:fairytales:aladdin": {
+      "source": "阿拉丁",
+      "text": "阿拉丁"
+    },
+    "w:fairytales:rapunzel": {
+      "source": "長髮公主",
+      "text": "長髮公主"
+    },
+    "w:fairytales:sleeping-beauty": {
+      "source": "睡公主",
+      "text": "睡美人"
+    },
+    "w:fairytales:frog-prince": {
+      "source": "青蛙王子",
+      "text": "青蛙王子"
+    },
+    "w:fairytales:gingerbread-house": {
+      "source": "薑餅屋",
+      "text": "薑餅屋"
+    },
+    "w:fairytales:magic-beanstalk": {
+      "source": "魔法豆莖",
+      "text": "魔法豆莖"
+    },
+    "w:fairytales:monkey-king": {
+      "source": "孫悟空",
+      "text": "孫悟空"
+    },
+    "w:fairytales:ne-zha": {
+      "source": "哪吒",
+      "text": "哪吒"
+    },
+    "w:fairytales:tooth-fairy": {
+      "source": "牙仙",
+      "text": "牙齒仙子"
+    },
+    "w:fairytales:ugly-duckling": {
+      "source": "醜小鴨",
+      "text": "醜小鴨"
+    },
+    "w:fairytales:tortoise-and-the-hare": {
+      "source": "龜兔賽跑",
+      "text": "龜兔賽跑"
+    },
+    "n:raccoon": {
+      "source": "浣熊",
+      "text": "浣熊"
+    },
+    "n:beaver": {
+      "source": "河狸",
+      "text": "河狸"
+    },
+    "n:otter": {
+      "source": "水獺",
+      "text": "水獺"
+    },
+    "n:skunk": {
+      "source": "臭鼬",
+      "text": "臭鼬"
+    },
+    "n:fluffy-chick": {
+      "source": "毛茸茸的小雞",
+      "text": "毛茸茸的小雞"
+    },
+    "n:pelican": {
+      "source": "鵜鶘",
+      "text": "鵜鶘"
+    },
+    "n:woodpecker": {
+      "source": "啄木鳥",
+      "text": "啄木鳥"
+    },
+    "n:toucan": {
+      "source": "巨嘴鳥",
+      "text": "大嘴鳥"
+    },
+    "n:mole": {
+      "source": "鼴鼠",
+      "text": "鼴鼠"
+    },
+    "n:pufferfish": {
+      "source": "河豚",
+      "text": "河豚"
+    },
+    "n:stingray": {
+      "source": "魟魚",
+      "text": "魟魚"
+    },
+    "n:hermit-crab": {
+      "source": "寄居蟹",
+      "text": "寄居蟹"
+    },
+    "n:mantis": {
+      "source": "螳螂",
+      "text": "螳螂"
+    },
+    "n:cricket-insect": {
+      "source": "蟋蟀",
+      "text": "蟋蟀"
+    },
+    "n:squid": {
+      "source": "魷魚",
+      "text": "魷魚"
+    },
+    "n:kiwi-fruit": {
+      "source": "奇異果",
+      "text": "奇異果"
+    },
+    "n:blueberries": {
+      "source": "藍莓",
+      "text": "藍莓"
+    },
+    "n:raspberry": {
+      "source": "覆盆子",
+      "text": "覆盆子"
+    },
+    "n:plum": {
+      "source": "李子",
+      "text": "李子"
+    },
+    "n:fig": {
+      "source": "無花果",
+      "text": "無花果"
+    },
+    "n:aubergine": {
+      "source": "茄子",
+      "text": "茄子"
+    },
+    "n:garlic-bulb": {
+      "source": "蒜頭",
+      "text": "蒜頭"
+    },
+    "n:lettuce": {
+      "source": "生菜",
+      "text": "生菜"
+    },
+    "n:peas-in-a-pod": {
+      "source": "豌豆莢",
+      "text": "豌豆莢"
+    },
+    "n:bagel": {
+      "source": "貝果",
+      "text": "貝果"
+    },
+    "n:bowl-of-soup": {
+      "source": "一碗湯",
+      "text": "一碗湯"
+    },
+    "n:fruit-skewer": {
+      "source": "水果串",
+      "text": "水果串"
+    },
+    "n:rice-ball": {
+      "source": "飯糰",
+      "text": "飯糰"
+    },
+    "n:bunch-of-radishes": {
+      "source": "一束蘿蔔仔",
+      "text": "一束小蘿蔔"
+    },
+    "n:button": {
+      "source": "鈕扣",
+      "text": "鈕扣"
+    },
+    "n:clothes-peg": {
+      "source": "衣夾",
+      "text": "衣夾"
+    },
+    "n:rubber-band": {
+      "source": "橡筋",
+      "text": "橡皮筋"
+    },
+    "n:sock-puppet": {
+      "source": "襪子手偶",
+      "text": "襪子手偶"
+    },
+    "n:snow-globe": {
+      "source": "水晶雪球",
+      "text": "水晶雪球"
+    },
+    "n:hourglass": {
+      "source": "沙漏",
+      "text": "沙漏"
+    },
+    "n:pinwheel": {
+      "source": "風車玩具",
+      "text": "風車玩具"
+    },
+    "n:paper-fan": {
+      "source": "紙扇",
+      "text": "紙扇"
+    },
+    "n:rolling-pin": {
+      "source": "擀麵棍",
+      "text": "擀麵棍"
+    },
+    "n:whisk": {
+      "source": "打蛋器",
+      "text": "打蛋器"
+    },
+    "n:funnel": {
+      "source": "漏斗",
+      "text": "漏斗"
+    },
+    "n:apron": {
+      "source": "圍裙",
+      "text": "圍裙"
+    },
+    "n:watering-can": {
+      "source": "灑水壺",
+      "text": "灑水壺"
+    },
+    "n:wheelbarrow": {
+      "source": "獨輪手推車",
+      "text": "獨輪手推車"
+    },
+    "n:sleeping-bag": {
+      "source": "睡袋",
+      "text": "睡袋"
+    },
+    "n:binoculars": {
+      "source": "雙筒望遠鏡",
+      "text": "雙筒望遠鏡"
+    },
+    "n:peeling-a-banana": {
+      "source": "剝香蕉皮",
+      "text": "剝香蕉皮"
+    },
+    "n:cracking-an-egg": {
+      "source": "打開雞蛋",
+      "text": "打開雞蛋"
+    },
+    "n:pouring-milk": {
+      "source": "倒牛奶",
+      "text": "倒牛奶"
+    },
+    "n:spreading-jam": {
+      "source": "塗果醬",
+      "text": "塗果醬"
+    },
+    "n:kneading-dough": {
+      "source": "搓麵糰",
+      "text": "搓麵糰"
+    },
+    "n:squeezing-a-lemon": {
+      "source": "榨檸檬",
+      "text": "榨檸檬"
+    },
+    "n:folding-a-paper-plane": {
+      "source": "摺紙飛機",
+      "text": "摺紙飛機"
+    },
+    "n:building-a-sandcastle": {
+      "source": "堆沙堡",
+      "text": "堆沙堡"
+    },
+    "n:skipping-a-stone": {
+      "source": "掟石仔打水漂",
+      "text": "丟石頭打水漂"
+    },
+    "n:making-a-snow-angel": {
+      "source": "躺在雪地畫天使",
+      "text": "躺在雪地畫天使"
+    },
+    "n:kicking-a-puddle": {
+      "source": "踢水氹",
+      "text": "踢水窪"
+    },
+    "n:balancing-on-one-foot": {
+      "source": "單腳站立",
+      "text": "單腳站立"
+    },
+    "n:winking": {
+      "source": "眨一隻眼",
+      "text": "眨一隻眼"
+    },
+    "n:blowing-a-kiss": {
+      "source": "飛吻",
+      "text": "飛吻"
+    },
+    "n:rolling-a-snowball": {
+      "source": "滾雪球",
+      "text": "滾雪球"
+    },
+    "n:limbo-dance": {
+      "source": "過橫桿舞",
+      "text": "過橫桿舞"
+    },
+    "n:water-polo": {
+      "source": "水球",
+      "text": "水球"
+    },
+    "n:window-cleaner": {
+      "source": "洗窗工人",
+      "text": "洗窗工人"
+    },
+    "n:street-sweeper": {
+      "source": "街道清潔工",
+      "text": "街道清潔工"
+    },
+    "n:potter": {
+      "source": "陶藝師",
+      "text": "陶藝師"
+    },
+    "n:accordion": {
+      "source": "手風琴",
+      "text": "手風琴"
+    },
+    "n:harmonica": {
+      "source": "口琴",
+      "text": "口琴"
+    },
+    "n:xylophone": {
+      "source": "木琴",
+      "text": "木琴"
+    },
+    "n:music-box": {
+      "source": "音樂盒",
+      "text": "音樂盒"
+    },
+    "n:stuffed-pepper": {
+      "source": "釀甜椒",
+      "text": "釀甜椒"
+    },
+    "n:lasagne": {
+      "source": "千層麵",
+      "text": "千層麵"
+    },
+    "n:candy-apple": {
+      "source": "糖蘋果",
+      "text": "糖蘋果"
+    },
+    "n:threading-a-needle": {
+      "source": "穿針",
+      "text": "穿針"
+    },
+    "n:wrapping-a-gift": {
+      "source": "包禮物",
+      "text": "包禮物"
+    },
+    "n:planting-a-seed": {
+      "source": "播種",
+      "text": "播種"
+    },
+    "n:hanging-a-picture": {
+      "source": "掛畫",
+      "text": "掛畫"
+    },
+    "n:cat-doing-yoga": {
+      "source": "做瑜伽的貓",
+      "text": "做瑜伽的貓"
+    },
+    "n:dog-riding-a-scooter": {
+      "source": "踩滑板車的狗",
+      "text": "騎滑板車的狗"
+    },
+    "n:rabbit-brushing-its-ears": {
+      "source": "梳耳朵的兔仔",
+      "text": "梳耳朵的兔子"
+    },
+    "n:penguin-carrying-an-umbrella": {
+      "source": "擔遮的企鵝",
+      "text": "撐傘的企鵝"
+    },
+    "n:elephant-blowing-bubbles": {
+      "source": "吹泡泡的大象",
+      "text": "吹泡泡的大象"
+    },
+    "n:giraffe-wearing-a-bow-tie": {
+      "source": "戴煲呔的長頸鹿",
+      "text": "戴領結的長頸鹿"
+    },
+    "n:snail-pulling-a-suitcase": {
+      "source": "拖行李箱的蝸牛",
+      "text": "拖行李箱的蝸牛"
+    },
+    "n:frog-playing-a-trumpet": {
+      "source": "吹喇叭的青蛙",
+      "text": "吹喇叭的青蛙"
+    },
+    "n:panda-eating-spaghetti": {
+      "source": "食意粉的熊貓",
+      "text": "吃義大利麵的熊貓"
+    },
+    "n:fish-wearing-a-snorkel": {
+      "source": "戴潛水呼吸管的魚",
+      "text": "戴潛水呼吸管的魚"
+    },
+    "n:owl-wearing-a-sleep-mask": {
+      "source": "戴眼罩的貓頭鷹",
+      "text": "戴眼罩的貓頭鷹"
+    },
+    "n:crab-knitting": {
+      "source": "織冷衫的蟹",
+      "text": "編織毛衣的蟹"
+    },
+    "n:bear-riding-a-tiny-bicycle": {
+      "source": "踩迷你單車的熊",
+      "text": "騎迷你腳踏車的熊"
+    },
+    "n:horse-on-a-rocking-horse": {
+      "source": "坐搖搖木馬的馬",
+      "text": "坐搖搖木馬的馬"
+    },
+    "n:chicken-laying-a-square-egg": {
+      "source": "生方形蛋的雞",
+      "text": "生方形蛋的雞"
+    },
+    "n:banana-using-a-slide": {
+      "source": "玩滑梯的香蕉",
+      "text": "玩滑梯的香蕉"
+    },
+    "n:carrot-lifting-weights": {
+      "source": "舉啞鈴的紅蘿蔔",
+      "text": "舉啞鈴的胡蘿蔔"
+    },
+    "n:ice-cream-sunbathing": {
+      "source": "曬太陽的雪糕",
+      "text": "曬太陽的冰淇淋"
+    },
+    "n:pizza-playing-guitar": {
+      "source": "彈結他的薄餅",
+      "text": "彈吉他的披薩"
+    },
+    "n:cookie-taking-a-bath": {
+      "source": "浸浴的曲奇",
+      "text": "泡澡的餅乾"
+    },
+    "n:apple-brushing-its-teeth": {
+      "source": "刷牙的蘋果",
+      "text": "刷牙的蘋果"
+    },
+    "n:sandwich-wearing-roller-skates": {
+      "source": "着滾軸溜冰鞋的三文治",
+      "text": "穿輪式溜冰鞋的三明治"
+    },
+    "n:watermelon-wearing-headphones": {
+      "source": "戴耳筒的西瓜",
+      "text": "戴耳機的西瓜"
+    },
+    "n:mushroom-holding-an-umbrella": {
+      "source": "擔遮的蘑菇",
+      "text": "撐傘的蘑菇"
+    },
+    "n:eggplant-riding-a-skateboard": {
+      "source": "踩滑板的茄子",
+      "text": "玩滑板的茄子"
+    },
+    "n:robot-walking-a-toy-dog": {
+      "source": "機械人遛玩具狗",
+      "text": "機器人遛玩具狗"
+    },
+    "n:teapot-pouring-into-a-boot": {
+      "source": "茶壺倒茶入靴",
+      "text": "茶壺倒茶入靴"
+    },
+    "n:alarm-clock-taking-a-nap": {
+      "source": "午睡的鬧鐘",
+      "text": "午睡的鬧鐘"
+    },
+    "n:umbrella-inside-a-shower": {
+      "source": "淋浴間裏的雨傘",
+      "text": "淋浴間裡的雨傘"
+    },
+    "n:shoe-with-a-flower-garden": {
+      "source": "種滿花的鞋",
+      "text": "種滿花的鞋"
+    },
+    "n:pencil-lifting-a-dumbbell": {
+      "source": "舉啞鈴的鉛筆",
+      "text": "舉啞鈴的鉛筆"
+    },
+    "n:broom-riding-a-bicycle": {
+      "source": "踩單車的掃帚",
+      "text": "騎腳踏車的掃帚"
+    },
+    "n:book-eating-a-bookmark": {
+      "source": "食書籤的書",
+      "text": "吃書籤的書"
+    },
+    "n:chair-wearing-shoes": {
+      "source": "着鞋的椅子",
+      "text": "穿鞋的椅子"
+    },
+    "n:balloon-wearing-a-seat-belt": {
+      "source": "扣安全帶的氣球",
+      "text": "扣安全帶的氣球"
+    },
+    "n:chef-juggling-pancakes": {
+      "source": "拋接班戟的廚師",
+      "text": "拋接美式鬆餅的廚師"
+    },
+    "n:firefighter-watering-a-flower": {
+      "source": "替花灑水的消防員",
+      "text": "替花灑水的消防員"
+    },
+    "n:astronaut-eating-noodles": {
+      "source": "食麵的太空人",
+      "text": "吃麵的太空人"
+    },
+    "n:librarian-chasing-a-flying-book": {
+      "source": "追飛書的圖書館員",
+      "text": "追飛書的圖書館員"
+    },
+    "n:hairdresser-styling-a-lion-s-mane": {
+      "source": "替獅子整鬃毛的髮型師",
+      "text": "替獅子整鬃毛的美髮師"
+    },
+    "n:mail-carrier-delivering-to-a-nest": {
+      "source": "送信到鳥巢的郵差",
+      "text": "送信到鳥巢的郵差"
+    },
+    "n:painter-painting-a-zebra-s-stripes": {
+      "source": "替斑馬畫條紋的畫家",
+      "text": "替斑馬畫條紋的畫家"
+    },
+    "n:snail-winning-a-race": {
+      "source": "贏賽跑的蝸牛",
+      "text": "贏賽跑的蝸牛"
+    },
+    "n:penguin-playing-basketball": {
+      "source": "打籃球的企鵝",
+      "text": "打籃球的企鵝"
+    },
+    "n:cow-jumping-rope": {
+      "source": "跳繩的牛",
+      "text": "跳繩的牛"
+    },
+    "n:hippo-on-a-balance-beam": {
+      "source": "行平衡木的河馬",
+      "text": "行平衡木的河馬"
+    },
+    "n:kangaroo-boxing-a-pillow": {
+      "source": "打枕頭的袋鼠",
+      "text": "打枕頭的袋鼠"
+    },
+    "n:fox-playing-mini-golf": {
+      "source": "打迷你高爾夫的狐狸",
+      "text": "打迷你高爾夫的狐狸"
+    },
+    "n:seal-lifting-a-beach-ball": {
+      "source": "舉沙灘波的海豹",
+      "text": "舉沙灘球的海豹"
+    },
+    "n:turtle-wearing-running-shoes": {
+      "source": "着跑鞋的烏龜",
+      "text": "穿跑鞋的烏龜"
+    },
+    "n:octopus-playing-a-drum-kit": {
+      "source": "打爵士鼓的八爪魚",
+      "text": "打爵士鼓的章魚"
+    },
+    "n:hedgehog-carrying-balloons-on-its-spikes": {
+      "source": "刺上掛氣球的刺蝟",
+      "text": "刺上掛氣球的刺蝟"
+    },
+    "n:camel-ordering-a-giant-milkshake": {
+      "source": "點巨型奶昔的駱駝",
+      "text": "點巨型奶昔的駱駝"
+    },
+    "n:parrot-teaching-a-pirate-to-talk": {
+      "source": "教海盜說話的鸚鵡",
+      "text": "教海盜說話的鸚鵡"
+    },
+    "n:crocodile-flossing-its-teeth": {
+      "source": "用牙線的鱷魚",
+      "text": "用牙線的鱷魚"
+    },
+    "n:sloth-missing-a-bus": {
+      "source": "趕唔切巴士的樹懶",
+      "text": "趕不上公車的樹懶"
+    },
+    "n:whale-singing-into-a-microphone": {
+      "source": "對咪高峰唱歌的鯨魚",
+      "text": "對麥克風唱歌的鯨魚"
+    },
+    "n:raccoon-washing-a-birthday-cake": {
+      "source": "洗生日蛋糕的浣熊",
+      "text": "洗生日蛋糕的浣熊"
+    },
+    "n:beaver-building-a-bathtub-dam": {
+      "source": "在浴缸築壩的河狸",
+      "text": "在浴缸築壩的河狸"
+    },
+    "n:monkey-measuring-a-banana": {
+      "source": "量香蕉長度的馬騮",
+      "text": "量香蕉長度的猴子"
+    },
+    "n:spaghetti-escaping-from-a-plate": {
+      "source": "逃離碟子的意粉",
+      "text": "逃離盤子的義大利麵"
+    },
+    "n:popcorn-jumping-out-of-a-pot": {
+      "source": "跳出煲的爆谷",
+      "text": "跳出鍋子的爆米花"
+    },
+    "n:cupcake-blowing-out-its-own-candle": {
+      "source": "吹熄自己蠟燭的杯子蛋糕",
+      "text": "吹熄自己蠟燭的杯子蛋糕"
+    },
+    "n:cheese-running-from-a-mouse": {
+      "source": "逃避老鼠的芝士",
+      "text": "逃避老鼠的起司"
+    },
+    "n:peas-playing-football-in-a-bowl": {
+      "source": "在碗內踢足球的豌豆",
+      "text": "在碗內踢足球的豌豆"
+    },
+    "n:broccoli-getting-a-haircut": {
+      "source": "剪頭髮的西蘭花",
+      "text": "剪頭髮的青花菜"
+    },
+    "n:coconut-cracking-itself-with-a-hammer": {
+      "source": "用鎚敲開自己的椰子",
+      "text": "用鎚敲開自己的椰子"
+    },
+    "n:sushi-riding-a-conveyor-belt-like-a-surfboard": {
+      "source": "在輸送帶衝浪的壽司",
+      "text": "在輸送帶衝浪的壽司"
+    },
+    "n:robot-tangled-in-fairy-lights": {
+      "source": "纏滿燈串的機械人",
+      "text": "纏滿燈串的機器人"
+    },
+    "n:washing-machine-eating-socks": {
+      "source": "食襪的洗衣機",
+      "text": "吃襪的洗衣機"
+    },
+    "n:vacuum-cleaner-chasing-dust-bunnies": {
+      "source": "追塵球的吸塵機",
+      "text": "追塵球的吸塵器"
+    },
+    "n:refrigerator-wearing-a-winter-coat": {
+      "source": "着冬天外套的雪櫃",
+      "text": "穿冬天外套的冰箱"
+    },
+    "n:rubber-duck-steering-a-bathtub": {
+      "source": "駕駛浴缸的膠鴨仔",
+      "text": "駕駛浴缸的橡皮小鴨"
+    },
+    "n:lamp-reading-a-book-by-candlelight": {
+      "source": "借燭光睇書的檯燈",
+      "text": "借燭光看書的桌燈"
+    },
+    "n:umbrella-drying-itself-with-a-hairdryer": {
+      "source": "用風筒吹乾自己的雨傘",
+      "text": "用吹風機吹乾自己的雨傘"
+    },
+    "n:dentist-examining-a-shark": {
+      "source": "替鯊魚檢查牙齒的牙醫",
+      "text": "替鯊魚檢查牙齒的牙醫"
+    },
+    "n:baker-sleeping-in-a-giant-doughnut": {
+      "source": "睡在巨型冬甩裏的麵包師傅",
+      "text": "睡在巨型甜甜圈裡的麵包師傅"
+    },
+    "n:magician-pulling-carrots-from-a-hat": {
+      "source": "從帽子變出紅蘿蔔的魔術師",
+      "text": "從帽子變出胡蘿蔔的魔術師"
+    },
+    "n:photographer-taking-a-selfie-with-an-octopus": {
+      "source": "與八爪魚自拍的攝影師",
+      "text": "與章魚自拍的攝影師"
+    },
+    "n:plumber-fixing-a-whale-s-blowhole": {
+      "source": "修理鯨魚噴氣孔的水喉匠",
+      "text": "修理鯨魚噴氣孔的水管工"
+    },
+    "n:elephant-doing-a-handstand": {
+      "source": "倒立的大象",
+      "text": "倒立的大象"
+    },
+    "n:flamingo-ice-skating": {
+      "source": "溜冰的紅鶴",
+      "text": "溜冰的紅鶴"
+    },
+    "n:penguins-curling-with-a-fish": {
+      "source": "用魚玩冰壺的企鵝",
+      "text": "用魚玩冰壺的企鵝"
+    },
+    "n:mouse-pole-vaulting-over-cheese": {
+      "source": "撐竿跳過芝士的老鼠",
+      "text": "撐竿跳過起司的老鼠"
+    },
+    "n:trying-to-fold-an-enormous-map": {
+      "source": "嘗試摺巨型地圖",
+      "text": "嘗試摺巨型地圖"
+    },
+    "n:sneezing-a-hat-into-the-air": {
+      "source": "打乞嗤噴飛帽子",
+      "text": "打噴嚏噴飛帽子"
+    },
+    "n:balancing-books-on-your-head-in-the-wind": {
+      "source": "大風中頭頂書本保持平衡",
+      "text": "大風中頭頂書本保持平衡"
+    },
+    "n:chasing-your-runaway-shopping-trolley": {
+      "source": "追失控購物車",
+      "text": "追失控購物車"
+    },
+    "n:trying-to-catch-floating-popcorn": {
+      "source": "嘗試接住飄浮的爆谷",
+      "text": "嘗試接住飄浮的爆米花"
+    },
+    "n:wearing-an-upside-down-backpack": {
+      "source": "倒轉揹書包",
+      "text": "倒轉揹書包"
+    },
+    "n:giraffe-washing-windows-with-its-tongue": {
+      "source": "用脷洗窗的長頸鹿",
+      "text": "用舌頭洗窗的長頸鹿"
+    },
+    "n:octopus-conducting-an-underwater-orchestra": {
+      "source": "指揮水底樂團的八爪魚",
+      "text": "指揮水底樂團的章魚"
+    },
+    "n:ants-carrying-a-picnic-table": {
+      "source": "搬野餐桌的螞蟻",
+      "text": "搬野餐桌的螞蟻"
+    },
+    "n:chef-making-pancakes-on-a-moving-train": {
+      "source": "在行駛火車上煎班戟的廚師",
+      "text": "在行駛火車上煎美式鬆餅的廚師"
+    },
+    "n:astronaut-walking-a-dog-on-the-moon": {
+      "source": "在月球遛狗的太空人",
+      "text": "在月球遛狗的太空人"
+    },
+    "n:window-cleaner-cleaning-a-giant-s-glasses": {
+      "source": "替巨人洗眼鏡的洗窗工人",
+      "text": "替巨人洗眼鏡的洗窗工人"
+    },
+    "n:vegetables-holding-a-cooking-competition": {
+      "source": "舉行烹飪比賽的蔬菜",
+      "text": "舉行烹飪比賽的蔬菜"
+    },
+    "n:sandwich-layers-escaping-in-different-directions": {
+      "source": "各層向不同方向逃走的三文治",
+      "text": "各層向不同方向逃走的三明治"
+    },
+    "n:robot-assembling-itself-from-a-flat-pack-box": {
+      "source": "從平板箱組裝自己的機械人",
+      "text": "從平板箱組裝自己的機器人"
+    },
+    "n:piano-chasing-its-escaping-keys": {
+      "source": "追逐逃走琴鍵的鋼琴",
+      "text": "追逐逃走琴鍵的鋼琴"
+    },
+    "n:elephants-playing-volleyball-with-a-balloon": {
+      "source": "用氣球打排球的大象",
+      "text": "用氣球打排球的大象"
+    },
+    "n:snails-competing-in-a-relay-race": {
+      "source": "參加接力賽的蝸牛",
+      "text": "參加接力賽的蝸牛"
+    },
+    "n:serving-tea-on-a-runaway-skateboard": {
+      "source": "在失控滑板上奉茶",
+      "text": "在失控滑板上奉茶"
+    },
+    "n:packing-a-suitcase-that-keeps-spitting-things-out": {
+      "source": "執一個不停吐東西的行李箱",
+      "text": "整理一個不停吐東西的行李箱"
+    },
+    "n:catching-laundry-blown-off-a-clothesline": {
+      "source": "接住被風吹走的晾衫",
+      "text": "接住被風吹走的衣服"
+    },
+    "n:seed": {
+      "source": "種子",
+      "text": "種子"
+    },
+    "n:acorn": {
+      "source": "橡果",
+      "text": "橡果"
+    },
+    "n:pine-cone": {
+      "source": "松果",
+      "text": "松果"
+    },
+    "n:tree-stump": {
+      "source": "樹樁",
+      "text": "樹樁"
+    },
+    "n:bush": {
+      "source": "灌木叢",
+      "text": "灌木叢"
+    },
+    "n:pond": {
+      "source": "池塘",
+      "text": "池塘"
+    },
+    "n:raindrop": {
+      "source": "雨滴",
+      "text": "雨滴"
+    },
+    "n:footprint-in-mud": {
+      "source": "泥地上的腳印",
+      "text": "泥地上的腳印"
+    },
+    "n:icicle": {
+      "source": "冰柱",
+      "text": "冰柱"
+    },
+    "n:stacked-pebbles": {
+      "source": "疊起的鵝卵石",
+      "text": "疊起的鵝卵石"
+    },
+    "n:fallen-log": {
+      "source": "倒下的樹幹",
+      "text": "倒下的樹幹"
+    },
+    "n:flower-bud": {
+      "source": "花苞",
+      "text": "花苞"
+    },
+    "n:mossy-rock": {
+      "source": "長滿青苔的石頭",
+      "text": "長滿青苔的石頭"
+    },
+    "n:rainbow-over-a-waterfall": {
+      "source": "瀑布上的彩虹",
+      "text": "瀑布上的彩虹"
+    },
+    "n:cloud-wearing-a-hat": {
+      "source": "戴帽子的雲",
+      "text": "戴帽子的雲"
+    },
+    "n:sun-wearing-earmuffs": {
+      "source": "戴耳罩的太陽",
+      "text": "戴耳罩的太陽"
+    },
+    "n:tree-wearing-boots": {
+      "source": "穿靴子的樹",
+      "text": "穿靴子的樹"
+    },
+    "n:flower-with-a-moustache": {
+      "source": "長鬍子的花",
+      "text": "長鬍子的花"
+    },
+    "n:snowman-sunbathing": {
+      "source": "曬太陽的雪人",
+      "text": "曬太陽的雪人"
+    },
+    "n:cactus-hugging-a-pillow": {
+      "source": "仙人掌抱枕頭",
+      "text": "仙人掌抱枕頭"
+    },
+    "n:moon-brushing-its-teeth": {
+      "source": "月亮刷牙",
+      "text": "月亮刷牙"
+    },
+    "n:a-leaf-riding-a-skateboard": {
+      "source": "樹葉踩滑板",
+      "text": "樹葉玩滑板"
+    },
+    "n:lightning-striking-a-tree": {
+      "source": "閃電擊中樹木",
+      "text": "閃電擊中樹木"
+    },
+    "n:river-flowing-into-the-sea": {
+      "source": "河流流入大海",
+      "text": "河流流入大海"
+    },
+    "n:roots-breaking-a-pavement": {
+      "source": "樹根撐裂行人路",
+      "text": "樹根撐裂人行道"
+    },
+    "n:mountain-wearing-a-scarf": {
+      "source": "圍頸巾的山",
+      "text": "圍圍巾的山"
+    },
+    "n:rain-cloud-watering-one-flower": {
+      "source": "雨雲只澆一朵花",
+      "text": "雨雲只澆一朵花"
+    },
+    "n:volcano-popping-popcorn": {
+      "source": "爆出爆谷的火山",
+      "text": "爆出爆米花的火山"
+    },
+    "n:snowflake-under-an-umbrella": {
+      "source": "雪花撐雨傘",
+      "text": "雪花撐雨傘"
+    },
+    "n:rainbow-tied-in-a-knot": {
+      "source": "打了結的彩虹",
+      "text": "打了結的彩虹"
+    },
+    "n:seed-growing-through-a-cracked-cup": {
+      "source": "種子從裂杯長出",
+      "text": "種子從裂杯長出"
+    },
+    "n:waterfall-freezing-halfway-down": {
+      "source": "瀑布流到一半結冰",
+      "text": "瀑布流到一半結冰"
+    },
+    "n:forest-reflected-in-a-puddle": {
+      "source": "水窪倒映森林",
+      "text": "水窪倒映森林"
+    },
+    "n:cloud-knitting-a-rainbow": {
+      "source": "雲織彩虹",
+      "text": "雲織彩虹"
+    },
+    "n:tree-holding-an-umbrella-over-a-sapling": {
+      "source": "大樹為小樹苗撐傘",
+      "text": "大樹為小樹苗撐傘"
+    },
+    "n:scooter": {
+      "source": "滑板車",
+      "text": "滑板車"
+    },
+    "n:school-bus": {
+      "source": "校巴",
+      "text": "校車"
+    },
+    "n:sailboat": {
+      "source": "帆船（船隻）",
+      "text": "帆船（船隻）"
+    },
+    "n:canoe": {
+      "source": "獨木舟（船隻）",
+      "text": "獨木舟（船隻）"
+    },
+    "n:rowboat": {
+      "source": "划艇（船隻）",
+      "text": "划艇（船隻）"
+    },
+    "n:hot-air-balloon": {
+      "source": "熱氣球",
+      "text": "熱氣球"
+    },
+    "n:tricycle": {
+      "source": "三輪車",
+      "text": "三輪車"
+    },
+    "n:train-tunnel": {
+      "source": "火車隧道",
+      "text": "火車隧道"
+    },
+    "n:bicycle-with-a-basket": {
+      "source": "有籃的單車",
+      "text": "有籃的腳踏車"
+    },
+    "n:car-with-a-roof-rack": {
+      "source": "有車頂架的汽車",
+      "text": "有車頂架的汽車"
+    },
+    "n:charging-an-electric-car": {
+      "source": "電動車充電",
+      "text": "電動車充電"
+    },
+    "n:bus-with-square-wheels": {
+      "source": "方形車輪的巴士",
+      "text": "方形車輪的公車"
+    },
+    "n:rocket-stuck-in-a-tree": {
+      "source": "卡在樹上的火箭",
+      "text": "卡在樹上的火箭"
+    },
+    "n:boat-in-a-bathtub": {
+      "source": "浴缸裏的小船",
+      "text": "浴缸裡的小船"
+    },
+    "n:train-wearing-sunglasses": {
+      "source": "戴太陽眼鏡的火車",
+      "text": "戴太陽眼鏡的火車"
+    },
+    "n:car-with-a-moustache": {
+      "source": "長鬍子的汽車",
+      "text": "長鬍子的汽車"
+    },
+    "n:bicycle-with-one-giant-wheel": {
+      "source": "一個車輪超大的單車",
+      "text": "一個車輪超大的腳踏車"
+    },
+    "n:submarine-with-a-snorkel": {
+      "source": "插着呼吸管的潛艇",
+      "text": "插著呼吸管的潛水艇"
+    },
+    "n:tractor-pulling-a-tiny-wagon": {
+      "source": "拖拉機拉小小貨車",
+      "text": "曳引機拉小小貨車"
+    },
+    "n:airplane-towing-a-banner": {
+      "source": "飛機拖橫額",
+      "text": "飛機拖布條"
+    },
+    "n:lifting-a-car-with-a-tow-truck": {
+      "source": "拖車吊起汽車",
+      "text": "拖車吊起汽車"
+    },
+    "n:ferry-carrying-bicycles": {
+      "source": "渡輪運載單車",
+      "text": "渡輪運載腳踏車"
+    },
+    "n:airplane-stuck-in-a-giant-cobweb": {
+      "source": "飛機卡在巨型蜘蛛網",
+      "text": "飛機卡在巨型蜘蛛網"
+    },
+    "n:bus-stopping-for-a-snail": {
+      "source": "巴士停車讓蝸牛過路",
+      "text": "公車停車讓蝸牛過路"
+    },
+    "n:sailboat-with-a-sock-for-a-sail": {
+      "source": "以襪子作船帆的帆船",
+      "text": "以襪子作船帆的帆船"
+    },
+    "n:traffic-jam-of-flying-carpets": {
+      "source": "飛氈塞車",
+      "text": "飛毯塞車"
+    },
+    "n:helicopter-drying-laundry": {
+      "source": "直升機吹乾衣服",
+      "text": "直升機吹乾衣服"
+    },
+    "n:train-crossing-a-bridge-over-another-train": {
+      "source": "火車過橋跨過另一列火車",
+      "text": "火車過橋跨過另一列火車"
+    },
+    "n:car-driving-onto-a-ferry": {
+      "source": "汽車駛上渡輪",
+      "text": "汽車駛上渡輪"
+    },
+    "n:hot-air-balloon-rescuing-a-kite": {
+      "source": "熱氣球救回風箏",
+      "text": "熱氣球救回風箏"
+    },
+    "n:rocket-waiting-at-a-traffic-light": {
+      "source": "火箭等交通燈",
+      "text": "火箭等紅綠燈"
+    },
+    "n:submarine-delivering-pizza-to-a-mermaid": {
+      "source": "潛艇送薄餅給美人魚",
+      "text": "潛水艇送披薩給美人魚"
+    },
+    "n:school": {
+      "source": "學校",
+      "text": "學校"
+    },
+    "n:hospital": {
+      "source": "醫院",
+      "text": "醫院"
+    },
+    "n:playground": {
+      "source": "遊樂場",
+      "text": "遊樂場"
+    },
+    "n:library": {
+      "source": "圖書館",
+      "text": "圖書館"
+    },
+    "n:airport": {
+      "source": "機場",
+      "text": "機場"
+    },
+    "n:train-station": {
+      "source": "火車站",
+      "text": "火車站"
+    },
+    "n:post-office": {
+      "source": "郵局",
+      "text": "郵局"
+    },
+    "n:bakery": {
+      "source": "麵包店",
+      "text": "麵包店"
+    },
+    "n:swimming-pool": {
+      "source": "游泳池",
+      "text": "游泳池"
+    },
+    "n:aquarium-building": {
+      "source": "水族館",
+      "text": "水族館"
+    },
+    "n:lighthouse": {
+      "source": "燈塔",
+      "text": "燈塔"
+    },
+    "n:campsite": {
+      "source": "營地",
+      "text": "營地"
+    },
+    "n:treehouse": {
+      "source": "樹屋",
+      "text": "樹屋"
+    },
+    "n:windmill": {
+      "source": "風車磨坊",
+      "text": "風車磨坊"
+    },
+    "n:farmhouse": {
+      "source": "農舍",
+      "text": "農舍"
+    },
+    "n:upside-down-house": {
+      "source": "倒轉的房屋",
+      "text": "倒轉的房屋"
+    },
+    "n:library-for-giants": {
+      "source": "巨人的圖書館",
+      "text": "巨人的圖書館"
+    },
+    "n:house-shaped-like-a-boot": {
+      "source": "靴子形的房屋",
+      "text": "靴子形的房屋"
+    },
+    "n:school-on-the-moon": {
+      "source": "月球上的學校",
+      "text": "月球上的學校"
+    },
+    "n:playground-on-a-cloud": {
+      "source": "雲上的遊樂場",
+      "text": "雲上的遊樂場"
+    },
+    "n:castle-made-of-pillows": {
+      "source": "枕頭砌成的城堡",
+      "text": "枕頭砌成的城堡"
+    },
+    "n:water-tower": {
+      "source": "水塔",
+      "text": "水塔"
+    },
+    "n:bridge-opening-for-a-ship": {
+      "source": "橋升起讓船通過",
+      "text": "橋升起讓船通過"
+    },
+    "n:hospital-for-teddy-bears": {
+      "source": "啤啤熊醫院",
+      "text": "泰迪熊醫院"
+    },
+    "n:bakery-with-a-chimney-of-flour": {
+      "source": "煙囪噴麵粉的麵包店",
+      "text": "煙囪噴麵粉的麵包店"
+    },
+    "n:car-park-full-of-broomsticks": {
+      "source": "泊滿掃帚的停車場",
+      "text": "泊滿掃帚的停車場"
+    },
+    "n:treehouse-with-an-elevator": {
+      "source": "有升降機的樹屋",
+      "text": "有電梯的樹屋"
+    },
+    "n:lighthouse-using-a-flashlight": {
+      "source": "用電筒照明的燈塔",
+      "text": "用手電筒照明的燈塔"
+    },
+    "n:swimming-pool-full-of-jelly": {
+      "source": "裝滿啫喱的泳池",
+      "text": "裝滿果凍的泳池"
+    },
+    "n:house-built-around-a-tree": {
+      "source": "圍繞大樹建的房屋",
+      "text": "圍繞大樹建的房屋"
+    },
+    "n:bridge-connecting-two-treehouses": {
+      "source": "連接兩間樹屋的橋",
+      "text": "連接兩間樹屋的橋"
+    },
+    "n:museum-of-lost-socks": {
+      "source": "失蹤襪子博物館",
+      "text": "失蹤襪子博物館"
+    },
+    "n:hotel-balancing-on-one-wheel": {
+      "source": "靠一個輪子平衡的酒店",
+      "text": "靠一個輪子平衡的飯店"
+    },
+    "n:underwater-library-with-floating-books": {
+      "source": "書本漂浮的水底圖書館",
+      "text": "書本漂浮的水底圖書館"
+    },
+    "n:microscope": {
+      "source": "顯微鏡",
+      "text": "顯微鏡"
+    },
+    "n:thermometer": {
+      "source": "溫度計",
+      "text": "溫度計"
+    },
+    "n:test-tube": {
+      "source": "試管",
+      "text": "試管"
+    },
+    "n:battery": {
+      "source": "電池",
+      "text": "電池"
+    },
+    "n:triangular-prism": {
+      "source": "三角稜鏡",
+      "text": "三角稜鏡"
+    },
+    "n:human-skeleton": {
+      "source": "人體骨架",
+      "text": "人體骨架"
+    },
+    "n:lungs": {
+      "source": "肺部",
+      "text": "肺部"
+    },
+    "n:human-heart": {
+      "source": "人體心臟",
+      "text": "人體心臟"
+    },
+    "n:plant-roots": {
+      "source": "植物的根",
+      "text": "植物的根"
+    },
+    "n:solar-panel": {
+      "source": "太陽能板",
+      "text": "太陽能板"
+    },
+    "n:rain-gauge": {
+      "source": "雨量計",
+      "text": "雨量計"
+    },
+    "n:wind-vane": {
+      "source": "風向標",
+      "text": "風向標"
+    },
+    "n:horseshoe-magnet-picking-up-nails": {
+      "source": "馬蹄形磁石吸起鐵釘",
+      "text": "馬蹄形磁鐵吸起鐵釘"
+    },
+    "n:light-passing-through-a-prism": {
+      "source": "光穿過三角稜鏡",
+      "text": "光穿過三角稜鏡"
+    },
+    "n:seed-sprouting-in-a-jar": {
+      "source": "種子在玻璃瓶發芽",
+      "text": "種子在玻璃瓶發芽"
+    },
+    "n:robot-sneezing-screws": {
+      "source": "機械人打噴嚏噴出螺絲",
+      "text": "機器人打噴嚏噴出螺絲"
+    },
+    "n:astronaut-walking-a-balloon": {
+      "source": "太空人遛氣球",
+      "text": "太空人遛氣球"
+    },
+    "n:test-tube-growing-a-flower": {
+      "source": "試管長出花朵",
+      "text": "試管長出花朵"
+    },
+    "n:magnet-attracting-spoons": {
+      "source": "磁石吸起湯匙",
+      "text": "磁鐵吸起湯匙"
+    },
+    "n:robot-charging-in-bed": {
+      "source": "機械人在床上充電",
+      "text": "機器人在床上充電"
+    },
+    "n:skeleton-wearing-slippers": {
+      "source": "穿拖鞋的骷髏",
+      "text": "穿拖鞋的骷髏"
+    },
+    "n:scientist-with-bubbling-hair": {
+      "source": "頭髮冒泡的科學家",
+      "text": "頭髮冒泡的科學家"
+    },
+    "n:water-cycle-in-a-jar": {
+      "source": "玻璃瓶內的水循環",
+      "text": "玻璃瓶內的水循環"
+    },
+    "n:hand-making-a-shadow-rabbit": {
+      "source": "用手做兔子影子",
+      "text": "用手做兔子影子"
+    },
+    "n:pulley-lifting-a-bucket": {
+      "source": "滑輪吊起水桶",
+      "text": "滑輪吊起水桶"
+    },
+    "n:robot-tangled-in-its-charging-cable": {
+      "source": "機械人被充電線纏住",
+      "text": "機器人被充電線纏住"
+    },
+    "n:astronaut-catching-floating-socks": {
+      "source": "太空人捉漂浮的襪子",
+      "text": "太空人捉漂浮的襪子"
+    },
+    "n:magnifying-glass-enlarging-an-ant": {
+      "source": "放大鏡放大螞蟻",
+      "text": "放大鏡放大螞蟻"
+    },
+    "n:robot-teaching-a-plant-to-dance": {
+      "source": "機械人教植物跳舞",
+      "text": "機器人教植物跳舞"
+    },
+    "n:scientist-measuring-a-giant-bubble": {
+      "source": "科學家量巨型泡泡",
+      "text": "科學家量巨型泡泡"
+    },
+    "n:balloon-powering-a-toy-car": {
+      "source": "氣球推動玩具車",
+      "text": "氣球推動玩具車"
+    },
+    "n:roots-visible-through-a-glass-pot": {
+      "source": "透過玻璃花盆看樹根",
+      "text": "透過玻璃花盆看樹根"
+    },
+    "n:moon-passing-in-front-of-the-sun": {
+      "source": "月亮經過太陽前面",
+      "text": "月亮經過太陽前面"
+    },
+    "n:robot-assembling-its-own-birthday-cake": {
+      "source": "機械人組裝自己的生日蛋糕",
+      "text": "機器人組裝自己的生日蛋糕"
+    },
+    "n:astronaut-watering-a-plant-upside-down": {
+      "source": "太空人倒轉淋花",
+      "text": "太空人倒轉澆花"
+    },
+    "n:magic-potion": {
+      "source": "魔法藥水",
+      "text": "魔法藥水"
+    },
+    "n:spell-book": {
+      "source": "魔法書",
+      "text": "魔法書"
+    },
+    "n:crystal-ball": {
+      "source": "水晶球",
+      "text": "水晶球"
+    },
+    "n:wizard-hat": {
+      "source": "巫師帽",
+      "text": "巫師帽"
+    },
+    "n:fairy-wings": {
+      "source": "仙子翅膀",
+      "text": "仙子翅膀"
+    },
+    "n:dragon-egg": {
+      "source": "龍蛋",
+      "text": "龍蛋"
+    },
+    "n:knight-s-helmet": {
+      "source": "騎士頭盔",
+      "text": "騎士頭盔"
+    },
+    "n:shield": {
+      "source": "盾牌",
+      "text": "盾牌"
+    },
+    "n:sword": {
+      "source": "劍",
+      "text": "劍"
+    },
+    "n:castle-gate": {
+      "source": "城堡大門",
+      "text": "城堡大門"
+    },
+    "n:castle-moat": {
+      "source": "城堡護城河",
+      "text": "城堡護城河"
+    },
+    "n:drawbridge": {
+      "source": "吊橋城門",
+      "text": "吊橋城門"
+    },
+    "n:dragon-blowing-soap-bubbles": {
+      "source": "龍吹肥皂泡",
+      "text": "龍吹肥皂泡"
+    },
+    "n:witch-vacuuming-on-a-broom": {
+      "source": "女巫騎掃帚吸塵",
+      "text": "女巫騎掃帚吸塵"
+    },
+    "n:giant-drinking-from-a-tiny-cup": {
+      "source": "巨人用小杯喝水",
+      "text": "巨人用小杯喝水"
+    },
+    "n:mermaid-drying-her-tail-with-a-hairdryer": {
+      "source": "美人魚用風筒吹乾魚尾",
+      "text": "美人魚用吹風機吹乾魚尾"
+    },
+    "n:wizard-with-a-tangled-beard": {
+      "source": "鬍鬚打結的巫師",
+      "text": "鬍鬚打結的巫師"
+    },
+    "n:unicorn-with-a-bent-horn": {
+      "source": "角彎了的獨角獸",
+      "text": "角彎了的獨角獸"
+    },
+    "n:fairy-lifting-a-giant-spoon": {
+      "source": "仙子舉起巨型湯匙",
+      "text": "仙子舉起巨型湯匙"
+    },
+    "n:knight-in-fluffy-slippers": {
+      "source": "騎士穿毛絨拖鞋",
+      "text": "騎士穿毛絨拖鞋"
+    },
+    "n:ghost-afraid-of-a-mouse": {
+      "source": "怕老鼠的鬼魂",
+      "text": "怕老鼠的鬼魂"
+    },
+    "n:dragon-with-hiccups": {
+      "source": "打嗝的龍",
+      "text": "打嗝的龍"
+    },
+    "n:knight-rescuing-a-dragon": {
+      "source": "騎士拯救龍",
+      "text": "騎士拯救龍"
+    },
+    "n:wizard-turning-a-shoe-into-a-frog": {
+      "source": "巫師把鞋變成青蛙",
+      "text": "巫師把鞋變成青蛙"
+    },
+    "n:dragon-roasting-marshmallows": {
+      "source": "龍烤棉花糖",
+      "text": "龍烤棉花糖"
+    },
+    "n:mermaid-riding-a-bicycle-underwater": {
+      "source": "美人魚在水底踩單車",
+      "text": "美人魚在水底騎腳踏車"
+    },
+    "n:giant-using-a-tree-as-a-toothbrush": {
+      "source": "巨人用樹刷牙",
+      "text": "巨人用樹刷牙"
+    },
+    "n:fairy-tangled-in-a-spider-web": {
+      "source": "仙子困在蜘蛛網",
+      "text": "仙子困在蜘蛛網"
+    },
+    "n:witch-parking-a-broom-in-a-bike-rack": {
+      "source": "女巫把掃帚泊在單車架",
+      "text": "女巫把掃帚泊在腳踏車架"
+    },
+    "n:unicorn-painting-its-horn": {
+      "source": "獨角獸油漆自己的角",
+      "text": "獨角獸油漆自己的角"
+    },
+    "n:dragon-babysitting-a-hatching-egg": {
+      "source": "龍照顧正在孵化的蛋",
+      "text": "龍照顧正在孵化的蛋"
+    },
+    "n:wizard-chasing-his-runaway-hat": {
+      "source": "巫師追逃走的帽子",
+      "text": "巫師追逃走的帽子"
+    },
+    "n:giant-helping-a-fairy-reach-a-shelf": {
+      "source": "巨人幫仙子夠到層架",
+      "text": "巨人幫仙子夠到層架"
+    },
+    "n:knight-ironing-a-dragon-s-wings": {
+      "source": "騎士熨龍翼",
+      "text": "騎士熨龍翼"
+    },
+    "n:mermaid-giving-a-fish-swimming-lessons": {
+      "source": "美人魚教魚游泳",
+      "text": "美人魚教魚游泳"
+    },
+    "n:party-banner": {
+      "source": "派對橫額",
+      "text": "派對布條"
+    },
+    "n:ribbon-bow": {
+      "source": "絲帶蝴蝶結",
+      "text": "絲帶蝴蝶結"
+    },
+    "n:birthday-candles": {
+      "source": "生日蠟燭",
+      "text": "生日蠟燭"
+    },
+    "n:invitation-card": {
+      "source": "邀請卡",
+      "text": "邀請卡"
+    },
+    "n:gift-bag": {
+      "source": "禮物袋",
+      "text": "禮物袋"
+    },
+    "n:paper-garland": {
+      "source": "紙花串",
+      "text": "紙花串"
+    },
+    "n:party-streamer": {
+      "source": "派對彩帶",
+      "text": "派對彩帶"
+    },
+    "n:balloon-arch": {
+      "source": "氣球拱門",
+      "text": "氣球拱門"
+    },
+    "n:party-table": {
+      "source": "派對餐桌",
+      "text": "派對餐桌"
+    },
+    "n:birthday-picnic": {
+      "source": "生日野餐",
+      "text": "生日野餐"
+    },
+    "n:cutting-a-celebration-cake": {
+      "source": "切慶祝蛋糕",
+      "text": "切慶祝蛋糕"
+    },
+    "n:cake-with-one-giant-candle": {
+      "source": "一枝巨型蠟燭的蛋糕",
+      "text": "一枝巨型蠟燭的蛋糕"
+    },
+    "n:present-bigger-than-the-birthday-child": {
+      "source": "比壽星小朋友更大的禮物",
+      "text": "比壽星小朋友更大的禮物"
+    },
+    "n:balloon-with-a-moustache": {
+      "source": "長鬍子的氣球",
+      "text": "長鬍子的氣球"
+    },
+    "n:party-hat-on-a-cactus": {
+      "source": "仙人掌戴派對帽",
+      "text": "仙人掌戴派對帽"
+    },
+    "n:birthday-cake-on-wheels": {
+      "source": "有車輪的生日蛋糕",
+      "text": "有車輪的生日蛋糕"
+    },
+    "n:balloon-animal-walking-away": {
+      "source": "氣球動物自己走開",
+      "text": "氣球動物自己走開"
+    },
+    "n:present-wearing-a-seat-belt": {
+      "source": "禮物繫安全帶",
+      "text": "禮物繫安全帶"
+    },
+    "n:party-horn-longer-than-a-table": {
+      "source": "比桌子更長的派對吹笛",
+      "text": "比桌子更長的派對吹笛"
+    },
+    "n:hanging-a-banner-between-trees": {
+      "source": "在兩棵樹之間掛橫額",
+      "text": "在兩棵樹之間掛布條"
+    },
+    "n:surprise-party-behind-a-sofa": {
+      "source": "梳化後的驚喜派對",
+      "text": "沙發後的驚喜派對"
+    },
+    "n:balloons-lifting-a-picnic-table": {
+      "source": "氣球升起野餐桌",
+      "text": "氣球升起野餐桌"
+    },
+    "n:confetti-stuck-in-a-beard": {
+      "source": "彩紙碎黏在鬍鬚",
+      "text": "彩紙屑黏在鬍鬚"
+    },
+    "n:cake-too-tall-for-the-doorway": {
+      "source": "高到過不了門的蛋糕",
+      "text": "高到過不了門的蛋糕"
+    },
+    "n:birthday-candles-blown-out-by-a-fan": {
+      "source": "風扇吹熄生日蠟燭",
+      "text": "風扇吹熄生日蠟燭"
+    },
+    "n:gift-box-full-of-tiny-gift-boxes": {
+      "source": "禮物盒裝滿迷你禮物盒",
+      "text": "禮物盒裝滿迷你禮物盒"
+    },
+    "n:party-guests-wearing-the-same-giant-hat": {
+      "source": "賓客共戴一頂巨型帽",
+      "text": "賓客共戴一頂巨型帽"
+    },
+    "n:passing-a-cake-across-a-crowded-table": {
+      "source": "隔着擠滿人的桌子傳蛋糕",
+      "text": "隔著擠滿人的桌子傳蛋糕"
+    },
+    "n:children-decorating-a-wheelchair-for-a-parade": {
+      "source": "小朋友為巡遊裝飾輪椅",
+      "text": "小朋友為遊行裝飾輪椅"
+    },
+    "n:birthday-cake-escaping-its-candles": {
+      "source": "生日蛋糕逃離蠟燭",
+      "text": "生日蛋糕逃離蠟燭"
+    },
+    "n:party-on-a-giant-floating-doughnut": {
+      "source": "巨型漂浮冬甩上的派對",
+      "text": "巨型漂浮甜甜圈上的派對"
+    },
+    "n:balloons-decorating-a-sleeping-giant": {
+      "source": "氣球裝飾睡着的巨人",
+      "text": "氣球裝飾睡著的巨人"
+    },
+    "n:piano": {
+      "source": "鋼琴",
+      "text": "鋼琴"
+    },
+    "n:violin": {
+      "source": "小提琴",
+      "text": "小提琴"
+    },
+    "n:trumpet": {
+      "source": "小號",
+      "text": "小號"
+    },
+    "n:drum": {
+      "source": "鼓",
+      "text": "鼓"
+    },
+    "n:washing-machine": {
+      "source": "洗衣機",
+      "text": "洗衣機"
+    },
+    "n:paint-palette": {
+      "source": "調色板",
+      "text": "調色板"
+    },
+    "n:saw": {
+      "source": "鋸",
+      "text": "鋸"
+    },
+    "n:clothes-iron": {
+      "source": "熨斗",
+      "text": "熨斗"
+    },
+    "n:shopping-trolley": {
+      "source": "購物車",
+      "text": "購物車"
+    },
+    "n:suitcase": {
+      "source": "行李箱",
+      "text": "行李箱"
+    },
+    "n:stroller": {
+      "source": "嬰兒車",
+      "text": "嬰兒車"
+    },
+    "n:wheelchair": {
+      "source": "輪椅",
+      "text": "輪椅"
+    },
+    "n:rocking-chair": {
+      "source": "搖椅",
+      "text": "搖椅"
+    },
+    "n:hammock": {
+      "source": "吊床",
+      "text": "吊床"
+    },
+    "n:rocking-horse": {
+      "source": "搖搖馬",
+      "text": "搖搖馬"
+    },
+    "n:spinning-top": {
+      "source": "陀螺",
+      "text": "陀螺"
+    },
+    "n:boomerang": {
+      "source": "回力鏢",
+      "text": "回力鏢"
+    },
+    "n:trousers": {
+      "source": "長褲",
+      "text": "長褲"
+    },
+    "n:skirt": {
+      "source": "裙",
+      "text": "裙"
+    },
+    "n:belt": {
+      "source": "皮帶",
+      "text": "皮帶"
+    },
+    "n:teapot": {
+      "source": "茶壺",
+      "text": "茶壺"
+    },
+    "n:grater": {
+      "source": "刨絲器",
+      "text": "刨絲器"
+    },
+    "n:corkscrew": {
+      "source": "開酒器",
+      "text": "開酒器"
+    },
+    "n:tea-bag": {
+      "source": "茶包",
+      "text": "茶包"
+    },
+    "n:peanut": {
+      "source": "花生",
+      "text": "花生"
+    },
+    "n:chilli-pepper": {
+      "source": "辣椒",
+      "text": "辣椒"
+    },
+    "n:hanger": {
+      "source": "衣架",
+      "text": "衣架"
+    },
+    "n:pole-vault": {
+      "source": "撐竿跳",
+      "text": "撐竿跳"
+    },
+    "n:palm-tree": {
+      "source": "棕櫚樹",
+      "text": "棕櫚樹"
+    },
+    "n:sunflower": {
+      "source": "向日葵",
+      "text": "向日葵"
+    },
+    "n:rose": {
+      "source": "玫瑰",
+      "text": "玫瑰"
+    },
+    "n:bird-nest": {
+      "source": "鳥巢",
+      "text": "鳥巢"
+    },
+    "n:feather": {
+      "source": "羽毛",
+      "text": "羽毛"
+    },
+    "n:bone": {
+      "source": "骨頭",
+      "text": "骨頭"
+    },
+    "n:road": {
+      "source": "道路",
+      "text": "道路"
+    },
+    "n:bridge": {
+      "source": "橋",
+      "text": "橋"
+    },
+    "n:zoo": {
+      "source": "動物園",
+      "text": "動物園"
+    },
+    "n:restaurant": {
+      "source": "餐廳",
+      "text": "餐廳"
+    },
+    "n:baby": {
+      "source": "嬰兒",
+      "text": "嬰兒"
+    },
+    "n:juggler": {
+      "source": "雜耍演員",
+      "text": "雜耍演員"
+    },
+    "n:scarecrow": {
+      "source": "稻草人",
+      "text": "稻草人"
+    },
+    "n:bride": {
+      "source": "新娘",
+      "text": "新娘"
+    },
+    "n:graduate": {
+      "source": "畢業生",
+      "text": "畢業生"
+    },
+    "n:ear": {
+      "source": "耳朵",
+      "text": "耳朵"
+    },
+    "n:eye": {
+      "source": "眼睛",
+      "text": "眼睛"
+    },
+    "n:hand": {
+      "source": "手",
+      "text": "手"
+    },
+    "n:foot": {
+      "source": "腳",
+      "text": "腳"
+    },
+    "n:tooth": {
+      "source": "牙齒",
+      "text": "牙齒"
+    },
+    "n:unicycle": {
+      "source": "獨輪車",
+      "text": "獨輪車"
+    },
+    "n:crosswalk": {
+      "source": "斑馬線",
+      "text": "斑馬線"
+    },
+    "n:scorpion": {
+      "source": "蠍子",
+      "text": "蠍子"
+    },
+    "n:dragonfly": {
+      "source": "蜻蜓",
+      "text": "蜻蜓"
+    },
+    "n:centipede": {
+      "source": "蜈蚣",
+      "text": "蜈蚣"
+    },
+    "n:anteater": {
+      "source": "食蟻獸",
+      "text": "吃蟻獸"
+    },
+    "n:platypus": {
+      "source": "鴨嘴獸",
+      "text": "鴨嘴獸"
+    },
+    "n:hummingbird": {
+      "source": "蜂鳥",
+      "text": "蜂鳥"
+    },
+    "n:shrimp": {
+      "source": "蝦",
+      "text": "蝦"
+    },
+    "n:chameleon": {
+      "source": "變色龍",
+      "text": "變色龍"
+    },
+    "n:vulture": {
+      "source": "禿鷲",
+      "text": "禿鷲"
+    },
+    "n:swordfish": {
+      "source": "劍魚",
+      "text": "劍魚"
+    },
+    "n:cotton-candy": {
+      "source": "棉花糖",
+      "text": "棉花糖"
+    },
+    "n:burrito": {
+      "source": "墨西哥捲餅",
+      "text": "墨西哥捲餅"
+    },
+    "n:pomegranate": {
+      "source": "石榴",
+      "text": "石榴"
+    },
+    "n:dragon-fruit": {
+      "source": "火龍果",
+      "text": "火龍果"
+    },
+    "n:asparagus": {
+      "source": "蘆筍",
+      "text": "蘆筍"
+    },
+    "n:rack-of-ribs": {
+      "source": "肋排",
+      "text": "肋排"
+    },
+    "n:mouth": {
+      "source": "嘴巴",
+      "text": "嘴巴"
+    },
+    "n:tongue": {
+      "source": "舌頭",
+      "text": "舌頭"
+    },
+    "n:finger": {
+      "source": "手指",
+      "text": "手指"
+    },
+    "n:thumb": {
+      "source": "拇指",
+      "text": "拇指"
+    },
+    "n:arm": {
+      "source": "手臂",
+      "text": "手臂"
+    },
+    "n:leg": {
+      "source": "腿",
+      "text": "腿"
+    },
+    "n:elbow": {
+      "source": "手肘",
+      "text": "手肘"
+    },
+    "n:hair": {
+      "source": "頭髮",
+      "text": "頭髮"
+    },
+    "n:eyebrow": {
+      "source": "眉毛",
+      "text": "眉毛"
+    },
+    "n:beard": {
+      "source": "鬍鬚",
+      "text": "鬍鬚"
+    },
+    "n:moustache": {
+      "source": "八字鬚",
+      "text": "八字鬚"
+    },
+    "n:brain": {
+      "source": "大腦",
+      "text": "大腦"
+    },
+    "n:skull": {
+      "source": "頭骨",
+      "text": "頭骨"
+    },
+    "n:fingerprint": {
+      "source": "指紋",
+      "text": "指紋"
+    },
+    "n:paw-print": {
+      "source": "爪印",
+      "text": "爪印"
+    },
+    "n:bamboo": {
+      "source": "竹",
+      "text": "竹"
+    },
+    "n:tulip": {
+      "source": "鬱金香",
+      "text": "鬱金香"
+    },
+    "n:dandelion": {
+      "source": "蒲公英",
+      "text": "蒲公英"
+    },
+    "n:lily-pad": {
+      "source": "睡蓮葉",
+      "text": "睡蓮葉"
+    },
+    "n:beehive": {
+      "source": "蜂巢",
+      "text": "蜂巢"
+    },
+    "n:anthill": {
+      "source": "蟻丘",
+      "text": "蟻丘"
+    },
+    "n:fossil": {
+      "source": "化石",
+      "text": "化石"
+    },
+    "n:lava": {
+      "source": "熔岩",
+      "text": "熔岩"
+    },
+    "n:whirlpool": {
+      "source": "漩渦",
+      "text": "漩渦"
+    },
+    "n:atom": {
+      "source": "原子",
+      "text": "原子"
+    },
+    "n:ice-cube": {
+      "source": "冰塊",
+      "text": "冰塊"
+    },
+    "n:house": {
+      "source": "房屋",
+      "text": "房屋"
+    },
+    "n:church": {
+      "source": "教堂",
+      "text": "教堂"
+    },
+    "n:mosque": {
+      "source": "清真寺",
+      "text": "清真寺"
+    },
+    "n:pyramid": {
+      "source": "金字塔",
+      "text": "金字塔"
+    },
+    "n:factory": {
+      "source": "工廠",
+      "text": "工廠"
+    },
+    "n:garage": {
+      "source": "車庫",
+      "text": "車庫"
+    },
+    "n:harbour": {
+      "source": "港口",
+      "text": "港口"
+    },
+    "n:dam": {
+      "source": "水壩",
+      "text": "水壩"
+    },
+    "n:well": {
+      "source": "水井",
+      "text": "水井"
+    },
+    "n:fountain": {
+      "source": "噴水池",
+      "text": "噴水池"
+    },
+    "n:stadium": {
+      "source": "體育場",
+      "text": "體育場"
+    },
+    "n:circus": {
+      "source": "馬戲團",
+      "text": "馬戲團"
+    },
+    "n:laundrette": {
+      "source": "自助洗衣店",
+      "text": "自助洗衣店"
+    },
+    "n:greenhouse": {
+      "source": "溫室",
+      "text": "溫室"
+    },
+    "n:railway-crossing": {
+      "source": "鐵路平交道",
+      "text": "鐵路平交道"
+    },
+    "n:road-roller": {
+      "source": "壓路機",
+      "text": "壓路機"
+    },
+    "n:airship": {
+      "source": "飛艇",
+      "text": "飛艇"
+    },
+    "n:horse-drawn-carriage": {
+      "source": "馬車",
+      "text": "馬車"
+    },
+    "n:car-park": {
+      "source": "停車場",
+      "text": "停車場"
+    },
+    "n:lumberjack": {
+      "source": "伐木工人",
+      "text": "伐木工人"
+    },
+    "n:welder": {
+      "source": "焊接工人",
+      "text": "焊接工人"
+    },
+    "n:shepherd": {
+      "source": "牧羊人",
+      "text": "牧羊人"
+    },
+    "n:chimney-sweep": {
+      "source": "煙囪清潔工",
+      "text": "煙囪清潔工"
+    },
+    "n:puppeteer": {
+      "source": "木偶師",
+      "text": "木偶師"
+    },
+    "n:orchestra-conductor": {
+      "source": "樂團指揮",
+      "text": "樂團指揮"
+    },
+    "n:cheerleader": {
+      "source": "啦啦隊員",
+      "text": "啦啦隊員"
+    },
+    "n:werewolf": {
+      "source": "狼人",
+      "text": "狼人"
+    },
+    "n:centaur": {
+      "source": "半人馬",
+      "text": "半人馬"
+    },
+    "n:cyclops": {
+      "source": "獨眼巨人",
+      "text": "獨眼巨人"
+    },
+    "n:tailor": {
+      "source": "裁縫",
+      "text": "裁縫"
+    },
+    "n:caveman": {
+      "source": "穴居人",
+      "text": "穴居人"
+    },
+    "n:devil": {
+      "source": "惡魔",
+      "text": "惡魔"
+    },
+    "n:samurai": {
+      "source": "日本武士",
+      "text": "日本武士"
+    },
+    "n:snake-charmer": {
+      "source": "舞蛇人",
+      "text": "舞蛇人"
+    }
+  },
+  "copy": {
+    "ui": {
+      "eraseShort": "橡皮擦",
+      "eraser": "橡皮擦",
+      "canvasHint": "畫布、顏色與橡皮擦，都準備好了",
+      "homeSaved": "你的遊戲等著你",
+      "mode": "這次怎麼玩？",
+      "surface": "在哪裡畫？",
+      "mixed": "什麼都來一點",
+      "brush": "畫筆粗細",
+      "brushSmall": "細",
+      "tie": "一起勝出！",
+      "noWinner": "謝謝大家一起玩！",
+      "winners": "獲勝玩家",
+      "winner": "獲勝玩家",
+      "zh": "繁體中文（台灣）",
+      "localOnly": "離線遊玩・不需帳號・沒有廣告",
+      "artworkSaved": "已儲存到「照片」。",
+      "artworkDenied": "未獲照片權限。可以按「分享」儲存到「檔案」，或到 iOS 設定允許加入照片。",
+      "interfaceLanguageHint": "選擇介面語言與地區，也會更新下一局題卡的主要語言。",
+      "cardLanguageHint": "每張題卡可並列兩種語言或地區用詞。",
+      "cardLanguageLimit": "請選擇兩種不同的語言或地區，或只使用一種。",
+      "undoStroke": "復原筆畫",
+      "redoStroke": "重做筆畫",
+      "customHint": "加入至少 5 個詞語。自訂詞語會照原文顯示，不會隨題卡語言翻譯。",
+      "individualCount": "個人比賽需要至少 3 位玩家。",
+      "teamCount": "請設定 4–12 位玩家，每隊至少 2 人，兩隊人數相差不多於 1 人。",
+      "deckCount": "請選擇至少有 5 個可用詞語的主題。",
+      "privacy": "玩家名字、自訂詞語和畫作只儲存在這部裝置，沒有分析追蹤或雲端帳號。",
+      "canvasLimit": "這幅畫已到筆畫上限，請復原筆畫或完成這輪。",
+      "teamRounds": "隊伍輪次",
+      "drawingTurns": "作畫次數",
+      "teamBalance": "兩隊的回合數相同。隊員不變時，小隊額外作畫的次序會接續上一局輪換。",
+      "teamGuessingTitle": "誰可以猜題？",
+      "teamGuessOwn": "只限自己的隊伍",
+      "teamGuessOpen": "兩隊都可以搶答",
+      "teamGuessOwnHint": "只有繪圖者所屬隊伍可以猜題及得分。",
+      "teamGuessOpenHint": "兩隊都可以猜題，猜中的隊伍得 1 分。"
+    },
+    "topics": {},
+    "native": {
+      "photosUsage": "將你選擇的畫作儲存到照片。"
+    }
+  }
+}

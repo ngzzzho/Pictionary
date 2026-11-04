@@ -1,0 +1,210 @@
+/* Motion is presentational only. Nothing waits for an animation to finish. */
+:root {
+  --motion-quick: 120ms;
+  --motion-enter: 220ms;
+  --motion-character: 480ms;
+  --ease-settle: cubic-bezier(0.2, 0.75, 0.25, 1);
+}
+.celebration-burst {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.celebration-burst i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 5px;
+  height: 8px;
+  border-radius: 2px;
+  background: var(--coral);
+  opacity: 0;
+}
+.celebration-burst i:nth-child(3n) {
+  background: var(--green);
+  border-radius: 50%;
+}
+.celebration-burst i:nth-child(3n + 1) {
+  background: var(--blue);
+}
+.celebration-burst i:nth-child(1) {
+  --x: -42px;
+  --y: -38px;
+}
+.celebration-burst i:nth-child(2) {
+  --x: -16px;
+  --y: -52px;
+}
+.celebration-burst i:nth-child(3) {
+  --x: 22px;
+  --y: -50px;
+}
+.celebration-burst i:nth-child(4) {
+  --x: 44px;
+  --y: -30px;
+}
+.celebration-burst i:nth-child(5) {
+  --x: 48px;
+  --y: 6px;
+}
+.celebration-burst i:nth-child(6) {
+  --x: 28px;
+  --y: 36px;
+}
+.celebration-burst i:nth-child(7) {
+  --x: -32px;
+  --y: 30px;
+}
+.celebration-burst i:nth-child(8) {
+  --x: -48px;
+  --y: 2px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  button {
+    transition: transform var(--motion-quick) var(--ease-settle);
+  }
+  button:active:not(:disabled) {
+    transform: translateY(2px) scale(0.985);
+  }
+  .screen-enter > .hero,
+  .screen-enter > .setup-panel,
+  .screen-enter > .stage,
+  .screen-enter > .celebration,
+  .screen-enter > .intro-panel {
+    animation: scene-arrive var(--motion-enter) var(--ease-settle) both;
+  }
+  .screen-enter .mascot-welcome.character-ready {
+    animation: character-hello var(--motion-character) var(--ease-settle) both;
+  }
+  .screen-enter .mascot-secret.character-ready {
+    animation: character-settle 360ms var(--ease-settle) both;
+  }
+  .screen-enter.phase-reveal .word-card {
+    animation: card-reveal 280ms var(--ease-settle) both;
+    transform-origin: center bottom;
+  }
+  .celebrate-enter .mascot-celebrate.character-ready {
+    animation: character-cheer 520ms var(--ease-settle) both;
+  }
+  .celebrate-enter .score-gain {
+    animation: score-arrive 300ms 90ms var(--ease-settle) both;
+  }
+  .celebrate-enter .celebration-burst i {
+    animation: celebration-piece 620ms calc(var(--piece) * 16ms) ease-out both;
+  }
+  .dialog-enter {
+    animation: sheet-arrive 180ms var(--ease-settle) both;
+  }
+  .screen-enter .intro-steps li {
+    animation: scene-arrive 220ms var(--ease-settle) both;
+  }
+  .screen-enter .intro-steps li:nth-child(2) {
+    animation-delay: 60ms;
+  }
+  .screen-enter .intro-steps li:nth-child(3) {
+    animation-delay: 120ms;
+  }
+  @keyframes scene-arrive {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes character-hello {
+    0% {
+      transform: translateY(6px) rotate(-3deg) scale(0.96);
+    }
+    65% {
+      transform: translateY(-2px) rotate(2deg) scale(1.02);
+    }
+    100% {
+      transform: none;
+    }
+  }
+  @keyframes character-settle {
+    from {
+      opacity: 0;
+      transform: translateX(-8px) rotate(-3deg);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes card-reveal {
+    from {
+      opacity: 0.3;
+      transform: translateY(6px) rotate(-1.5deg) scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes character-cheer {
+    0% {
+      transform: scale(0.94);
+    }
+    40% {
+      transform: translateY(-6px) scale(1.03);
+    }
+    75% {
+      transform: translateY(1px) scale(0.99);
+    }
+    100% {
+      transform: none;
+    }
+  }
+  @keyframes score-arrive {
+    from {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes celebration-piece {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(0.5);
+    }
+    20% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translate(var(--x), var(--y)) rotate(150deg) scale(0.8);
+    }
+  }
+  @keyframes sheet-arrive {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  button:active:not(:disabled) {
+    transform: none;
+  }
+  .celebration-burst {
+    display: none;
+  }
+}

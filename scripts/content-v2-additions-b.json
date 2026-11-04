@@ -1,0 +1,4602 @@
+[
+  {
+    "id": "n:seed",
+    "topic": "nature",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "seed",
+    "labels": {
+      "en": "seed",
+      "zh": "種子",
+      "zh-Hans": "种子",
+      "ja": "種",
+      "ko": "씨앗",
+      "de": "Samen",
+      "fr": "graine",
+      "es": "semilla",
+      "pt": "semente",
+      "it": "seme",
+      "ar": "بذرة"
+    }
+  },
+  {
+    "id": "n:acorn",
+    "topic": "nature",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "acorn",
+    "labels": {
+      "en": "acorn",
+      "zh": "橡果",
+      "zh-Hans": "橡果",
+      "ja": "どんぐり",
+      "ko": "도토리",
+      "de": "Eichel",
+      "fr": "gland",
+      "es": "bellota",
+      "pt": "bolota",
+      "it": "ghianda",
+      "ar": "ثمرة بلوط"
+    }
+  },
+  {
+    "id": "n:pine-cone",
+    "topic": "nature",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "pine cone",
+    "labels": {
+      "en": "pine cone",
+      "zh": "松果",
+      "zh-Hans": "松果",
+      "ja": "松ぼっくり",
+      "ko": "솔방울",
+      "de": "Tannenzapfen",
+      "fr": "pomme de pin",
+      "es": "piña de pino",
+      "pt": "pinha",
+      "it": "pigna",
+      "ar": "كوز صنوبر"
+    }
+  },
+  {
+    "id": "n:tree-stump",
+    "topic": "nature",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "tree stump",
+    "labels": {
+      "en": "tree stump",
+      "zh": "樹樁",
+      "zh-Hans": "树桩",
+      "ja": "切り株",
+      "ko": "그루터기",
+      "de": "Baumstumpf",
+      "fr": "souche",
+      "es": "tocón",
+      "pt": "toco de árvore",
+      "it": "ceppo",
+      "ar": "جذع شجرة مقطوع"
+    }
+  },
+  {
+    "id": "n:bush",
+    "topic": "nature",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "bush",
+    "labels": {
+      "en": "bush",
+      "zh": "灌木叢",
+      "zh-Hans": "灌木丛",
+      "ja": "低木",
+      "ko": "덤불",
+      "de": "Busch",
+      "fr": "buisson",
+      "es": "arbusto",
+      "pt": "arbusto",
+      "it": "cespuglio",
+      "ar": "شجيرة"
+    }
+  },
+  {
+    "id": "n:pond",
+    "topic": "nature",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "pond",
+    "labels": {
+      "en": "pond",
+      "zh": "池塘",
+      "zh-Hans": "池塘",
+      "ja": "池",
+      "ko": "연못",
+      "de": "Teich",
+      "fr": "étang",
+      "es": "estanque",
+      "pt": "lagoa",
+      "it": "stagno",
+      "ar": "بركة ماء"
+    }
+  },
+  {
+    "id": "n:raindrop",
+    "topic": "nature",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "raindrop",
+    "labels": {
+      "en": "raindrop",
+      "zh": "雨滴",
+      "zh-Hans": "雨滴",
+      "ja": "雨粒",
+      "ko": "빗방울",
+      "de": "Regentropfen",
+      "fr": "goutte de pluie",
+      "es": "gota de lluvia",
+      "pt": "gota de chuva",
+      "it": "goccia di pioggia",
+      "ar": "قطرة مطر"
+    }
+  },
+  {
+    "id": "n:footprint-in-mud",
+    "topic": "nature",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "footprint in mud",
+    "labels": {
+      "en": "footprint in mud",
+      "zh": "泥地上的腳印",
+      "zh-Hans": "泥地上的脚印",
+      "ja": "泥の足跡",
+      "ko": "진흙 발자국",
+      "de": "Fußabdruck im Schlamm",
+      "fr": "empreinte dans la boue",
+      "es": "huella en el barro",
+      "pt": "pegada na lama",
+      "it": "impronta nel fango",
+      "ar": "أثر قدم في الوحل"
+    }
+  },
+  {
+    "id": "n:icicle",
+    "topic": "nature",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "icicle",
+    "labels": {
+      "en": "icicle",
+      "zh": "冰柱",
+      "zh-Hans": "冰柱",
+      "ja": "つらら",
+      "ko": "고드름",
+      "de": "Eiszapfen",
+      "fr": "stalactite de glace",
+      "es": "carámbano",
+      "pt": "pingente de gelo",
+      "it": "stalattite di ghiaccio",
+      "ar": "كتلة جليد متدلية"
+    }
+  },
+  {
+    "id": "n:stacked-pebbles",
+    "topic": "nature",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Several small rounded stones balanced in a vertical stack.",
+    "labels": {
+      "en": "stacked pebbles",
+      "zh": "疊起的鵝卵石",
+      "zh-Hans": "叠起的鹅卵石",
+      "ja": "積み重ねた小石",
+      "ko": "쌓아 올린 조약돌",
+      "de": "gestapelte Kieselsteine",
+      "fr": "galets empilés",
+      "es": "piedras apiladas",
+      "pt": "pedrinhas empilhadas",
+      "it": "sassolini impilati",
+      "ar": "حصى مكدسة"
+    }
+  },
+  {
+    "id": "n:fallen-log",
+    "topic": "nature",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "fallen log",
+    "labels": {
+      "en": "fallen log",
+      "zh": "倒下的樹幹",
+      "zh-Hans": "倒下的树干",
+      "ja": "倒れた丸太",
+      "ko": "쓰러진 통나무",
+      "de": "umgestürzter Baumstamm",
+      "fr": "tronc tombé",
+      "es": "tronco caído",
+      "pt": "tronco caído",
+      "it": "tronco caduto",
+      "ar": "جذع شجرة ساقط"
+    }
+  },
+  {
+    "id": "n:flower-bud",
+    "topic": "nature",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "flower bud",
+    "labels": {
+      "en": "flower bud",
+      "zh": "花苞",
+      "zh-Hans": "花苞",
+      "ja": "花のつぼみ",
+      "ko": "꽃봉오리",
+      "de": "Blütenknospe",
+      "fr": "bouton de fleur",
+      "es": "capullo de flor",
+      "pt": "botão de flor",
+      "it": "bocciolo",
+      "ar": "برعم زهرة"
+    }
+  },
+  {
+    "id": "n:mossy-rock",
+    "topic": "nature",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "mossy rock",
+    "labels": {
+      "en": "mossy rock",
+      "zh": "長滿青苔的石頭",
+      "zh-Hans": "长满青苔的石头",
+      "ja": "苔の生えた岩",
+      "ko": "이끼 낀 바위",
+      "de": "bemooster Felsen",
+      "fr": "rocher moussu",
+      "es": "roca con musgo",
+      "pt": "pedra com musgo",
+      "it": "roccia coperta di muschio",
+      "ar": "صخرة مغطاة بالطحالب"
+    }
+  },
+  {
+    "id": "n:rainbow-over-a-waterfall",
+    "topic": "nature",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "rainbow over a waterfall",
+    "labels": {
+      "en": "rainbow over a waterfall",
+      "zh": "瀑布上的彩虹",
+      "zh-Hans": "瀑布上的彩虹",
+      "ja": "滝にかかる虹",
+      "ko": "폭포 위 무지개",
+      "de": "Regenbogen über einem Wasserfall",
+      "fr": "arc-en-ciel sur une cascade",
+      "es": "arcoíris sobre una cascada",
+      "pt": "arco-íris sobre uma cachoeira",
+      "it": "arcobaleno su una cascata",
+      "ar": "قوس قزح فوق شلال"
+    }
+  },
+  {
+    "id": "n:cloud-wearing-a-hat",
+    "topic": "nature",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "cloud wearing a hat",
+    "labels": {
+      "en": "cloud wearing a hat",
+      "zh": "戴帽子的雲",
+      "zh-Hans": "戴帽子的云",
+      "ja": "帽子をかぶった雲",
+      "ko": "모자를 쓴 구름",
+      "de": "Wolke mit Hut",
+      "fr": "nuage avec un chapeau",
+      "es": "nube con sombrero",
+      "pt": "nuvem de chapéu",
+      "it": "nuvola con un cappello",
+      "ar": "سحابة ترتدي قبعة"
+    }
+  },
+  {
+    "id": "n:sun-wearing-earmuffs",
+    "topic": "nature",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "sun wearing earmuffs",
+    "labels": {
+      "en": "sun wearing earmuffs",
+      "zh": "戴耳罩的太陽",
+      "zh-Hans": "戴耳罩的太阳",
+      "ja": "耳当てをつけた太陽",
+      "ko": "귀마개를 한 태양",
+      "de": "Sonne mit Ohrenschützern",
+      "fr": "soleil avec des cache-oreilles",
+      "es": "sol con orejeras",
+      "pt": "sol com protetores de orelha",
+      "it": "sole con paraorecchie",
+      "ar": "شمس ترتدي واقيات أذن"
+    }
+  },
+  {
+    "id": "n:tree-wearing-boots",
+    "topic": "nature",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "tree wearing boots",
+    "labels": {
+      "en": "tree wearing boots",
+      "zh": "穿靴子的樹",
+      "zh-Hans": "穿靴子的树",
+      "ja": "長靴を履いた木",
+      "ko": "장화를 신은 나무",
+      "de": "Baum mit Stiefeln",
+      "fr": "arbre avec des bottes",
+      "es": "árbol con botas",
+      "pt": "árvore de botas",
+      "it": "albero con gli stivali",
+      "ar": "شجرة ترتدي حذاء طويلا"
+    }
+  },
+  {
+    "id": "n:flower-with-a-moustache",
+    "topic": "nature",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "flower with a moustache",
+    "labels": {
+      "en": "flower with a moustache",
+      "zh": "長鬍子的花",
+      "zh-Hans": "长胡子的花",
+      "ja": "口ひげのある花",
+      "ko": "콧수염이 난 꽃",
+      "de": "Blume mit Schnurrbart",
+      "fr": "fleur à moustache",
+      "es": "flor con bigote",
+      "pt": "flor de bigode",
+      "it": "fiore con i baffi",
+      "ar": "زهرة لها شارب"
+    }
+  },
+  {
+    "id": "n:snowman-sunbathing",
+    "topic": "nature",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "snowman sunbathing",
+    "labels": {
+      "en": "snowman sunbathing",
+      "zh": "曬太陽的雪人",
+      "zh-Hans": "晒太阳的雪人",
+      "ja": "日光浴する雪だるま",
+      "ko": "일광욕하는 눈사람",
+      "de": "Schneemann beim Sonnenbaden",
+      "fr": "bonhomme de neige au soleil",
+      "es": "muñeco de nieve tomando el sol",
+      "pt": "boneco de neve tomando sol",
+      "it": "pupazzo di neve che prende il sole",
+      "ar": "رجل ثلج يأخذ حمام شمس"
+    }
+  },
+  {
+    "id": "n:cactus-hugging-a-pillow",
+    "topic": "nature",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "cactus hugging a pillow",
+    "labels": {
+      "en": "cactus hugging a pillow",
+      "zh": "仙人掌抱枕頭",
+      "zh-Hans": "仙人掌抱枕头",
+      "ja": "枕を抱くサボテン",
+      "ko": "베개를 안은 선인장",
+      "de": "Kaktus umarmt ein Kissen",
+      "fr": "cactus serrant un oreiller",
+      "es": "cactus abrazando una almohada",
+      "pt": "cacto abraçando um travesseiro",
+      "it": "cactus che abbraccia un cuscino",
+      "ar": "صبار يعانق وسادة"
+    }
+  },
+  {
+    "id": "n:moon-brushing-its-teeth",
+    "topic": "nature",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "moon brushing its teeth",
+    "labels": {
+      "en": "moon brushing its teeth",
+      "zh": "月亮刷牙",
+      "zh-Hans": "月亮刷牙",
+      "ja": "歯を磨く月",
+      "ko": "이를 닦는 달",
+      "de": "Mond beim Zähneputzen",
+      "fr": "lune qui se brosse les dents",
+      "es": "luna cepillándose los dientes",
+      "pt": "lua escovando os dentes",
+      "it": "luna che si lava i denti",
+      "ar": "قمر ينظف أسنانه"
+    }
+  },
+  {
+    "id": "n:a-leaf-riding-a-skateboard",
+    "topic": "nature",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "a leaf riding a skateboard",
+    "labels": {
+      "en": "a leaf riding a skateboard",
+      "zh": "樹葉踩滑板",
+      "zh-Hans": "树叶踩滑板",
+      "ja": "スケートボードに乗る葉",
+      "ko": "스케이트보드를 타는 나뭇잎",
+      "de": "Blatt auf einem Skateboard",
+      "fr": "feuille sur un skateboard",
+      "es": "hoja en monopatín",
+      "pt": "folha andando de skate",
+      "it": "foglia sullo skateboard",
+      "ar": "ورقة شجر تركب لوح تزلج"
+    }
+  },
+  {
+    "id": "n:lightning-striking-a-tree",
+    "topic": "nature",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "lightning striking a tree",
+    "labels": {
+      "en": "lightning striking a tree",
+      "zh": "閃電擊中樹木",
+      "zh-Hans": "闪电击中树木",
+      "ja": "木に落ちる雷",
+      "ko": "나무에 떨어지는 번개",
+      "de": "Blitz schlägt in einen Baum",
+      "fr": "éclair frappant un arbre",
+      "es": "rayo cayendo en un árbol",
+      "pt": "raio atingindo uma árvore",
+      "it": "fulmine che colpisce un albero",
+      "ar": "برق يضرب شجرة"
+    }
+  },
+  {
+    "id": "n:river-flowing-into-the-sea",
+    "topic": "nature",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "river flowing into the sea",
+    "labels": {
+      "en": "river flowing into the sea",
+      "zh": "河流流入大海",
+      "zh-Hans": "河流流入大海",
+      "ja": "海に流れ込む川",
+      "ko": "바다로 흐르는 강",
+      "de": "Fluss mündet ins Meer",
+      "fr": "rivière se jetant dans la mer",
+      "es": "río desembocando en el mar",
+      "pt": "rio desaguando no mar",
+      "it": "fiume che sfocia nel mare",
+      "ar": "نهر يصب في البحر"
+    }
+  },
+  {
+    "id": "n:roots-breaking-a-pavement",
+    "topic": "nature",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "roots breaking a pavement",
+    "labels": {
+      "en": "roots breaking a pavement",
+      "zh": "樹根撐裂行人路",
+      "zh-Hans": "树根撑裂人行道",
+      "ja": "歩道を割る木の根",
+      "ko": "보도를 가르는 나무뿌리",
+      "de": "Wurzeln sprengen den Gehweg",
+      "fr": "racines fissurant un trottoir",
+      "es": "raíces rompiendo la acera",
+      "pt": "raízes rachando a calçada",
+      "it": "radici che spaccano il marciapiede",
+      "ar": "جذور تشق الرصيف"
+    }
+  },
+  {
+    "id": "n:mountain-wearing-a-scarf",
+    "topic": "nature",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "mountain wearing a scarf",
+    "labels": {
+      "en": "mountain wearing a scarf",
+      "zh": "圍頸巾的山",
+      "zh-Hans": "围围巾的山",
+      "ja": "マフラーを巻いた山",
+      "ko": "목도리를 두른 산",
+      "de": "Berg mit Schal",
+      "fr": "montagne avec une écharpe",
+      "es": "montaña con bufanda",
+      "pt": "montanha de cachecol",
+      "it": "montagna con una sciarpa",
+      "ar": "جبل يرتدي وشاحا"
+    }
+  },
+  {
+    "id": "n:rain-cloud-watering-one-flower",
+    "topic": "nature",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "rain cloud watering one flower",
+    "labels": {
+      "en": "rain cloud watering one flower",
+      "zh": "雨雲只澆一朵花",
+      "zh-Hans": "雨云只浇一朵花",
+      "ja": "一輪の花だけに雨を降らす雲",
+      "ko": "꽃 한 송이에만 물을 주는 비구름",
+      "de": "Regenwolke gießt eine einzige Blume",
+      "fr": "nuage arrosant une seule fleur",
+      "es": "nube regando una sola flor",
+      "pt": "nuvem regando uma única flor",
+      "it": "nuvola che annaffia un solo fiore",
+      "ar": "سحابة تسقي زهرة واحدة فقط"
+    }
+  },
+  {
+    "id": "n:volcano-popping-popcorn",
+    "topic": "nature",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "volcano popping popcorn",
+    "labels": {
+      "en": "volcano popping popcorn",
+      "zh": "爆出爆谷的火山",
+      "zh-Hans": "爆出爆米花的火山",
+      "ja": "ポップコーンを噴く火山",
+      "ko": "팝콘을 터뜨리는 화산",
+      "de": "Vulkan spuckt Popcorn",
+      "fr": "volcan projetant du pop-corn",
+      "es": "volcán lanzando palomitas",
+      "pt": "vulcão estourando pipoca",
+      "it": "vulcano che erutta popcorn",
+      "ar": "بركان يقذف الفشار"
+    }
+  },
+  {
+    "id": "n:snowflake-under-an-umbrella",
+    "topic": "nature",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "snowflake under an umbrella",
+    "labels": {
+      "en": "snowflake under an umbrella",
+      "zh": "雪花撐雨傘",
+      "zh-Hans": "雪花撑雨伞",
+      "ja": "傘の下の雪の結晶",
+      "ko": "우산 아래 눈송이",
+      "de": "Schneeflocke unter einem Regenschirm",
+      "fr": "flocon sous un parapluie",
+      "es": "copo de nieve bajo un paraguas",
+      "pt": "floco de neve sob um guarda-chuva",
+      "it": "fiocco di neve sotto un ombrello",
+      "ar": "ندفة ثلج تحت مظلة"
+    }
+  },
+  {
+    "id": "n:rainbow-tied-in-a-knot",
+    "topic": "nature",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "rainbow tied in a knot",
+    "labels": {
+      "en": "rainbow tied in a knot",
+      "zh": "打了結的彩虹",
+      "zh-Hans": "打了结的彩虹",
+      "ja": "結び目のある虹",
+      "ko": "매듭진 무지개",
+      "de": "Regenbogen mit einem Knoten",
+      "fr": "arc-en-ciel noué",
+      "es": "arcoíris con un nudo",
+      "pt": "arco-íris com um nó",
+      "it": "arcobaleno annodato",
+      "ar": "قوس قزح مربوط بعقدة"
+    }
+  },
+  {
+    "id": "n:seed-growing-through-a-cracked-cup",
+    "topic": "nature",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [],
+    "intent": "seed growing through a cracked cup",
+    "labels": {
+      "en": "seed growing through a cracked cup",
+      "zh": "種子從裂杯長出",
+      "zh-Hans": "种子从裂杯长出",
+      "ja": "割れたカップから育つ芽",
+      "ko": "금 간 컵에서 자라는 씨앗",
+      "de": "Samen wächst durch eine kaputte Tasse",
+      "fr": "graine poussant dans une tasse fêlée",
+      "es": "semilla creciendo en una taza agrietada",
+      "pt": "semente crescendo numa xícara rachada",
+      "it": "seme che cresce in una tazza rotta",
+      "ar": "بذرة تنمو من كوب متشقق"
+    }
+  },
+  {
+    "id": "n:waterfall-freezing-halfway-down",
+    "topic": "nature",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [],
+    "intent": "waterfall freezing halfway down",
+    "labels": {
+      "en": "waterfall freezing halfway down",
+      "zh": "瀑布流到一半結冰",
+      "zh-Hans": "瀑布流到一半结冰",
+      "ja": "途中で凍った滝",
+      "ko": "중간에서 얼어붙은 폭포",
+      "de": "Wasserfall friert auf halbem Weg ein",
+      "fr": "cascade gelée à mi-hauteur",
+      "es": "cascada congelada a mitad de caída",
+      "pt": "cachoeira congelada no meio da queda",
+      "it": "cascata congelata a metà",
+      "ar": "شلال يتجمد في منتصف سقوطه"
+    }
+  },
+  {
+    "id": "n:forest-reflected-in-a-puddle",
+    "topic": "nature",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [],
+    "intent": "forest reflected in a puddle",
+    "labels": {
+      "en": "forest reflected in a puddle",
+      "zh": "水窪倒映森林",
+      "zh-Hans": "水洼倒映森林",
+      "ja": "水たまりに映る森",
+      "ko": "웅덩이에 비친 숲",
+      "de": "Wald spiegelt sich in einer Pfütze",
+      "fr": "forêt reflétée dans une flaque",
+      "es": "bosque reflejado en un charco",
+      "pt": "floresta refletida numa poça",
+      "it": "foresta riflessa in una pozzanghera",
+      "ar": "غابة تنعكس في بركة صغيرة"
+    }
+  },
+  {
+    "id": "n:cloud-knitting-a-rainbow",
+    "topic": "nature",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "cloud knitting a rainbow",
+    "labels": {
+      "en": "cloud knitting a rainbow",
+      "zh": "雲織彩虹",
+      "zh-Hans": "云织彩虹",
+      "ja": "虹を編む雲",
+      "ko": "무지개를 뜨개질하는 구름",
+      "de": "Wolke strickt einen Regenbogen",
+      "fr": "nuage tricotant un arc-en-ciel",
+      "es": "nube tejiendo un arcoíris",
+      "pt": "nuvem tricotando um arco-íris",
+      "it": "nuvola che lavora a maglia un arcobaleno",
+      "ar": "سحابة تحيك قوس قزح"
+    }
+  },
+  {
+    "id": "n:tree-holding-an-umbrella-over-a-sapling",
+    "topic": "nature",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "tree holding an umbrella over a sapling",
+    "labels": {
+      "en": "tree holding an umbrella over a sapling",
+      "zh": "大樹為小樹苗撐傘",
+      "zh-Hans": "大树为小树苗撑伞",
+      "ja": "苗木に傘を差す木",
+      "ko": "묘목 위에 우산을 씌워 주는 나무",
+      "de": "Baum hält einen Schirm über einen Setzling",
+      "fr": "arbre abritant une pousse sous un parapluie",
+      "es": "árbol con paraguas sobre un arbolito",
+      "pt": "árvore segurando guarda-chuva sobre uma muda",
+      "it": "albero con un ombrello sopra un alberello",
+      "ar": "شجرة تحمل مظلة فوق شتلة"
+    }
+  },
+  {
+    "id": "n:scooter",
+    "topic": "transport",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "scooter",
+    "labels": {
+      "en": "scooter",
+      "zh": "滑板車",
+      "zh-Hans": "滑板车",
+      "ja": "キックスクーター",
+      "ko": "킥보드",
+      "de": "Tretroller",
+      "fr": "trottinette",
+      "es": "patinete",
+      "pt": "patinete",
+      "it": "monopattino",
+      "ar": "سكوتر دفع"
+    }
+  },
+  {
+    "id": "n:school-bus",
+    "topic": "transport",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "school bus",
+    "labels": {
+      "en": "school bus",
+      "zh": "校巴",
+      "zh-Hans": "校车",
+      "ja": "スクールバス",
+      "ko": "통학버스",
+      "de": "Schulbus",
+      "fr": "bus scolaire",
+      "es": "autobús escolar",
+      "pt": "ônibus escolar",
+      "it": "scuolabus",
+      "ar": "حافلة مدرسية"
+    }
+  },
+  {
+    "id": "n:sailboat",
+    "topic": "transport",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "A boat with a sail; the vessel, not the activity of sailing.",
+    "labels": {
+      "en": "sailboat",
+      "zh": "帆船（船隻）",
+      "zh-Hans": "帆船（船只）",
+      "ja": "帆船",
+      "ko": "돛단배",
+      "de": "Segelboot",
+      "fr": "voilier",
+      "es": "velero",
+      "pt": "barco a vela",
+      "it": "barca a vela",
+      "ar": "قارب شراعي"
+    }
+  },
+  {
+    "id": "n:canoe",
+    "topic": "transport",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "An open canoe vessel with pointed ends; not a kayaking activity.",
+    "labels": {
+      "en": "canoe",
+      "zh": "獨木舟（船隻）",
+      "zh-Hans": "独木舟（船只）",
+      "ja": "カヌー",
+      "ko": "카누",
+      "de": "Kanu",
+      "fr": "canoë",
+      "es": "canoa",
+      "pt": "canoa",
+      "it": "canoa",
+      "ar": "زورق تجديف"
+    }
+  },
+  {
+    "id": "n:rowboat",
+    "topic": "transport",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "A small boat with oars; the vessel, not the rowing sport.",
+    "labels": {
+      "en": "rowboat",
+      "zh": "划艇（船隻）",
+      "zh-Hans": "划艇（船只）",
+      "ja": "手こぎボート",
+      "ko": "노 젓는 배",
+      "de": "Ruderboot",
+      "fr": "barque à rames",
+      "es": "bote de remos",
+      "pt": "barco a remo",
+      "it": "barca a remi",
+      "ar": "قارب بمجاديف"
+    }
+  },
+  {
+    "id": "n:hot-air-balloon",
+    "topic": "transport",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "hot-air balloon",
+    "labels": {
+      "en": "hot-air balloon",
+      "zh": "熱氣球",
+      "zh-Hans": "热气球",
+      "ja": "熱気球",
+      "ko": "열기구",
+      "de": "Heißluftballon",
+      "fr": "montgolfière",
+      "es": "globo aerostático",
+      "pt": "balão de ar quente",
+      "it": "mongolfiera",
+      "ar": "منطاد هواء ساخن"
+    }
+  },
+  {
+    "id": "n:submarine",
+    "topic": "transport",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "submarine",
+    "labels": {
+      "en": "submarine",
+      "zh": "潛艇",
+      "zh-Hans": "潜艇",
+      "ja": "潜水艦",
+      "ko": "잠수함",
+      "de": "U-Boot",
+      "fr": "sous-marin",
+      "es": "submarino",
+      "pt": "submarino",
+      "it": "sottomarino",
+      "ar": "غواصة"
+    }
+  },
+  {
+    "id": "n:tractor",
+    "topic": "transport",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "tractor",
+    "labels": {
+      "en": "tractor",
+      "zh": "拖拉機",
+      "zh-Hans": "拖拉机",
+      "ja": "トラクター",
+      "ko": "트랙터",
+      "de": "Traktor",
+      "fr": "tracteur",
+      "es": "tractor",
+      "pt": "trator",
+      "it": "trattore",
+      "ar": "جرار"
+    }
+  },
+  {
+    "id": "n:tricycle",
+    "topic": "transport",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "tricycle",
+    "labels": {
+      "en": "tricycle",
+      "zh": "三輪車",
+      "zh-Hans": "三轮车",
+      "ja": "三輪車",
+      "ko": "세발자전거",
+      "de": "Dreirad",
+      "fr": "tricycle",
+      "es": "triciclo",
+      "pt": "triciclo",
+      "it": "triciclo",
+      "ar": "دراجة ثلاثية العجلات"
+    }
+  },
+  {
+    "id": "n:roller-coaster",
+    "topic": "transport",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "roller coaster",
+    "labels": {
+      "en": "roller coaster",
+      "zh": "過山車",
+      "zh-Hans": "过山车",
+      "ja": "ジェットコースター",
+      "ko": "롤러코스터",
+      "de": "Achterbahn",
+      "fr": "montagnes russes",
+      "es": "montaña rusa",
+      "pt": "montanha-russa",
+      "it": "montagne russe",
+      "ar": "قطار أفعواني"
+    }
+  },
+  {
+    "id": "n:train-tunnel",
+    "topic": "transport",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "train tunnel",
+    "labels": {
+      "en": "train tunnel",
+      "zh": "火車隧道",
+      "zh-Hans": "火车隧道",
+      "ja": "鉄道トンネル",
+      "ko": "기차 터널",
+      "de": "Eisenbahntunnel",
+      "fr": "tunnel ferroviaire",
+      "es": "túnel de tren",
+      "pt": "túnel ferroviário",
+      "it": "galleria ferroviaria",
+      "ar": "نفق قطار"
+    }
+  },
+  {
+    "id": "n:bicycle-with-a-basket",
+    "topic": "transport",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "bicycle with a basket",
+    "labels": {
+      "en": "bicycle with a basket",
+      "zh": "有籃的單車",
+      "zh-Hans": "有篮子的自行车",
+      "ja": "かご付き自転車",
+      "ko": "바구니 달린 자전거",
+      "de": "Fahrrad mit Korb",
+      "fr": "vélo avec un panier",
+      "es": "bicicleta con cesta",
+      "pt": "bicicleta com cesta",
+      "it": "bicicletta con cestino",
+      "ar": "دراجة بسلة"
+    }
+  },
+  {
+    "id": "n:car-with-a-roof-rack",
+    "topic": "transport",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "car with a roof rack",
+    "labels": {
+      "en": "car with a roof rack",
+      "zh": "有車頂架的汽車",
+      "zh-Hans": "有车顶架的汽车",
+      "ja": "ルーフキャリア付きの車",
+      "ko": "지붕 짐받이가 있는 자동차",
+      "de": "Auto mit Dachgepäckträger",
+      "fr": "voiture avec galerie de toit",
+      "es": "coche con portaequipajes",
+      "pt": "carro com bagageiro no teto",
+      "it": "auto con portapacchi",
+      "ar": "سيارة بحامل أمتعة على السقف"
+    }
+  },
+  {
+    "id": "n:charging-an-electric-car",
+    "topic": "transport",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "charging an electric car",
+    "labels": {
+      "en": "charging an electric car",
+      "zh": "電動車充電",
+      "zh-Hans": "电动车充电",
+      "ja": "電気自動車の充電",
+      "ko": "전기차 충전하기",
+      "de": "Elektroauto laden",
+      "fr": "recharger une voiture électrique",
+      "es": "cargar un coche eléctrico",
+      "pt": "carregar um carro elétrico",
+      "it": "ricaricare un'auto elettrica",
+      "ar": "شحن سيارة كهربائية"
+    }
+  },
+  {
+    "id": "n:bus-with-square-wheels",
+    "topic": "transport",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "bus with square wheels",
+    "labels": {
+      "en": "bus with square wheels",
+      "zh": "方形車輪的巴士",
+      "zh-Hans": "方形车轮的巴士",
+      "ja": "四角い車輪のバス",
+      "ko": "네모 바퀴 버스",
+      "de": "Bus mit viereckigen Rädern",
+      "fr": "bus aux roues carrées",
+      "es": "autobús con ruedas cuadradas",
+      "pt": "ônibus com rodas quadradas",
+      "it": "autobus con ruote quadrate",
+      "ar": "حافلة بعجلات مربعة"
+    }
+  },
+  {
+    "id": "n:rocket-stuck-in-a-tree",
+    "topic": "transport",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "rocket stuck in a tree",
+    "labels": {
+      "en": "rocket stuck in a tree",
+      "zh": "卡在樹上的火箭",
+      "zh-Hans": "卡在树上的火箭",
+      "ja": "木に引っかかったロケット",
+      "ko": "나무에 걸린 로켓",
+      "de": "Rakete steckt in einem Baum",
+      "fr": "fusée coincée dans un arbre",
+      "es": "cohete atascado en un árbol",
+      "pt": "foguete preso numa árvore",
+      "it": "razzo incastrato in un albero",
+      "ar": "صاروخ عالق في شجرة"
+    }
+  },
+  {
+    "id": "n:boat-in-a-bathtub",
+    "topic": "transport",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "boat in a bathtub",
+    "labels": {
+      "en": "boat in a bathtub",
+      "zh": "浴缸裏的小船",
+      "zh-Hans": "浴缸里的小船",
+      "ja": "浴槽の中の船",
+      "ko": "욕조 안의 배",
+      "de": "Boot in einer Badewanne",
+      "fr": "bateau dans une baignoire",
+      "es": "barco en una bañera",
+      "pt": "barco numa banheira",
+      "it": "barca nella vasca",
+      "ar": "قارب في حوض استحمام"
+    }
+  },
+  {
+    "id": "n:train-wearing-sunglasses",
+    "topic": "transport",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "train wearing sunglasses",
+    "labels": {
+      "en": "train wearing sunglasses",
+      "zh": "戴太陽眼鏡的火車",
+      "zh-Hans": "戴太阳镜的火车",
+      "ja": "サングラスをかけた列車",
+      "ko": "선글라스를 쓴 기차",
+      "de": "Zug mit Sonnenbrille",
+      "fr": "train avec des lunettes de soleil",
+      "es": "tren con gafas de sol",
+      "pt": "trem de óculos escuros",
+      "it": "treno con occhiali da sole",
+      "ar": "قطار يرتدي نظارة شمسية"
+    }
+  },
+  {
+    "id": "n:car-with-a-moustache",
+    "topic": "transport",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "car with a moustache",
+    "labels": {
+      "en": "car with a moustache",
+      "zh": "長鬍子的汽車",
+      "zh-Hans": "长胡子的汽车",
+      "ja": "口ひげのある車",
+      "ko": "콧수염이 난 자동차",
+      "de": "Auto mit Schnurrbart",
+      "fr": "voiture à moustache",
+      "es": "coche con bigote",
+      "pt": "carro de bigode",
+      "it": "auto con i baffi",
+      "ar": "سيارة لها شارب"
+    }
+  },
+  {
+    "id": "n:bicycle-with-one-giant-wheel",
+    "topic": "transport",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "bicycle with one giant wheel",
+    "labels": {
+      "en": "bicycle with one giant wheel",
+      "zh": "一個車輪超大的單車",
+      "zh-Hans": "一个车轮超大的自行车",
+      "ja": "片方の車輪が巨大な自転車",
+      "ko": "바퀴 하나가 거대한 자전거",
+      "de": "Fahrrad mit einem Riesenrad",
+      "fr": "vélo avec une roue géante",
+      "es": "bicicleta con una rueda gigante",
+      "pt": "bicicleta com uma roda gigante",
+      "it": "bicicletta con una ruota gigante",
+      "ar": "دراجة بعجلة واحدة عملاقة"
+    }
+  },
+  {
+    "id": "n:submarine-with-a-snorkel",
+    "topic": "transport",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "submarine with a snorkel",
+    "labels": {
+      "en": "submarine with a snorkel",
+      "zh": "插着呼吸管的潛艇",
+      "zh-Hans": "插着呼吸管的潜艇",
+      "ja": "シュノーケル付き潜水艦",
+      "ko": "스노클을 단 잠수함",
+      "de": "U-Boot mit Schnorchel",
+      "fr": "sous-marin avec un tuba",
+      "es": "submarino con tubo de buceo",
+      "pt": "submarino com snorkel",
+      "it": "sottomarino con boccaglio",
+      "ar": "غواصة بأنبوب تنفس"
+    }
+  },
+  {
+    "id": "n:tractor-pulling-a-tiny-wagon",
+    "topic": "transport",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "tractor pulling a tiny wagon",
+    "labels": {
+      "en": "tractor pulling a tiny wagon",
+      "zh": "拖拉機拉小小貨車",
+      "zh-Hans": "拖拉机拉小小货车",
+      "ja": "小さな荷車を引くトラクター",
+      "ko": "아주 작은 수레를 끄는 트랙터",
+      "de": "Traktor zieht einen winzigen Wagen",
+      "fr": "tracteur tirant un minuscule chariot",
+      "es": "tractor tirando de un carrito diminuto",
+      "pt": "trator puxando uma carroça minúscula",
+      "it": "trattore che tira un carretto minuscolo",
+      "ar": "جرار يسحب عربة صغيرة جدا"
+    }
+  },
+  {
+    "id": "n:airplane-towing-a-banner",
+    "topic": "transport",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "airplane towing a banner",
+    "labels": {
+      "en": "airplane towing a banner",
+      "zh": "飛機拖橫額",
+      "zh-Hans": "飞机拖横幅",
+      "ja": "横断幕を引く飛行機",
+      "ko": "현수막을 끄는 비행기",
+      "de": "Flugzeug zieht ein Banner",
+      "fr": "avion tirant une banderole",
+      "es": "avión arrastrando una pancarta",
+      "pt": "avião puxando uma faixa",
+      "it": "aereo che traina uno striscione",
+      "ar": "طائرة تسحب لافتة"
+    }
+  },
+  {
+    "id": "n:lifting-a-car-with-a-tow-truck",
+    "topic": "transport",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "lifting a car with a tow truck",
+    "labels": {
+      "en": "lifting a car with a tow truck",
+      "zh": "拖車吊起汽車",
+      "zh-Hans": "拖车吊起汽车",
+      "ja": "車を持ち上げるレッカー車",
+      "ko": "견인차로 자동차 들어 올리기",
+      "de": "Abschleppwagen hebt ein Auto",
+      "fr": "dépanneuse soulevant une voiture",
+      "es": "grúa levantando un coche",
+      "pt": "guincho levantando um carro",
+      "it": "carro attrezzi che solleva un'auto",
+      "ar": "شاحنة سحب ترفع سيارة"
+    }
+  },
+  {
+    "id": "n:ferry-carrying-bicycles",
+    "topic": "transport",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "ferry carrying bicycles",
+    "labels": {
+      "en": "ferry carrying bicycles",
+      "zh": "渡輪運載單車",
+      "zh-Hans": "渡轮运载自行车",
+      "ja": "自転車を運ぶフェリー",
+      "ko": "자전거를 나르는 페리",
+      "de": "Fähre transportiert Fahrräder",
+      "fr": "ferry transportant des vélos",
+      "es": "ferri transportando bicicletas",
+      "pt": "balsa transportando bicicletas",
+      "it": "traghetto che trasporta biciclette",
+      "ar": "عبارة تحمل دراجات"
+    }
+  },
+  {
+    "id": "n:airplane-stuck-in-a-giant-cobweb",
+    "topic": "transport",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "airplane stuck in a giant cobweb",
+    "labels": {
+      "en": "airplane stuck in a giant cobweb",
+      "zh": "飛機卡在巨型蜘蛛網",
+      "zh-Hans": "飞机卡在巨型蜘蛛网",
+      "ja": "巨大なクモの巣にかかった飛行機",
+      "ko": "거대한 거미줄에 걸린 비행기",
+      "de": "Flugzeug in einem riesigen Spinnennetz",
+      "fr": "avion pris dans une toile géante",
+      "es": "avión atrapado en una telaraña gigante",
+      "pt": "avião preso numa teia gigante",
+      "it": "aereo in una ragnatela gigante",
+      "ar": "طائرة عالقة في شبكة عنكبوت عملاقة"
+    }
+  },
+  {
+    "id": "n:bus-stopping-for-a-snail",
+    "topic": "transport",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "bus stopping for a snail",
+    "labels": {
+      "en": "bus stopping for a snail",
+      "zh": "巴士停車讓蝸牛過路",
+      "zh-Hans": "巴士停车让蜗牛过路",
+      "ja": "カタツムリのために止まるバス",
+      "ko": "달팽이를 위해 멈춘 버스",
+      "de": "Bus hält für eine Schnecke",
+      "fr": "bus s'arrêtant pour un escargot",
+      "es": "autobús parando por un caracol",
+      "pt": "ônibus parando para um caracol",
+      "it": "autobus che si ferma per una lumaca",
+      "ar": "حافلة تتوقف من أجل حلزون"
+    }
+  },
+  {
+    "id": "n:sailboat-with-a-sock-for-a-sail",
+    "topic": "transport",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "sailboat with a sock for a sail",
+    "labels": {
+      "en": "sailboat with a sock for a sail",
+      "zh": "以襪子作船帆的帆船",
+      "zh-Hans": "以袜子作船帆的帆船",
+      "ja": "靴下を帆にした船",
+      "ko": "양말을 돛으로 쓰는 배",
+      "de": "Segelboot mit einer Socke als Segel",
+      "fr": "voilier avec une chaussette pour voile",
+      "es": "velero con un calcetín como vela",
+      "pt": "barco com meia no lugar da vela",
+      "it": "barca con un calzino come vela",
+      "ar": "قارب شراعي بشراع من جورب"
+    }
+  },
+  {
+    "id": "n:traffic-jam-of-flying-carpets",
+    "topic": "transport",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "traffic jam of flying carpets",
+    "labels": {
+      "en": "traffic jam of flying carpets",
+      "zh": "飛氈塞車",
+      "zh-Hans": "飞毯堵车",
+      "ja": "空飛ぶじゅうたんの渋滞",
+      "ko": "하늘을 나는 양탄자 교통 체증",
+      "de": "Stau aus fliegenden Teppichen",
+      "fr": "embouteillage de tapis volants",
+      "es": "atasco de alfombras voladoras",
+      "pt": "engarrafamento de tapetes voadores",
+      "it": "ingorgo di tappeti volanti",
+      "ar": "ازدحام سجاد طائر"
+    }
+  },
+  {
+    "id": "n:helicopter-drying-laundry",
+    "topic": "transport",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "helicopter drying laundry",
+    "labels": {
+      "en": "helicopter drying laundry",
+      "zh": "直升機吹乾衣服",
+      "zh-Hans": "直升机吹干衣服",
+      "ja": "洗濯物を乾かすヘリコプター",
+      "ko": "빨래를 말리는 헬리콥터",
+      "de": "Hubschrauber trocknet Wäsche",
+      "fr": "hélicoptère séchant le linge",
+      "es": "helicóptero secando ropa",
+      "pt": "helicóptero secando roupa",
+      "it": "elicottero che asciuga il bucato",
+      "ar": "مروحية تجفف الغسيل"
+    }
+  },
+  {
+    "id": "n:train-crossing-a-bridge-over-another-train",
+    "topic": "transport",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [],
+    "intent": "train crossing a bridge over another train",
+    "labels": {
+      "en": "train crossing a bridge over another train",
+      "zh": "火車過橋跨過另一列火車",
+      "zh-Hans": "火车过桥跨过另一列火车",
+      "ja": "別の列車の上の橋を渡る列車",
+      "ko": "다른 기차 위 다리를 건너는 기차",
+      "de": "Zug fährt über eine Brücke über einem Zug",
+      "fr": "train passant sur un pont au-dessus d'un train",
+      "es": "tren cruzando un puente sobre otro tren",
+      "pt": "trem cruzando ponte sobre outro trem",
+      "it": "treno su un ponte sopra un altro treno",
+      "ar": "قطار يعبر جسرا فوق قطار آخر"
+    }
+  },
+  {
+    "id": "n:car-driving-onto-a-ferry",
+    "topic": "transport",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [],
+    "intent": "car driving onto a ferry",
+    "labels": {
+      "en": "car driving onto a ferry",
+      "zh": "汽車駛上渡輪",
+      "zh-Hans": "汽车驶上渡轮",
+      "ja": "フェリーに乗り込む車",
+      "ko": "페리에 올라가는 자동차",
+      "de": "Auto fährt auf eine Fähre",
+      "fr": "voiture embarquant sur un ferry",
+      "es": "coche subiendo a un ferri",
+      "pt": "carro entrando numa balsa",
+      "it": "auto che sale su un traghetto",
+      "ar": "سيارة تصعد إلى عبارة"
+    }
+  },
+  {
+    "id": "n:hot-air-balloon-rescuing-a-kite",
+    "topic": "transport",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [],
+    "intent": "hot-air balloon rescuing a kite",
+    "labels": {
+      "en": "hot-air balloon rescuing a kite",
+      "zh": "熱氣球救回風箏",
+      "zh-Hans": "热气球救回风筝",
+      "ja": "たこを救出する熱気球",
+      "ko": "연을 구하는 열기구",
+      "de": "Heißluftballon rettet einen Drachen",
+      "fr": "montgolfière récupérant un cerf-volant",
+      "es": "globo aerostático rescatando una cometa",
+      "pt": "balão resgatando uma pipa",
+      "it": "mongolfiera che recupera un aquilone",
+      "ar": "منطاد ينقذ طائرة ورقية"
+    }
+  },
+  {
+    "id": "n:rocket-waiting-at-a-traffic-light",
+    "topic": "transport",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "rocket waiting at a traffic light",
+    "labels": {
+      "en": "rocket waiting at a traffic light",
+      "zh": "火箭等交通燈",
+      "zh-Hans": "火箭等红绿灯",
+      "ja": "信号待ちをするロケット",
+      "ko": "신호등에서 기다리는 로켓",
+      "de": "Rakete wartet an einer Ampel",
+      "fr": "fusée attendant au feu rouge",
+      "es": "cohete esperando en un semáforo",
+      "pt": "foguete esperando no semáforo",
+      "it": "razzo fermo al semaforo",
+      "ar": "صاروخ ينتظر عند إشارة المرور"
+    }
+  },
+  {
+    "id": "n:submarine-delivering-pizza-to-a-mermaid",
+    "topic": "transport",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "submarine delivering pizza to a mermaid",
+    "labels": {
+      "en": "submarine delivering pizza to a mermaid",
+      "zh": "潛艇送薄餅給美人魚",
+      "zh-Hans": "潜艇送披萨给美人鱼",
+      "ja": "人魚にピザを届ける潜水艦",
+      "ko": "인어에게 피자를 배달하는 잠수함",
+      "de": "U-Boot liefert Pizza an eine Meerjungfrau",
+      "fr": "sous-marin livrant une pizza à une sirène",
+      "es": "submarino entregando pizza a una sirena",
+      "pt": "submarino entregando pizza a uma sereia",
+      "it": "sottomarino che porta pizza a una sirena",
+      "ar": "غواصة توصل بيتزا إلى حورية بحر"
+    }
+  },
+  {
+    "id": "n:school",
+    "topic": "places",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "school",
+    "labels": {
+      "en": "school",
+      "zh": "學校",
+      "zh-Hans": "学校",
+      "ja": "学校",
+      "ko": "학교",
+      "de": "Schule",
+      "fr": "école",
+      "es": "escuela",
+      "pt": "escola",
+      "it": "scuola",
+      "ar": "مدرسة"
+    }
+  },
+  {
+    "id": "n:hospital",
+    "topic": "places",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "hospital",
+    "labels": {
+      "en": "hospital",
+      "zh": "醫院",
+      "zh-Hans": "医院",
+      "ja": "病院",
+      "ko": "병원",
+      "de": "Krankenhaus",
+      "fr": "hôpital",
+      "es": "hospital",
+      "pt": "hospital",
+      "it": "ospedale",
+      "ar": "مستشفى"
+    }
+  },
+  {
+    "id": "n:playground",
+    "topic": "places",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "playground",
+    "labels": {
+      "en": "playground",
+      "zh": "遊樂場",
+      "zh-Hans": "游乐场",
+      "ja": "遊び場",
+      "ko": "놀이터",
+      "de": "Spielplatz",
+      "fr": "aire de jeux",
+      "es": "parque infantil",
+      "pt": "parquinho",
+      "it": "parco giochi",
+      "ar": "ملعب أطفال"
+    }
+  },
+  {
+    "id": "n:library",
+    "topic": "places",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "library",
+    "labels": {
+      "en": "library",
+      "zh": "圖書館",
+      "zh-Hans": "图书馆",
+      "ja": "図書館",
+      "ko": "도서관",
+      "de": "Bibliothek",
+      "fr": "bibliothèque",
+      "es": "biblioteca",
+      "pt": "biblioteca",
+      "it": "biblioteca",
+      "ar": "مكتبة"
+    }
+  },
+  {
+    "id": "n:supermarket",
+    "topic": "places",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "supermarket",
+    "labels": {
+      "en": "supermarket",
+      "zh": "超級市場",
+      "zh-Hans": "超市",
+      "ja": "スーパー",
+      "ko": "슈퍼마켓",
+      "de": "Supermarkt",
+      "fr": "supermarché",
+      "es": "supermercado",
+      "pt": "supermercado",
+      "it": "supermercato",
+      "ar": "سوبر ماركت"
+    }
+  },
+  {
+    "id": "n:airport",
+    "topic": "places",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "airport",
+    "labels": {
+      "en": "airport",
+      "zh": "機場",
+      "zh-Hans": "机场",
+      "ja": "空港",
+      "ko": "공항",
+      "de": "Flughafen",
+      "fr": "aéroport",
+      "es": "aeropuerto",
+      "pt": "aeroporto",
+      "it": "aeroporto",
+      "ar": "مطار"
+    }
+  },
+  {
+    "id": "n:train-station",
+    "topic": "places",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "train station",
+    "labels": {
+      "en": "train station",
+      "zh": "火車站",
+      "zh-Hans": "火车站",
+      "ja": "駅",
+      "ko": "기차역",
+      "de": "Bahnhof",
+      "fr": "gare",
+      "es": "estación de tren",
+      "pt": "estação de trem",
+      "it": "stazione ferroviaria",
+      "ar": "محطة قطار"
+    }
+  },
+  {
+    "id": "n:post-office",
+    "topic": "places",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "post office",
+    "labels": {
+      "en": "post office",
+      "zh": "郵局",
+      "zh-Hans": "邮局",
+      "ja": "郵便局",
+      "ko": "우체국",
+      "de": "Postamt",
+      "fr": "bureau de poste",
+      "es": "oficina de correos",
+      "pt": "agência dos correios",
+      "it": "ufficio postale",
+      "ar": "مكتب بريد"
+    }
+  },
+  {
+    "id": "n:bakery",
+    "topic": "places",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "bakery",
+    "labels": {
+      "en": "bakery",
+      "zh": "麵包店",
+      "zh-Hans": "面包店",
+      "ja": "パン屋",
+      "ko": "빵집",
+      "de": "Bäckerei",
+      "fr": "boulangerie",
+      "es": "panadería",
+      "pt": "padaria",
+      "it": "panetteria",
+      "ar": "مخبز"
+    }
+  },
+  {
+    "id": "n:swimming-pool",
+    "topic": "places",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "swimming pool",
+    "labels": {
+      "en": "swimming pool",
+      "zh": "游泳池",
+      "zh-Hans": "游泳池",
+      "ja": "プール",
+      "ko": "수영장",
+      "de": "Schwimmbecken",
+      "fr": "piscine",
+      "es": "piscina",
+      "pt": "piscina",
+      "it": "piscina",
+      "ar": "مسبح"
+    }
+  },
+  {
+    "id": "n:aquarium-building",
+    "topic": "places",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "aquarium building",
+    "labels": {
+      "en": "aquarium building",
+      "zh": "水族館",
+      "zh-Hans": "水族馆",
+      "ja": "水族館",
+      "ko": "수족관 건물",
+      "de": "Aquariumgebäude",
+      "fr": "aquarium public",
+      "es": "acuario público",
+      "pt": "aquário público",
+      "it": "acquario pubblico",
+      "ar": "مبنى حوض أحياء مائية"
+    }
+  },
+  {
+    "id": "n:lighthouse",
+    "topic": "places",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "lighthouse",
+    "labels": {
+      "en": "lighthouse",
+      "zh": "燈塔",
+      "zh-Hans": "灯塔",
+      "ja": "灯台",
+      "ko": "등대",
+      "de": "Leuchtturm",
+      "fr": "phare",
+      "es": "faro",
+      "pt": "farol marítimo",
+      "it": "faro",
+      "ar": "منارة بحرية"
+    }
+  },
+  {
+    "id": "n:campsite",
+    "topic": "places",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "campsite",
+    "labels": {
+      "en": "campsite",
+      "zh": "營地",
+      "zh-Hans": "营地",
+      "ja": "キャンプ場",
+      "ko": "캠핑장",
+      "de": "Campingplatz",
+      "fr": "camping",
+      "es": "campamento",
+      "pt": "acampamento",
+      "it": "campeggio",
+      "ar": "مخيم"
+    }
+  },
+  {
+    "id": "n:treehouse",
+    "topic": "places",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "treehouse",
+    "labels": {
+      "en": "treehouse",
+      "zh": "樹屋",
+      "zh-Hans": "树屋",
+      "ja": "ツリーハウス",
+      "ko": "나무 위 집",
+      "de": "Baumhaus",
+      "fr": "cabane dans un arbre",
+      "es": "casa del árbol",
+      "pt": "casa na árvore",
+      "it": "casa sull'albero",
+      "ar": "بيت على شجرة"
+    }
+  },
+  {
+    "id": "n:windmill",
+    "topic": "places",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "windmill",
+    "labels": {
+      "en": "windmill",
+      "zh": "風車磨坊",
+      "zh-Hans": "风车磨坊",
+      "ja": "風車小屋",
+      "ko": "풍차 방앗간",
+      "de": "Windmühle",
+      "fr": "moulin à vent",
+      "es": "molino de viento",
+      "pt": "moinho de vento",
+      "it": "mulino a vento",
+      "ar": "طاحونة هوائية"
+    }
+  },
+  {
+    "id": "n:farmhouse",
+    "topic": "places",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "farmhouse",
+    "labels": {
+      "en": "farmhouse",
+      "zh": "農舍",
+      "zh-Hans": "农舍",
+      "ja": "農家の家",
+      "ko": "농가",
+      "de": "Bauernhaus",
+      "fr": "maison de ferme",
+      "es": "casa de campo de una granja",
+      "pt": "casa de fazenda",
+      "it": "casa colonica",
+      "ar": "بيت مزرعة"
+    }
+  },
+  {
+    "id": "n:upside-down-house",
+    "topic": "places",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "upside-down house",
+    "labels": {
+      "en": "upside-down house",
+      "zh": "倒轉的房屋",
+      "zh-Hans": "倒过来的房屋",
+      "ja": "逆さまの家",
+      "ko": "거꾸로 된 집",
+      "de": "Haus auf dem Kopf",
+      "fr": "maison à l'envers",
+      "es": "casa al revés",
+      "pt": "casa de cabeça para baixo",
+      "it": "casa capovolta",
+      "ar": "بيت مقلوب"
+    }
+  },
+  {
+    "id": "n:library-for-giants",
+    "topic": "places",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "library for giants",
+    "labels": {
+      "en": "library for giants",
+      "zh": "巨人的圖書館",
+      "zh-Hans": "巨人的图书馆",
+      "ja": "巨人の図書館",
+      "ko": "거인의 도서관",
+      "de": "Bibliothek für Riesen",
+      "fr": "bibliothèque pour géants",
+      "es": "biblioteca para gigantes",
+      "pt": "biblioteca para gigantes",
+      "it": "biblioteca per giganti",
+      "ar": "مكتبة للعمالقة"
+    }
+  },
+  {
+    "id": "n:house-shaped-like-a-boot",
+    "topic": "places",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "house shaped like a boot",
+    "labels": {
+      "en": "house shaped like a boot",
+      "zh": "靴子形的房屋",
+      "zh-Hans": "靴子形的房屋",
+      "ja": "長靴の形の家",
+      "ko": "장화 모양 집",
+      "de": "Haus in Stiefelform",
+      "fr": "maison en forme de botte",
+      "es": "casa en forma de bota",
+      "pt": "casa em forma de bota",
+      "it": "casa a forma di stivale",
+      "ar": "بيت على شكل حذاء طويل"
+    }
+  },
+  {
+    "id": "n:school-on-the-moon",
+    "topic": "places",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "school on the moon",
+    "labels": {
+      "en": "school on the moon",
+      "zh": "月球上的學校",
+      "zh-Hans": "月球上的学校",
+      "ja": "月の学校",
+      "ko": "달 위 학교",
+      "de": "Schule auf dem Mond",
+      "fr": "école sur la Lune",
+      "es": "escuela en la Luna",
+      "pt": "escola na Lua",
+      "it": "scuola sulla Luna",
+      "ar": "مدرسة على القمر"
+    }
+  },
+  {
+    "id": "n:playground-on-a-cloud",
+    "topic": "places",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "playground on a cloud",
+    "labels": {
+      "en": "playground on a cloud",
+      "zh": "雲上的遊樂場",
+      "zh-Hans": "云上的游乐场",
+      "ja": "雲の上の遊び場",
+      "ko": "구름 위 놀이터",
+      "de": "Spielplatz auf einer Wolke",
+      "fr": "aire de jeux sur un nuage",
+      "es": "parque infantil sobre una nube",
+      "pt": "parquinho numa nuvem",
+      "it": "parco giochi su una nuvola",
+      "ar": "ملعب أطفال على سحابة"
+    }
+  },
+  {
+    "id": "n:castle-made-of-pillows",
+    "topic": "places",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "castle made of pillows",
+    "labels": {
+      "en": "castle made of pillows",
+      "zh": "枕頭砌成的城堡",
+      "zh-Hans": "枕头砌成的城堡",
+      "ja": "枕でできた城",
+      "ko": "베개로 만든 성",
+      "de": "Burg aus Kissen",
+      "fr": "château de coussins",
+      "es": "castillo de almohadas",
+      "pt": "castelo de travesseiros",
+      "it": "castello di cuscini",
+      "ar": "قلعة من الوسائد"
+    }
+  },
+  {
+    "id": "n:water-tower",
+    "topic": "places",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "water tower",
+    "labels": {
+      "en": "water tower",
+      "zh": "水塔",
+      "zh-Hans": "水塔",
+      "ja": "給水塔",
+      "ko": "급수탑",
+      "de": "Wasserturm",
+      "fr": "château d'eau",
+      "es": "torre de agua",
+      "pt": "caixa-d'água elevada",
+      "it": "torre dell'acqua",
+      "ar": "برج ماء"
+    }
+  },
+  {
+    "id": "n:bridge-opening-for-a-ship",
+    "topic": "places",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "bridge opening for a ship",
+    "labels": {
+      "en": "bridge opening for a ship",
+      "zh": "橋升起讓船通過",
+      "zh-Hans": "桥升起让船通过",
+      "ja": "船のために開く橋",
+      "ko": "배가 지나가도록 열리는 다리",
+      "de": "Brücke öffnet sich für ein Schiff",
+      "fr": "pont s'ouvrant pour un bateau",
+      "es": "puente abriéndose para un barco",
+      "pt": "ponte abrindo para um navio",
+      "it": "ponte che si apre per una nave",
+      "ar": "جسر يفتح لمرور سفينة"
+    }
+  },
+  {
+    "id": "n:hospital-for-teddy-bears",
+    "topic": "places",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "hospital for teddy bears",
+    "labels": {
+      "en": "hospital for teddy bears",
+      "zh": "啤啤熊醫院",
+      "zh-Hans": "泰迪熊医院",
+      "ja": "ぬいぐるみのクマの病院",
+      "ko": "곰 인형 병원",
+      "de": "Krankenhaus für Teddybären",
+      "fr": "hôpital pour ours en peluche",
+      "es": "hospital de ositos de peluche",
+      "pt": "hospital de ursinhos de pelúcia",
+      "it": "ospedale per orsacchiotti",
+      "ar": "مستشفى لدمى الدببة"
+    }
+  },
+  {
+    "id": "n:bakery-with-a-chimney-of-flour",
+    "topic": "places",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "bakery with a chimney of flour",
+    "labels": {
+      "en": "bakery with a chimney of flour",
+      "zh": "煙囪噴麵粉的麵包店",
+      "zh-Hans": "烟囱喷面粉的面包店",
+      "ja": "煙突から小麦粉を吹くパン屋",
+      "ko": "굴뚝에서 밀가루를 뿜는 빵집",
+      "de": "Bäckerei mit Mehl aus dem Schornstein",
+      "fr": "boulangerie au conduit soufflant de la farine",
+      "es": "panadería con chimenea que expulsa harina",
+      "pt": "padaria com chaminé soltando farinha",
+      "it": "panetteria con camino che sputa farina",
+      "ar": "مخبز تنفث مدخنته الدقيق"
+    }
+  },
+  {
+    "id": "n:car-park-full-of-broomsticks",
+    "topic": "places",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "car park full of broomsticks",
+    "labels": {
+      "en": "car park full of broomsticks",
+      "zh": "泊滿掃帚的停車場",
+      "zh-Hans": "停满扫帚的停车场",
+      "ja": "ほうきでいっぱいの駐車場",
+      "ko": "빗자루로 가득한 주차장",
+      "de": "Parkplatz voller Besen",
+      "fr": "parking rempli de balais",
+      "es": "aparcamiento lleno de escobas",
+      "pt": "estacionamento cheio de vassouras",
+      "it": "parcheggio pieno di scope",
+      "ar": "موقف سيارات مليء بالمكانس"
+    }
+  },
+  {
+    "id": "n:treehouse-with-an-elevator",
+    "topic": "places",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "treehouse with an elevator",
+    "labels": {
+      "en": "treehouse with an elevator",
+      "zh": "有升降機的樹屋",
+      "zh-Hans": "有电梯的树屋",
+      "ja": "エレベーター付きツリーハウス",
+      "ko": "엘리베이터가 있는 나무 위 집",
+      "de": "Baumhaus mit Aufzug",
+      "fr": "cabane dans un arbre avec ascenseur",
+      "es": "casa del árbol con ascensor",
+      "pt": "casa na árvore com elevador",
+      "it": "casa sull'albero con ascensore",
+      "ar": "بيت على شجرة بمصعد"
+    }
+  },
+  {
+    "id": "n:lighthouse-using-a-flashlight",
+    "topic": "places",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "lighthouse using a flashlight",
+    "labels": {
+      "en": "lighthouse using a flashlight",
+      "zh": "用電筒照明的燈塔",
+      "zh-Hans": "用手电筒照明的灯塔",
+      "ja": "懐中電灯で照らす灯台",
+      "ko": "손전등을 쓰는 등대",
+      "de": "Leuchtturm mit Taschenlampe",
+      "fr": "phare utilisant une lampe de poche",
+      "es": "faro que usa una linterna",
+      "pt": "farol marítimo usando uma lanterna",
+      "it": "faro che usa una torcia",
+      "ar": "منارة بحرية تستخدم مصباحا يدويا"
+    }
+  },
+  {
+    "id": "n:swimming-pool-full-of-jelly",
+    "topic": "places",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "swimming pool full of jelly",
+    "labels": {
+      "en": "swimming pool full of jelly",
+      "zh": "裝滿啫喱的泳池",
+      "zh-Hans": "装满果冻的泳池",
+      "ja": "ゼリーでいっぱいのプール",
+      "ko": "젤리로 가득한 수영장",
+      "de": "Schwimmbecken voller Wackelpudding",
+      "fr": "piscine remplie de gelée",
+      "es": "piscina llena de gelatina",
+      "pt": "piscina cheia de gelatina",
+      "it": "piscina piena di gelatina",
+      "ar": "مسبح مليء بالهلام"
+    }
+  },
+  {
+    "id": "n:house-built-around-a-tree",
+    "topic": "places",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [],
+    "intent": "house built around a tree",
+    "labels": {
+      "en": "house built around a tree",
+      "zh": "圍繞大樹建的房屋",
+      "zh-Hans": "围绕大树建的房屋",
+      "ja": "木を囲んで建てた家",
+      "ko": "나무를 둘러싸고 지은 집",
+      "de": "Haus um einen Baum herum",
+      "fr": "maison construite autour d'un arbre",
+      "es": "casa construida alrededor de un árbol",
+      "pt": "casa construída ao redor de uma árvore",
+      "it": "casa costruita attorno a un albero",
+      "ar": "بيت مبني حول شجرة"
+    }
+  },
+  {
+    "id": "n:bridge-connecting-two-treehouses",
+    "topic": "places",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [],
+    "intent": "bridge connecting two treehouses",
+    "labels": {
+      "en": "bridge connecting two treehouses",
+      "zh": "連接兩間樹屋的橋",
+      "zh-Hans": "连接两间树屋的桥",
+      "ja": "二つのツリーハウスを結ぶ橋",
+      "ko": "두 나무 위 집을 잇는 다리",
+      "de": "Brücke zwischen zwei Baumhäusern",
+      "fr": "pont reliant deux cabanes dans les arbres",
+      "es": "puente entre dos casas del árbol",
+      "pt": "ponte entre duas casas na árvore",
+      "it": "ponte tra due case sugli alberi",
+      "ar": "جسر يصل بين بيتين على شجرتين"
+    }
+  },
+  {
+    "id": "n:museum-of-lost-socks",
+    "topic": "places",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "museum of lost socks",
+    "labels": {
+      "en": "museum of lost socks",
+      "zh": "失蹤襪子博物館",
+      "zh-Hans": "失踪袜子博物馆",
+      "ja": "なくした靴下の博物館",
+      "ko": "잃어버린 양말 박물관",
+      "de": "Museum der verlorenen Socken",
+      "fr": "musée des chaussettes perdues",
+      "es": "museo de calcetines perdidos",
+      "pt": "museu das meias perdidas",
+      "it": "museo dei calzini smarriti",
+      "ar": "متحف الجوارب الضائعة"
+    }
+  },
+  {
+    "id": "n:hotel-balancing-on-one-wheel",
+    "topic": "places",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "hotel balancing on one wheel",
+    "labels": {
+      "en": "hotel balancing on one wheel",
+      "zh": "靠一個輪子平衡的酒店",
+      "zh-Hans": "靠一个轮子平衡的酒店",
+      "ja": "一輪でバランスを取るホテル",
+      "ko": "바퀴 하나로 균형 잡는 호텔",
+      "de": "Hotel balanciert auf einem Rad",
+      "fr": "hôtel en équilibre sur une roue",
+      "es": "hotel en equilibrio sobre una rueda",
+      "pt": "hotel equilibrado numa roda",
+      "it": "hotel in equilibrio su una ruota",
+      "ar": "فندق يتوازن على عجلة واحدة"
+    }
+  },
+  {
+    "id": "n:underwater-library-with-floating-books",
+    "topic": "places",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "underwater library with floating books",
+    "labels": {
+      "en": "underwater library with floating books",
+      "zh": "書本漂浮的水底圖書館",
+      "zh-Hans": "书本漂浮的水下图书馆",
+      "ja": "本が漂う水中図書館",
+      "ko": "책이 떠다니는 수중 도서관",
+      "de": "Unterwasserbibliothek mit schwimmenden Büchern",
+      "fr": "bibliothèque sous-marine aux livres flottants",
+      "es": "biblioteca submarina con libros flotantes",
+      "pt": "biblioteca submarina com livros flutuantes",
+      "it": "biblioteca subacquea con libri galleggianti",
+      "ar": "مكتبة تحت الماء بكتب عائمة"
+    }
+  },
+  {
+    "id": "n:microscope",
+    "topic": "science",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "microscope",
+    "labels": {
+      "en": "microscope",
+      "zh": "顯微鏡",
+      "zh-Hans": "显微镜",
+      "ja": "顕微鏡",
+      "ko": "현미경",
+      "de": "Mikroskop",
+      "fr": "microscope",
+      "es": "microscopio",
+      "pt": "microscópio",
+      "it": "microscopio",
+      "ar": "مجهر"
+    }
+  },
+  {
+    "id": "n:thermometer",
+    "topic": "science",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "thermometer",
+    "labels": {
+      "en": "thermometer",
+      "zh": "溫度計",
+      "zh-Hans": "温度计",
+      "ja": "温度計",
+      "ko": "온도계",
+      "de": "Thermometer",
+      "fr": "thermomètre",
+      "es": "termómetro",
+      "pt": "termômetro",
+      "it": "termometro",
+      "ar": "مقياس حرارة"
+    }
+  },
+  {
+    "id": "n:test-tube",
+    "topic": "science",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "test tube",
+    "labels": {
+      "en": "test tube",
+      "zh": "試管",
+      "zh-Hans": "试管",
+      "ja": "試験管",
+      "ko": "시험관",
+      "de": "Reagenzglas",
+      "fr": "tube à essai",
+      "es": "tubo de ensayo",
+      "pt": "tubo de ensaio",
+      "it": "provetta",
+      "ar": "أنبوب اختبار"
+    }
+  },
+  {
+    "id": "n:battery",
+    "topic": "science",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "battery",
+    "labels": {
+      "en": "battery",
+      "zh": "電池",
+      "zh-Hans": "电池",
+      "ja": "電池",
+      "ko": "건전지",
+      "de": "Batterie",
+      "fr": "pile",
+      "es": "pila",
+      "pt": "pilha",
+      "it": "pila",
+      "ar": "بطارية"
+    }
+  },
+  {
+    "id": "n:triangular-prism",
+    "topic": "science",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "A triangular glass optical prism, drawn as an object.",
+    "labels": {
+      "en": "triangular prism",
+      "zh": "三角稜鏡",
+      "zh-Hans": "三角棱镜",
+      "ja": "三角プリズム",
+      "ko": "삼각 프리즘",
+      "de": "Dreiecksprisma",
+      "fr": "prisme triangulaire",
+      "es": "prisma triangular",
+      "pt": "prisma triangular",
+      "it": "prisma triangolare",
+      "ar": "منشور ثلاثي"
+    }
+  },
+  {
+    "id": "n:human-skeleton",
+    "topic": "science",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "human skeleton",
+    "labels": {
+      "en": "human skeleton",
+      "zh": "人體骨架",
+      "zh-Hans": "人体骨架",
+      "ja": "人の骨格",
+      "ko": "사람의 뼈대",
+      "de": "menschliches Skelett",
+      "fr": "squelette humain",
+      "es": "esqueleto humano",
+      "pt": "esqueleto humano",
+      "it": "scheletro umano",
+      "ar": "هيكل عظمي بشري"
+    }
+  },
+  {
+    "id": "n:lungs",
+    "topic": "science",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "lungs",
+    "labels": {
+      "en": "lungs",
+      "zh": "肺部",
+      "zh-Hans": "肺部",
+      "ja": "肺",
+      "ko": "폐",
+      "de": "Lunge",
+      "fr": "poumons",
+      "es": "pulmones",
+      "pt": "pulmões",
+      "it": "polmoni",
+      "ar": "رئتان"
+    }
+  },
+  {
+    "id": "n:human-heart",
+    "topic": "science",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "human heart",
+    "labels": {
+      "en": "human heart",
+      "zh": "人體心臟",
+      "zh-Hans": "人体心脏",
+      "ja": "人の心臓",
+      "ko": "사람의 심장",
+      "de": "menschliches Herz",
+      "fr": "cœur humain",
+      "es": "corazón humano",
+      "pt": "coração humano",
+      "it": "cuore umano",
+      "ar": "قلب بشري"
+    }
+  },
+  {
+    "id": "n:plant-roots",
+    "topic": "science",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "plant roots",
+    "labels": {
+      "en": "plant roots",
+      "zh": "植物的根",
+      "zh-Hans": "植物的根",
+      "ja": "植物の根",
+      "ko": "식물의 뿌리",
+      "de": "Pflanzenwurzeln",
+      "fr": "racines de plante",
+      "es": "raíces de planta",
+      "pt": "raízes de planta",
+      "it": "radici di una pianta",
+      "ar": "جذور نبات"
+    }
+  },
+  {
+    "id": "n:solar-panel",
+    "topic": "science",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "solar panel",
+    "labels": {
+      "en": "solar panel",
+      "zh": "太陽能板",
+      "zh-Hans": "太阳能板",
+      "ja": "ソーラーパネル",
+      "ko": "태양광 패널",
+      "de": "Solarpanel",
+      "fr": "panneau solaire",
+      "es": "panel solar",
+      "pt": "painel solar",
+      "it": "pannello solare",
+      "ar": "لوح شمسي"
+    }
+  },
+  {
+    "id": "n:rain-gauge",
+    "topic": "science",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "rain gauge",
+    "labels": {
+      "en": "rain gauge",
+      "zh": "雨量計",
+      "zh-Hans": "雨量计",
+      "ja": "雨量計",
+      "ko": "우량계",
+      "de": "Regenmesser",
+      "fr": "pluviomètre",
+      "es": "pluviómetro",
+      "pt": "pluviômetro",
+      "it": "pluviometro",
+      "ar": "مقياس مطر"
+    }
+  },
+  {
+    "id": "n:wind-vane",
+    "topic": "science",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "wind vane",
+    "labels": {
+      "en": "wind vane",
+      "zh": "風向標",
+      "zh-Hans": "风向标",
+      "ja": "風向計",
+      "ko": "풍향계",
+      "de": "Windfahne",
+      "fr": "girouette",
+      "es": "veleta",
+      "pt": "cata-vento de direção",
+      "it": "banderuola",
+      "ar": "دوارة رياح"
+    }
+  },
+  {
+    "id": "n:horseshoe-magnet-picking-up-nails",
+    "topic": "science",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "horseshoe magnet picking up nails",
+    "labels": {
+      "en": "horseshoe magnet picking up nails",
+      "zh": "馬蹄形磁石吸起鐵釘",
+      "zh-Hans": "马蹄形磁铁吸起铁钉",
+      "ja": "くぎを引き上げる馬蹄形磁石",
+      "ko": "못을 끌어 올리는 말굽자석",
+      "de": "Hufeisenmagnet zieht Nägel an",
+      "fr": "aimant en fer à cheval attirant des clous",
+      "es": "imán de herradura levantando clavos",
+      "pt": "ímã de ferradura levantando pregos",
+      "it": "magnete a ferro di cavallo che solleva chiodi",
+      "ar": "مغناطيس حدوة حصان يلتقط مسامير"
+    }
+  },
+  {
+    "id": "n:light-passing-through-a-prism",
+    "topic": "science",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "light passing through a prism",
+    "labels": {
+      "en": "light passing through a prism",
+      "zh": "光穿過三角稜鏡",
+      "zh-Hans": "光穿过三角棱镜",
+      "ja": "プリズムを通る光",
+      "ko": "프리즘을 통과하는 빛",
+      "de": "Licht durch ein Prisma",
+      "fr": "lumière traversant un prisme",
+      "es": "luz atravesando un prisma",
+      "pt": "luz passando por um prisma",
+      "it": "luce che attraversa un prisma",
+      "ar": "ضوء يمر عبر منشور"
+    }
+  },
+  {
+    "id": "n:seed-sprouting-in-a-jar",
+    "topic": "science",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "seed sprouting in a jar",
+    "labels": {
+      "en": "seed sprouting in a jar",
+      "zh": "種子在玻璃瓶發芽",
+      "zh-Hans": "种子在玻璃瓶发芽",
+      "ja": "瓶の中で芽を出す種",
+      "ko": "유리병에서 싹트는 씨앗",
+      "de": "Samen keimt in einem Glas",
+      "fr": "graine germant dans un bocal",
+      "es": "semilla germinando en un frasco",
+      "pt": "semente brotando num pote",
+      "it": "seme che germoglia in un barattolo",
+      "ar": "بذرة تنبت في مرطبان"
+    }
+  },
+  {
+    "id": "n:robot-sneezing-screws",
+    "topic": "science",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "robot sneezing screws",
+    "labels": {
+      "en": "robot sneezing screws",
+      "zh": "機械人打噴嚏噴出螺絲",
+      "zh-Hans": "机器人打喷嚏喷出螺丝",
+      "ja": "ねじをくしゃみで飛ばすロボット",
+      "ko": "재채기로 나사를 뿜는 로봇",
+      "de": "Roboter niest Schrauben",
+      "fr": "robot éternuant des vis",
+      "es": "robot estornudando tornillos",
+      "pt": "robô espirrando parafusos",
+      "it": "robot che starnutisce viti",
+      "ar": "روبوت يعطس براغي"
+    }
+  },
+  {
+    "id": "n:astronaut-walking-a-balloon",
+    "topic": "science",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "astronaut walking a balloon",
+    "labels": {
+      "en": "astronaut walking a balloon",
+      "zh": "太空人遛氣球",
+      "zh-Hans": "宇航员遛气球",
+      "ja": "風船を散歩させる宇宙飛行士",
+      "ko": "풍선을 산책시키는 우주비행사",
+      "de": "Astronaut führt einen Ballon spazieren",
+      "fr": "astronaute promenant un ballon",
+      "es": "astronauta paseando un globo",
+      "pt": "astronauta passeando com um balão",
+      "it": "astronauta che porta a spasso un palloncino",
+      "ar": "رائد فضاء يصطحب بالونا للنزهة"
+    }
+  },
+  {
+    "id": "n:test-tube-growing-a-flower",
+    "topic": "science",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "test tube growing a flower",
+    "labels": {
+      "en": "test tube growing a flower",
+      "zh": "試管長出花朵",
+      "zh-Hans": "试管长出花朵",
+      "ja": "花が育つ試験管",
+      "ko": "꽃이 자라는 시험관",
+      "de": "Reagenzglas mit wachsender Blume",
+      "fr": "tube à essai où pousse une fleur",
+      "es": "tubo de ensayo con una flor creciendo",
+      "pt": "tubo de ensaio com uma flor crescendo",
+      "it": "provetta in cui cresce un fiore",
+      "ar": "أنبوب اختبار تنمو فيه زهرة"
+    }
+  },
+  {
+    "id": "n:magnet-attracting-spoons",
+    "topic": "science",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "magnet attracting spoons",
+    "labels": {
+      "en": "magnet attracting spoons",
+      "zh": "磁石吸起湯匙",
+      "zh-Hans": "磁铁吸起汤匙",
+      "ja": "スプーンを引き寄せる磁石",
+      "ko": "숟가락을 끌어당기는 자석",
+      "de": "Magnet zieht Löffel an",
+      "fr": "aimant attirant des cuillères",
+      "es": "imán atrayendo cucharas",
+      "pt": "ímã atraindo colheres",
+      "it": "magnete che attira cucchiai",
+      "ar": "مغناطيس يجذب ملاعق"
+    }
+  },
+  {
+    "id": "n:robot-charging-in-bed",
+    "topic": "science",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "robot charging in bed",
+    "labels": {
+      "en": "robot charging in bed",
+      "zh": "機械人在床上充電",
+      "zh-Hans": "机器人在床上充电",
+      "ja": "ベッドで充電するロボット",
+      "ko": "침대에서 충전하는 로봇",
+      "de": "Roboter lädt im Bett auf",
+      "fr": "robot se rechargeant au lit",
+      "es": "robot cargándose en la cama",
+      "pt": "robô recarregando na cama",
+      "it": "robot che si ricarica a letto",
+      "ar": "روبوت يشحن نفسه في السرير"
+    }
+  },
+  {
+    "id": "n:skeleton-wearing-slippers",
+    "topic": "science",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "skeleton wearing slippers",
+    "labels": {
+      "en": "skeleton wearing slippers",
+      "zh": "穿拖鞋的骷髏",
+      "zh-Hans": "穿拖鞋的骷髅",
+      "ja": "スリッパを履いた骸骨",
+      "ko": "슬리퍼를 신은 전신 해골",
+      "de": "Skelett mit Hausschuhen",
+      "fr": "squelette en pantoufles",
+      "es": "esqueleto con zapatillas",
+      "pt": "esqueleto de pantufas",
+      "it": "scheletro con le pantofole",
+      "ar": "هيكل عظمي يرتدي خفين"
+    }
+  },
+  {
+    "id": "n:scientist-with-bubbling-hair",
+    "topic": "science",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "scientist with bubbling hair",
+    "labels": {
+      "en": "scientist with bubbling hair",
+      "zh": "頭髮冒泡的科學家",
+      "zh-Hans": "头发冒泡的科学家",
+      "ja": "髪が泡立つ科学者",
+      "ko": "머리카락에서 거품이 나는 과학자",
+      "de": "Wissenschaftler mit blubbernden Haaren",
+      "fr": "scientifique aux cheveux qui moussent",
+      "es": "científico con pelo burbujeante",
+      "pt": "cientista com cabelo borbulhando",
+      "it": "scienziato con capelli che fanno bolle",
+      "ar": "عالم بشعر يخرج فقاعات"
+    }
+  },
+  {
+    "id": "n:water-cycle-in-a-jar",
+    "topic": "science",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "water cycle in a jar",
+    "labels": {
+      "en": "water cycle in a jar",
+      "zh": "玻璃瓶內的水循環",
+      "zh-Hans": "玻璃瓶内的水循环",
+      "ja": "瓶の中の水の循環",
+      "ko": "유리병 속 물의 순환",
+      "de": "Wasserkreislauf im Glas",
+      "fr": "cycle de l'eau dans un bocal",
+      "es": "ciclo del agua en un frasco",
+      "pt": "ciclo da água num pote",
+      "it": "ciclo dell'acqua in un barattolo",
+      "ar": "دورة الماء في مرطبان"
+    }
+  },
+  {
+    "id": "n:hand-making-a-shadow-rabbit",
+    "topic": "science",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "hand making a shadow rabbit",
+    "labels": {
+      "en": "hand making a shadow rabbit",
+      "zh": "用手做兔子影子",
+      "zh-Hans": "用手做兔子影子",
+      "ja": "手で作るウサギの影",
+      "ko": "손으로 만드는 토끼 그림자",
+      "de": "Hand macht einen Hasenschatten",
+      "fr": "main faisant une ombre de lapin",
+      "es": "mano haciendo sombra de conejo",
+      "pt": "mão fazendo sombra de coelho",
+      "it": "mano che crea un'ombra di coniglio",
+      "ar": "يد تصنع ظل أرنب"
+    }
+  },
+  {
+    "id": "n:pulley-lifting-a-bucket",
+    "topic": "science",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "pulley lifting a bucket",
+    "labels": {
+      "en": "pulley lifting a bucket",
+      "zh": "滑輪吊起水桶",
+      "zh-Hans": "滑轮吊起水桶",
+      "ja": "バケツを持ち上げる滑車",
+      "ko": "양동이를 들어 올리는 도르래",
+      "de": "Flaschenzug hebt einen Eimer",
+      "fr": "poulie soulevant un seau",
+      "es": "polea levantando un cubo",
+      "pt": "polia levantando um balde",
+      "it": "carrucola che solleva un secchio",
+      "ar": "بكرة ترفع دلوا"
+    }
+  },
+  {
+    "id": "n:robot-tangled-in-its-charging-cable",
+    "topic": "science",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "robot tangled in its charging cable",
+    "labels": {
+      "en": "robot tangled in its charging cable",
+      "zh": "機械人被充電線纏住",
+      "zh-Hans": "机器人被充电线缠住",
+      "ja": "充電ケーブルに絡まったロボット",
+      "ko": "충전선에 얽힌 로봇",
+      "de": "Roboter im Ladekabel verheddert",
+      "fr": "robot emmêlé dans son câble de charge",
+      "es": "robot enredado en su cable de carga",
+      "pt": "robô enrolado no cabo de carregamento",
+      "it": "robot impigliato nel cavo di ricarica",
+      "ar": "روبوت متشابك في سلك شحنه"
+    }
+  },
+  {
+    "id": "n:astronaut-catching-floating-socks",
+    "topic": "science",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "astronaut catching floating socks",
+    "labels": {
+      "en": "astronaut catching floating socks",
+      "zh": "太空人捉漂浮的襪子",
+      "zh-Hans": "宇航员捉漂浮的袜子",
+      "ja": "浮かぶ靴下をつかむ宇宙飛行士",
+      "ko": "떠다니는 양말을 잡는 우주비행사",
+      "de": "Astronaut fängt schwebende Socken",
+      "fr": "astronaute attrapant des chaussettes flottantes",
+      "es": "astronauta atrapando calcetines flotantes",
+      "pt": "astronauta pegando meias flutuantes",
+      "it": "astronauta che afferra calzini fluttuanti",
+      "ar": "رائد فضاء يمسك جوارب عائمة"
+    }
+  },
+  {
+    "id": "n:magnifying-glass-enlarging-an-ant",
+    "topic": "science",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "magnifying glass enlarging an ant",
+    "labels": {
+      "en": "magnifying glass enlarging an ant",
+      "zh": "放大鏡放大螞蟻",
+      "zh-Hans": "放大镜放大蚂蚁",
+      "ja": "アリを大きく見せる虫眼鏡",
+      "ko": "개미를 확대하는 돋보기",
+      "de": "Lupe vergrößert eine Ameise",
+      "fr": "loupe grossissant une fourmi",
+      "es": "lupa ampliando una hormiga",
+      "pt": "lupa ampliando uma formiga",
+      "it": "lente che ingrandisce una formica",
+      "ar": "عدسة مكبرة تكبر نملة"
+    }
+  },
+  {
+    "id": "n:robot-teaching-a-plant-to-dance",
+    "topic": "science",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "robot teaching a plant to dance",
+    "labels": {
+      "en": "robot teaching a plant to dance",
+      "zh": "機械人教植物跳舞",
+      "zh-Hans": "机器人教植物跳舞",
+      "ja": "植物にダンスを教えるロボット",
+      "ko": "식물에게 춤을 가르치는 로봇",
+      "de": "Roboter bringt einer Pflanze Tanzen bei",
+      "fr": "robot apprenant à danser à une plante",
+      "es": "robot enseñando a bailar a una planta",
+      "pt": "robô ensinando uma planta a dançar",
+      "it": "robot che insegna a ballare a una pianta",
+      "ar": "روبوت يعلم نبتة الرقص"
+    }
+  },
+  {
+    "id": "n:scientist-measuring-a-giant-bubble",
+    "topic": "science",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "scientist measuring a giant bubble",
+    "labels": {
+      "en": "scientist measuring a giant bubble",
+      "zh": "科學家量巨型泡泡",
+      "zh-Hans": "科学家量巨型泡泡",
+      "ja": "巨大な泡を測る科学者",
+      "ko": "거대한 거품을 재는 과학자",
+      "de": "Wissenschaftler misst eine Riesenblase",
+      "fr": "scientifique mesurant une bulle géante",
+      "es": "científico midiendo una burbuja gigante",
+      "pt": "cientista medindo uma bolha gigante",
+      "it": "scienziato che misura una bolla gigante",
+      "ar": "عالم يقيس فقاعة عملاقة"
+    }
+  },
+  {
+    "id": "n:balloon-powering-a-toy-car",
+    "topic": "science",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [],
+    "intent": "balloon powering a toy car",
+    "labels": {
+      "en": "balloon powering a toy car",
+      "zh": "氣球推動玩具車",
+      "zh-Hans": "气球推动玩具车",
+      "ja": "風船で動くおもちゃの車",
+      "ko": "풍선으로 움직이는 장난감 자동차",
+      "de": "Ballon treibt ein Spielzeugauto an",
+      "fr": "ballon propulsant une voiture miniature",
+      "es": "globo impulsando un coche de juguete",
+      "pt": "balão movendo um carrinho de brinquedo",
+      "it": "palloncino che muove un'auto giocattolo",
+      "ar": "بالون يحرك سيارة لعبة"
+    }
+  },
+  {
+    "id": "n:roots-visible-through-a-glass-pot",
+    "topic": "science",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [],
+    "intent": "roots visible through a glass pot",
+    "labels": {
+      "en": "roots visible through a glass pot",
+      "zh": "透過玻璃花盆看樹根",
+      "zh-Hans": "透过玻璃花盆看树根",
+      "ja": "ガラスの鉢から見える根",
+      "ko": "유리 화분 너머로 보이는 뿌리",
+      "de": "Wurzeln sichtbar im Glastopf",
+      "fr": "racines visibles dans un pot en verre",
+      "es": "raíces visibles en una maceta de cristal",
+      "pt": "raízes visíveis num vaso de vidro",
+      "it": "radici visibili in un vaso di vetro",
+      "ar": "جذور ظاهرة عبر أصيص زجاجي"
+    }
+  },
+  {
+    "id": "n:moon-passing-in-front-of-the-sun",
+    "topic": "science",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [],
+    "intent": "moon passing in front of the sun",
+    "labels": {
+      "en": "moon passing in front of the sun",
+      "zh": "月亮經過太陽前面",
+      "zh-Hans": "月亮经过太阳前面",
+      "ja": "太陽の前を通る月",
+      "ko": "태양 앞을 지나가는 달",
+      "de": "Mond zieht vor der Sonne vorbei",
+      "fr": "Lune passant devant le Soleil",
+      "es": "Luna pasando delante del Sol",
+      "pt": "Lua passando na frente do Sol",
+      "it": "Luna che passa davanti al Sole",
+      "ar": "القمر يمر أمام الشمس"
+    }
+  },
+  {
+    "id": "n:robot-assembling-its-own-birthday-cake",
+    "topic": "science",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "robot assembling its own birthday cake",
+    "labels": {
+      "en": "robot assembling its own birthday cake",
+      "zh": "機械人組裝自己的生日蛋糕",
+      "zh-Hans": "机器人组装自己的生日蛋糕",
+      "ja": "自分の誕生日ケーキを組み立てるロボット",
+      "ko": "자기 생일 케이크를 조립하는 로봇",
+      "de": "Roboter baut seine eigene Geburtstagstorte",
+      "fr": "robot assemblant son gâteau d'anniversaire",
+      "es": "robot montando su propia tarta de cumpleaños",
+      "pt": "robô montando o próprio bolo de aniversário",
+      "it": "robot che monta la propria torta di compleanno",
+      "ar": "روبوت يركب كعكة عيد ميلاده"
+    }
+  },
+  {
+    "id": "n:astronaut-watering-a-plant-upside-down",
+    "topic": "science",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "astronaut watering a plant upside down",
+    "labels": {
+      "en": "astronaut watering a plant upside down",
+      "zh": "太空人倒轉淋花",
+      "zh-Hans": "宇航员倒过来浇花",
+      "ja": "逆さまに植物に水をやる宇宙飛行士",
+      "ko": "거꾸로 식물에 물 주는 우주비행사",
+      "de": "Astronaut gießt kopfüber eine Pflanze",
+      "fr": "astronaute arrosant une plante la tête en bas",
+      "es": "astronauta regando una planta cabeza abajo",
+      "pt": "astronauta regando uma planta de cabeça para baixo",
+      "it": "astronauta che annaffia una pianta a testa in giù",
+      "ar": "رائد فضاء يسقي نبتة وهو مقلوب"
+    }
+  },
+  {
+    "id": "n:magic-potion",
+    "topic": "fantasy",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "magic potion",
+    "labels": {
+      "en": "magic potion",
+      "zh": "魔法藥水",
+      "zh-Hans": "魔法药水",
+      "ja": "魔法の薬",
+      "ko": "마법의 물약",
+      "de": "Zaubertrank",
+      "fr": "potion magique",
+      "es": "poción mágica",
+      "pt": "poção mágica",
+      "it": "pozione magica",
+      "ar": "جرعة سحرية"
+    }
+  },
+  {
+    "id": "n:spell-book",
+    "topic": "fantasy",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "spell book",
+    "labels": {
+      "en": "spell book",
+      "zh": "魔法書",
+      "zh-Hans": "魔法书",
+      "ja": "魔法の本",
+      "ko": "마법책",
+      "de": "Zauberbuch",
+      "fr": "grimoire",
+      "es": "libro de hechizos",
+      "pt": "livro de feitiços",
+      "it": "libro degli incantesimi",
+      "ar": "كتاب تعاويذ"
+    }
+  },
+  {
+    "id": "n:crystal-ball",
+    "topic": "fantasy",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "crystal ball",
+    "labels": {
+      "en": "crystal ball",
+      "zh": "水晶球",
+      "zh-Hans": "水晶球",
+      "ja": "水晶玉",
+      "ko": "수정 구슬",
+      "de": "Kristallkugel",
+      "fr": "boule de cristal",
+      "es": "bola de cristal",
+      "pt": "bola de cristal",
+      "it": "sfera di cristallo",
+      "ar": "كرة بلورية"
+    }
+  },
+  {
+    "id": "n:wizard-hat",
+    "topic": "fantasy",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "wizard hat",
+    "labels": {
+      "en": "wizard hat",
+      "zh": "巫師帽",
+      "zh-Hans": "巫师帽",
+      "ja": "魔法使いの帽子",
+      "ko": "마법사 모자",
+      "de": "Zaubererhut",
+      "fr": "chapeau de sorcier",
+      "es": "sombrero de mago",
+      "pt": "chapéu de mago",
+      "it": "cappello da mago",
+      "ar": "قبعة ساحر"
+    }
+  },
+  {
+    "id": "n:fairy-wings",
+    "topic": "fantasy",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "fairy wings",
+    "labels": {
+      "en": "fairy wings",
+      "zh": "仙子翅膀",
+      "zh-Hans": "仙子翅膀",
+      "ja": "妖精の羽",
+      "ko": "요정 날개",
+      "de": "Feenflügel",
+      "fr": "ailes de fée",
+      "es": "alas de hada",
+      "pt": "asas de fada",
+      "it": "ali di fata",
+      "ar": "أجنحة جنية"
+    }
+  },
+  {
+    "id": "n:dragon-egg",
+    "topic": "fantasy",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "dragon egg",
+    "labels": {
+      "en": "dragon egg",
+      "zh": "龍蛋",
+      "zh-Hans": "龙蛋",
+      "ja": "ドラゴンの卵",
+      "ko": "용의 알",
+      "de": "Drachenei",
+      "fr": "œuf de dragon",
+      "es": "huevo de dragón",
+      "pt": "ovo de dragão",
+      "it": "uovo di drago",
+      "ar": "بيضة تنين"
+    }
+  },
+  {
+    "id": "n:knight-s-helmet",
+    "topic": "fantasy",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "knight's helmet",
+    "labels": {
+      "en": "knight's helmet",
+      "zh": "騎士頭盔",
+      "zh-Hans": "骑士头盔",
+      "ja": "騎士のかぶと",
+      "ko": "기사의 투구",
+      "de": "Ritterhelm",
+      "fr": "casque de chevalier",
+      "es": "casco de caballero",
+      "pt": "elmo de cavaleiro",
+      "it": "elmo da cavaliere",
+      "ar": "خوذة فارس"
+    }
+  },
+  {
+    "id": "n:shield",
+    "topic": "fantasy",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "shield",
+    "labels": {
+      "en": "shield",
+      "zh": "盾牌",
+      "zh-Hans": "盾牌",
+      "ja": "盾",
+      "ko": "방패",
+      "de": "Schild",
+      "fr": "bouclier",
+      "es": "escudo",
+      "pt": "escudo",
+      "it": "scudo",
+      "ar": "درع"
+    }
+  },
+  {
+    "id": "n:sword",
+    "topic": "fantasy",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "sword",
+    "labels": {
+      "en": "sword",
+      "zh": "劍",
+      "zh-Hans": "剑",
+      "ja": "剣",
+      "ko": "검",
+      "de": "Schwert",
+      "fr": "épée",
+      "es": "espada",
+      "pt": "espada",
+      "it": "spada",
+      "ar": "سيف"
+    }
+  },
+  {
+    "id": "n:castle-gate",
+    "topic": "fantasy",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "castle gate",
+    "labels": {
+      "en": "castle gate",
+      "zh": "城堡大門",
+      "zh-Hans": "城堡大门",
+      "ja": "城門",
+      "ko": "성문",
+      "de": "Burgtor",
+      "fr": "porte de château",
+      "es": "puerta de castillo",
+      "pt": "portão de castelo",
+      "it": "portone del castello",
+      "ar": "بوابة قلعة"
+    }
+  },
+  {
+    "id": "n:castle-moat",
+    "topic": "fantasy",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "castle moat",
+    "labels": {
+      "en": "castle moat",
+      "zh": "城堡護城河",
+      "zh-Hans": "城堡护城河",
+      "ja": "城の堀",
+      "ko": "성의 해자",
+      "de": "Burggraben",
+      "fr": "douves de château",
+      "es": "foso de castillo",
+      "pt": "fosso de castelo",
+      "it": "fossato del castello",
+      "ar": "خندق قلعة"
+    }
+  },
+  {
+    "id": "n:drawbridge",
+    "topic": "fantasy",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "drawbridge",
+    "labels": {
+      "en": "drawbridge",
+      "zh": "吊橋城門",
+      "zh-Hans": "吊桥城门",
+      "ja": "跳ね橋",
+      "ko": "도개교",
+      "de": "Zugbrücke",
+      "fr": "pont-levis",
+      "es": "puente levadizo",
+      "pt": "ponte levadiça",
+      "it": "ponte levatoio",
+      "ar": "جسر متحرك للقلعة"
+    }
+  },
+  {
+    "id": "n:dragon-blowing-soap-bubbles",
+    "topic": "fantasy",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "dragon blowing soap bubbles",
+    "labels": {
+      "en": "dragon blowing soap bubbles",
+      "zh": "龍吹肥皂泡",
+      "zh-Hans": "龙吹肥皂泡",
+      "ja": "シャボン玉を吹くドラゴン",
+      "ko": "비눗방울을 부는 용",
+      "de": "Drache bläst Seifenblasen",
+      "fr": "dragon soufflant des bulles de savon",
+      "es": "dragón soplando pompas de jabón",
+      "pt": "dragão soprando bolhas de sabão",
+      "it": "drago che soffia bolle di sapone",
+      "ar": "تنين ينفخ فقاعات صابون"
+    }
+  },
+  {
+    "id": "n:witch-vacuuming-on-a-broom",
+    "topic": "fantasy",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "witch vacuuming on a broom",
+    "labels": {
+      "en": "witch vacuuming on a broom",
+      "zh": "女巫騎掃帚吸塵",
+      "zh-Hans": "女巫骑扫帚吸尘",
+      "ja": "ほうきに乗って掃除機をかける魔女",
+      "ko": "빗자루를 타고 진공청소하는 마녀",
+      "de": "Hexe saugt auf einem Besen Staub",
+      "fr": "sorcière passant l'aspirateur sur un balai",
+      "es": "bruja aspirando montada en una escoba",
+      "pt": "bruxa aspirando montada numa vassoura",
+      "it": "strega che passa l'aspirapolvere su una scopa",
+      "ar": "ساحرة تكنس بالمكنسة الكهربائية على مكنسة طائرة"
+    }
+  },
+  {
+    "id": "n:giant-drinking-from-a-tiny-cup",
+    "topic": "fantasy",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "giant drinking from a tiny cup",
+    "labels": {
+      "en": "giant drinking from a tiny cup",
+      "zh": "巨人用小杯喝水",
+      "zh-Hans": "巨人用小杯喝水",
+      "ja": "小さなカップで飲む巨人",
+      "ko": "아주 작은 컵으로 마시는 거인",
+      "de": "Riese trinkt aus winziger Tasse",
+      "fr": "géant buvant dans une minuscule tasse",
+      "es": "gigante bebiendo de una taza diminuta",
+      "pt": "gigante bebendo numa xícara minúscula",
+      "it": "gigante che beve da una tazzina",
+      "ar": "عملاق يشرب من كوب صغير جدا"
+    }
+  },
+  {
+    "id": "n:mermaid-drying-her-tail-with-a-hairdryer",
+    "topic": "fantasy",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "mermaid drying her tail with a hairdryer",
+    "labels": {
+      "en": "mermaid drying her tail with a hairdryer",
+      "zh": "美人魚用風筒吹乾魚尾",
+      "zh-Hans": "美人鱼用吹风机吹干鱼尾",
+      "ja": "ドライヤーで尾を乾かす人魚",
+      "ko": "드라이기로 꼬리를 말리는 인어",
+      "de": "Meerjungfrau föhnt ihren Schwanz",
+      "fr": "sirène séchant sa queue au sèche-cheveux",
+      "es": "sirena secándose la cola con un secador",
+      "pt": "sereia secando a cauda com secador",
+      "it": "sirena che si asciuga la coda con il phon",
+      "ar": "حورية بحر تجفف ذيلها بمجفف شعر"
+    }
+  },
+  {
+    "id": "n:wizard-with-a-tangled-beard",
+    "topic": "fantasy",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "wizard with a tangled beard",
+    "labels": {
+      "en": "wizard with a tangled beard",
+      "zh": "鬍鬚打結的巫師",
+      "zh-Hans": "胡须打结的巫师",
+      "ja": "ひげが絡まった魔法使い",
+      "ko": "수염이 엉킨 마법사",
+      "de": "Zauberer mit verheddertem Bart",
+      "fr": "sorcier à la barbe emmêlée",
+      "es": "mago con barba enredada",
+      "pt": "mago com barba emaranhada",
+      "it": "mago con barba aggrovigliata",
+      "ar": "ساحر بلحية متشابكة"
+    }
+  },
+  {
+    "id": "n:unicorn-with-a-bent-horn",
+    "topic": "fantasy",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "unicorn with a bent horn",
+    "labels": {
+      "en": "unicorn with a bent horn",
+      "zh": "角彎了的獨角獸",
+      "zh-Hans": "角弯了的独角兽",
+      "ja": "角が曲がったユニコーン",
+      "ko": "뿔이 구부러진 유니콘",
+      "de": "Einhorn mit verbogenem Horn",
+      "fr": "licorne à la corne tordue",
+      "es": "unicornio con cuerno doblado",
+      "pt": "unicórnio com chifre torto",
+      "it": "unicorno con il corno piegato",
+      "ar": "وحيد قرن خيالي بقرن منحني"
+    }
+  },
+  {
+    "id": "n:fairy-lifting-a-giant-spoon",
+    "topic": "fantasy",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "fairy lifting a giant spoon",
+    "labels": {
+      "en": "fairy lifting a giant spoon",
+      "zh": "仙子舉起巨型湯匙",
+      "zh-Hans": "仙子举起巨型汤匙",
+      "ja": "巨大なスプーンを持ち上げる妖精",
+      "ko": "거대한 숟가락을 드는 요정",
+      "de": "Fee hebt einen Riesenlöffel",
+      "fr": "fée soulevant une cuillère géante",
+      "es": "hada levantando una cuchara gigante",
+      "pt": "fada levantando uma colher gigante",
+      "it": "fata che solleva un cucchiaio gigante",
+      "ar": "جنية ترفع ملعقة عملاقة"
+    }
+  },
+  {
+    "id": "n:knight-in-fluffy-slippers",
+    "topic": "fantasy",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "knight in fluffy slippers",
+    "labels": {
+      "en": "knight in fluffy slippers",
+      "zh": "騎士穿毛絨拖鞋",
+      "zh-Hans": "骑士穿毛绒拖鞋",
+      "ja": "ふわふわのスリッパを履いた騎士",
+      "ko": "푹신한 슬리퍼를 신은 기사",
+      "de": "Ritter in flauschigen Hausschuhen",
+      "fr": "chevalier en pantoufles moelleuses",
+      "es": "caballero con zapatillas peludas",
+      "pt": "cavaleiro de pantufas fofas",
+      "it": "cavaliere con morbide pantofole",
+      "ar": "فارس يرتدي خفين زغبيين"
+    }
+  },
+  {
+    "id": "n:ghost-afraid-of-a-mouse",
+    "topic": "fantasy",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "ghost afraid of a mouse",
+    "labels": {
+      "en": "ghost afraid of a mouse",
+      "zh": "怕老鼠的鬼魂",
+      "zh-Hans": "怕老鼠的鬼魂",
+      "ja": "ネズミを怖がるおばけ",
+      "ko": "쥐를 무서워하는 유령",
+      "de": "Geist hat Angst vor einer Maus",
+      "fr": "fantôme effrayé par une souris",
+      "es": "fantasma con miedo a un ratón",
+      "pt": "fantasma com medo de um rato",
+      "it": "fantasma spaventato da un topo",
+      "ar": "شبح يخاف من فأر"
+    }
+  },
+  {
+    "id": "n:dragon-with-hiccups",
+    "topic": "fantasy",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "dragon with hiccups",
+    "labels": {
+      "en": "dragon with hiccups",
+      "zh": "打嗝的龍",
+      "zh-Hans": "打嗝的龙",
+      "ja": "しゃっくりするドラゴン",
+      "ko": "딸꾹질하는 용",
+      "de": "Drache mit Schluckauf",
+      "fr": "dragon qui a le hoquet",
+      "es": "dragón con hipo",
+      "pt": "dragão com soluço",
+      "it": "drago con il singhiozzo",
+      "ar": "تنين يصاب بالفواق"
+    }
+  },
+  {
+    "id": "n:knight-rescuing-a-dragon",
+    "topic": "fantasy",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "knight rescuing a dragon",
+    "labels": {
+      "en": "knight rescuing a dragon",
+      "zh": "騎士拯救龍",
+      "zh-Hans": "骑士拯救龙",
+      "ja": "ドラゴンを救う騎士",
+      "ko": "용을 구하는 기사",
+      "de": "Ritter rettet einen Drachen",
+      "fr": "chevalier sauvant un dragon",
+      "es": "caballero rescatando a un dragón",
+      "pt": "cavaleiro resgatando um dragão",
+      "it": "cavaliere che salva un drago",
+      "ar": "فارس ينقذ تنينا"
+    }
+  },
+  {
+    "id": "n:wizard-turning-a-shoe-into-a-frog",
+    "topic": "fantasy",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "wizard turning a shoe into a frog",
+    "labels": {
+      "en": "wizard turning a shoe into a frog",
+      "zh": "巫師把鞋變成青蛙",
+      "zh-Hans": "巫师把鞋变成青蛙",
+      "ja": "靴をカエルに変える魔法使い",
+      "ko": "신발을 개구리로 바꾸는 마법사",
+      "de": "Zauberer verwandelt Schuh in Frosch",
+      "fr": "sorcier changeant une chaussure en grenouille",
+      "es": "mago convirtiendo un zapato en rana",
+      "pt": "mago transformando sapato em sapo",
+      "it": "mago che trasforma una scarpa in rana",
+      "ar": "ساحر يحول حذاء إلى ضفدع"
+    }
+  },
+  {
+    "id": "n:dragon-roasting-marshmallows",
+    "topic": "fantasy",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "dragon roasting marshmallows",
+    "labels": {
+      "en": "dragon roasting marshmallows",
+      "zh": "龍烤棉花糖",
+      "zh-Hans": "龙烤棉花糖",
+      "ja": "マシュマロを焼くドラゴン",
+      "ko": "마시멜로를 굽는 용",
+      "de": "Drache röstet Marshmallows",
+      "fr": "dragon grillant des guimauves",
+      "es": "dragón asando malvaviscos",
+      "pt": "dragão assando marshmallows",
+      "it": "drago che arrostisce marshmallow",
+      "ar": "تنين يشوي حلوى الخطمي"
+    }
+  },
+  {
+    "id": "n:mermaid-riding-a-bicycle-underwater",
+    "topic": "fantasy",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "mermaid riding a bicycle underwater",
+    "labels": {
+      "en": "mermaid riding a bicycle underwater",
+      "zh": "美人魚在水底踩單車",
+      "zh-Hans": "美人鱼在水下骑自行车",
+      "ja": "水中で自転車に乗る人魚",
+      "ko": "물속에서 자전거 타는 인어",
+      "de": "Meerjungfrau fährt unter Wasser Fahrrad",
+      "fr": "sirène à vélo sous l'eau",
+      "es": "sirena en bicicleta bajo el agua",
+      "pt": "sereia andando de bicicleta debaixo d'água",
+      "it": "sirena in bicicletta sott'acqua",
+      "ar": "حورية بحر تركب دراجة تحت الماء"
+    }
+  },
+  {
+    "id": "n:giant-using-a-tree-as-a-toothbrush",
+    "topic": "fantasy",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "giant using a tree as a toothbrush",
+    "labels": {
+      "en": "giant using a tree as a toothbrush",
+      "zh": "巨人用樹刷牙",
+      "zh-Hans": "巨人用树刷牙",
+      "ja": "木で歯を磨く巨人",
+      "ko": "나무로 이를 닦는 거인",
+      "de": "Riese nutzt Baum als Zahnbürste",
+      "fr": "géant utilisant un arbre comme brosse à dents",
+      "es": "gigante usando un árbol como cepillo de dientes",
+      "pt": "gigante usando árvore como escova de dentes",
+      "it": "gigante che usa un albero come spazzolino",
+      "ar": "عملاق يستخدم شجرة كفرشاة أسنان"
+    }
+  },
+  {
+    "id": "n:fairy-tangled-in-a-spider-web",
+    "topic": "fantasy",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "fairy tangled in a spider web",
+    "labels": {
+      "en": "fairy tangled in a spider web",
+      "zh": "仙子困在蜘蛛網",
+      "zh-Hans": "仙子困在蜘蛛网",
+      "ja": "クモの巣に絡まった妖精",
+      "ko": "거미줄에 얽힌 요정",
+      "de": "Fee im Spinnennetz verheddert",
+      "fr": "fée emmêlée dans une toile d'araignée",
+      "es": "hada atrapada en una telaraña",
+      "pt": "fada presa numa teia de aranha",
+      "it": "fata impigliata in una ragnatela",
+      "ar": "جنية عالقة في شبكة عنكبوت"
+    }
+  },
+  {
+    "id": "n:witch-parking-a-broom-in-a-bike-rack",
+    "topic": "fantasy",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "witch parking a broom in a bike rack",
+    "labels": {
+      "en": "witch parking a broom in a bike rack",
+      "zh": "女巫把掃帚泊在單車架",
+      "zh-Hans": "女巫把扫帚停在自行车架",
+      "ja": "駐輪ラックにほうきを置く魔女",
+      "ko": "자전거 거치대에 빗자루를 세우는 마녀",
+      "de": "Hexe parkt Besen im Fahrradständer",
+      "fr": "sorcière garant son balai dans un range-vélos",
+      "es": "bruja aparcando la escoba en un aparcabicis",
+      "pt": "bruxa estacionando vassoura no bicicletário",
+      "it": "strega che parcheggia la scopa in una rastrelliera",
+      "ar": "ساحرة تركن مكنستها في حامل دراجات"
+    }
+  },
+  {
+    "id": "n:unicorn-painting-its-horn",
+    "topic": "fantasy",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "unicorn painting its horn",
+    "labels": {
+      "en": "unicorn painting its horn",
+      "zh": "獨角獸油漆自己的角",
+      "zh-Hans": "独角兽油漆自己的角",
+      "ja": "角に色を塗るユニコーン",
+      "ko": "자기 뿔을 칠하는 유니콘",
+      "de": "Einhorn bemalt sein Horn",
+      "fr": "licorne peignant sa corne",
+      "es": "unicornio pintándose el cuerno",
+      "pt": "unicórnio pintando o próprio chifre",
+      "it": "unicorno che dipinge il proprio corno",
+      "ar": "وحيد قرن خيالي يطلي قرنه"
+    }
+  },
+  {
+    "id": "n:dragon-babysitting-a-hatching-egg",
+    "topic": "fantasy",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "dragon babysitting a hatching egg",
+    "labels": {
+      "en": "dragon babysitting a hatching egg",
+      "zh": "龍照顧正在孵化的蛋",
+      "zh-Hans": "龙照顾正在孵化的蛋",
+      "ja": "かえりかけの卵を世話するドラゴン",
+      "ko": "부화하는 알을 돌보는 용",
+      "de": "Drache betreut ein schlüpfendes Ei",
+      "fr": "dragon gardant un œuf qui éclot",
+      "es": "dragón cuidando un huevo que eclosiona",
+      "pt": "dragão cuidando de um ovo chocando",
+      "it": "drago che accudisce un uovo che si schiude",
+      "ar": "تنين يرعى بيضة تفقس"
+    }
+  },
+  {
+    "id": "n:wizard-chasing-his-runaway-hat",
+    "topic": "fantasy",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "wizard chasing his runaway hat",
+    "labels": {
+      "en": "wizard chasing his runaway hat",
+      "zh": "巫師追逃走的帽子",
+      "zh-Hans": "巫师追逃走的帽子",
+      "ja": "逃げた帽子を追う魔法使い",
+      "ko": "도망가는 모자를 쫓는 마법사",
+      "de": "Zauberer jagt seinen weglaufenden Hut",
+      "fr": "sorcier poursuivant son chapeau en fuite",
+      "es": "mago persiguiendo su sombrero fugitivo",
+      "pt": "mago perseguindo seu chapéu fugitivo",
+      "it": "mago che insegue il cappello in fuga",
+      "ar": "ساحر يطارد قبعته الهاربة"
+    }
+  },
+  {
+    "id": "n:giant-helping-a-fairy-reach-a-shelf",
+    "topic": "fantasy",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "giant helping a fairy reach a shelf",
+    "labels": {
+      "en": "giant helping a fairy reach a shelf",
+      "zh": "巨人幫仙子夠到層架",
+      "zh-Hans": "巨人帮仙子够到架子",
+      "ja": "妖精が棚に届くよう手伝う巨人",
+      "ko": "요정이 선반에 닿게 도와주는 거인",
+      "de": "Riese hilft einer Fee ans Regal",
+      "fr": "géant aidant une fée à atteindre une étagère",
+      "es": "gigante ayudando a un hada a alcanzar un estante",
+      "pt": "gigante ajudando uma fada a alcançar a prateleira",
+      "it": "gigante che aiuta una fata a raggiungere uno scaffale",
+      "ar": "عملاق يساعد جنية على الوصول إلى رف"
+    }
+  },
+  {
+    "id": "n:knight-ironing-a-dragon-s-wings",
+    "topic": "fantasy",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "knight ironing a dragon's wings",
+    "labels": {
+      "en": "knight ironing a dragon's wings",
+      "zh": "騎士熨龍翼",
+      "zh-Hans": "骑士熨龙翼",
+      "ja": "ドラゴンの翼にアイロンをかける騎士",
+      "ko": "용의 날개를 다림질하는 기사",
+      "de": "Ritter bügelt Drachenflügel",
+      "fr": "chevalier repassant les ailes d'un dragon",
+      "es": "caballero planchando las alas de un dragón",
+      "pt": "cavaleiro passando as asas de um dragão",
+      "it": "cavaliere che stira le ali di un drago",
+      "ar": "فارس يكوي جناحي تنين"
+    }
+  },
+  {
+    "id": "n:mermaid-giving-a-fish-swimming-lessons",
+    "topic": "fantasy",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "mermaid giving a fish swimming lessons",
+    "labels": {
+      "en": "mermaid giving a fish swimming lessons",
+      "zh": "美人魚教魚游泳",
+      "zh-Hans": "美人鱼教鱼游泳",
+      "ja": "魚に泳ぎを教える人魚",
+      "ko": "물고기에게 수영을 가르치는 인어",
+      "de": "Meerjungfrau gibt einem Fisch Schwimmunterricht",
+      "fr": "sirène donnant des cours de natation à un poisson",
+      "es": "sirena enseñando a nadar a un pez",
+      "pt": "sereia ensinando um peixe a nadar",
+      "it": "sirena che insegna a nuotare a un pesce",
+      "ar": "حورية بحر تعلم سمكة السباحة"
+    }
+  },
+  {
+    "id": "n:party-banner",
+    "topic": "celebrations",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "party banner",
+    "labels": {
+      "en": "party banner",
+      "zh": "派對橫額",
+      "zh-Hans": "派对横幅",
+      "ja": "パーティーの横断幕",
+      "ko": "파티 현수막",
+      "de": "Partybanner",
+      "fr": "banderole de fête",
+      "es": "pancarta de fiesta",
+      "pt": "faixa de festa",
+      "it": "striscione per festa",
+      "ar": "لافتة حفلة"
+    }
+  },
+  {
+    "id": "n:confetti",
+    "topic": "celebrations",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "confetti",
+    "labels": {
+      "en": "confetti",
+      "zh": "彩紙碎",
+      "zh-Hans": "彩纸屑",
+      "ja": "紙吹雪",
+      "ko": "색종이 조각",
+      "de": "Konfetti",
+      "fr": "confettis",
+      "es": "confeti",
+      "pt": "confete",
+      "it": "coriandoli",
+      "ar": "قصاصات ورق ملونة"
+    }
+  },
+  {
+    "id": "n:ribbon-bow",
+    "topic": "celebrations",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "ribbon bow",
+    "labels": {
+      "en": "ribbon bow",
+      "zh": "絲帶蝴蝶結",
+      "zh-Hans": "丝带蝴蝶结",
+      "ja": "リボンの結び飾り",
+      "ko": "리본 매듭",
+      "de": "Schleife",
+      "fr": "nœud en ruban",
+      "es": "lazo de cinta",
+      "pt": "laço de fita",
+      "it": "fiocco di nastro",
+      "ar": "عقدة شريط زينة"
+    }
+  },
+  {
+    "id": "n:birthday-candles",
+    "topic": "celebrations",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "birthday candles",
+    "labels": {
+      "en": "birthday candles",
+      "zh": "生日蠟燭",
+      "zh-Hans": "生日蜡烛",
+      "ja": "誕生日のろうそく",
+      "ko": "생일 초",
+      "de": "Geburtstagskerzen",
+      "fr": "bougies d'anniversaire",
+      "es": "velas de cumpleaños",
+      "pt": "velas de aniversário",
+      "it": "candeline di compleanno",
+      "ar": "شموع عيد ميلاد"
+    }
+  },
+  {
+    "id": "n:invitation-card",
+    "topic": "celebrations",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "invitation card",
+    "labels": {
+      "en": "invitation card",
+      "zh": "邀請卡",
+      "zh-Hans": "邀请卡",
+      "ja": "招待状",
+      "ko": "초대장",
+      "de": "Einladungskarte",
+      "fr": "carte d'invitation",
+      "es": "tarjeta de invitación",
+      "pt": "convite",
+      "it": "biglietto d'invito",
+      "ar": "بطاقة دعوة"
+    }
+  },
+  {
+    "id": "n:gift-bag",
+    "topic": "celebrations",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "gift bag",
+    "labels": {
+      "en": "gift bag",
+      "zh": "禮物袋",
+      "zh-Hans": "礼物袋",
+      "ja": "プレゼント用の袋",
+      "ko": "선물 봉투",
+      "de": "Geschenktüte",
+      "fr": "sac cadeau",
+      "es": "bolsa de regalo",
+      "pt": "sacola de presente",
+      "it": "busta regalo",
+      "ar": "كيس هدايا"
+    }
+  },
+  {
+    "id": "n:paper-garland",
+    "topic": "celebrations",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "paper garland",
+    "labels": {
+      "en": "paper garland",
+      "zh": "紙花串",
+      "zh-Hans": "纸花串",
+      "ja": "紙のガーランド",
+      "ko": "종이 가랜드",
+      "de": "Papiergirlande",
+      "fr": "guirlande en papier",
+      "es": "guirnalda de papel",
+      "pt": "guirlanda de papel",
+      "it": "ghirlanda di carta",
+      "ar": "سلسلة زينة ورقية"
+    }
+  },
+  {
+    "id": "n:party-streamer",
+    "topic": "celebrations",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "party streamer",
+    "labels": {
+      "en": "party streamer",
+      "zh": "派對彩帶",
+      "zh-Hans": "派对彩带",
+      "ja": "パーティーの紙テープ",
+      "ko": "파티 장식 띠",
+      "de": "Luftschlange",
+      "fr": "serpentin de fête",
+      "es": "serpentina de fiesta",
+      "pt": "serpentina de festa",
+      "it": "stella filante di carta",
+      "ar": "شريط زينة للحفلة"
+    }
+  },
+  {
+    "id": "n:balloon-arch",
+    "topic": "celebrations",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "balloon arch",
+    "labels": {
+      "en": "balloon arch",
+      "zh": "氣球拱門",
+      "zh-Hans": "气球拱门",
+      "ja": "風船のアーチ",
+      "ko": "풍선 아치",
+      "de": "Ballonbogen",
+      "fr": "arche de ballons",
+      "es": "arco de globos",
+      "pt": "arco de balões",
+      "it": "arco di palloncini",
+      "ar": "قوس بالونات"
+    }
+  },
+  {
+    "id": "n:party-table",
+    "topic": "celebrations",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "party table",
+    "labels": {
+      "en": "party table",
+      "zh": "派對餐桌",
+      "zh-Hans": "派对餐桌",
+      "ja": "パーティーのテーブル",
+      "ko": "파티 식탁",
+      "de": "Partytisch",
+      "fr": "table de fête",
+      "es": "mesa de fiesta",
+      "pt": "mesa de festa",
+      "it": "tavolo della festa",
+      "ar": "طاولة حفلة"
+    }
+  },
+  {
+    "id": "n:blowing-up-a-balloon",
+    "topic": "celebrations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "blowing up a balloon",
+    "labels": {
+      "en": "blowing up a balloon",
+      "zh": "吹脹氣球",
+      "zh-Hans": "吹胀气球",
+      "ja": "風船を膨らませる",
+      "ko": "풍선 불기",
+      "de": "einen Ballon aufblasen",
+      "fr": "gonfler un ballon",
+      "es": "inflar un globo",
+      "pt": "encher um balão",
+      "it": "gonfiare un palloncino",
+      "ar": "نفخ بالون"
+    }
+  },
+  {
+    "id": "n:parade-float",
+    "topic": "celebrations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "parade float",
+    "labels": {
+      "en": "parade float",
+      "zh": "巡遊花車",
+      "zh-Hans": "巡游花车",
+      "ja": "パレードの山車",
+      "ko": "퍼레이드 장식차",
+      "de": "Festwagen",
+      "fr": "char de parade",
+      "es": "carroza de desfile",
+      "pt": "carro alegórico",
+      "it": "carro da parata",
+      "ar": "عربة استعراضية"
+    }
+  },
+  {
+    "id": "n:birthday-picnic",
+    "topic": "celebrations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "birthday picnic",
+    "labels": {
+      "en": "birthday picnic",
+      "zh": "生日野餐",
+      "zh-Hans": "生日野餐",
+      "ja": "誕生日のピクニック",
+      "ko": "생일 소풍",
+      "de": "Geburtstagspicknick",
+      "fr": "pique-nique d'anniversaire",
+      "es": "pícnic de cumpleaños",
+      "pt": "piquenique de aniversário",
+      "it": "picnic di compleanno",
+      "ar": "نزهة عيد ميلاد"
+    }
+  },
+  {
+    "id": "n:cutting-a-celebration-cake",
+    "topic": "celebrations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "cutting a celebration cake",
+    "labels": {
+      "en": "cutting a celebration cake",
+      "zh": "切慶祝蛋糕",
+      "zh-Hans": "切庆祝蛋糕",
+      "ja": "お祝いのケーキを切る",
+      "ko": "축하 케이크 자르기",
+      "de": "Festtorte anschneiden",
+      "fr": "couper un gâteau de fête",
+      "es": "cortar un pastel de celebración",
+      "pt": "cortar um bolo de comemoração",
+      "it": "tagliare una torta per festeggiare",
+      "ar": "تقطيع كعكة احتفال"
+    }
+  },
+  {
+    "id": "n:cake-with-one-giant-candle",
+    "topic": "celebrations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "cake with one giant candle",
+    "labels": {
+      "en": "cake with one giant candle",
+      "zh": "一枝巨型蠟燭的蛋糕",
+      "zh-Hans": "一根巨型蜡烛的蛋糕",
+      "ja": "巨大なろうそく一本のケーキ",
+      "ko": "거대한 초 하나가 꽂힌 케이크",
+      "de": "Kuchen mit einer Riesenkerze",
+      "fr": "gâteau avec une bougie géante",
+      "es": "pastel con una vela gigante",
+      "pt": "bolo com uma vela gigante",
+      "it": "torta con una candela gigante",
+      "ar": "كعكة بشمعة واحدة عملاقة"
+    }
+  },
+  {
+    "id": "n:present-bigger-than-the-birthday-child",
+    "topic": "celebrations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "present bigger than the birthday child",
+    "labels": {
+      "en": "present bigger than the birthday child",
+      "zh": "比壽星小朋友更大的禮物",
+      "zh-Hans": "比过生日的小朋友更大的礼物",
+      "ja": "誕生日の子より大きなプレゼント",
+      "ko": "생일 아이보다 큰 선물",
+      "de": "Geschenk größer als das Geburtstagskind",
+      "fr": "cadeau plus grand que l'enfant fêté",
+      "es": "regalo más grande que el niño cumpleañero",
+      "pt": "presente maior que a criança aniversariante",
+      "it": "regalo più grande del bambino festeggiato",
+      "ar": "هدية أكبر من الطفل صاحب عيد الميلاد"
+    }
+  },
+  {
+    "id": "n:balloon-with-a-moustache",
+    "topic": "celebrations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "balloon with a moustache",
+    "labels": {
+      "en": "balloon with a moustache",
+      "zh": "長鬍子的氣球",
+      "zh-Hans": "长胡子的气球",
+      "ja": "口ひげのある風船",
+      "ko": "콧수염 달린 풍선",
+      "de": "Ballon mit Schnurrbart",
+      "fr": "ballon à moustache",
+      "es": "globo con bigote",
+      "pt": "balão de bigode",
+      "it": "palloncino con i baffi",
+      "ar": "بالون له شارب"
+    }
+  },
+  {
+    "id": "n:party-hat-on-a-cactus",
+    "topic": "celebrations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "party hat on a cactus",
+    "labels": {
+      "en": "party hat on a cactus",
+      "zh": "仙人掌戴派對帽",
+      "zh-Hans": "仙人掌戴派对帽",
+      "ja": "パーティーハットをかぶるサボテン",
+      "ko": "파티 모자를 쓴 선인장",
+      "de": "Partyhut auf einem Kaktus",
+      "fr": "chapeau de fête sur un cactus",
+      "es": "cactus con gorro de fiesta",
+      "pt": "cacto com chapéu de festa",
+      "it": "cactus con cappellino da festa",
+      "ar": "صبار يرتدي قبعة حفلة"
+    }
+  },
+  {
+    "id": "n:birthday-cake-on-wheels",
+    "topic": "celebrations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "birthday cake on wheels",
+    "labels": {
+      "en": "birthday cake on wheels",
+      "zh": "有車輪的生日蛋糕",
+      "zh-Hans": "有车轮的生日蛋糕",
+      "ja": "車輪付きの誕生日ケーキ",
+      "ko": "바퀴 달린 생일 케이크",
+      "de": "Geburtstagstorte auf Rädern",
+      "fr": "gâteau d'anniversaire sur roues",
+      "es": "tarta de cumpleaños con ruedas",
+      "pt": "bolo de aniversário com rodas",
+      "it": "torta di compleanno con ruote",
+      "ar": "كعكة عيد ميلاد بعجلات"
+    }
+  },
+  {
+    "id": "n:balloon-animal-walking-away",
+    "topic": "celebrations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "balloon animal walking away",
+    "labels": {
+      "en": "balloon animal walking away",
+      "zh": "氣球動物自己走開",
+      "zh-Hans": "气球动物自己走开",
+      "ja": "歩いて逃げる風船の動物",
+      "ko": "걸어서 도망가는 풍선 동물",
+      "de": "Ballontier läuft davon",
+      "fr": "animal en ballon qui s'en va",
+      "es": "animal de globo que se marcha",
+      "pt": "bichinho de balão indo embora",
+      "it": "animale di palloncini che se ne va",
+      "ar": "حيوان من البالونات يمشي مبتعدا"
+    }
+  },
+  {
+    "id": "n:present-wearing-a-seat-belt",
+    "topic": "celebrations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "present wearing a seat belt",
+    "labels": {
+      "en": "present wearing a seat belt",
+      "zh": "禮物繫安全帶",
+      "zh-Hans": "礼物系安全带",
+      "ja": "シートベルトをしたプレゼント",
+      "ko": "안전벨트를 맨 선물",
+      "de": "Geschenk mit Sicherheitsgurt",
+      "fr": "cadeau attaché avec une ceinture de sécurité",
+      "es": "regalo con cinturón de seguridad",
+      "pt": "presente de cinto de segurança",
+      "it": "regalo con cintura di sicurezza",
+      "ar": "هدية مربوطة بحزام أمان"
+    }
+  },
+  {
+    "id": "n:party-horn-longer-than-a-table",
+    "topic": "celebrations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "party horn longer than a table",
+    "labels": {
+      "en": "party horn longer than a table",
+      "zh": "比桌子更長的派對吹笛",
+      "zh-Hans": "比桌子更长的派对吹笛",
+      "ja": "テーブルより長い吹き戻し",
+      "ko": "탁자보다 긴 파티 나팔",
+      "de": "Partytröte länger als ein Tisch",
+      "fr": "sans-gêne de fête plus long qu'une table",
+      "es": "matasuegras más largo que una mesa",
+      "pt": "língua de sogra maior que uma mesa",
+      "it": "trombetta di carta più lunga di un tavolo",
+      "ar": "بوق حفلة أطول من طاولة"
+    }
+  },
+  {
+    "id": "n:hanging-a-banner-between-trees",
+    "topic": "celebrations",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "hanging a banner between trees",
+    "labels": {
+      "en": "hanging a banner between trees",
+      "zh": "在兩棵樹之間掛橫額",
+      "zh-Hans": "在两棵树之间挂横幅",
+      "ja": "木の間に横断幕を掛ける",
+      "ko": "나무 사이에 현수막 걸기",
+      "de": "Banner zwischen Bäumen aufhängen",
+      "fr": "accrocher une banderole entre des arbres",
+      "es": "colgar una pancarta entre árboles",
+      "pt": "pendurar uma faixa entre árvores",
+      "it": "appendere uno striscione tra gli alberi",
+      "ar": "تعليق لافتة بين شجرتين"
+    }
+  },
+  {
+    "id": "n:surprise-party-behind-a-sofa",
+    "topic": "celebrations",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [],
+    "intent": "surprise party behind a sofa",
+    "labels": {
+      "en": "surprise party behind a sofa",
+      "zh": "梳化後的驚喜派對",
+      "zh-Hans": "沙发后的惊喜派对",
+      "ja": "ソファの後ろのサプライズパーティー",
+      "ko": "소파 뒤 깜짝 파티",
+      "de": "Überraschungsparty hinter einem Sofa",
+      "fr": "fête surprise derrière un canapé",
+      "es": "fiesta sorpresa detrás de un sofá",
+      "pt": "festa surpresa atrás de um sofá",
+      "it": "festa a sorpresa dietro un divano",
+      "ar": "حفلة مفاجئة خلف أريكة"
+    }
+  },
+  {
+    "id": "n:balloons-lifting-a-picnic-table",
+    "topic": "celebrations",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "balloons lifting a picnic table",
+    "labels": {
+      "en": "balloons lifting a picnic table",
+      "zh": "氣球升起野餐桌",
+      "zh-Hans": "气球升起野餐桌",
+      "ja": "風船が持ち上げるピクニックテーブル",
+      "ko": "피크닉 탁자를 들어 올리는 풍선",
+      "de": "Ballons heben einen Picknicktisch",
+      "fr": "ballons soulevant une table de pique-nique",
+      "es": "globos levantando una mesa de pícnic",
+      "pt": "balões levantando uma mesa de piquenique",
+      "it": "palloncini che sollevano un tavolo da picnic",
+      "ar": "بالونات ترفع طاولة نزهة"
+    }
+  },
+  {
+    "id": "n:confetti-stuck-in-a-beard",
+    "topic": "celebrations",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "confetti stuck in a beard",
+    "labels": {
+      "en": "confetti stuck in a beard",
+      "zh": "彩紙碎黏在鬍鬚",
+      "zh-Hans": "彩纸屑粘在胡须",
+      "ja": "ひげにくっついた紙吹雪",
+      "ko": "수염에 붙은 색종이 조각",
+      "de": "Konfetti im Bart",
+      "fr": "confettis coincés dans une barbe",
+      "es": "confeti pegado en una barba",
+      "pt": "confete preso na barba",
+      "it": "coriandoli incastrati nella barba",
+      "ar": "قصاصات زينة عالقة في لحية"
+    }
+  },
+  {
+    "id": "n:cake-too-tall-for-the-doorway",
+    "topic": "celebrations",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "cake too tall for the doorway",
+    "labels": {
+      "en": "cake too tall for the doorway",
+      "zh": "高到過不了門的蛋糕",
+      "zh-Hans": "高到过不了门的蛋糕",
+      "ja": "ドアを通れないほど高いケーキ",
+      "ko": "문을 통과하기엔 너무 높은 케이크",
+      "de": "Kuchen zu hoch für die Tür",
+      "fr": "gâteau trop haut pour la porte",
+      "es": "pastel demasiado alto para la puerta",
+      "pt": "bolo alto demais para passar pela porta",
+      "it": "torta troppo alta per la porta",
+      "ar": "كعكة أعلى من أن تمر من الباب"
+    }
+  },
+  {
+    "id": "n:birthday-candles-blown-out-by-a-fan",
+    "topic": "celebrations",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "birthday candles blown out by a fan",
+    "labels": {
+      "en": "birthday candles blown out by a fan",
+      "zh": "風扇吹熄生日蠟燭",
+      "zh-Hans": "风扇吹灭生日蜡烛",
+      "ja": "扇風機が消す誕生日のろうそく",
+      "ko": "선풍기가 끄는 생일 초",
+      "de": "Ventilator bläst Geburtstagskerzen aus",
+      "fr": "ventilateur soufflant les bougies d'anniversaire",
+      "es": "ventilador apagando velas de cumpleaños",
+      "pt": "ventilador apagando velas de aniversário",
+      "it": "ventilatore che spegne candeline di compleanno",
+      "ar": "مروحة تطفئ شموع عيد ميلاد"
+    }
+  },
+  {
+    "id": "n:gift-box-full-of-tiny-gift-boxes",
+    "topic": "celebrations",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "gift box full of tiny gift boxes",
+    "labels": {
+      "en": "gift box full of tiny gift boxes",
+      "zh": "禮物盒裝滿迷你禮物盒",
+      "zh-Hans": "礼物盒装满迷你礼物盒",
+      "ja": "小さなプレゼント箱でいっぱいの箱",
+      "ko": "작은 선물 상자로 가득한 선물 상자",
+      "de": "Geschenkbox voller winziger Geschenkboxen",
+      "fr": "boîte cadeau pleine de petites boîtes cadeaux",
+      "es": "caja de regalo llena de cajitas de regalo",
+      "pt": "caixa de presente cheia de caixinhas de presente",
+      "it": "scatola regalo piena di minuscole scatole regalo",
+      "ar": "علبة هدية مليئة بعلب هدايا صغيرة"
+    }
+  },
+  {
+    "id": "n:party-guests-wearing-the-same-giant-hat",
+    "topic": "celebrations",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "party guests wearing the same giant hat",
+    "labels": {
+      "en": "party guests wearing the same giant hat",
+      "zh": "賓客共戴一頂巨型帽",
+      "zh-Hans": "宾客共戴一顶巨型帽",
+      "ja": "一つの巨大な帽子をかぶるパーティー客",
+      "ko": "하나의 거대한 모자를 함께 쓴 파티 손님들",
+      "de": "Partygäste unter demselben Riesenhut",
+      "fr": "invités portant le même chapeau géant",
+      "es": "invitados llevando un mismo sombrero gigante",
+      "pt": "convidados usando um único chapéu gigante",
+      "it": "invitati sotto lo stesso cappello gigante",
+      "ar": "ضيوف حفلة يرتدون قبعة عملاقة واحدة"
+    }
+  },
+  {
+    "id": "n:passing-a-cake-across-a-crowded-table",
+    "topic": "celebrations",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [],
+    "intent": "passing a cake across a crowded table",
+    "labels": {
+      "en": "passing a cake across a crowded table",
+      "zh": "隔着擠滿人的桌子傳蛋糕",
+      "zh-Hans": "隔着挤满人的桌子传蛋糕",
+      "ja": "混み合うテーブル越しにケーキを渡す",
+      "ko": "사람이 빽빽한 식탁 너머로 케이크 건네기",
+      "de": "Kuchen über einen voll besetzten Tisch reichen",
+      "fr": "passer un gâteau à travers une table bondée",
+      "es": "pasar un pastel por una mesa llena de gente",
+      "pt": "passar um bolo por uma mesa cheia de gente",
+      "it": "passare una torta sopra un tavolo affollato",
+      "ar": "تمرير كعكة عبر طاولة مزدحمة"
+    }
+  },
+  {
+    "id": "n:children-decorating-a-wheelchair-for-a-parade",
+    "topic": "celebrations",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [],
+    "intent": "children decorating a wheelchair for a parade",
+    "labels": {
+      "en": "children decorating a wheelchair for a parade",
+      "zh": "小朋友為巡遊裝飾輪椅",
+      "zh-Hans": "小朋友为巡游装饰轮椅",
+      "ja": "パレード用に車いすを飾る子どもたち",
+      "ko": "퍼레이드를 위해 휠체어를 꾸미는 아이들",
+      "de": "Kinder schmücken Rollstuhl für einen Umzug",
+      "fr": "enfants décorant un fauteuil roulant pour un défilé",
+      "es": "niños decorando una silla de ruedas para un desfile",
+      "pt": "crianças decorando cadeira de rodas para desfile",
+      "it": "bambini che decorano una sedia a rotelle per una sfilata",
+      "ar": "أطفال يزينون كرسيا متحركا لموكب"
+    }
+  },
+  {
+    "id": "n:birthday-cake-escaping-its-candles",
+    "topic": "celebrations",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "birthday cake escaping its candles",
+    "labels": {
+      "en": "birthday cake escaping its candles",
+      "zh": "生日蛋糕逃離蠟燭",
+      "zh-Hans": "生日蛋糕逃离蜡烛",
+      "ja": "ろうそくから逃げる誕生日ケーキ",
+      "ko": "초에서 도망가는 생일 케이크",
+      "de": "Geburtstagstorte flieht vor ihren Kerzen",
+      "fr": "gâteau d'anniversaire fuyant ses bougies",
+      "es": "tarta de cumpleaños huyendo de sus velas",
+      "pt": "bolo de aniversário fugindo das velas",
+      "it": "torta di compleanno che scappa dalle candeline",
+      "ar": "كعكة عيد ميلاد تهرب من شموعها"
+    }
+  },
+  {
+    "id": "n:party-on-a-giant-floating-doughnut",
+    "topic": "celebrations",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "party on a giant floating doughnut",
+    "labels": {
+      "en": "party on a giant floating doughnut",
+      "zh": "巨型漂浮冬甩上的派對",
+      "zh-Hans": "巨型漂浮甜甜圈上的派对",
+      "ja": "巨大な浮かぶドーナツの上のパーティー",
+      "ko": "떠다니는 거대한 도넛 위 파티",
+      "de": "Party auf einem riesigen schwimmenden Donut",
+      "fr": "fête sur un donut géant flottant",
+      "es": "fiesta sobre un dónut gigante flotante",
+      "pt": "festa num donut gigante flutuante",
+      "it": "festa su una ciambella gigante galleggiante",
+      "ar": "حفلة على كعكة دونات عملاقة عائمة"
+    }
+  },
+  {
+    "id": "n:balloons-decorating-a-sleeping-giant",
+    "topic": "celebrations",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "balloons decorating a sleeping giant",
+    "labels": {
+      "en": "balloons decorating a sleeping giant",
+      "zh": "氣球裝飾睡着的巨人",
+      "zh-Hans": "气球装饰睡着的巨人",
+      "ja": "眠っている巨人を飾る風船たち",
+      "ko": "잠든 거인을 꾸미는 풍선들",
+      "de": "Ballons schmücken einen schlafenden Riesen",
+      "fr": "ballons décorant un géant endormi",
+      "es": "globos decorando a un gigante dormido",
+      "pt": "balões decorando um gigante adormecido",
+      "it": "palloncini che decorano un gigante addormentato",
+      "ar": "بالونات تزين عملاقا نائما"
+    }
+  }
+]

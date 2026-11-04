@@ -1,0 +1,2394 @@
+{
+  "w:animals:dog": {
+    "en": "dog",
+    "zh": "狗"
+  },
+  "w:animals:cat": {
+    "en": "cat",
+    "zh": "貓"
+  },
+  "w:animals:rabbit": {
+    "en": "rabbit",
+    "zh": "兔仔"
+  },
+  "w:animals:hamster": {
+    "en": "hamster",
+    "zh": "倉鼠"
+  },
+  "w:animals:mouse": {
+    "en": "mouse",
+    "zh": "老鼠"
+  },
+  "w:animals:squirrel": {
+    "en": "squirrel",
+    "zh": "松鼠"
+  },
+  "w:animals:hedgehog": {
+    "en": "hedgehog",
+    "zh": "刺蝟"
+  },
+  "w:animals:fox": {
+    "en": "fox",
+    "zh": "狐狸"
+  },
+  "w:animals:wolf": {
+    "en": "wolf",
+    "zh": "狼"
+  },
+  "w:animals:bear": {
+    "en": "bear",
+    "zh": "熊"
+  },
+  "w:animals:polar-bear": {
+    "en": "polar bear",
+    "zh": "北極熊"
+  },
+  "w:animals:panda": {
+    "en": "panda",
+    "zh": "熊貓"
+  },
+  "w:animals:koala": {
+    "en": "koala",
+    "zh": "樹熊"
+  },
+  "w:animals:kangaroo": {
+    "en": "kangaroo",
+    "zh": "袋鼠"
+  },
+  "w:animals:monkey": {
+    "en": "monkey",
+    "zh": "馬騮"
+  },
+  "w:animals:gorilla": {
+    "en": "gorilla",
+    "zh": "大猩猩"
+  },
+  "w:animals:sloth": {
+    "en": "sloth",
+    "zh": "樹懶"
+  },
+  "w:animals:elephant": {
+    "en": "elephant",
+    "zh": "大象"
+  },
+  "w:animals:giraffe": {
+    "en": "giraffe",
+    "zh": "長頸鹿"
+  },
+  "w:animals:zebra": {
+    "en": "zebra",
+    "zh": "斑馬"
+  },
+  "w:animals:lion": {
+    "en": "lion",
+    "zh": "獅子"
+  },
+  "w:animals:tiger": {
+    "en": "tiger",
+    "zh": "老虎"
+  },
+  "w:animals:leopard": {
+    "en": "leopard",
+    "zh": "豹"
+  },
+  "w:animals:cheetah": {
+    "en": "cheetah",
+    "zh": "獵豹"
+  },
+  "w:animals:rhino": {
+    "en": "rhino",
+    "zh": "犀牛"
+  },
+  "w:animals:hippo": {
+    "en": "hippo",
+    "zh": "河馬"
+  },
+  "w:animals:camel": {
+    "en": "camel",
+    "zh": "駱駝"
+  },
+  "w:animals:deer": {
+    "en": "deer",
+    "zh": "鹿"
+  },
+  "w:animals:horse": {
+    "en": "horse",
+    "zh": "馬"
+  },
+  "w:animals:donkey": {
+    "en": "donkey",
+    "zh": "驢仔"
+  },
+  "w:animals:cow": {
+    "en": "cow",
+    "zh": "牛"
+  },
+  "w:animals:sheep": {
+    "en": "sheep",
+    "zh": "綿羊"
+  },
+  "w:animals:goat": {
+    "en": "goat",
+    "zh": "山羊"
+  },
+  "w:animals:pig": {
+    "en": "pig",
+    "zh": "豬"
+  },
+  "w:animals:chicken": {
+    "en": "chicken",
+    "zh": "雞"
+  },
+  "w:animals:rooster": {
+    "en": "rooster",
+    "zh": "公雞"
+  },
+  "w:animals:duck": {
+    "en": "duck",
+    "zh": "鴨"
+  },
+  "w:animals:goose": {
+    "en": "goose",
+    "zh": "鵝"
+  },
+  "w:animals:turkey": {
+    "en": "turkey",
+    "zh": "火雞"
+  },
+  "w:animals:owl": {
+    "en": "owl",
+    "zh": "貓頭鷹"
+  },
+  "w:animals:eagle": {
+    "en": "eagle",
+    "zh": "老鷹"
+  },
+  "w:animals:parrot": {
+    "en": "parrot",
+    "zh": "鸚鵡"
+  },
+  "w:animals:penguin": {
+    "en": "penguin",
+    "zh": "企鵝"
+  },
+  "w:animals:flamingo": {
+    "en": "flamingo",
+    "zh": "紅鶴"
+  },
+  "w:animals:ostrich": {
+    "en": "ostrich",
+    "zh": "鴕鳥"
+  },
+  "w:animals:peacock": {
+    "en": "peacock",
+    "zh": "孔雀"
+  },
+  "w:animals:swan": {
+    "en": "swan",
+    "zh": "天鵝"
+  },
+  "w:animals:bat": {
+    "en": "bat",
+    "zh": "蝙蝠"
+  },
+  "w:animals:snake": {
+    "en": "snake",
+    "zh": "蛇"
+  },
+  "w:animals:lizard": {
+    "en": "lizard",
+    "zh": "蜥蜴"
+  },
+  "w:animals:crocodile": {
+    "en": "crocodile",
+    "zh": "鱷魚"
+  },
+  "w:animals:turtle": {
+    "en": "turtle",
+    "zh": "烏龜"
+  },
+  "w:animals:frog": {
+    "en": "frog",
+    "zh": "青蛙"
+  },
+  "w:animals:dinosaur": {
+    "en": "dinosaur",
+    "zh": "恐龍"
+  },
+  "w:animals:dragon": {
+    "en": "dragon",
+    "zh": "龍"
+  },
+  "w:animals:unicorn": {
+    "en": "unicorn",
+    "zh": "獨角獸"
+  },
+  "w:animals:shark": {
+    "en": "shark",
+    "zh": "鯊魚"
+  },
+  "w:animals:whale": {
+    "en": "whale",
+    "zh": "鯨魚"
+  },
+  "w:animals:dolphin": {
+    "en": "dolphin",
+    "zh": "海豚"
+  },
+  "w:animals:seal": {
+    "en": "seal",
+    "zh": "海豹"
+  },
+  "w:animals:walrus": {
+    "en": "walrus",
+    "zh": "海象"
+  },
+  "w:animals:octopus": {
+    "en": "octopus",
+    "zh": "八爪魚"
+  },
+  "w:animals:jellyfish": {
+    "en": "jellyfish",
+    "zh": "水母"
+  },
+  "w:animals:crab": {
+    "en": "crab",
+    "zh": "蟹"
+  },
+  "w:animals:lobster": {
+    "en": "lobster",
+    "zh": "龍蝦"
+  },
+  "w:animals:seahorse": {
+    "en": "seahorse",
+    "zh": "海馬"
+  },
+  "w:animals:starfish": {
+    "en": "starfish",
+    "zh": "海星"
+  },
+  "w:animals:goldfish": {
+    "en": "goldfish",
+    "zh": "金魚"
+  },
+  "w:animals:snail": {
+    "en": "snail",
+    "zh": "蝸牛"
+  },
+  "w:animals:butterfly": {
+    "en": "butterfly",
+    "zh": "蝴蝶"
+  },
+  "w:animals:caterpillar": {
+    "en": "caterpillar",
+    "zh": "毛毛蟲"
+  },
+  "w:animals:bee": {
+    "en": "bee",
+    "zh": "蜜蜂"
+  },
+  "w:animals:ant": {
+    "en": "ant",
+    "zh": "螞蟻"
+  },
+  "w:animals:spider": {
+    "en": "spider",
+    "zh": "蜘蛛"
+  },
+  "w:animals:ladybug": {
+    "en": "ladybug",
+    "zh": "瓢蟲"
+  },
+  "w:animals:mosquito": {
+    "en": "mosquito",
+    "zh": "蚊"
+  },
+  "w:animals:worm": {
+    "en": "worm",
+    "zh": "蚯蚓"
+  },
+  "w:occupations:doctor": {
+    "en": "doctor",
+    "zh": "醫生"
+  },
+  "w:occupations:nurse": {
+    "en": "nurse",
+    "zh": "護士"
+  },
+  "w:occupations:dentist": {
+    "en": "dentist",
+    "zh": "牙醫"
+  },
+  "w:occupations:surgeon": {
+    "en": "surgeon",
+    "zh": "外科醫生"
+  },
+  "w:occupations:veterinarian": {
+    "en": "veterinarian",
+    "zh": "獸醫"
+  },
+  "w:occupations:teacher": {
+    "en": "teacher",
+    "zh": "老師"
+  },
+  "w:occupations:scientist": {
+    "en": "scientist",
+    "zh": "科學家"
+  },
+  "w:occupations:astronaut": {
+    "en": "astronaut",
+    "zh": "太空人"
+  },
+  "w:occupations:pilot": {
+    "en": "pilot",
+    "zh": "機師"
+  },
+  "w:occupations:flight-attendant": {
+    "en": "flight attendant",
+    "zh": "空中服務員"
+  },
+  "w:occupations:sailor": {
+    "en": "sailor",
+    "zh": "水手"
+  },
+  "w:occupations:ship-captain": {
+    "en": "ship captain",
+    "zh": "船長"
+  },
+  "w:occupations:soldier": {
+    "en": "soldier",
+    "zh": "軍人"
+  },
+  "w:occupations:firefighter": {
+    "en": "firefighter",
+    "zh": "消防員"
+  },
+  "w:occupations:police-officer": {
+    "en": "police officer",
+    "zh": "警察"
+  },
+  "w:occupations:detective": {
+    "en": "detective",
+    "zh": "偵探"
+  },
+  "w:occupations:spy": {
+    "en": "spy",
+    "zh": "間諜"
+  },
+  "w:occupations:judge": {
+    "en": "judge",
+    "zh": "法官"
+  },
+  "w:occupations:chef": {
+    "en": "chef",
+    "zh": "廚師"
+  },
+  "w:occupations:baker": {
+    "en": "baker",
+    "zh": "麵包師傅"
+  },
+  "w:occupations:butcher": {
+    "en": "butcher",
+    "zh": "肉販"
+  },
+  "w:occupations:waiter": {
+    "en": "waiter",
+    "zh": "侍應"
+  },
+  "w:occupations:farmer": {
+    "en": "farmer",
+    "zh": "農夫"
+  },
+  "w:occupations:fisherman": {
+    "en": "fisherman",
+    "zh": "漁夫"
+  },
+  "w:occupations:gardener": {
+    "en": "gardener",
+    "zh": "園丁"
+  },
+  "w:occupations:florist": {
+    "en": "florist",
+    "zh": "花藝師"
+  },
+  "w:occupations:carpenter": {
+    "en": "carpenter",
+    "zh": "木匠"
+  },
+  "w:occupations:plumber": {
+    "en": "plumber",
+    "zh": "水喉匠"
+  },
+  "w:occupations:electrician": {
+    "en": "electrician",
+    "zh": "電工"
+  },
+  "w:occupations:mechanic": {
+    "en": "mechanic",
+    "zh": "修車師傅"
+  },
+  "w:occupations:construction-worker": {
+    "en": "construction worker",
+    "zh": "地盤工人"
+  },
+  "w:occupations:miner": {
+    "en": "miner",
+    "zh": "礦工"
+  },
+  "w:occupations:blacksmith": {
+    "en": "blacksmith",
+    "zh": "鐵匠"
+  },
+  "w:occupations:beekeeper": {
+    "en": "beekeeper",
+    "zh": "養蜂人"
+  },
+  "w:occupations:painter": {
+    "en": "painter",
+    "zh": "畫家"
+  },
+  "w:occupations:photographer": {
+    "en": "photographer",
+    "zh": "攝影師"
+  },
+  "w:occupations:writer": {
+    "en": "writer",
+    "zh": "作家"
+  },
+  "w:occupations:actor": {
+    "en": "actor",
+    "zh": "演員"
+  },
+  "w:occupations:singer": {
+    "en": "singer",
+    "zh": "歌手"
+  },
+  "w:occupations:dancer": {
+    "en": "dancer",
+    "zh": "舞蹈員"
+  },
+  "w:occupations:ballerina": {
+    "en": "ballerina",
+    "zh": "芭蕾舞者"
+  },
+  "w:occupations:musician": {
+    "en": "musician",
+    "zh": "音樂家"
+  },
+  "w:occupations:dj": {
+    "en": "DJ",
+    "zh": "唱片騎師"
+  },
+  "w:occupations:magician": {
+    "en": "magician",
+    "zh": "魔術師"
+  },
+  "w:occupations:clown": {
+    "en": "clown",
+    "zh": "小丑"
+  },
+  "w:occupations:acrobat": {
+    "en": "acrobat",
+    "zh": "雜技演員"
+  },
+  "w:occupations:referee": {
+    "en": "referee",
+    "zh": "球證"
+  },
+  "w:occupations:coach": {
+    "en": "coach",
+    "zh": "教練"
+  },
+  "w:occupations:lifeguard": {
+    "en": "lifeguard",
+    "zh": "救生員"
+  },
+  "w:occupations:taxi-driver": {
+    "en": "taxi driver",
+    "zh": "的士司機"
+  },
+  "w:occupations:bus-driver": {
+    "en": "bus driver",
+    "zh": "巴士司機"
+  },
+  "w:occupations:train-driver": {
+    "en": "train driver",
+    "zh": "火車司機"
+  },
+  "w:occupations:delivery-rider": {
+    "en": "delivery rider",
+    "zh": "外賣車手"
+  },
+  "w:occupations:mail-carrier": {
+    "en": "mail carrier",
+    "zh": "郵差"
+  },
+  "w:occupations:librarian": {
+    "en": "librarian",
+    "zh": "圖書館管理員"
+  },
+  "w:occupations:hairdresser": {
+    "en": "hairdresser",
+    "zh": "髮型師"
+  },
+  "w:occupations:barber": {
+    "en": "barber",
+    "zh": "理髮師"
+  },
+  "w:occupations:cashier": {
+    "en": "cashier",
+    "zh": "收銀員"
+  },
+  "w:occupations:zookeeper": {
+    "en": "zookeeper",
+    "zh": "動物園管理員"
+  },
+  "w:occupations:security-guard": {
+    "en": "security guard",
+    "zh": "保安員"
+  },
+  "w:occupations:cleaner": {
+    "en": "cleaner",
+    "zh": "清潔工人"
+  },
+  "w:occupations:programmer": {
+    "en": "programmer",
+    "zh": "程式員"
+  },
+  "w:occupations:pirate": {
+    "en": "pirate",
+    "zh": "海盜"
+  },
+  "w:occupations:ninja": {
+    "en": "ninja",
+    "zh": "忍者"
+  },
+  "w:occupations:cowboy": {
+    "en": "cowboy",
+    "zh": "牛仔"
+  },
+  "w:occupations:knight": {
+    "en": "knight",
+    "zh": "騎士"
+  },
+  "w:occupations:superhero": {
+    "en": "superhero",
+    "zh": "超級英雄"
+  },
+  "w:occupations:wizard": {
+    "en": "wizard",
+    "zh": "魔法師"
+  },
+  "w:sports:soccer": {
+    "en": "soccer",
+    "zh": "足球"
+  },
+  "w:sports:basketball": {
+    "en": "basketball",
+    "zh": "籃球"
+  },
+  "w:sports:baseball": {
+    "en": "baseball",
+    "zh": "棒球"
+  },
+  "w:sports:tennis": {
+    "en": "tennis",
+    "zh": "網球"
+  },
+  "w:sports:table-tennis": {
+    "en": "table tennis",
+    "zh": "乒乓球"
+  },
+  "w:sports:badminton": {
+    "en": "badminton",
+    "zh": "羽毛球"
+  },
+  "w:sports:volleyball": {
+    "en": "volleyball",
+    "zh": "排球"
+  },
+  "w:sports:dodgeball": {
+    "en": "dodgeball",
+    "zh": "閃避球"
+  },
+  "w:sports:golf": {
+    "en": "golf",
+    "zh": "高爾夫球"
+  },
+  "w:sports:bowling": {
+    "en": "bowling",
+    "zh": "保齡球"
+  },
+  "w:sports:billiards": {
+    "en": "billiards",
+    "zh": "桌球"
+  },
+  "w:sports:darts": {
+    "en": "darts",
+    "zh": "飛鏢"
+  },
+  "w:sports:archery": {
+    "en": "archery",
+    "zh": "射箭"
+  },
+  "w:sports:fencing": {
+    "en": "fencing",
+    "zh": "劍擊"
+  },
+  "w:sports:boxing": {
+    "en": "boxing",
+    "zh": "拳擊"
+  },
+  "w:sports:karate": {
+    "en": "karate",
+    "zh": "空手道"
+  },
+  "w:sports:judo": {
+    "en": "judo",
+    "zh": "柔道"
+  },
+  "w:sports:taekwondo": {
+    "en": "taekwondo",
+    "zh": "跆拳道"
+  },
+  "w:sports:kung-fu": {
+    "en": "kung fu",
+    "zh": "功夫"
+  },
+  "w:sports:wrestling": {
+    "en": "wrestling",
+    "zh": "摔角"
+  },
+  "w:sports:sumo-wrestling": {
+    "en": "sumo wrestling",
+    "zh": "相撲"
+  },
+  "w:sports:weightlifting": {
+    "en": "weightlifting",
+    "zh": "舉重"
+  },
+  "w:sports:gymnastics": {
+    "en": "gymnastics",
+    "zh": "體操"
+  },
+  "w:sports:trampoline": {
+    "en": "trampoline",
+    "zh": "彈床"
+  },
+  "w:sports:yoga": {
+    "en": "yoga",
+    "zh": "瑜伽"
+  },
+  "w:sports:running": {
+    "en": "running",
+    "zh": "跑步"
+  },
+  "w:sports:hurdles": {
+    "en": "hurdles",
+    "zh": "跨欄"
+  },
+  "w:sports:high-jump": {
+    "en": "high jump",
+    "zh": "跳高"
+  },
+  "w:sports:long-jump": {
+    "en": "long jump",
+    "zh": "跳遠"
+  },
+  "w:sports:cycling": {
+    "en": "cycling",
+    "zh": "踩單車"
+  },
+  "w:sports:skateboarding": {
+    "en": "skateboarding",
+    "zh": "踩滑板"
+  },
+  "w:sports:roller-skating": {
+    "en": "roller skating",
+    "zh": "滾軸溜冰"
+  },
+  "w:sports:surfing": {
+    "en": "surfing",
+    "zh": "滑浪"
+  },
+  "w:sports:swimming": {
+    "en": "swimming",
+    "zh": "游水"
+  },
+  "w:sports:diving": {
+    "en": "diving",
+    "zh": "跳水"
+  },
+  "w:sports:sailing": {
+    "en": "sailing",
+    "zh": "帆船"
+  },
+  "w:sports:rowing": {
+    "en": "rowing",
+    "zh": "划艇"
+  },
+  "w:sports:kayaking": {
+    "en": "kayaking",
+    "zh": "獨木舟"
+  },
+  "w:sports:fishing": {
+    "en": "fishing",
+    "zh": "釣魚"
+  },
+  "w:sports:ice-skating": {
+    "en": "ice skating",
+    "zh": "溜冰"
+  },
+  "w:sports:figure-skating": {
+    "en": "figure skating",
+    "zh": "花式溜冰"
+  },
+  "w:sports:ice-hockey": {
+    "en": "ice hockey",
+    "zh": "冰上曲棍球"
+  },
+  "w:sports:skiing": {
+    "en": "skiing",
+    "zh": "滑雪"
+  },
+  "w:sports:snowboarding": {
+    "en": "snowboarding",
+    "zh": "滑雪板"
+  },
+  "w:sports:sledding": {
+    "en": "sledding",
+    "zh": "玩雪橇"
+  },
+  "w:sports:rock-climbing": {
+    "en": "rock climbing",
+    "zh": "攀石"
+  },
+  "w:sports:hiking": {
+    "en": "hiking",
+    "zh": "行山"
+  },
+  "w:sports:horse-riding": {
+    "en": "horse riding",
+    "zh": "騎馬"
+  },
+  "w:sports:frisbee": {
+    "en": "frisbee",
+    "zh": "飛盤"
+  },
+  "w:sports:tug-of-war": {
+    "en": "tug of war",
+    "zh": "拔河"
+  },
+  "w:sports:jump-rope": {
+    "en": "jump rope",
+    "zh": "跳繩"
+  },
+  "w:sports:hula-hoop": {
+    "en": "hula hoop",
+    "zh": "呼啦圈"
+  },
+  "w:sports:chess": {
+    "en": "chess",
+    "zh": "國際象棋"
+  },
+  "w:sports:parkour": {
+    "en": "parkour",
+    "zh": "跑酷"
+  },
+  "w:sports:scuba-diving": {
+    "en": "scuba diving",
+    "zh": "潛水"
+  },
+  "w:sports:bungee-jumping": {
+    "en": "bungee jumping",
+    "zh": "笨豬跳"
+  },
+  "w:sports:car-racing": {
+    "en": "car racing",
+    "zh": "賽車"
+  },
+  "w:sports:hide-and-seek": {
+    "en": "hide and seek",
+    "zh": "捉迷藏"
+  },
+  "w:sports:hopscotch": {
+    "en": "hopscotch",
+    "zh": "跳飛機"
+  },
+  "w:food:pizza": {
+    "en": "pizza",
+    "zh": "薄餅"
+  },
+  "w:food:hamburger": {
+    "en": "hamburger",
+    "zh": "漢堡包"
+  },
+  "w:food:hot-dog": {
+    "en": "hot dog",
+    "zh": "熱狗"
+  },
+  "w:food:french-fries": {
+    "en": "french fries",
+    "zh": "薯條"
+  },
+  "w:food:fried-chicken": {
+    "en": "fried chicken",
+    "zh": "炸雞"
+  },
+  "w:food:sandwich": {
+    "en": "sandwich",
+    "zh": "三文治"
+  },
+  "w:food:toast": {
+    "en": "toast",
+    "zh": "多士"
+  },
+  "w:food:fried-egg": {
+    "en": "fried egg",
+    "zh": "煎蛋"
+  },
+  "w:food:bacon": {
+    "en": "bacon",
+    "zh": "煙肉"
+  },
+  "w:food:sausage": {
+    "en": "sausage",
+    "zh": "腸仔"
+  },
+  "w:food:noodles": {
+    "en": "noodles",
+    "zh": "麵"
+  },
+  "w:food:spaghetti": {
+    "en": "spaghetti",
+    "zh": "意粉"
+  },
+  "w:food:dumpling": {
+    "en": "dumpling",
+    "zh": "餃子"
+  },
+  "w:food:sushi": {
+    "en": "sushi",
+    "zh": "壽司"
+  },
+  "w:food:fried-rice": {
+    "en": "fried rice",
+    "zh": "炒飯"
+  },
+  "w:food:dim-sum": {
+    "en": "dim sum",
+    "zh": "點心"
+  },
+  "w:food:steamed-bun": {
+    "en": "steamed bun",
+    "zh": "包仔"
+  },
+  "w:food:spring-roll": {
+    "en": "spring roll",
+    "zh": "春卷"
+  },
+  "w:food:egg-tart": {
+    "en": "egg tart",
+    "zh": "蛋撻"
+  },
+  "w:food:pineapple-bun": {
+    "en": "pineapple bun",
+    "zh": "菠蘿包"
+  },
+  "w:food:mooncake": {
+    "en": "mooncake",
+    "zh": "月餅"
+  },
+  "w:food:hot-pot": {
+    "en": "hot pot",
+    "zh": "打邊爐"
+  },
+  "w:food:tofu": {
+    "en": "tofu",
+    "zh": "豆腐"
+  },
+  "w:food:instant-noodles": {
+    "en": "instant noodles",
+    "zh": "即食麵"
+  },
+  "w:food:seaweed": {
+    "en": "seaweed",
+    "zh": "紫菜"
+  },
+  "w:food:pancake": {
+    "en": "pancake",
+    "zh": "班戟"
+  },
+  "w:food:waffle": {
+    "en": "waffle",
+    "zh": "窩夫"
+  },
+  "w:food:donut": {
+    "en": "donut",
+    "zh": "冬甩"
+  },
+  "w:food:cookie": {
+    "en": "cookie",
+    "zh": "曲奇"
+  },
+  "w:food:birthday-cake": {
+    "en": "birthday cake",
+    "zh": "生日蛋糕"
+  },
+  "w:food:cupcake": {
+    "en": "cupcake",
+    "zh": "紙杯蛋糕"
+  },
+  "w:food:chocolate": {
+    "en": "chocolate",
+    "zh": "朱古力"
+  },
+  "w:food:candy": {
+    "en": "candy",
+    "zh": "糖果"
+  },
+  "w:food:lollipop": {
+    "en": "lollipop",
+    "zh": "波板糖"
+  },
+  "w:food:ice-cream": {
+    "en": "ice cream",
+    "zh": "雪糕"
+  },
+  "w:food:popsicle": {
+    "en": "popsicle",
+    "zh": "雪條"
+  },
+  "w:food:jelly": {
+    "en": "jelly",
+    "zh": "啫喱"
+  },
+  "w:food:pudding": {
+    "en": "pudding",
+    "zh": "布甸"
+  },
+  "w:food:popcorn": {
+    "en": "popcorn",
+    "zh": "爆谷"
+  },
+  "w:food:potato-chips": {
+    "en": "potato chips",
+    "zh": "薯片"
+  },
+  "w:food:marshmallow": {
+    "en": "marshmallow",
+    "zh": "棉花糖"
+  },
+  "w:food:gummy-bear": {
+    "en": "gummy bear",
+    "zh": "熊仔糖"
+  },
+  "w:food:chewing-gum": {
+    "en": "chewing gum",
+    "zh": "香口膠"
+  },
+  "w:food:cereal": {
+    "en": "cereal",
+    "zh": "早餐穀物"
+  },
+  "w:food:jam": {
+    "en": "jam",
+    "zh": "果醬"
+  },
+  "w:food:peanut-butter": {
+    "en": "peanut butter",
+    "zh": "花生醬"
+  },
+  "w:food:honey": {
+    "en": "honey",
+    "zh": "蜜糖"
+  },
+  "w:food:cheese": {
+    "en": "cheese",
+    "zh": "芝士"
+  },
+  "w:food:bread": {
+    "en": "bread",
+    "zh": "麵包"
+  },
+  "w:food:apple": {
+    "en": "apple",
+    "zh": "蘋果"
+  },
+  "w:food:banana": {
+    "en": "banana",
+    "zh": "香蕉"
+  },
+  "w:food:orange": {
+    "en": "orange",
+    "zh": "橙"
+  },
+  "w:food:grapes": {
+    "en": "grapes",
+    "zh": "提子"
+  },
+  "w:food:watermelon": {
+    "en": "watermelon",
+    "zh": "西瓜"
+  },
+  "w:food:strawberry": {
+    "en": "strawberry",
+    "zh": "士多啤梨"
+  },
+  "w:food:cherry": {
+    "en": "cherry",
+    "zh": "車厘子"
+  },
+  "w:food:mango": {
+    "en": "mango",
+    "zh": "芒果"
+  },
+  "w:food:pineapple": {
+    "en": "pineapple",
+    "zh": "菠蘿"
+  },
+  "w:food:peach": {
+    "en": "peach",
+    "zh": "桃"
+  },
+  "w:food:pear": {
+    "en": "pear",
+    "zh": "梨"
+  },
+  "w:food:lemon": {
+    "en": "lemon",
+    "zh": "檸檬"
+  },
+  "w:food:coconut": {
+    "en": "coconut",
+    "zh": "椰子"
+  },
+  "w:food:durian": {
+    "en": "durian",
+    "zh": "榴槤"
+  },
+  "w:food:tomato": {
+    "en": "tomato",
+    "zh": "番茄"
+  },
+  "w:food:potato": {
+    "en": "potato",
+    "zh": "薯仔"
+  },
+  "w:food:carrot": {
+    "en": "carrot",
+    "zh": "紅蘿蔔"
+  },
+  "w:food:corn": {
+    "en": "corn",
+    "zh": "粟米"
+  },
+  "w:food:broccoli": {
+    "en": "broccoli",
+    "zh": "西蘭花"
+  },
+  "w:food:mushroom": {
+    "en": "mushroom",
+    "zh": "蘑菇"
+  },
+  "w:food:pumpkin": {
+    "en": "pumpkin",
+    "zh": "南瓜"
+  },
+  "w:food:milk": {
+    "en": "milk",
+    "zh": "牛奶"
+  },
+  "w:food:juice": {
+    "en": "juice",
+    "zh": "果汁"
+  },
+  "w:food:soda": {
+    "en": "soda",
+    "zh": "汽水"
+  },
+  "w:food:bubble-tea": {
+    "en": "bubble tea",
+    "zh": "珍珠奶茶"
+  },
+  "w:food:milkshake": {
+    "en": "milkshake",
+    "zh": "奶昔"
+  },
+  "w:food:coffee": {
+    "en": "coffee",
+    "zh": "咖啡"
+  },
+  "w:food:tea": {
+    "en": "tea",
+    "zh": "茶"
+  },
+  "w:food:ketchup": {
+    "en": "ketchup",
+    "zh": "茄汁"
+  },
+  "w:food:steak": {
+    "en": "steak",
+    "zh": "牛扒"
+  },
+  "w:things:chair": {
+    "en": "chair",
+    "zh": "櫈"
+  },
+  "w:things:table": {
+    "en": "table",
+    "zh": "檯"
+  },
+  "w:things:bed": {
+    "en": "bed",
+    "zh": "床"
+  },
+  "w:things:pillow": {
+    "en": "pillow",
+    "zh": "枕頭"
+  },
+  "w:things:blanket": {
+    "en": "blanket",
+    "zh": "毛氈"
+  },
+  "w:things:sofa": {
+    "en": "sofa",
+    "zh": "梳化"
+  },
+  "w:things:lamp": {
+    "en": "lamp",
+    "zh": "燈"
+  },
+  "w:things:clock": {
+    "en": "clock",
+    "zh": "時鐘"
+  },
+  "w:things:mirror": {
+    "en": "mirror",
+    "zh": "鏡"
+  },
+  "w:things:window": {
+    "en": "window",
+    "zh": "窗"
+  },
+  "w:things:door": {
+    "en": "door",
+    "zh": "門"
+  },
+  "w:things:key": {
+    "en": "key",
+    "zh": "鎖匙"
+  },
+  "w:things:umbrella": {
+    "en": "umbrella",
+    "zh": "雨遮"
+  },
+  "w:things:backpack": {
+    "en": "backpack",
+    "zh": "背囊"
+  },
+  "w:things:book": {
+    "en": "book",
+    "zh": "書"
+  },
+  "w:things:pencil": {
+    "en": "pencil",
+    "zh": "鉛筆"
+  },
+  "w:things:eraser": {
+    "en": "eraser",
+    "zh": "擦膠"
+  },
+  "w:things:ruler": {
+    "en": "ruler",
+    "zh": "間尺"
+  },
+  "w:things:scissors": {
+    "en": "scissors",
+    "zh": "剪刀"
+  },
+  "w:things:glue": {
+    "en": "glue",
+    "zh": "膠水"
+  },
+  "w:things:crayon": {
+    "en": "crayon",
+    "zh": "蠟筆"
+  },
+  "w:things:paintbrush": {
+    "en": "paintbrush",
+    "zh": "畫筆"
+  },
+  "w:things:computer": {
+    "en": "computer",
+    "zh": "電腦"
+  },
+  "w:things:keyboard": {
+    "en": "keyboard",
+    "zh": "鍵盤"
+  },
+  "w:things:phone": {
+    "en": "phone",
+    "zh": "電話"
+  },
+  "w:things:television": {
+    "en": "television",
+    "zh": "電視"
+  },
+  "w:things:camera": {
+    "en": "camera",
+    "zh": "相機"
+  },
+  "w:things:headphones": {
+    "en": "headphones",
+    "zh": "耳機"
+  },
+  "w:things:microphone": {
+    "en": "microphone",
+    "zh": "咪高峰"
+  },
+  "w:things:robot": {
+    "en": "robot",
+    "zh": "機械人"
+  },
+  "w:things:light-bulb": {
+    "en": "light bulb",
+    "zh": "燈膽"
+  },
+  "w:things:candle": {
+    "en": "candle",
+    "zh": "蠟燭"
+  },
+  "w:things:flashlight": {
+    "en": "flashlight",
+    "zh": "電筒"
+  },
+  "w:things:fan": {
+    "en": "fan",
+    "zh": "風扇"
+  },
+  "w:things:air-conditioner": {
+    "en": "air conditioner",
+    "zh": "冷氣機"
+  },
+  "w:things:refrigerator": {
+    "en": "refrigerator",
+    "zh": "雪櫃"
+  },
+  "w:things:microwave": {
+    "en": "microwave",
+    "zh": "微波爐"
+  },
+  "w:things:rice-cooker": {
+    "en": "rice cooker",
+    "zh": "電飯煲"
+  },
+  "w:things:kettle": {
+    "en": "kettle",
+    "zh": "水煲"
+  },
+  "w:things:cup": {
+    "en": "cup",
+    "zh": "杯"
+  },
+  "w:things:plate": {
+    "en": "plate",
+    "zh": "碟"
+  },
+  "w:things:bowl": {
+    "en": "bowl",
+    "zh": "碗"
+  },
+  "w:things:chopsticks": {
+    "en": "chopsticks",
+    "zh": "筷子"
+  },
+  "w:things:fork": {
+    "en": "fork",
+    "zh": "叉"
+  },
+  "w:things:spoon": {
+    "en": "spoon",
+    "zh": "匙羹"
+  },
+  "w:things:straw": {
+    "en": "straw",
+    "zh": "飲管"
+  },
+  "w:things:bottle": {
+    "en": "bottle",
+    "zh": "水樽"
+  },
+  "w:things:lunchbox": {
+    "en": "lunchbox",
+    "zh": "飯盒"
+  },
+  "w:things:toothbrush": {
+    "en": "toothbrush",
+    "zh": "牙刷"
+  },
+  "w:things:toothpaste": {
+    "en": "toothpaste",
+    "zh": "牙膏"
+  },
+  "w:things:soap": {
+    "en": "soap",
+    "zh": "番梘"
+  },
+  "w:things:towel": {
+    "en": "towel",
+    "zh": "毛巾"
+  },
+  "w:things:comb": {
+    "en": "comb",
+    "zh": "梳"
+  },
+  "w:things:glasses": {
+    "en": "glasses",
+    "zh": "眼鏡"
+  },
+  "w:things:sunglasses": {
+    "en": "sunglasses",
+    "zh": "太陽眼鏡"
+  },
+  "w:things:hat": {
+    "en": "hat",
+    "zh": "帽"
+  },
+  "w:things:shoes": {
+    "en": "shoes",
+    "zh": "鞋"
+  },
+  "w:things:socks": {
+    "en": "socks",
+    "zh": "襪"
+  },
+  "w:things:gloves": {
+    "en": "gloves",
+    "zh": "手套"
+  },
+  "w:things:scarf": {
+    "en": "scarf",
+    "zh": "頸巾"
+  },
+  "w:things:t-shirt": {
+    "en": "t-shirt",
+    "zh": "T恤"
+  },
+  "w:things:dress": {
+    "en": "dress",
+    "zh": "連身裙"
+  },
+  "w:things:watch": {
+    "en": "watch",
+    "zh": "手錶"
+  },
+  "w:things:ring": {
+    "en": "ring",
+    "zh": "戒指"
+  },
+  "w:things:necklace": {
+    "en": "necklace",
+    "zh": "頸鏈"
+  },
+  "w:things:wallet": {
+    "en": "wallet",
+    "zh": "銀包"
+  },
+  "w:things:coin": {
+    "en": "coin",
+    "zh": "硬幣"
+  },
+  "w:things:piggy-bank": {
+    "en": "piggy bank",
+    "zh": "錢罌"
+  },
+  "w:things:teddy-bear": {
+    "en": "teddy bear",
+    "zh": "熊公仔"
+  },
+  "w:things:doll": {
+    "en": "doll",
+    "zh": "洋娃娃"
+  },
+  "w:things:balloon": {
+    "en": "balloon",
+    "zh": "氣球"
+  },
+  "w:things:kite": {
+    "en": "kite",
+    "zh": "風箏"
+  },
+  "w:things:building-blocks": {
+    "en": "building blocks",
+    "zh": "積木"
+  },
+  "w:things:puzzle": {
+    "en": "puzzle",
+    "zh": "砌圖"
+  },
+  "w:things:dice": {
+    "en": "dice",
+    "zh": "骰仔"
+  },
+  "w:things:playing-cards": {
+    "en": "playing cards",
+    "zh": "啤牌"
+  },
+  "w:things:swing": {
+    "en": "swing",
+    "zh": "韆鞦"
+  },
+  "w:things:slide": {
+    "en": "slide",
+    "zh": "滑梯"
+  },
+  "w:things:seesaw": {
+    "en": "seesaw",
+    "zh": "搖搖板"
+  },
+  "w:things:car": {
+    "en": "car",
+    "zh": "汽車"
+  },
+  "w:things:bus": {
+    "en": "bus",
+    "zh": "巴士"
+  },
+  "w:things:tram": {
+    "en": "tram",
+    "zh": "電車"
+  },
+  "w:things:taxi": {
+    "en": "taxi",
+    "zh": "的士"
+  },
+  "w:things:train": {
+    "en": "train",
+    "zh": "火車"
+  },
+  "w:things:airplane": {
+    "en": "airplane",
+    "zh": "飛機"
+  },
+  "w:things:helicopter": {
+    "en": "helicopter",
+    "zh": "直升機"
+  },
+  "w:things:rocket": {
+    "en": "rocket",
+    "zh": "火箭"
+  },
+  "w:things:boat": {
+    "en": "boat",
+    "zh": "船"
+  },
+  "w:things:ferry": {
+    "en": "ferry",
+    "zh": "渡輪"
+  },
+  "w:things:bicycle": {
+    "en": "bicycle",
+    "zh": "單車"
+  },
+  "w:things:motorcycle": {
+    "en": "motorcycle",
+    "zh": "電單車"
+  },
+  "w:things:fire-truck": {
+    "en": "fire truck",
+    "zh": "消防車"
+  },
+  "w:things:police-car": {
+    "en": "police car",
+    "zh": "警車"
+  },
+  "w:things:ambulance": {
+    "en": "ambulance",
+    "zh": "救護車"
+  },
+  "w:things:truck": {
+    "en": "truck",
+    "zh": "貨車"
+  },
+  "w:things:digger": {
+    "en": "digger",
+    "zh": "挖泥車"
+  },
+  "w:things:crane": {
+    "en": "crane",
+    "zh": "起重機"
+  },
+  "w:things:traffic-light": {
+    "en": "traffic light",
+    "zh": "紅綠燈"
+  },
+  "w:things:ladder": {
+    "en": "ladder",
+    "zh": "梯"
+  },
+  "w:things:broom": {
+    "en": "broom",
+    "zh": "掃把"
+  },
+  "w:things:bucket": {
+    "en": "bucket",
+    "zh": "水桶"
+  },
+  "w:things:hammer": {
+    "en": "hammer",
+    "zh": "鎚仔"
+  },
+  "w:things:rope": {
+    "en": "rope",
+    "zh": "繩"
+  },
+  "w:things:tent": {
+    "en": "tent",
+    "zh": "帳篷"
+  },
+  "w:things:map": {
+    "en": "map",
+    "zh": "地圖"
+  },
+  "w:things:treasure-chest": {
+    "en": "treasure chest",
+    "zh": "寶箱"
+  },
+  "w:things:crown": {
+    "en": "crown",
+    "zh": "皇冠"
+  },
+  "w:things:magnet": {
+    "en": "magnet",
+    "zh": "磁石"
+  },
+  "w:things:telescope": {
+    "en": "telescope",
+    "zh": "望遠鏡"
+  },
+  "w:things:magnifying-glass": {
+    "en": "magnifying glass",
+    "zh": "放大鏡"
+  },
+  "w:things:medal": {
+    "en": "medal",
+    "zh": "獎牌"
+  },
+  "w:things:trophy": {
+    "en": "trophy",
+    "zh": "獎盃"
+  },
+  "w:things:present": {
+    "en": "present",
+    "zh": "禮物"
+  },
+  "w:things:envelope": {
+    "en": "envelope",
+    "zh": "信封"
+  },
+  "w:things:stamp": {
+    "en": "stamp",
+    "zh": "郵票"
+  },
+  "w:things:mailbox": {
+    "en": "mailbox",
+    "zh": "信箱"
+  },
+  "w:things:trash-can": {
+    "en": "trash can",
+    "zh": "垃圾桶"
+  },
+  "w:things:toilet": {
+    "en": "toilet",
+    "zh": "馬桶"
+  },
+  "w:things:bathtub": {
+    "en": "bathtub",
+    "zh": "浴缸"
+  },
+  "w:things:stairs": {
+    "en": "stairs",
+    "zh": "樓梯"
+  },
+  "w:things:elevator": {
+    "en": "elevator",
+    "zh": "升降機"
+  },
+  "w:things:escalator": {
+    "en": "escalator",
+    "zh": "扶手電梯"
+  },
+  "w:hongkong:egg-waffle": {
+    "en": "egg waffle",
+    "zh": "雞蛋仔"
+  },
+  "w:hongkong:fishball": {
+    "en": "fishball",
+    "zh": "魚蛋"
+  },
+  "w:hongkong:siu-mai": {
+    "en": "siu mai",
+    "zh": "燒賣"
+  },
+  "w:hongkong:roast-goose": {
+    "en": "roast goose",
+    "zh": "燒鵝"
+  },
+  "w:hongkong:char-siu": {
+    "en": "char siu",
+    "zh": "叉燒"
+  },
+  "w:hongkong:wonton-noodles": {
+    "en": "wonton noodles",
+    "zh": "雲吞麵"
+  },
+  "w:hongkong:congee": {
+    "en": "congee",
+    "zh": "粥"
+  },
+  "w:hongkong:french-toast": {
+    "en": "french toast",
+    "zh": "西多士"
+  },
+  "w:hongkong:milk-tea": {
+    "en": "milk tea",
+    "zh": "絲襪奶茶"
+  },
+  "w:hongkong:stinky-tofu": {
+    "en": "stinky tofu",
+    "zh": "臭豆腐"
+  },
+  "w:hongkong:dai-pai-dong": {
+    "en": "dai pai dong",
+    "zh": "大牌檔"
+  },
+  "w:hongkong:cha-chaan-teng": {
+    "en": "cha chaan teng",
+    "zh": "茶餐廳"
+  },
+  "w:hongkong:wet-market": {
+    "en": "wet market",
+    "zh": "街市"
+  },
+  "w:hongkong:minibus": {
+    "en": "minibus",
+    "zh": "小巴"
+  },
+  "w:hongkong:double-decker-bus": {
+    "en": "double-decker bus",
+    "zh": "雙層巴士"
+  },
+  "w:hongkong:cable-car": {
+    "en": "cable car",
+    "zh": "纜車"
+  },
+  "w:hongkong:junk-boat": {
+    "en": "junk boat",
+    "zh": "中式帆船"
+  },
+  "w:hongkong:victoria-harbour": {
+    "en": "Victoria Harbour",
+    "zh": "維多利亞港"
+  },
+  "w:hongkong:lion-rock": {
+    "en": "Lion Rock",
+    "zh": "獅子山"
+  },
+  "w:hongkong:big-buddha": {
+    "en": "Big Buddha",
+    "zh": "大佛"
+  },
+  "w:hongkong:ferris-wheel": {
+    "en": "ferris wheel",
+    "zh": "摩天輪"
+  },
+  "w:hongkong:skyscraper": {
+    "en": "skyscraper",
+    "zh": "摩天大樓"
+  },
+  "w:hongkong:bamboo-scaffolding": {
+    "en": "bamboo scaffolding",
+    "zh": "竹棚"
+  },
+  "w:hongkong:neon-sign": {
+    "en": "neon sign",
+    "zh": "霓虹招牌"
+  },
+  "w:hongkong:temple": {
+    "en": "temple",
+    "zh": "廟"
+  },
+  "w:hongkong:typhoon-signal": {
+    "en": "typhoon signal",
+    "zh": "颱風信號"
+  },
+  "w:hongkong:mahjong": {
+    "en": "mahjong",
+    "zh": "麻雀"
+  },
+  "w:hongkong:dragon-dance": {
+    "en": "dragon dance",
+    "zh": "舞龍"
+  },
+  "w:hongkong:tsing-ma-bridge": {
+    "en": "Tsing Ma Bridge",
+    "zh": "青馬大橋"
+  },
+  "w:actions:sneezing": {
+    "en": "sneezing",
+    "zh": "打乞嗤"
+  },
+  "w:actions:yawning": {
+    "en": "yawning",
+    "zh": "打呵欠"
+  },
+  "w:actions:snoring": {
+    "en": "snoring",
+    "zh": "打鼻鼾"
+  },
+  "w:actions:hiccups": {
+    "en": "hiccups",
+    "zh": "打嗝"
+  },
+  "w:actions:coughing": {
+    "en": "coughing",
+    "zh": "咳嗽"
+  },
+  "w:actions:crying": {
+    "en": "crying",
+    "zh": "喊"
+  },
+  "w:actions:laughing": {
+    "en": "laughing",
+    "zh": "大笑"
+  },
+  "w:actions:smiling": {
+    "en": "smiling",
+    "zh": "微笑"
+  },
+  "w:actions:brushing-teeth": {
+    "en": "brushing teeth",
+    "zh": "刷牙"
+  },
+  "w:actions:washing-face": {
+    "en": "washing face",
+    "zh": "洗面"
+  },
+  "w:actions:taking-a-shower": {
+    "en": "taking a shower",
+    "zh": "沖涼"
+  },
+  "w:actions:combing-hair": {
+    "en": "combing hair",
+    "zh": "梳頭"
+  },
+  "w:actions:sleeping": {
+    "en": "sleeping",
+    "zh": "瞓覺"
+  },
+  "w:actions:waking-up": {
+    "en": "waking up",
+    "zh": "起身"
+  },
+  "w:actions:drinking-water": {
+    "en": "drinking water",
+    "zh": "飲水"
+  },
+  "w:actions:clapping": {
+    "en": "clapping",
+    "zh": "拍手"
+  },
+  "w:actions:waving": {
+    "en": "waving",
+    "zh": "揮手"
+  },
+  "w:actions:dancing": {
+    "en": "dancing",
+    "zh": "跳舞"
+  },
+  "w:actions:singing": {
+    "en": "singing",
+    "zh": "唱歌"
+  },
+  "w:actions:jumping": {
+    "en": "jumping",
+    "zh": "跳"
+  },
+  "w:actions:crawling": {
+    "en": "crawling",
+    "zh": "爬行"
+  },
+  "w:actions:sneaking": {
+    "en": "sneaking",
+    "zh": "靜雞雞行"
+  },
+  "w:actions:climbing-a-tree": {
+    "en": "climbing a tree",
+    "zh": "爬樹"
+  },
+  "w:actions:driving": {
+    "en": "driving",
+    "zh": "揸車"
+  },
+  "w:actions:cooking": {
+    "en": "cooking",
+    "zh": "煮飯"
+  },
+  "w:actions:washing-dishes": {
+    "en": "washing dishes",
+    "zh": "洗碗"
+  },
+  "w:actions:sweeping": {
+    "en": "sweeping",
+    "zh": "掃地"
+  },
+  "w:actions:mopping": {
+    "en": "mopping",
+    "zh": "拖地"
+  },
+  "w:actions:ironing": {
+    "en": "ironing",
+    "zh": "燙衫"
+  },
+  "w:actions:hanging-clothes": {
+    "en": "hanging clothes",
+    "zh": "晾衫"
+  },
+  "w:actions:watering-plants": {
+    "en": "watering plants",
+    "zh": "淋花"
+  },
+  "w:actions:walking-the-dog": {
+    "en": "walking the dog",
+    "zh": "放狗"
+  },
+  "w:actions:feeding-fish": {
+    "en": "feeding fish",
+    "zh": "餵魚"
+  },
+  "w:actions:taking-a-selfie": {
+    "en": "taking a selfie",
+    "zh": "自拍"
+  },
+  "w:actions:playing-video-games": {
+    "en": "playing video games",
+    "zh": "打機"
+  },
+  "w:actions:watching-tv": {
+    "en": "watching TV",
+    "zh": "睇電視"
+  },
+  "w:actions:reading-a-book": {
+    "en": "reading a book",
+    "zh": "睇書"
+  },
+  "w:actions:writing": {
+    "en": "writing",
+    "zh": "寫字"
+  },
+  "w:actions:drawing": {
+    "en": "drawing",
+    "zh": "畫畫"
+  },
+  "w:actions:making-a-phone-call": {
+    "en": "making a phone call",
+    "zh": "講電話"
+  },
+  "w:actions:queuing": {
+    "en": "queuing",
+    "zh": "排隊"
+  },
+  "w:actions:hugging": {
+    "en": "hugging",
+    "zh": "攬攬"
+  },
+  "w:actions:shaking-hands": {
+    "en": "shaking hands",
+    "zh": "握手"
+  },
+  "w:actions:high-five": {
+    "en": "high five",
+    "zh": "擊掌"
+  },
+  "w:actions:thumbs-up": {
+    "en": "thumbs up",
+    "zh": "畀個讚"
+  },
+  "w:actions:bowing": {
+    "en": "bowing",
+    "zh": "鞠躬"
+  },
+  "w:actions:stretching": {
+    "en": "stretching",
+    "zh": "伸懶腰"
+  },
+  "w:actions:doing-homework": {
+    "en": "doing homework",
+    "zh": "做功課"
+  },
+  "w:actions:packing-schoolbag": {
+    "en": "packing schoolbag",
+    "zh": "執書包"
+  },
+  "w:actions:tying-shoelaces": {
+    "en": "tying shoelaces",
+    "zh": "綁鞋帶"
+  },
+  "w:actions:wearing-a-mask": {
+    "en": "wearing a mask",
+    "zh": "戴口罩"
+  },
+  "w:actions:washing-hands": {
+    "en": "washing hands",
+    "zh": "洗手"
+  },
+  "w:actions:blowing-bubbles": {
+    "en": "blowing bubbles",
+    "zh": "吹泡泡"
+  },
+  "w:actions:blowing-out-candles": {
+    "en": "blowing out candles",
+    "zh": "吹蠟燭"
+  },
+  "w:actions:opening-a-present": {
+    "en": "opening a present",
+    "zh": "拆禮物"
+  },
+  "w:actions:whistling": {
+    "en": "whistling",
+    "zh": "吹口哨"
+  },
+  "w:actions:thinking": {
+    "en": "thinking",
+    "zh": "諗嘢"
+  },
+  "w:actions:falling-down": {
+    "en": "falling down",
+    "zh": "跌倒"
+  },
+  "w:nature:sun": {
+    "en": "sun",
+    "zh": "太陽"
+  },
+  "w:nature:moon": {
+    "en": "moon",
+    "zh": "月亮"
+  },
+  "w:nature:star": {
+    "en": "star",
+    "zh": "星星"
+  },
+  "w:nature:shooting-star": {
+    "en": "shooting star",
+    "zh": "流星"
+  },
+  "w:nature:rainbow": {
+    "en": "rainbow",
+    "zh": "彩虹"
+  },
+  "w:nature:cloud": {
+    "en": "cloud",
+    "zh": "雲"
+  },
+  "w:nature:rain": {
+    "en": "rain",
+    "zh": "落雨"
+  },
+  "w:nature:lightning": {
+    "en": "lightning",
+    "zh": "閃電"
+  },
+  "w:nature:snowman": {
+    "en": "snowman",
+    "zh": "雪人"
+  },
+  "w:nature:snowflake": {
+    "en": "snowflake",
+    "zh": "雪花"
+  },
+  "w:nature:wind": {
+    "en": "wind",
+    "zh": "風"
+  },
+  "w:nature:tornado": {
+    "en": "tornado",
+    "zh": "龍捲風"
+  },
+  "w:nature:typhoon": {
+    "en": "typhoon",
+    "zh": "颱風"
+  },
+  "w:nature:volcano": {
+    "en": "volcano",
+    "zh": "火山"
+  },
+  "w:nature:mountain": {
+    "en": "mountain",
+    "zh": "山"
+  },
+  "w:nature:river": {
+    "en": "river",
+    "zh": "河流"
+  },
+  "w:nature:waterfall": {
+    "en": "waterfall",
+    "zh": "瀑布"
+  },
+  "w:nature:lake": {
+    "en": "lake",
+    "zh": "湖"
+  },
+  "w:nature:sea": {
+    "en": "sea",
+    "zh": "大海"
+  },
+  "w:nature:wave": {
+    "en": "wave",
+    "zh": "海浪"
+  },
+  "w:nature:island": {
+    "en": "island",
+    "zh": "小島"
+  },
+  "w:nature:beach": {
+    "en": "beach",
+    "zh": "沙灘"
+  },
+  "w:nature:desert": {
+    "en": "desert",
+    "zh": "沙漠"
+  },
+  "w:nature:cactus": {
+    "en": "cactus",
+    "zh": "仙人掌"
+  },
+  "w:nature:forest": {
+    "en": "forest",
+    "zh": "森林"
+  },
+  "w:nature:tree": {
+    "en": "tree",
+    "zh": "樹"
+  },
+  "w:nature:leaf": {
+    "en": "leaf",
+    "zh": "樹葉"
+  },
+  "w:nature:flower": {
+    "en": "flower",
+    "zh": "花"
+  },
+  "w:nature:grass": {
+    "en": "grass",
+    "zh": "草"
+  },
+  "w:nature:rock": {
+    "en": "rock",
+    "zh": "石頭"
+  },
+  "w:nature:cave": {
+    "en": "cave",
+    "zh": "山洞"
+  },
+  "w:nature:sunrise": {
+    "en": "sunrise",
+    "zh": "日出"
+  },
+  "w:nature:sunset": {
+    "en": "sunset",
+    "zh": "日落"
+  },
+  "w:nature:planet": {
+    "en": "planet",
+    "zh": "行星"
+  },
+  "w:nature:earth": {
+    "en": "Earth",
+    "zh": "地球"
+  },
+  "w:nature:saturn": {
+    "en": "Saturn",
+    "zh": "土星"
+  },
+  "w:nature:alien": {
+    "en": "alien",
+    "zh": "外星人"
+  },
+  "w:nature:ufo": {
+    "en": "UFO",
+    "zh": "飛碟"
+  },
+  "w:nature:iceberg": {
+    "en": "iceberg",
+    "zh": "冰山"
+  },
+  "w:nature:coral": {
+    "en": "coral",
+    "zh": "珊瑚"
+  },
+  "w:nature:seashell": {
+    "en": "seashell",
+    "zh": "貝殼"
+  },
+  "w:nature:sand-castle": {
+    "en": "sand castle",
+    "zh": "沙堡"
+  },
+  "w:nature:puddle": {
+    "en": "puddle",
+    "zh": "水氹"
+  },
+  "w:nature:fire": {
+    "en": "fire",
+    "zh": "火"
+  },
+  "w:festivals:red-packet": {
+    "en": "red packet",
+    "zh": "利是"
+  },
+  "w:festivals:fai-chun": {
+    "en": "fai chun",
+    "zh": "揮春"
+  },
+  "w:festivals:lion-dance": {
+    "en": "lion dance",
+    "zh": "舞獅"
+  },
+  "w:festivals:dragon-boat": {
+    "en": "dragon boat",
+    "zh": "龍舟"
+  },
+  "w:festivals:rice-dumpling": {
+    "en": "rice dumpling",
+    "zh": "糉"
+  },
+  "w:festivals:rice-cake": {
+    "en": "rice cake",
+    "zh": "年糕"
+  },
+  "w:festivals:candy-box": {
+    "en": "candy box",
+    "zh": "全盒"
+  },
+  "w:festivals:god-of-fortune": {
+    "en": "god of fortune",
+    "zh": "財神"
+  },
+  "w:festivals:kumquat-tree": {
+    "en": "kumquat tree",
+    "zh": "年桔"
+  },
+  "w:festivals:firecracker": {
+    "en": "firecracker",
+    "zh": "炮仗"
+  },
+  "w:festivals:fireworks": {
+    "en": "fireworks",
+    "zh": "煙花"
+  },
+  "w:festivals:lantern": {
+    "en": "lantern",
+    "zh": "燈籠"
+  },
+  "w:festivals:christmas-tree": {
+    "en": "Christmas tree",
+    "zh": "聖誕樹"
+  },
+  "w:festivals:santa-claus": {
+    "en": "Santa Claus",
+    "zh": "聖誕老人"
+  },
+  "w:festivals:reindeer": {
+    "en": "reindeer",
+    "zh": "馴鹿"
+  },
+  "w:festivals:christmas-stocking": {
+    "en": "Christmas stocking",
+    "zh": "聖誕襪"
+  },
+  "w:festivals:gingerbread-man": {
+    "en": "gingerbread man",
+    "zh": "薑餅人"
+  },
+  "w:festivals:candy-cane": {
+    "en": "candy cane",
+    "zh": "拐杖糖"
+  },
+  "w:festivals:jingle-bell": {
+    "en": "jingle bell",
+    "zh": "鈴鐺"
+  },
+  "w:festivals:angel": {
+    "en": "angel",
+    "zh": "天使"
+  },
+  "w:festivals:jack-o-lantern": {
+    "en": "jack-o'-lantern",
+    "zh": "南瓜燈"
+  },
+  "w:festivals:ghost": {
+    "en": "ghost",
+    "zh": "鬼"
+  },
+  "w:festivals:vampire": {
+    "en": "vampire",
+    "zh": "吸血鬼"
+  },
+  "w:festivals:mummy": {
+    "en": "mummy",
+    "zh": "木乃伊"
+  },
+  "w:festivals:spider-web": {
+    "en": "spider web",
+    "zh": "蜘蛛網"
+  },
+  "w:festivals:easter-egg": {
+    "en": "Easter egg",
+    "zh": "復活蛋"
+  },
+  "w:festivals:easter-bunny": {
+    "en": "Easter bunny",
+    "zh": "復活節兔仔"
+  },
+  "w:festivals:party-hat": {
+    "en": "party hat",
+    "zh": "生日帽"
+  },
+  "w:fairytales:mermaid": {
+    "en": "mermaid",
+    "zh": "美人魚"
+  },
+  "w:fairytales:witch": {
+    "en": "witch",
+    "zh": "女巫"
+  },
+  "w:fairytales:fairy": {
+    "en": "fairy",
+    "zh": "仙子"
+  },
+  "w:fairytales:elf": {
+    "en": "elf",
+    "zh": "小精靈"
+  },
+  "w:fairytales:giant": {
+    "en": "giant",
+    "zh": "巨人"
+  },
+  "w:fairytales:dwarf": {
+    "en": "dwarf",
+    "zh": "小矮人"
+  },
+  "w:fairytales:genie": {
+    "en": "genie",
+    "zh": "燈神"
+  },
+  "w:fairytales:magic-lamp": {
+    "en": "magic lamp",
+    "zh": "神燈"
+  },
+  "w:fairytales:magic-carpet": {
+    "en": "magic carpet",
+    "zh": "魔氈"
+  },
+  "w:fairytales:magic-wand": {
+    "en": "magic wand",
+    "zh": "魔法棒"
+  },
+  "w:fairytales:castle": {
+    "en": "castle",
+    "zh": "城堡"
+  },
+  "w:fairytales:princess": {
+    "en": "princess",
+    "zh": "公主"
+  },
+  "w:fairytales:prince": {
+    "en": "prince",
+    "zh": "王子"
+  },
+  "w:fairytales:king": {
+    "en": "king",
+    "zh": "國王"
+  },
+  "w:fairytales:queen": {
+    "en": "queen",
+    "zh": "皇后"
+  },
+  "w:fairytales:snow-white": {
+    "en": "Snow White",
+    "zh": "白雪公主"
+  },
+  "w:fairytales:poison-apple": {
+    "en": "poison apple",
+    "zh": "毒蘋果"
+  },
+  "w:fairytales:cinderella": {
+    "en": "Cinderella",
+    "zh": "灰姑娘"
+  },
+  "w:fairytales:glass-slipper": {
+    "en": "glass slipper",
+    "zh": "玻璃鞋"
+  },
+  "w:fairytales:little-red-riding-hood": {
+    "en": "Little Red Riding Hood",
+    "zh": "小紅帽"
+  },
+  "w:fairytales:big-bad-wolf": {
+    "en": "big bad wolf",
+    "zh": "大灰狼"
+  },
+  "w:fairytales:three-little-pigs": {
+    "en": "Three Little Pigs",
+    "zh": "三隻小豬"
+  },
+  "w:fairytales:pinocchio": {
+    "en": "Pinocchio",
+    "zh": "小木偶"
+  },
+  "w:fairytales:aladdin": {
+    "en": "Aladdin",
+    "zh": "阿拉丁"
+  },
+  "w:fairytales:rapunzel": {
+    "en": "Rapunzel",
+    "zh": "長髮公主"
+  },
+  "w:fairytales:sleeping-beauty": {
+    "en": "Sleeping Beauty",
+    "zh": "睡公主"
+  },
+  "w:fairytales:frog-prince": {
+    "en": "frog prince",
+    "zh": "青蛙王子"
+  },
+  "w:fairytales:gingerbread-house": {
+    "en": "gingerbread house",
+    "zh": "薑餅屋"
+  },
+  "w:fairytales:magic-beanstalk": {
+    "en": "magic beanstalk",
+    "zh": "魔法豆莖"
+  },
+  "w:fairytales:monkey-king": {
+    "en": "Monkey King",
+    "zh": "孫悟空"
+  },
+  "w:fairytales:ne-zha": {
+    "en": "Ne Zha",
+    "zh": "哪吒"
+  },
+  "w:fairytales:tooth-fairy": {
+    "en": "tooth fairy",
+    "zh": "牙仙"
+  },
+  "w:fairytales:ugly-duckling": {
+    "en": "Ugly Duckling",
+    "zh": "醜小鴨"
+  },
+  "w:fairytales:tortoise-and-the-hare": {
+    "en": "Tortoise and the Hare",
+    "zh": "龜兔賽跑"
+  }
+}

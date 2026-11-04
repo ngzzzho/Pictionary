@@ -1,0 +1,4622 @@
+[
+  {
+    "id": "n:raccoon",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Raccoon.",
+    "labels": {
+      "en": "raccoon",
+      "zh": "浣熊",
+      "zh-Hans": "浣熊",
+      "ja": "アライグマ",
+      "ko": "라쿤",
+      "de": "Waschbär",
+      "fr": "raton laveur",
+      "es": "mapache",
+      "pt": "guaxinim",
+      "it": "procione",
+      "ar": "راكون"
+    }
+  },
+  {
+    "id": "n:beaver",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Beaver.",
+    "labels": {
+      "en": "beaver",
+      "zh": "河狸",
+      "zh-Hans": "河狸",
+      "ja": "ビーバー",
+      "ko": "비버",
+      "de": "Biber",
+      "fr": "castor",
+      "es": "castor",
+      "pt": "castor",
+      "it": "castoro",
+      "ar": "قندس"
+    }
+  },
+  {
+    "id": "n:otter",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Otter.",
+    "labels": {
+      "en": "otter",
+      "zh": "水獺",
+      "zh-Hans": "水獭",
+      "ja": "カワウソ",
+      "ko": "수달",
+      "de": "Otter",
+      "fr": "loutre",
+      "es": "nutria",
+      "pt": "lontra",
+      "it": "lontra",
+      "ar": "قضاعة"
+    }
+  },
+  {
+    "id": "n:skunk",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Skunk.",
+    "labels": {
+      "en": "skunk",
+      "zh": "臭鼬",
+      "zh-Hans": "臭鼬",
+      "ja": "スカンク",
+      "ko": "스컹크",
+      "de": "Stinktier",
+      "fr": "mouffette",
+      "es": "mofeta",
+      "pt": "gambá listrado",
+      "it": "puzzola",
+      "ar": "ظربان"
+    }
+  },
+  {
+    "id": "n:fluffy-chick",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Fluffy chick.",
+    "labels": {
+      "en": "fluffy chick",
+      "zh": "毛茸茸的小雞",
+      "zh-Hans": "毛茸茸的小鸡",
+      "ja": "ふわふわのひよこ",
+      "ko": "복슬복슬한 병아리",
+      "de": "flauschiges Küken",
+      "fr": "poussin duveteux",
+      "es": "pollito esponjoso",
+      "pt": "pintinho fofinho",
+      "it": "pulcino soffice",
+      "ar": "كتكوت منفوش"
+    }
+  },
+  {
+    "id": "n:pelican",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Pelican.",
+    "labels": {
+      "en": "pelican",
+      "zh": "鵜鶘",
+      "zh-Hans": "鹈鹕",
+      "ja": "ペリカン",
+      "ko": "펠리컨",
+      "de": "Pelikan",
+      "fr": "pélican",
+      "es": "pelícano",
+      "pt": "pelicano",
+      "it": "pellicano",
+      "ar": "بجع"
+    }
+  },
+  {
+    "id": "n:woodpecker",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Woodpecker.",
+    "labels": {
+      "en": "woodpecker",
+      "zh": "啄木鳥",
+      "zh-Hans": "啄木鸟",
+      "ja": "キツツキ",
+      "ko": "딱따구리",
+      "de": "Specht",
+      "fr": "pic",
+      "es": "pájaro carpintero",
+      "pt": "pica-pau",
+      "it": "picchio",
+      "ar": "نقار الخشب"
+    }
+  },
+  {
+    "id": "n:toucan",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Toucan.",
+    "labels": {
+      "en": "toucan",
+      "zh": "巨嘴鳥",
+      "zh-Hans": "巨嘴鸟",
+      "ja": "オオハシ",
+      "ko": "큰부리새",
+      "de": "Tukan",
+      "fr": "toucan",
+      "es": "tucán",
+      "pt": "tucano",
+      "it": "tucano",
+      "ar": "طوقان"
+    }
+  },
+  {
+    "id": "n:mole",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Mole.",
+    "labels": {
+      "en": "mole",
+      "zh": "鼴鼠",
+      "zh-Hans": "鼹鼠",
+      "ja": "モグラ",
+      "ko": "두더지",
+      "de": "Maulwurf",
+      "fr": "taupe",
+      "es": "topo",
+      "pt": "toupeira",
+      "it": "talpa",
+      "ar": "خلد"
+    }
+  },
+  {
+    "id": "n:pufferfish",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Pufferfish.",
+    "labels": {
+      "en": "pufferfish",
+      "zh": "河豚",
+      "zh-Hans": "河豚",
+      "ja": "フグ",
+      "ko": "복어",
+      "de": "Kugelfisch",
+      "fr": "poisson-globe",
+      "es": "pez globo",
+      "pt": "baiacu",
+      "it": "pesce palla",
+      "ar": "سمكة منتفخة"
+    }
+  },
+  {
+    "id": "n:stingray",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Stingray.",
+    "labels": {
+      "en": "stingray",
+      "zh": "魟魚",
+      "zh-Hans": "魟鱼",
+      "ja": "エイ",
+      "ko": "가오리",
+      "de": "Rochen",
+      "fr": "raie",
+      "es": "raya",
+      "pt": "arraia",
+      "it": "razza",
+      "ar": "سمكة الراي"
+    }
+  },
+  {
+    "id": "n:hermit-crab",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Hermit crab.",
+    "labels": {
+      "en": "hermit crab",
+      "zh": "寄居蟹",
+      "zh-Hans": "寄居蟹",
+      "ja": "ヤドカリ",
+      "ko": "소라게",
+      "de": "Einsiedlerkrebs",
+      "fr": "bernard-l'ermite",
+      "es": "cangrejo ermitaño",
+      "pt": "caranguejo-eremita",
+      "it": "paguro",
+      "ar": "سرطان ناسك"
+    }
+  },
+  {
+    "id": "n:mantis",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Mantis.",
+    "labels": {
+      "en": "mantis",
+      "zh": "螳螂",
+      "zh-Hans": "螳螂",
+      "ja": "カマキリ",
+      "ko": "사마귀",
+      "de": "Gottesanbeterin",
+      "fr": "mante religieuse",
+      "es": "mantis",
+      "pt": "louva-a-deus",
+      "it": "mantide",
+      "ar": "فرس النبي"
+    }
+  },
+  {
+    "id": "n:cricket-insect",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Cricket insect.",
+    "labels": {
+      "en": "cricket insect",
+      "zh": "蟋蟀",
+      "zh-Hans": "蟋蟀",
+      "ja": "コオロギ",
+      "ko": "귀뚜라미",
+      "de": "Grille",
+      "fr": "grillon",
+      "es": "grillo",
+      "pt": "grilo",
+      "it": "grillo",
+      "ar": "صرصور الليل"
+    }
+  },
+  {
+    "id": "n:squid",
+    "topic": "animals",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Squid.",
+    "labels": {
+      "en": "squid",
+      "zh": "魷魚",
+      "zh-Hans": "鱿鱼",
+      "ja": "イカ",
+      "ko": "오징어",
+      "de": "Tintenfisch",
+      "fr": "calmar",
+      "es": "calamar",
+      "pt": "lula",
+      "it": "calamaro",
+      "ar": "حبار"
+    }
+  },
+  {
+    "id": "n:avocado",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Avocado.",
+    "labels": {
+      "en": "avocado",
+      "zh": "牛油果",
+      "zh-Hans": "牛油果",
+      "ja": "アボカド",
+      "ko": "아보카도",
+      "de": "Avocado",
+      "fr": "avocat",
+      "es": "aguacate",
+      "pt": "abacate",
+      "it": "avocado",
+      "ar": "أفوكادو"
+    }
+  },
+  {
+    "id": "n:kiwi-fruit",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Kiwi fruit.",
+    "labels": {
+      "en": "kiwi fruit",
+      "zh": "奇異果",
+      "zh-Hans": "猕猴桃",
+      "ja": "キウイフルーツ",
+      "ko": "키위",
+      "de": "Kiwi",
+      "fr": "kiwi",
+      "es": "kiwi",
+      "pt": "kiwi",
+      "it": "kiwi",
+      "ar": "فاكهة الكيوي"
+    }
+  },
+  {
+    "id": "n:blueberries",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Blueberries.",
+    "labels": {
+      "en": "blueberries",
+      "zh": "藍莓",
+      "zh-Hans": "蓝莓",
+      "ja": "ブルーベリー",
+      "ko": "블루베리",
+      "de": "Heidelbeeren",
+      "fr": "myrtilles",
+      "es": "arándanos",
+      "pt": "mirtilos",
+      "it": "mirtilli",
+      "ar": "توت أزرق"
+    }
+  },
+  {
+    "id": "n:raspberry",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Raspberry.",
+    "labels": {
+      "en": "raspberry",
+      "zh": "覆盆子",
+      "zh-Hans": "覆盆子",
+      "ja": "ラズベリー",
+      "ko": "라즈베리",
+      "de": "Himbeere",
+      "fr": "framboise",
+      "es": "frambuesa",
+      "pt": "framboesa",
+      "it": "lampone",
+      "ar": "توت العليق"
+    }
+  },
+  {
+    "id": "n:plum",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Plum.",
+    "labels": {
+      "en": "plum",
+      "zh": "李子",
+      "zh-Hans": "李子",
+      "ja": "スモモ",
+      "ko": "자두",
+      "de": "Pflaume",
+      "fr": "prune",
+      "es": "ciruela",
+      "pt": "ameixa",
+      "it": "prugna",
+      "ar": "برقوق"
+    }
+  },
+  {
+    "id": "n:fig",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Fig.",
+    "labels": {
+      "en": "fig",
+      "zh": "無花果",
+      "zh-Hans": "无花果",
+      "ja": "イチジク",
+      "ko": "무화과",
+      "de": "Feige",
+      "fr": "figue",
+      "es": "higo",
+      "pt": "figo",
+      "it": "fico",
+      "ar": "تين"
+    }
+  },
+  {
+    "id": "n:cucumber",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Cucumber.",
+    "labels": {
+      "en": "cucumber",
+      "zh": "青瓜",
+      "zh-Hans": "黄瓜",
+      "ja": "キュウリ",
+      "ko": "오이",
+      "de": "Gurke",
+      "fr": "concombre",
+      "es": "pepino",
+      "pt": "pepino",
+      "it": "cetriolo",
+      "ar": "خيار"
+    }
+  },
+  {
+    "id": "n:aubergine",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Aubergine.",
+    "labels": {
+      "en": "aubergine",
+      "zh": "茄子",
+      "zh-Hans": "茄子",
+      "ja": "ナス",
+      "ko": "가지",
+      "de": "Aubergine",
+      "fr": "aubergine",
+      "es": "berenjena",
+      "pt": "berinjela",
+      "it": "melanzana",
+      "ar": "باذنجان"
+    }
+  },
+  {
+    "id": "n:onion",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Onion.",
+    "labels": {
+      "en": "onion",
+      "zh": "洋葱",
+      "zh-Hans": "洋葱",
+      "ja": "タマネギ",
+      "ko": "양파",
+      "de": "Zwiebel",
+      "fr": "oignon",
+      "es": "cebolla",
+      "pt": "cebola",
+      "it": "cipolla",
+      "ar": "بصل"
+    }
+  },
+  {
+    "id": "n:garlic-bulb",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Garlic bulb.",
+    "labels": {
+      "en": "garlic bulb",
+      "zh": "蒜頭",
+      "zh-Hans": "蒜头",
+      "ja": "ニンニク",
+      "ko": "마늘",
+      "de": "Knoblauchknolle",
+      "fr": "tête d'ail",
+      "es": "cabeza de ajo",
+      "pt": "cabeça de alho",
+      "it": "testa d'aglio",
+      "ar": "رأس ثوم"
+    }
+  },
+  {
+    "id": "n:lettuce",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Lettuce.",
+    "labels": {
+      "en": "lettuce",
+      "zh": "生菜",
+      "zh-Hans": "生菜",
+      "ja": "レタス",
+      "ko": "상추",
+      "de": "Kopfsalat",
+      "fr": "laitue",
+      "es": "lechuga",
+      "pt": "alface",
+      "it": "lattuga",
+      "ar": "خس"
+    }
+  },
+  {
+    "id": "n:peas-in-a-pod",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Peas in a pod.",
+    "labels": {
+      "en": "peas in a pod",
+      "zh": "豌豆莢",
+      "zh-Hans": "豌豆荚",
+      "ja": "さや入りのエンドウ豆",
+      "ko": "꼬투리 속 완두콩",
+      "de": "Erbsen in einer Schote",
+      "fr": "petits pois dans leur cosse",
+      "es": "guisantes en una vaina",
+      "pt": "ervilhas na vagem",
+      "it": "piselli nel baccello",
+      "ar": "بازلاء في قرن"
+    }
+  },
+  {
+    "id": "n:pretzel",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Pretzel.",
+    "labels": {
+      "en": "pretzel",
+      "zh": "扭結餅",
+      "zh-Hans": "扭结饼",
+      "ja": "プレッツェル",
+      "ko": "프레첼",
+      "de": "Brezel",
+      "fr": "bretzel",
+      "es": "pretzel",
+      "pt": "pretzel",
+      "it": "pretzel",
+      "ar": "بريتزل"
+    }
+  },
+  {
+    "id": "n:croissant",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Croissant.",
+    "labels": {
+      "en": "croissant",
+      "zh": "牛角包",
+      "zh-Hans": "牛角面包",
+      "ja": "クロワッサン",
+      "ko": "크루아상",
+      "de": "Croissant",
+      "fr": "croissant",
+      "es": "cruasán",
+      "pt": "croissant",
+      "it": "croissant",
+      "ar": "كرواسون"
+    }
+  },
+  {
+    "id": "n:bagel",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Bagel.",
+    "labels": {
+      "en": "bagel",
+      "zh": "貝果",
+      "zh-Hans": "贝果",
+      "ja": "ベーグル",
+      "ko": "베이글",
+      "de": "Bagel",
+      "fr": "bagel",
+      "es": "bagel",
+      "pt": "bagel",
+      "it": "bagel",
+      "ar": "خبز بيغل"
+    }
+  },
+  {
+    "id": "n:bowl-of-soup",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Bowl of soup.",
+    "labels": {
+      "en": "bowl of soup",
+      "zh": "一碗湯",
+      "zh-Hans": "一碗汤",
+      "ja": "スープの器",
+      "ko": "수프 한 그릇",
+      "de": "Schüssel Suppe",
+      "fr": "bol de soupe",
+      "es": "cuenco de sopa",
+      "pt": "tigela de sopa",
+      "it": "ciotola di zuppa",
+      "ar": "وعاء حساء"
+    }
+  },
+  {
+    "id": "n:fruit-skewer",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Fruit skewer.",
+    "labels": {
+      "en": "fruit skewer",
+      "zh": "水果串",
+      "zh-Hans": "水果串",
+      "ja": "フルーツ串",
+      "ko": "과일 꼬치",
+      "de": "Obstspieß",
+      "fr": "brochette de fruits",
+      "es": "brocheta de frutas",
+      "pt": "espetinho de frutas",
+      "it": "spiedino di frutta",
+      "ar": "سيخ فواكه"
+    }
+  },
+  {
+    "id": "n:ice-cream-sandwich",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Ice cream sandwich.",
+    "labels": {
+      "en": "ice cream sandwich",
+      "zh": "雪糕三文治",
+      "zh-Hans": "冰淇淋三明治",
+      "ja": "アイスサンド",
+      "ko": "아이스크림 샌드위치",
+      "de": "Eis-Sandwich",
+      "fr": "sandwich glacé",
+      "es": "sándwich de helado",
+      "pt": "sanduíche de sorvete",
+      "it": "biscotto gelato",
+      "ar": "شطيرة آيس كريم"
+    }
+  },
+  {
+    "id": "n:rice-ball",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Rice ball.",
+    "labels": {
+      "en": "rice ball",
+      "zh": "飯糰",
+      "zh-Hans": "饭团",
+      "ja": "おにぎり",
+      "ko": "주먹밥",
+      "de": "Reisbällchen",
+      "fr": "boulette de riz",
+      "es": "bola de arroz",
+      "pt": "bolinho de arroz",
+      "it": "polpetta di riso",
+      "ar": "كرة أرز"
+    }
+  },
+  {
+    "id": "n:bunch-of-radishes",
+    "topic": "food",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Bunch of radishes.",
+    "labels": {
+      "en": "bunch of radishes",
+      "zh": "一束蘿蔔仔",
+      "zh-Hans": "一束小萝卜",
+      "ja": "ラディッシュの束",
+      "ko": "래디시 한 묶음",
+      "de": "Bund Radieschen",
+      "fr": "botte de radis",
+      "es": "manojo de rábanos",
+      "pt": "maço de rabanetes",
+      "it": "mazzo di ravanelli",
+      "ar": "حزمة فجل"
+    }
+  },
+  {
+    "id": "n:zipper",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Zipper.",
+    "labels": {
+      "en": "zipper",
+      "zh": "拉鏈",
+      "zh-Hans": "拉链",
+      "ja": "ファスナー",
+      "ko": "지퍼",
+      "de": "Reißverschluss",
+      "fr": "fermeture éclair",
+      "es": "cremallera",
+      "pt": "zíper",
+      "it": "cerniera lampo",
+      "ar": "سحاب ملابس"
+    }
+  },
+  {
+    "id": "n:button",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Button.",
+    "labels": {
+      "en": "button",
+      "zh": "鈕扣",
+      "zh-Hans": "纽扣",
+      "ja": "ボタン",
+      "ko": "단추",
+      "de": "Knopf",
+      "fr": "bouton",
+      "es": "botón",
+      "pt": "botão",
+      "it": "bottone",
+      "ar": "زر ملابس"
+    }
+  },
+  {
+    "id": "n:clothes-peg",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Clothes peg.",
+    "labels": {
+      "en": "clothes peg",
+      "zh": "衣夾",
+      "zh-Hans": "衣夹",
+      "ja": "洗濯ばさみ",
+      "ko": "빨래집게",
+      "de": "Wäscheklammer",
+      "fr": "pince à linge",
+      "es": "pinza de ropa",
+      "pt": "prendedor de roupa",
+      "it": "molletta da bucato",
+      "ar": "مشبك غسيل"
+    }
+  },
+  {
+    "id": "n:safety-pin",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Safety pin.",
+    "labels": {
+      "en": "safety pin",
+      "zh": "扣針",
+      "zh-Hans": "别针",
+      "ja": "安全ピン",
+      "ko": "옷핀",
+      "de": "Sicherheitsnadel",
+      "fr": "épingle de sûreté",
+      "es": "imperdible",
+      "pt": "alfinete de segurança",
+      "it": "spilla da balia",
+      "ar": "دبوس أمان"
+    }
+  },
+  {
+    "id": "n:paper-clip",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Paper clip.",
+    "labels": {
+      "en": "paper clip",
+      "zh": "萬字夾",
+      "zh-Hans": "回形针",
+      "ja": "クリップ",
+      "ko": "종이 클립",
+      "de": "Büroklammer",
+      "fr": "trombone",
+      "es": "clip",
+      "pt": "clipe de papel",
+      "it": "graffetta",
+      "ar": "مشبك ورق"
+    }
+  },
+  {
+    "id": "n:rubber-band",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Rubber band.",
+    "labels": {
+      "en": "rubber band",
+      "zh": "橡筋",
+      "zh-Hans": "橡皮筋",
+      "ja": "輪ゴム",
+      "ko": "고무줄",
+      "de": "Gummiband",
+      "fr": "élastique",
+      "es": "goma elástica",
+      "pt": "elástico",
+      "it": "elastico",
+      "ar": "رباط مطاطي"
+    }
+  },
+  {
+    "id": "n:spool-of-thread",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Spool of thread.",
+    "labels": {
+      "en": "spool of thread",
+      "zh": "線轆",
+      "zh-Hans": "线轴",
+      "ja": "糸巻き",
+      "ko": "실패",
+      "de": "Garnrolle",
+      "fr": "bobine de fil",
+      "es": "carrete de hilo",
+      "pt": "carretel de linha",
+      "it": "rocchetto di filo",
+      "ar": "بكرة خيط"
+    }
+  },
+  {
+    "id": "n:sock-puppet",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Sock puppet.",
+    "labels": {
+      "en": "sock puppet",
+      "zh": "襪子手偶",
+      "zh-Hans": "袜子手偶",
+      "ja": "靴下の人形",
+      "ko": "양말 인형",
+      "de": "Sockenpuppe",
+      "fr": "marionnette chaussette",
+      "es": "títere de calcetín",
+      "pt": "fantoche de meia",
+      "it": "burattino di calzino",
+      "ar": "دمية جورب"
+    }
+  },
+  {
+    "id": "n:nesting-dolls",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Nesting dolls.",
+    "labels": {
+      "en": "nesting dolls",
+      "zh": "套娃",
+      "zh-Hans": "套娃",
+      "ja": "入れ子人形",
+      "ko": "겹겹이 인형",
+      "de": "Schachtelpuppen",
+      "fr": "poupées gigognes",
+      "es": "muñecas apilables",
+      "pt": "bonecas encaixáveis",
+      "it": "bambole a incastro",
+      "ar": "دمى متداخلة"
+    }
+  },
+  {
+    "id": "n:snow-globe",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Snow globe.",
+    "labels": {
+      "en": "snow globe",
+      "zh": "水晶雪球",
+      "zh-Hans": "水晶雪球",
+      "ja": "スノードーム",
+      "ko": "스노볼",
+      "de": "Schneekugel",
+      "fr": "boule à neige",
+      "es": "bola de nieve decorativa",
+      "pt": "globo de neve",
+      "it": "sfera di neve",
+      "ar": "كرة ثلج زجاجية"
+    }
+  },
+  {
+    "id": "n:hourglass",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Hourglass.",
+    "labels": {
+      "en": "hourglass",
+      "zh": "沙漏",
+      "zh-Hans": "沙漏",
+      "ja": "砂時計",
+      "ko": "모래시계",
+      "de": "Sanduhr",
+      "fr": "sablier",
+      "es": "reloj de arena",
+      "pt": "ampulheta",
+      "it": "clessidra",
+      "ar": "ساعة رملية"
+    }
+  },
+  {
+    "id": "n:pinwheel",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Pinwheel.",
+    "labels": {
+      "en": "pinwheel",
+      "zh": "風車玩具",
+      "zh-Hans": "风车玩具",
+      "ja": "かざぐるま",
+      "ko": "바람개비",
+      "de": "Windrädchen",
+      "fr": "moulin à vent jouet",
+      "es": "molinillo de viento",
+      "pt": "catavento",
+      "it": "girandola",
+      "ar": "مروحة ورقية"
+    }
+  },
+  {
+    "id": "n:paper-fan",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Paper fan.",
+    "labels": {
+      "en": "paper fan",
+      "zh": "紙扇",
+      "zh-Hans": "纸扇",
+      "ja": "紙の扇子",
+      "ko": "종이 부채",
+      "de": "Papierfächer",
+      "fr": "éventail en papier",
+      "es": "abanico de papel",
+      "pt": "leque de papel",
+      "it": "ventaglio di carta",
+      "ar": "مروحة ورقية يدوية"
+    }
+  },
+  {
+    "id": "n:dustpan",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Dustpan.",
+    "labels": {
+      "en": "dustpan",
+      "zh": "垃圾鏟",
+      "zh-Hans": "簸箕",
+      "ja": "ちりとり",
+      "ko": "쓰레받기",
+      "de": "Kehrschaufel",
+      "fr": "pelle à poussière",
+      "es": "recogedor",
+      "pt": "pá de lixo",
+      "it": "paletta per la polvere",
+      "ar": "جاروف قمامة"
+    }
+  },
+  {
+    "id": "n:rolling-pin",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Rolling pin.",
+    "labels": {
+      "en": "rolling pin",
+      "zh": "擀麵棍",
+      "zh-Hans": "擀面杖",
+      "ja": "めん棒",
+      "ko": "밀대",
+      "de": "Nudelholz",
+      "fr": "rouleau à pâtisserie",
+      "es": "rodillo de cocina",
+      "pt": "rolo de massa",
+      "it": "mattarello",
+      "ar": "شوبك"
+    }
+  },
+  {
+    "id": "n:whisk",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Whisk.",
+    "labels": {
+      "en": "whisk",
+      "zh": "打蛋器",
+      "zh-Hans": "打蛋器",
+      "ja": "泡立て器",
+      "ko": "거품기",
+      "de": "Schneebesen",
+      "fr": "fouet de cuisine",
+      "es": "batidor",
+      "pt": "batedor de arame",
+      "it": "frusta da cucina",
+      "ar": "مضرب يدوي"
+    }
+  },
+  {
+    "id": "n:funnel",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Funnel.",
+    "labels": {
+      "en": "funnel",
+      "zh": "漏斗",
+      "zh-Hans": "漏斗",
+      "ja": "じょうご",
+      "ko": "깔때기",
+      "de": "Trichter",
+      "fr": "entonnoir",
+      "es": "embudo",
+      "pt": "funil",
+      "it": "imbuto",
+      "ar": "قمع"
+    }
+  },
+  {
+    "id": "n:colander",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Colander.",
+    "labels": {
+      "en": "colander",
+      "zh": "隔水篩",
+      "zh-Hans": "滤水篮",
+      "ja": "ざる",
+      "ko": "체",
+      "de": "Nudelsieb",
+      "fr": "passoire",
+      "es": "colador",
+      "pt": "escorredor",
+      "it": "scolapasta",
+      "ar": "مصفاة"
+    }
+  },
+  {
+    "id": "n:oven-glove",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Oven glove.",
+    "labels": {
+      "en": "oven glove",
+      "zh": "焗爐手套",
+      "zh-Hans": "烤箱手套",
+      "ja": "オーブンミトン",
+      "ko": "오븐 장갑",
+      "de": "Ofenhandschuh",
+      "fr": "gant de cuisine",
+      "es": "manopla de horno",
+      "pt": "luva de forno",
+      "it": "guanto da forno",
+      "ar": "قفاز فرن"
+    }
+  },
+  {
+    "id": "n:apron",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Apron.",
+    "labels": {
+      "en": "apron",
+      "zh": "圍裙",
+      "zh-Hans": "围裙",
+      "ja": "エプロン",
+      "ko": "앞치마",
+      "de": "Schürze",
+      "fr": "tablier",
+      "es": "delantal",
+      "pt": "avental",
+      "it": "grembiule",
+      "ar": "مئزر"
+    }
+  },
+  {
+    "id": "n:watering-can",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Watering can.",
+    "labels": {
+      "en": "watering can",
+      "zh": "灑水壺",
+      "zh-Hans": "洒水壶",
+      "ja": "じょうろ",
+      "ko": "물뿌리개",
+      "de": "Gießkanne",
+      "fr": "arrosoir",
+      "es": "regadera",
+      "pt": "regador",
+      "it": "annaffiatoio",
+      "ar": "مرش سقي"
+    }
+  },
+  {
+    "id": "n:wheelbarrow",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Wheelbarrow.",
+    "labels": {
+      "en": "wheelbarrow",
+      "zh": "獨輪手推車",
+      "zh-Hans": "独轮手推车",
+      "ja": "一輪車",
+      "ko": "외바퀴 손수레",
+      "de": "Schubkarre",
+      "fr": "brouette",
+      "es": "carretilla",
+      "pt": "carrinho de mão",
+      "it": "carriola",
+      "ar": "عربة يد"
+    }
+  },
+  {
+    "id": "n:rubber-duck",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Rubber duck.",
+    "labels": {
+      "en": "rubber duck",
+      "zh": "膠鴨仔",
+      "zh-Hans": "橡皮鸭",
+      "ja": "ゴムのアヒル",
+      "ko": "고무 오리",
+      "de": "Quietscheente",
+      "fr": "canard en plastique",
+      "es": "patito de goma",
+      "pt": "pato de borracha",
+      "it": "paperella di gomma",
+      "ar": "بطة مطاطية"
+    }
+  },
+  {
+    "id": "n:sleeping-bag",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Sleeping bag.",
+    "labels": {
+      "en": "sleeping bag",
+      "zh": "睡袋",
+      "zh-Hans": "睡袋",
+      "ja": "寝袋",
+      "ko": "침낭",
+      "de": "Schlafsack",
+      "fr": "sac de couchage",
+      "es": "saco de dormir",
+      "pt": "saco de dormir",
+      "it": "sacco a pelo",
+      "ar": "كيس نوم"
+    }
+  },
+  {
+    "id": "n:binoculars",
+    "topic": "things",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Binoculars.",
+    "labels": {
+      "en": "binoculars",
+      "zh": "雙筒望遠鏡",
+      "zh-Hans": "双筒望远镜",
+      "ja": "双眼鏡",
+      "ko": "쌍안경",
+      "de": "Fernglas",
+      "fr": "jumelles",
+      "es": "prismáticos",
+      "pt": "binóculos",
+      "it": "binocolo",
+      "ar": "منظار مزدوج"
+    }
+  },
+  {
+    "id": "n:peeling-a-banana",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Peeling a banana.",
+    "labels": {
+      "en": "peeling a banana",
+      "zh": "剝香蕉皮",
+      "zh-Hans": "剥香蕉皮",
+      "ja": "バナナの皮をむく",
+      "ko": "바나나 껍질 벗기기",
+      "de": "eine Banane schälen",
+      "fr": "éplucher une banane",
+      "es": "pelar un plátano",
+      "pt": "descascar uma banana",
+      "it": "sbucciare una banana",
+      "ar": "تقشير موزة"
+    }
+  },
+  {
+    "id": "n:cracking-an-egg",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Cracking an egg.",
+    "labels": {
+      "en": "cracking an egg",
+      "zh": "打開雞蛋",
+      "zh-Hans": "打破鸡蛋",
+      "ja": "卵を割る",
+      "ko": "달걀 깨기",
+      "de": "ein Ei aufschlagen",
+      "fr": "casser un œuf",
+      "es": "cascar un huevo",
+      "pt": "quebrar um ovo",
+      "it": "rompere un uovo",
+      "ar": "كسر بيضة"
+    }
+  },
+  {
+    "id": "n:pouring-milk",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Pouring milk.",
+    "labels": {
+      "en": "pouring milk",
+      "zh": "倒牛奶",
+      "zh-Hans": "倒牛奶",
+      "ja": "牛乳を注ぐ",
+      "ko": "우유 따르기",
+      "de": "Milch eingießen",
+      "fr": "verser du lait",
+      "es": "servir leche",
+      "pt": "despejar leite",
+      "it": "versare il latte",
+      "ar": "صب الحليب"
+    }
+  },
+  {
+    "id": "n:spreading-jam",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Spreading jam.",
+    "labels": {
+      "en": "spreading jam",
+      "zh": "塗果醬",
+      "zh-Hans": "涂果酱",
+      "ja": "ジャムを塗る",
+      "ko": "잼 바르기",
+      "de": "Marmelade aufstreichen",
+      "fr": "étaler de la confiture",
+      "es": "untar mermelada",
+      "pt": "passar geleia",
+      "it": "spalmare la marmellata",
+      "ar": "دهن المربى"
+    }
+  },
+  {
+    "id": "n:flipping-a-pancake",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Flipping a pancake.",
+    "labels": {
+      "en": "flipping a pancake",
+      "zh": "翻班戟",
+      "zh-Hans": "翻煎饼",
+      "ja": "パンケーキをひっくり返す",
+      "ko": "팬케이크 뒤집기",
+      "de": "einen Pfannkuchen wenden",
+      "fr": "retourner une crêpe",
+      "es": "dar la vuelta a una tortita",
+      "pt": "virar uma panqueca",
+      "it": "girare un pancake",
+      "ar": "قلب فطيرة"
+    }
+  },
+  {
+    "id": "n:kneading-dough",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Kneading dough.",
+    "labels": {
+      "en": "kneading dough",
+      "zh": "搓麵糰",
+      "zh-Hans": "揉面团",
+      "ja": "生地をこねる",
+      "ko": "반죽 치대기",
+      "de": "Teig kneten",
+      "fr": "pétrir la pâte",
+      "es": "amasar",
+      "pt": "sovar massa",
+      "it": "impastare",
+      "ar": "عجن العجين"
+    }
+  },
+  {
+    "id": "n:squeezing-a-lemon",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Squeezing a lemon.",
+    "labels": {
+      "en": "squeezing a lemon",
+      "zh": "榨檸檬",
+      "zh-Hans": "挤柠檬",
+      "ja": "レモンを絞る",
+      "ko": "레몬 짜기",
+      "de": "eine Zitrone auspressen",
+      "fr": "presser un citron",
+      "es": "exprimir un limón",
+      "pt": "espremer um limão",
+      "it": "spremere un limone",
+      "ar": "عصر ليمونة"
+    }
+  },
+  {
+    "id": "n:folding-a-paper-plane",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Folding a paper plane.",
+    "labels": {
+      "en": "folding a paper plane",
+      "zh": "摺紙飛機",
+      "zh-Hans": "折纸飞机",
+      "ja": "紙飛行機を折る",
+      "ko": "종이비행기 접기",
+      "de": "einen Papierflieger falten",
+      "fr": "plier un avion en papier",
+      "es": "doblar un avión de papel",
+      "pt": "dobrar um avião de papel",
+      "it": "piegare un aeroplano di carta",
+      "ar": "طي طائرة ورقية"
+    }
+  },
+  {
+    "id": "n:building-a-sandcastle",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Building a sandcastle.",
+    "labels": {
+      "en": "building a sandcastle",
+      "zh": "堆沙堡",
+      "zh-Hans": "堆沙堡",
+      "ja": "砂の城を作る",
+      "ko": "모래성 쌓기",
+      "de": "eine Sandburg bauen",
+      "fr": "construire un château de sable",
+      "es": "hacer un castillo de arena",
+      "pt": "fazer um castelo de areia",
+      "it": "costruire un castello di sabbia",
+      "ar": "بناء قلعة رملية"
+    }
+  },
+  {
+    "id": "n:skipping-a-stone",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Skipping a stone.",
+    "labels": {
+      "en": "skipping a stone",
+      "zh": "掟石仔打水漂",
+      "zh-Hans": "打水漂",
+      "ja": "水切りをする",
+      "ko": "물수제비 뜨기",
+      "de": "einen Stein übers Wasser hüpfen lassen",
+      "fr": "faire des ricochets",
+      "es": "hacer saltar una piedra en el agua",
+      "pt": "fazer uma pedra quicar na água",
+      "it": "far rimbalzare un sasso sull'acqua",
+      "ar": "رمي حجر ليرتد على الماء"
+    }
+  },
+  {
+    "id": "n:making-a-snow-angel",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Making a snow angel.",
+    "labels": {
+      "en": "making a snow angel",
+      "zh": "躺在雪地畫天使",
+      "zh-Hans": "躺在雪地画天使",
+      "ja": "雪の天使を作る",
+      "ko": "눈 천사 만들기",
+      "de": "einen Schneeengel machen",
+      "fr": "faire un ange dans la neige",
+      "es": "hacer un ángel en la nieve",
+      "pt": "fazer um anjo na neve",
+      "it": "fare un angelo nella neve",
+      "ar": "صنع ملاك على الثلج"
+    }
+  },
+  {
+    "id": "n:catching-a-ball",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Catching a ball.",
+    "labels": {
+      "en": "catching a ball",
+      "zh": "接波",
+      "zh-Hans": "接球",
+      "ja": "ボールを捕る",
+      "ko": "공 받기",
+      "de": "einen Ball fangen",
+      "fr": "attraper une balle",
+      "es": "atrapar una pelota",
+      "pt": "pegar uma bola",
+      "it": "prendere una palla",
+      "ar": "التقاط كرة"
+    }
+  },
+  {
+    "id": "n:kicking-a-puddle",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Kicking a puddle.",
+    "labels": {
+      "en": "kicking a puddle",
+      "zh": "踢水氹",
+      "zh-Hans": "踢水洼",
+      "ja": "水たまりを蹴る",
+      "ko": "물웅덩이 차기",
+      "de": "in eine Pfütze treten",
+      "fr": "éclabousser une flaque du pied",
+      "es": "patear un charco",
+      "pt": "chutar uma poça",
+      "it": "calciare una pozzanghera",
+      "ar": "ركل ماء بركة صغيرة"
+    }
+  },
+  {
+    "id": "n:balancing-on-one-foot",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Balancing on one foot.",
+    "labels": {
+      "en": "balancing on one foot",
+      "zh": "單腳站立",
+      "zh-Hans": "单脚站立",
+      "ja": "片足でバランスを取る",
+      "ko": "한 발로 균형 잡기",
+      "de": "auf einem Bein balancieren",
+      "fr": "tenir en équilibre sur un pied",
+      "es": "equilibrarse sobre un pie",
+      "pt": "equilibrar-se em um pé",
+      "it": "stare in equilibrio su un piede",
+      "ar": "التوازن على قدم واحدة"
+    }
+  },
+  {
+    "id": "n:winking",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Winking.",
+    "labels": {
+      "en": "winking",
+      "zh": "眨一隻眼",
+      "zh-Hans": "眨一只眼",
+      "ja": "ウインクする",
+      "ko": "윙크하기",
+      "de": "zwinkern",
+      "fr": "faire un clin d'œil",
+      "es": "guiñar un ojo",
+      "pt": "piscar um olho",
+      "it": "fare l'occhiolino",
+      "ar": "الغمز"
+    }
+  },
+  {
+    "id": "n:sticking-out-your-tongue",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Sticking out your tongue.",
+    "labels": {
+      "en": "sticking out your tongue",
+      "zh": "伸脷",
+      "zh-Hans": "伸舌头",
+      "ja": "舌を出す",
+      "ko": "혀 내밀기",
+      "de": "die Zunge herausstrecken",
+      "fr": "tirer la langue",
+      "es": "sacar la lengua",
+      "pt": "mostrar a língua",
+      "it": "fare la linguaccia",
+      "ar": "إخراج اللسان"
+    }
+  },
+  {
+    "id": "n:looking-through-a-keyhole",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Looking through a keyhole.",
+    "labels": {
+      "en": "looking through a keyhole",
+      "zh": "從鎖匙孔偷看",
+      "zh-Hans": "从钥匙孔偷看",
+      "ja": "鍵穴をのぞく",
+      "ko": "열쇠 구멍으로 보기",
+      "de": "durch ein Schlüsselloch schauen",
+      "fr": "regarder par un trou de serrure",
+      "es": "mirar por una cerradura",
+      "pt": "olhar pelo buraco da fechadura",
+      "it": "sbirciare dal buco della serratura",
+      "ar": "النظر عبر ثقب المفتاح"
+    }
+  },
+  {
+    "id": "n:making-a-hand-shadow",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Making a hand shadow.",
+    "labels": {
+      "en": "making a hand shadow",
+      "zh": "做手影",
+      "zh-Hans": "做手影",
+      "ja": "手で影絵を作る",
+      "ko": "손 그림자 만들기",
+      "de": "ein Handschattenspiel machen",
+      "fr": "faire une ombre avec les mains",
+      "es": "hacer una sombra con las manos",
+      "pt": "fazer sombra com as mãos",
+      "it": "fare un'ombra con le mani",
+      "ar": "صنع ظل باليد"
+    }
+  },
+  {
+    "id": "n:blowing-a-kiss",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Blowing a kiss.",
+    "labels": {
+      "en": "blowing a kiss",
+      "zh": "飛吻",
+      "zh-Hans": "飞吻",
+      "ja": "投げキスをする",
+      "ko": "손 키스 보내기",
+      "de": "einen Kuss zuwerfen",
+      "fr": "envoyer un baiser",
+      "es": "lanzar un beso",
+      "pt": "mandar um beijo",
+      "it": "mandare un bacio",
+      "ar": "إرسال قبلة باليد"
+    }
+  },
+  {
+    "id": "n:rolling-a-snowball",
+    "topic": "actions",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Rolling a snowball.",
+    "labels": {
+      "en": "rolling a snowball",
+      "zh": "滾雪球",
+      "zh-Hans": "滚雪球",
+      "ja": "雪玉を転がす",
+      "ko": "눈덩이 굴리기",
+      "de": "einen Schneeball rollen",
+      "fr": "rouler une boule de neige",
+      "es": "hacer rodar una bola de nieve",
+      "pt": "rolar uma bola de neve",
+      "it": "rotolare una palla di neve",
+      "ar": "دحرجة كرة ثلج"
+    }
+  },
+  {
+    "id": "n:sack-race",
+    "topic": "sports",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Sack race.",
+    "labels": {
+      "en": "sack race",
+      "zh": "跳麻包袋比賽",
+      "zh-Hans": "跳麻袋比赛",
+      "ja": "袋跳び競争",
+      "ko": "자루 달리기",
+      "de": "Sackhüpfen",
+      "fr": "course en sac",
+      "es": "carrera de sacos",
+      "pt": "corrida de saco",
+      "it": "corsa nei sacchi",
+      "ar": "سباق الأكياس"
+    }
+  },
+  {
+    "id": "n:three-legged-race",
+    "topic": "sports",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Three-legged race.",
+    "labels": {
+      "en": "three-legged race",
+      "zh": "二人三足",
+      "zh-Hans": "两人三足",
+      "ja": "二人三脚",
+      "ko": "이인삼각",
+      "de": "Dreibeinlauf",
+      "fr": "course à trois jambes",
+      "es": "carrera de tres piernas",
+      "pt": "corrida de três pernas",
+      "it": "corsa a tre gambe",
+      "ar": "سباق الأرجل الثلاث"
+    }
+  },
+  {
+    "id": "n:limbo-dance",
+    "topic": "sports",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Limbo dance.",
+    "labels": {
+      "en": "limbo dance",
+      "zh": "過橫桿舞",
+      "zh-Hans": "过横杆舞",
+      "ja": "リンボーダンス",
+      "ko": "림보 댄스",
+      "de": "Limbo",
+      "fr": "limbo",
+      "es": "limbo",
+      "pt": "limbo",
+      "it": "limbo",
+      "ar": "رقصة المرور تحت العصا"
+    }
+  },
+  {
+    "id": "n:egg-and-spoon-race",
+    "topic": "sports",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Egg and spoon race.",
+    "labels": {
+      "en": "egg and spoon race",
+      "zh": "匙羹運蛋比賽",
+      "zh-Hans": "勺子运蛋比赛",
+      "ja": "スプーンで卵運び競争",
+      "ko": "숟가락 달걀 경주",
+      "de": "Eierlauf",
+      "fr": "course à l'œuf",
+      "es": "carrera de huevo y cuchara",
+      "pt": "corrida do ovo na colher",
+      "it": "corsa con uovo e cucchiaio",
+      "ar": "سباق البيضة والملعقة"
+    }
+  },
+  {
+    "id": "n:water-polo",
+    "topic": "sports",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Water polo.",
+    "labels": {
+      "en": "water polo",
+      "zh": "水球",
+      "zh-Hans": "水球",
+      "ja": "水球",
+      "ko": "수구",
+      "de": "Wasserball",
+      "fr": "water-polo",
+      "es": "waterpolo",
+      "pt": "polo aquático",
+      "it": "pallanuoto",
+      "ar": "كرة الماء"
+    }
+  },
+  {
+    "id": "n:window-cleaner",
+    "topic": "occupations",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Window cleaner.",
+    "labels": {
+      "en": "window cleaner",
+      "zh": "洗窗工人",
+      "zh-Hans": "擦窗工人",
+      "ja": "窓清掃員",
+      "ko": "유리창 청소부",
+      "de": "Fensterputzer",
+      "fr": "laveur de vitres",
+      "es": "limpiador de ventanas",
+      "pt": "limpador de janelas",
+      "it": "lavavetri",
+      "ar": "عامل تنظيف النوافذ"
+    }
+  },
+  {
+    "id": "n:street-sweeper",
+    "topic": "occupations",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Street sweeper.",
+    "labels": {
+      "en": "street sweeper",
+      "zh": "街道清潔工",
+      "zh-Hans": "街道清洁工",
+      "ja": "道路清掃員",
+      "ko": "거리 청소부",
+      "de": "Straßenkehrer",
+      "fr": "balayeur de rue",
+      "es": "barrendero",
+      "pt": "gari",
+      "it": "spazzino",
+      "ar": "عامل كنس الشوارع"
+    }
+  },
+  {
+    "id": "n:ice-cream-seller",
+    "topic": "occupations",
+    "difficulty": "easy",
+    "starter": true,
+    "tags": [],
+    "intent": "Ice cream seller.",
+    "labels": {
+      "en": "ice cream seller",
+      "zh": "雪糕小販",
+      "zh-Hans": "冰淇淋小贩",
+      "ja": "アイスクリーム売り",
+      "ko": "아이스크림 판매원",
+      "de": "Eisverkäufer",
+      "fr": "vendeur de glaces",
+      "es": "vendedor de helados",
+      "pt": "vendedor de sorvete",
+      "it": "gelataio",
+      "ar": "بائع آيس كريم"
+    }
+  },
+  {
+    "id": "n:potter",
+    "topic": "occupations",
+    "difficulty": "easy",
+    "starter": false,
+    "tags": [],
+    "intent": "Potter.",
+    "labels": {
+      "en": "potter",
+      "zh": "陶藝師",
+      "zh-Hans": "陶艺师",
+      "ja": "陶芸家",
+      "ko": "도예가",
+      "de": "Töpfer",
+      "fr": "potier",
+      "es": "alfarero",
+      "pt": "ceramista",
+      "it": "vasaio",
+      "ar": "خزاف"
+    }
+  },
+  {
+    "id": "n:crossing-guard",
+    "topic": "occupations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Crossing guard.",
+    "labels": {
+      "en": "crossing guard",
+      "zh": "學童過路巡邏員",
+      "zh-Hans": "学生过路护导员",
+      "ja": "通学路の交通誘導員",
+      "ko": "어린이 교통 지도원",
+      "de": "Schülerlotse",
+      "fr": "agent de traversée scolaire",
+      "es": "agente de cruce escolar",
+      "pt": "monitor de travessia escolar",
+      "it": "assistente all'attraversamento",
+      "ar": "مرشد عبور التلاميذ"
+    }
+  },
+  {
+    "id": "n:accordion",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Accordion.",
+    "labels": {
+      "en": "accordion",
+      "zh": "手風琴",
+      "zh-Hans": "手风琴",
+      "ja": "アコーディオン",
+      "ko": "아코디언",
+      "de": "Akkordeon",
+      "fr": "accordéon",
+      "es": "acordeón",
+      "pt": "acordeão",
+      "it": "fisarmonica",
+      "ar": "أكورديون"
+    }
+  },
+  {
+    "id": "n:harmonica",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Harmonica.",
+    "labels": {
+      "en": "harmonica",
+      "zh": "口琴",
+      "zh-Hans": "口琴",
+      "ja": "ハーモニカ",
+      "ko": "하모니카",
+      "de": "Mundharmonika",
+      "fr": "harmonica",
+      "es": "armónica",
+      "pt": "gaita de boca",
+      "it": "armonica a bocca",
+      "ar": "هارمونيكا"
+    }
+  },
+  {
+    "id": "n:maracas",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Maracas.",
+    "labels": {
+      "en": "maracas",
+      "zh": "沙鎚",
+      "zh-Hans": "沙锤",
+      "ja": "マラカス",
+      "ko": "마라카스",
+      "de": "Maracas",
+      "fr": "maracas",
+      "es": "maracas",
+      "pt": "maracas",
+      "it": "maracas",
+      "ar": "ماراكاس"
+    }
+  },
+  {
+    "id": "n:xylophone",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Xylophone.",
+    "labels": {
+      "en": "xylophone",
+      "zh": "木琴",
+      "zh-Hans": "木琴",
+      "ja": "木琴",
+      "ko": "실로폰",
+      "de": "Xylophon",
+      "fr": "xylophone",
+      "es": "xilófono",
+      "pt": "xilofone",
+      "it": "xilofono",
+      "ar": "إكسيلوفون"
+    }
+  },
+  {
+    "id": "n:music-box",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Music box.",
+    "labels": {
+      "en": "music box",
+      "zh": "音樂盒",
+      "zh-Hans": "音乐盒",
+      "ja": "オルゴール",
+      "ko": "오르골",
+      "de": "Spieluhr",
+      "fr": "boîte à musique",
+      "es": "caja de música",
+      "pt": "caixinha de música",
+      "it": "carillon",
+      "ar": "صندوق موسيقى"
+    }
+  },
+  {
+    "id": "n:stuffed-pepper",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Stuffed pepper.",
+    "labels": {
+      "en": "stuffed pepper",
+      "zh": "釀甜椒",
+      "zh-Hans": "酿甜椒",
+      "ja": "ピーマンの肉詰め",
+      "ko": "속을 채운 피망",
+      "de": "gefüllte Paprika",
+      "fr": "poivron farci",
+      "es": "pimiento relleno",
+      "pt": "pimentão recheado",
+      "it": "peperone ripieno",
+      "ar": "فلفل محشي"
+    }
+  },
+  {
+    "id": "n:lasagne",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Lasagne.",
+    "labels": {
+      "en": "lasagne",
+      "zh": "千層麵",
+      "zh-Hans": "千层面",
+      "ja": "ラザニア",
+      "ko": "라자냐",
+      "de": "Lasagne",
+      "fr": "lasagnes",
+      "es": "lasaña",
+      "pt": "lasanha",
+      "it": "lasagna",
+      "ar": "لازانيا"
+    }
+  },
+  {
+    "id": "n:baked-potato",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Baked potato.",
+    "labels": {
+      "en": "baked potato",
+      "zh": "焗薯仔",
+      "zh-Hans": "烤土豆",
+      "ja": "ベイクドポテト",
+      "ko": "구운 감자",
+      "de": "Ofenkartoffel",
+      "fr": "pomme de terre au four",
+      "es": "patata al horno",
+      "pt": "batata assada",
+      "it": "patata al forno",
+      "ar": "بطاطا مشوية"
+    }
+  },
+  {
+    "id": "n:candy-apple",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Candy apple.",
+    "labels": {
+      "en": "candy apple",
+      "zh": "糖蘋果",
+      "zh-Hans": "糖苹果",
+      "ja": "りんご飴",
+      "ko": "사탕 사과",
+      "de": "Liebesapfel",
+      "fr": "pomme d'amour",
+      "es": "manzana caramelizada",
+      "pt": "maçã do amor",
+      "it": "mela caramellata",
+      "ar": "تفاحة مغطاة بالسكر"
+    }
+  },
+  {
+    "id": "n:fruit-tart",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Fruit tart.",
+    "labels": {
+      "en": "fruit tart",
+      "zh": "水果撻",
+      "zh-Hans": "水果挞",
+      "ja": "フルーツタルト",
+      "ko": "과일 타르트",
+      "de": "Obsttarte",
+      "fr": "tarte aux fruits",
+      "es": "tarta de frutas",
+      "pt": "torta de frutas",
+      "it": "crostata di frutta",
+      "ar": "تارت الفواكه"
+    }
+  },
+  {
+    "id": "n:threading-a-needle",
+    "topic": "actions",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Threading a needle.",
+    "labels": {
+      "en": "threading a needle",
+      "zh": "穿針",
+      "zh-Hans": "穿针",
+      "ja": "針に糸を通す",
+      "ko": "바늘에 실 꿰기",
+      "de": "einen Faden einfädeln",
+      "fr": "enfiler une aiguille",
+      "es": "enhebrar una aguja",
+      "pt": "enfiar linha na agulha",
+      "it": "infilare un ago",
+      "ar": "إدخال خيط في إبرة"
+    }
+  },
+  {
+    "id": "n:wrapping-a-gift",
+    "topic": "actions",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Wrapping a gift.",
+    "labels": {
+      "en": "wrapping a gift",
+      "zh": "包禮物",
+      "zh-Hans": "包礼物",
+      "ja": "プレゼントを包む",
+      "ko": "선물 포장하기",
+      "de": "ein Geschenk einpacken",
+      "fr": "emballer un cadeau",
+      "es": "envolver un regalo",
+      "pt": "embrulhar um presente",
+      "it": "incartare un regalo",
+      "ar": "تغليف هدية"
+    }
+  },
+  {
+    "id": "n:planting-a-seed",
+    "topic": "actions",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Planting a seed.",
+    "labels": {
+      "en": "planting a seed",
+      "zh": "播種",
+      "zh-Hans": "播种",
+      "ja": "種をまく",
+      "ko": "씨앗 심기",
+      "de": "einen Samen pflanzen",
+      "fr": "planter une graine",
+      "es": "plantar una semilla",
+      "pt": "plantar uma semente",
+      "it": "piantare un seme",
+      "ar": "زرع بذرة"
+    }
+  },
+  {
+    "id": "n:changing-a-tyre",
+    "topic": "actions",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Changing a tyre.",
+    "labels": {
+      "en": "changing a tyre",
+      "zh": "換車胎",
+      "zh-Hans": "换轮胎",
+      "ja": "タイヤを交換する",
+      "ko": "타이어 갈기",
+      "de": "einen Reifen wechseln",
+      "fr": "changer un pneu",
+      "es": "cambiar una rueda",
+      "pt": "trocar um pneu",
+      "it": "cambiare una gomma",
+      "ar": "تغيير إطار"
+    }
+  },
+  {
+    "id": "n:hanging-a-picture",
+    "topic": "actions",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [],
+    "intent": "Hanging a picture.",
+    "labels": {
+      "en": "hanging a picture",
+      "zh": "掛畫",
+      "zh-Hans": "挂画",
+      "ja": "絵を掛ける",
+      "ko": "그림 걸기",
+      "de": "ein Bild aufhängen",
+      "fr": "accrocher un tableau",
+      "es": "colgar un cuadro",
+      "pt": "pendurar um quadro",
+      "it": "appendere un quadro",
+      "ar": "تعليق لوحة"
+    }
+  },
+  {
+    "id": "n:cat-doing-yoga",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Cat doing yoga.",
+    "labels": {
+      "en": "cat doing yoga",
+      "zh": "做瑜伽的貓",
+      "zh-Hans": "做瑜伽的猫",
+      "ja": "ヨガをする猫",
+      "ko": "요가하는 고양이",
+      "de": "Katze beim Yoga",
+      "fr": "chat faisant du yoga",
+      "es": "gato haciendo yoga",
+      "pt": "gato fazendo ioga",
+      "it": "gatto che fa yoga",
+      "ar": "قطة تمارس اليوغا"
+    }
+  },
+  {
+    "id": "n:dog-riding-a-scooter",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Dog riding a scooter.",
+    "labels": {
+      "en": "dog riding a scooter",
+      "zh": "踩滑板車的狗",
+      "zh-Hans": "骑滑板车的狗",
+      "ja": "キックスクーターに乗る犬",
+      "ko": "킥보드 타는 개",
+      "de": "Hund auf einem Tretroller",
+      "fr": "chien en trottinette",
+      "es": "perro en patinete",
+      "pt": "cachorro de patinete",
+      "it": "cane sul monopattino",
+      "ar": "كلب يركب سكوتر"
+    }
+  },
+  {
+    "id": "n:rabbit-brushing-its-ears",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Rabbit brushing its ears.",
+    "labels": {
+      "en": "rabbit brushing its ears",
+      "zh": "梳耳朵的兔仔",
+      "zh-Hans": "梳耳朵的兔子",
+      "ja": "耳をブラシでとかすウサギ",
+      "ko": "귀를 빗는 토끼",
+      "de": "Hase bürstet seine Ohren",
+      "fr": "lapin brossant ses oreilles",
+      "es": "conejo cepillándose las orejas",
+      "pt": "coelho escovando as orelhas",
+      "it": "coniglio che si spazzola le orecchie",
+      "ar": "أرنب يمشط أذنيه"
+    }
+  },
+  {
+    "id": "n:penguin-carrying-an-umbrella",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Penguin carrying an umbrella.",
+    "labels": {
+      "en": "penguin carrying an umbrella",
+      "zh": "擔遮的企鵝",
+      "zh-Hans": "撑伞的企鹅",
+      "ja": "傘を差すペンギン",
+      "ko": "우산을 든 펭귄",
+      "de": "Pinguin mit Regenschirm",
+      "fr": "manchot avec un parapluie",
+      "es": "pingüino con paraguas",
+      "pt": "pinguim com guarda-chuva",
+      "it": "pinguino con ombrello",
+      "ar": "بطريق يحمل مظلة"
+    }
+  },
+  {
+    "id": "n:elephant-blowing-bubbles",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Elephant blowing bubbles.",
+    "labels": {
+      "en": "elephant blowing bubbles",
+      "zh": "吹泡泡的大象",
+      "zh-Hans": "吹泡泡的大象",
+      "ja": "シャボン玉を吹くゾウ",
+      "ko": "비눗방울 부는 코끼리",
+      "de": "Elefant macht Seifenblasen",
+      "fr": "éléphant soufflant des bulles",
+      "es": "elefante haciendo burbujas",
+      "pt": "elefante fazendo bolhas de sabão",
+      "it": "elefante che fa bolle di sapone",
+      "ar": "فيل ينفخ فقاعات صابون"
+    }
+  },
+  {
+    "id": "n:giraffe-wearing-a-bow-tie",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Giraffe wearing a bow tie.",
+    "labels": {
+      "en": "giraffe wearing a bow tie",
+      "zh": "戴煲呔的長頸鹿",
+      "zh-Hans": "戴领结的长颈鹿",
+      "ja": "蝶ネクタイのキリン",
+      "ko": "나비넥타이 맨 기린",
+      "de": "Giraffe mit Fliege",
+      "fr": "girafe avec un nœud papillon",
+      "es": "jirafa con pajarita",
+      "pt": "girafa de gravata-borboleta",
+      "it": "giraffa con papillon",
+      "ar": "زرافة ترتدي ربطة فراشة"
+    }
+  },
+  {
+    "id": "n:snail-pulling-a-suitcase",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Snail pulling a suitcase.",
+    "labels": {
+      "en": "snail pulling a suitcase",
+      "zh": "拖行李箱的蝸牛",
+      "zh-Hans": "拖行李箱的蜗牛",
+      "ja": "スーツケースを引くカタツムリ",
+      "ko": "여행 가방 끄는 달팽이",
+      "de": "Schnecke zieht einen Koffer",
+      "fr": "escargot tirant une valise",
+      "es": "caracol tirando de una maleta",
+      "pt": "caracol puxando uma mala",
+      "it": "lumaca che trascina una valigia",
+      "ar": "حلزون يسحب حقيبة سفر"
+    }
+  },
+  {
+    "id": "n:frog-playing-a-trumpet",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Frog playing a trumpet.",
+    "labels": {
+      "en": "frog playing a trumpet",
+      "zh": "吹喇叭的青蛙",
+      "zh-Hans": "吹小号的青蛙",
+      "ja": "トランペットを吹くカエル",
+      "ko": "트럼펫 부는 개구리",
+      "de": "Frosch spielt Trompete",
+      "fr": "grenouille jouant de la trompette",
+      "es": "rana tocando la trompeta",
+      "pt": "sapo tocando trompete",
+      "it": "rana che suona la tromba",
+      "ar": "ضفدع يعزف البوق"
+    }
+  },
+  {
+    "id": "n:panda-eating-spaghetti",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Panda eating spaghetti.",
+    "labels": {
+      "en": "panda eating spaghetti",
+      "zh": "食意粉的熊貓",
+      "zh-Hans": "吃意大利面的熊猫",
+      "ja": "スパゲッティを食べるパンダ",
+      "ko": "스파게티 먹는 판다",
+      "de": "Panda isst Spaghetti",
+      "fr": "panda mangeant des spaghettis",
+      "es": "panda comiendo espaguetis",
+      "pt": "panda comendo espaguete",
+      "it": "panda che mangia spaghetti",
+      "ar": "باندا يأكل السباغيتي"
+    }
+  },
+  {
+    "id": "n:fish-wearing-a-snorkel",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Fish wearing a snorkel.",
+    "labels": {
+      "en": "fish wearing a snorkel",
+      "zh": "戴潛水呼吸管的魚",
+      "zh-Hans": "戴潜水呼吸管的鱼",
+      "ja": "シュノーケルをつけた魚",
+      "ko": "스노클 쓴 물고기",
+      "de": "Fisch mit Schnorchel",
+      "fr": "poisson avec un tuba",
+      "es": "pez con tubo de buceo",
+      "pt": "peixe com snorkel",
+      "it": "pesce con boccaglio",
+      "ar": "سمكة ترتدي أنبوب غوص"
+    }
+  },
+  {
+    "id": "n:owl-wearing-a-sleep-mask",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Owl wearing a sleep mask.",
+    "labels": {
+      "en": "owl wearing a sleep mask",
+      "zh": "戴眼罩的貓頭鷹",
+      "zh-Hans": "戴睡眠眼罩的猫头鹰",
+      "ja": "アイマスクをつけたフクロウ",
+      "ko": "수면 안대 쓴 부엉이",
+      "de": "Eule mit Schlafmaske",
+      "fr": "hibou avec un masque de sommeil",
+      "es": "búho con antifaz para dormir",
+      "pt": "coruja com máscara de dormir",
+      "it": "gufo con mascherina per dormire",
+      "ar": "بومة ترتدي قناع نوم"
+    }
+  },
+  {
+    "id": "n:crab-knitting",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Crab knitting.",
+    "labels": {
+      "en": "crab knitting",
+      "zh": "織冷衫的蟹",
+      "zh-Hans": "织毛衣的螃蟹",
+      "ja": "編み物をするカニ",
+      "ko": "뜨개질하는 게",
+      "de": "Krabbe beim Stricken",
+      "fr": "crabe faisant du tricot",
+      "es": "cangrejo tejiendo",
+      "pt": "caranguejo fazendo tricô",
+      "it": "granchio che lavora a maglia",
+      "ar": "سلطعون يحيك بالصوف"
+    }
+  },
+  {
+    "id": "n:bear-riding-a-tiny-bicycle",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Bear riding a tiny bicycle.",
+    "labels": {
+      "en": "bear riding a tiny bicycle",
+      "zh": "踩迷你單車的熊",
+      "zh-Hans": "骑迷你自行车的熊",
+      "ja": "小さな自転車に乗るクマ",
+      "ko": "작은 자전거 타는 곰",
+      "de": "Bär auf einem winzigen Fahrrad",
+      "fr": "ours sur un tout petit vélo",
+      "es": "oso en una bicicleta diminuta",
+      "pt": "urso em uma bicicleta minúscula",
+      "it": "orso su una bicicletta minuscola",
+      "ar": "دب يركب دراجة صغيرة جدا"
+    }
+  },
+  {
+    "id": "n:horse-on-a-rocking-horse",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Horse on a rocking horse.",
+    "labels": {
+      "en": "horse on a rocking horse",
+      "zh": "坐搖搖木馬的馬",
+      "zh-Hans": "坐摇摇木马的马",
+      "ja": "木馬に乗る馬",
+      "ko": "흔들 목마 타는 말",
+      "de": "Pferd auf einem Schaukelpferd",
+      "fr": "cheval sur un cheval à bascule",
+      "es": "caballo en un caballito de madera",
+      "pt": "cavalo em um cavalinho de balanço",
+      "it": "cavallo su un cavallo a dondolo",
+      "ar": "حصان يركب حصانا هزازا"
+    }
+  },
+  {
+    "id": "n:chicken-laying-a-square-egg",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Chicken laying a square egg.",
+    "labels": {
+      "en": "chicken laying a square egg",
+      "zh": "生方形蛋的雞",
+      "zh-Hans": "下方形蛋的鸡",
+      "ja": "四角い卵を産むニワトリ",
+      "ko": "네모난 알 낳는 닭",
+      "de": "Huhn legt ein eckiges Ei",
+      "fr": "poule pondant un œuf carré",
+      "es": "gallina poniendo un huevo cuadrado",
+      "pt": "galinha botando um ovo quadrado",
+      "it": "gallina che depone un uovo quadrato",
+      "ar": "دجاجة تبيض بيضة مربعة"
+    }
+  },
+  {
+    "id": "n:banana-using-a-slide",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Banana using a slide.",
+    "labels": {
+      "en": "banana using a slide",
+      "zh": "玩滑梯的香蕉",
+      "zh-Hans": "玩滑梯的香蕉",
+      "ja": "滑り台で遊ぶバナナ",
+      "ko": "미끄럼틀 타는 바나나",
+      "de": "Banane auf einer Rutsche",
+      "fr": "banane sur un toboggan",
+      "es": "plátano en un tobogán",
+      "pt": "banana no escorregador",
+      "it": "banana sullo scivolo",
+      "ar": "موزة تلعب على زحليقة"
+    }
+  },
+  {
+    "id": "n:carrot-lifting-weights",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Carrot lifting weights.",
+    "labels": {
+      "en": "carrot lifting weights",
+      "zh": "舉啞鈴的紅蘿蔔",
+      "zh-Hans": "举哑铃的胡萝卜",
+      "ja": "ダンベルを持ち上げるニンジン",
+      "ko": "아령 드는 당근",
+      "de": "Karotte hebt Hanteln",
+      "fr": "carotte soulevant des haltères",
+      "es": "zanahoria levantando pesas",
+      "pt": "cenoura levantando halteres",
+      "it": "carota che solleva pesi",
+      "ar": "جزرة ترفع الأثقال"
+    }
+  },
+  {
+    "id": "n:ice-cream-sunbathing",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Ice cream sunbathing.",
+    "labels": {
+      "en": "ice cream sunbathing",
+      "zh": "曬太陽的雪糕",
+      "zh-Hans": "晒太阳的冰淇淋",
+      "ja": "日光浴するアイスクリーム",
+      "ko": "일광욕하는 아이스크림",
+      "de": "Eis beim Sonnenbaden",
+      "fr": "glace prenant un bain de soleil",
+      "es": "helado tomando el sol",
+      "pt": "sorvete tomando sol",
+      "it": "gelato che prende il sole",
+      "ar": "آيس كريم يأخذ حمام شمس"
+    }
+  },
+  {
+    "id": "n:pizza-playing-guitar",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Pizza playing guitar.",
+    "labels": {
+      "en": "pizza playing guitar",
+      "zh": "彈結他的薄餅",
+      "zh-Hans": "弹吉他的比萨",
+      "ja": "ギターを弾くピザ",
+      "ko": "기타 치는 피자",
+      "de": "Pizza spielt Gitarre",
+      "fr": "pizza jouant de la guitare",
+      "es": "pizza tocando la guitarra",
+      "pt": "pizza tocando violão",
+      "it": "pizza che suona la chitarra",
+      "ar": "بيتزا تعزف الغيتار"
+    }
+  },
+  {
+    "id": "n:cookie-taking-a-bath",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Cookie taking a bath.",
+    "labels": {
+      "en": "cookie taking a bath",
+      "zh": "浸浴的曲奇",
+      "zh-Hans": "泡澡的饼干",
+      "ja": "お風呂に入るクッキー",
+      "ko": "목욕하는 쿠키",
+      "de": "Keks nimmt ein Bad",
+      "fr": "biscuit prenant un bain",
+      "es": "galleta bañándose",
+      "pt": "biscoito tomando banho",
+      "it": "biscotto che fa il bagno",
+      "ar": "بسكويت يستحم"
+    }
+  },
+  {
+    "id": "n:apple-brushing-its-teeth",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Apple brushing its teeth.",
+    "labels": {
+      "en": "apple brushing its teeth",
+      "zh": "刷牙的蘋果",
+      "zh-Hans": "刷牙的苹果",
+      "ja": "歯を磨くリンゴ",
+      "ko": "양치하는 사과",
+      "de": "Apfel putzt sich die Zähne",
+      "fr": "pomme se brossant les dents",
+      "es": "manzana cepillándose los dientes",
+      "pt": "maçã escovando os dentes",
+      "it": "mela che si lava i denti",
+      "ar": "تفاحة تنظف أسنانها"
+    }
+  },
+  {
+    "id": "n:sandwich-wearing-roller-skates",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Sandwich wearing roller skates.",
+    "labels": {
+      "en": "sandwich wearing roller skates",
+      "zh": "着滾軸溜冰鞋的三文治",
+      "zh-Hans": "穿轮滑鞋的三明治",
+      "ja": "ローラースケートのサンドイッチ",
+      "ko": "롤러스케이트 신은 샌드위치",
+      "de": "Sandwich auf Rollschuhen",
+      "fr": "sandwich en patins à roulettes",
+      "es": "sándwich con patines",
+      "pt": "sanduíche de patins",
+      "it": "panino sui pattini a rotelle",
+      "ar": "شطيرة ترتدي حذاء تزلج"
+    }
+  },
+  {
+    "id": "n:watermelon-wearing-headphones",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Watermelon wearing headphones.",
+    "labels": {
+      "en": "watermelon wearing headphones",
+      "zh": "戴耳筒的西瓜",
+      "zh-Hans": "戴耳机的西瓜",
+      "ja": "ヘッドホンをつけたスイカ",
+      "ko": "헤드폰 쓴 수박",
+      "de": "Wassermelone mit Kopfhörern",
+      "fr": "pastèque avec un casque audio",
+      "es": "sandía con auriculares",
+      "pt": "melancia de fones de ouvido",
+      "it": "anguria con cuffie",
+      "ar": "بطيخة ترتدي سماعات"
+    }
+  },
+  {
+    "id": "n:mushroom-holding-an-umbrella",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Mushroom holding an umbrella.",
+    "labels": {
+      "en": "mushroom holding an umbrella",
+      "zh": "擔遮的蘑菇",
+      "zh-Hans": "撑伞的蘑菇",
+      "ja": "傘を差すキノコ",
+      "ko": "우산 든 버섯",
+      "de": "Pilz mit Regenschirm",
+      "fr": "champignon avec un parapluie",
+      "es": "seta con paraguas",
+      "pt": "cogumelo com guarda-chuva",
+      "it": "fungo con ombrello",
+      "ar": "فطر يحمل مظلة"
+    }
+  },
+  {
+    "id": "n:eggplant-riding-a-skateboard",
+    "topic": "food",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Eggplant riding a skateboard.",
+    "labels": {
+      "en": "eggplant riding a skateboard",
+      "zh": "踩滑板的茄子",
+      "zh-Hans": "滑滑板的茄子",
+      "ja": "スケートボードに乗るナス",
+      "ko": "스케이트보드 타는 가지",
+      "de": "Aubergine auf einem Skateboard",
+      "fr": "aubergine sur un skateboard",
+      "es": "berenjena en monopatín",
+      "pt": "berinjela de skate",
+      "it": "melanzana sullo skateboard",
+      "ar": "باذنجانة تركب لوح تزلج"
+    }
+  },
+  {
+    "id": "n:robot-walking-a-toy-dog",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Robot walking a toy dog.",
+    "labels": {
+      "en": "robot walking a toy dog",
+      "zh": "機械人遛玩具狗",
+      "zh-Hans": "机器人遛玩具狗",
+      "ja": "おもちゃの犬を散歩させるロボット",
+      "ko": "장난감 개를 산책시키는 로봇",
+      "de": "Roboter führt einen Spielzeughund aus",
+      "fr": "robot promenant un chien jouet",
+      "es": "robot paseando un perro de juguete",
+      "pt": "robô passeando com um cão de brinquedo",
+      "it": "robot che porta a spasso un cane giocattolo",
+      "ar": "روبوت ينزه كلبا لعبة"
+    }
+  },
+  {
+    "id": "n:teapot-pouring-into-a-boot",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Teapot pouring into a boot.",
+    "labels": {
+      "en": "teapot pouring into a boot",
+      "zh": "茶壺倒茶入靴",
+      "zh-Hans": "茶壶倒茶进靴子",
+      "ja": "長靴に注ぐティーポット",
+      "ko": "장화에 차를 따르는 찻주전자",
+      "de": "Teekanne gießt in einen Stiefel",
+      "fr": "théière versant dans une botte",
+      "es": "tetera sirviendo en una bota",
+      "pt": "bule despejando chá em uma bota",
+      "it": "teiera che versa in uno stivale",
+      "ar": "إبريق شاي يصب في حذاء"
+    }
+  },
+  {
+    "id": "n:alarm-clock-taking-a-nap",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Alarm clock taking a nap.",
+    "labels": {
+      "en": "alarm clock taking a nap",
+      "zh": "午睡的鬧鐘",
+      "zh-Hans": "午睡的闹钟",
+      "ja": "昼寝する目覚まし時計",
+      "ko": "낮잠 자는 알람시계",
+      "de": "Wecker macht ein Nickerchen",
+      "fr": "réveil faisant la sieste",
+      "es": "despertador echando una siesta",
+      "pt": "despertador tirando um cochilo",
+      "it": "sveglia che fa un pisolino",
+      "ar": "منبه يأخذ قيلولة"
+    }
+  },
+  {
+    "id": "n:umbrella-inside-a-shower",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Umbrella inside a shower.",
+    "labels": {
+      "en": "umbrella inside a shower",
+      "zh": "淋浴間裏的雨傘",
+      "zh-Hans": "淋浴间里的雨伞",
+      "ja": "シャワーの中の傘",
+      "ko": "샤워실 안의 우산",
+      "de": "Regenschirm unter der Dusche",
+      "fr": "parapluie sous la douche",
+      "es": "paraguas dentro de la ducha",
+      "pt": "guarda-chuva no chuveiro",
+      "it": "ombrello sotto la doccia",
+      "ar": "مظلة داخل الدش"
+    }
+  },
+  {
+    "id": "n:shoe-with-a-flower-garden",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Shoe with a flower garden.",
+    "labels": {
+      "en": "shoe with a flower garden",
+      "zh": "種滿花的鞋",
+      "zh-Hans": "种满花的鞋",
+      "ja": "花畑になった靴",
+      "ko": "꽃밭이 된 신발",
+      "de": "Schuh mit einem Blumengarten",
+      "fr": "chaussure avec un jardin de fleurs",
+      "es": "zapato con un jardín de flores",
+      "pt": "sapato com jardim de flores",
+      "it": "scarpa con un giardino fiorito",
+      "ar": "حذاء فيه حديقة أزهار"
+    }
+  },
+  {
+    "id": "n:pencil-lifting-a-dumbbell",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Pencil lifting a dumbbell.",
+    "labels": {
+      "en": "pencil lifting a dumbbell",
+      "zh": "舉啞鈴的鉛筆",
+      "zh-Hans": "举哑铃的铅笔",
+      "ja": "ダンベルを上げる鉛筆",
+      "ko": "아령 드는 연필",
+      "de": "Bleistift hebt eine Hantel",
+      "fr": "crayon soulevant un haltère",
+      "es": "lápiz levantando una pesa",
+      "pt": "lápis levantando um halter",
+      "it": "matita che solleva un manubrio",
+      "ar": "قلم رصاص يرفع ثقلا"
+    }
+  },
+  {
+    "id": "n:broom-riding-a-bicycle",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Broom riding a bicycle.",
+    "labels": {
+      "en": "broom riding a bicycle",
+      "zh": "踩單車的掃帚",
+      "zh-Hans": "骑自行车的扫帚",
+      "ja": "自転車に乗るほうき",
+      "ko": "자전거 타는 빗자루",
+      "de": "Besen fährt Fahrrad",
+      "fr": "balai à vélo",
+      "es": "escoba en bicicleta",
+      "pt": "vassoura de bicicleta",
+      "it": "scopa in bicicletta",
+      "ar": "مكنسة تركب دراجة"
+    }
+  },
+  {
+    "id": "n:book-eating-a-bookmark",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Book eating a bookmark.",
+    "labels": {
+      "en": "book eating a bookmark",
+      "zh": "食書籤的書",
+      "zh-Hans": "吃书签的书",
+      "ja": "しおりを食べる本",
+      "ko": "책갈피 먹는 책",
+      "de": "Buch frisst ein Lesezeichen",
+      "fr": "livre mangeant un marque-page",
+      "es": "libro comiendo un marcapáginas",
+      "pt": "livro comendo um marcador",
+      "it": "libro che mangia un segnalibro",
+      "ar": "كتاب يأكل علامة صفحات"
+    }
+  },
+  {
+    "id": "n:chair-wearing-shoes",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Chair wearing shoes.",
+    "labels": {
+      "en": "chair wearing shoes",
+      "zh": "着鞋的椅子",
+      "zh-Hans": "穿鞋的椅子",
+      "ja": "靴を履いた椅子",
+      "ko": "신발 신은 의자",
+      "de": "Stuhl mit Schuhen",
+      "fr": "chaise portant des chaussures",
+      "es": "silla con zapatos",
+      "pt": "cadeira de sapatos",
+      "it": "sedia con le scarpe",
+      "ar": "كرسي يرتدي أحذية"
+    }
+  },
+  {
+    "id": "n:balloon-wearing-a-seat-belt",
+    "topic": "things",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Balloon wearing a seat belt.",
+    "labels": {
+      "en": "balloon wearing a seat belt",
+      "zh": "扣安全帶的氣球",
+      "zh-Hans": "系安全带的气球",
+      "ja": "シートベルトをした風船",
+      "ko": "안전벨트 맨 풍선",
+      "de": "Ballon mit Sicherheitsgurt",
+      "fr": "ballon attaché avec une ceinture",
+      "es": "globo con cinturón de seguridad",
+      "pt": "balão com cinto de segurança",
+      "it": "palloncino con cintura di sicurezza",
+      "ar": "بالون يرتدي حزام أمان"
+    }
+  },
+  {
+    "id": "n:chef-juggling-pancakes",
+    "topic": "occupations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Chef juggling pancakes.",
+    "labels": {
+      "en": "chef juggling pancakes",
+      "zh": "拋接班戟的廚師",
+      "zh-Hans": "抛接煎饼的厨师",
+      "ja": "パンケーキでジャグリングするシェフ",
+      "ko": "팬케이크로 저글링하는 요리사",
+      "de": "Koch jongliert Pfannkuchen",
+      "fr": "chef jonglant avec des crêpes",
+      "es": "chef haciendo malabares con tortitas",
+      "pt": "chef fazendo malabarismo com panquecas",
+      "it": "cuoco che fa il giocoliere con pancake",
+      "ar": "طاه يتلاعب بالفطائر"
+    }
+  },
+  {
+    "id": "n:firefighter-watering-a-flower",
+    "topic": "occupations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Firefighter watering a flower.",
+    "labels": {
+      "en": "firefighter watering a flower",
+      "zh": "替花灑水的消防員",
+      "zh-Hans": "给花浇水的消防员",
+      "ja": "花に水をやる消防士",
+      "ko": "꽃에 물 주는 소방관",
+      "de": "Feuerwehrkraft gießt eine Blume",
+      "fr": "pompier arrosant une fleur",
+      "es": "bombero regando una flor",
+      "pt": "bombeiro regando uma flor",
+      "it": "pompiere che annaffia un fiore",
+      "ar": "رجل إطفاء يسقي زهرة"
+    }
+  },
+  {
+    "id": "n:astronaut-eating-noodles",
+    "topic": "occupations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Astronaut eating noodles.",
+    "labels": {
+      "en": "astronaut eating noodles",
+      "zh": "食麵的太空人",
+      "zh-Hans": "吃面的宇航员",
+      "ja": "麺を食べる宇宙飛行士",
+      "ko": "국수 먹는 우주비행사",
+      "de": "Astronaut isst Nudeln",
+      "fr": "astronaute mangeant des nouilles",
+      "es": "astronauta comiendo fideos",
+      "pt": "astronauta comendo macarrão",
+      "it": "astronauta che mangia noodles",
+      "ar": "رائد فضاء يأكل المعكرونة"
+    }
+  },
+  {
+    "id": "n:librarian-chasing-a-flying-book",
+    "topic": "occupations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Librarian chasing a flying book.",
+    "labels": {
+      "en": "librarian chasing a flying book",
+      "zh": "追飛書的圖書館員",
+      "zh-Hans": "追飞书的图书管理员",
+      "ja": "飛ぶ本を追う司書",
+      "ko": "날아가는 책을 쫓는 사서",
+      "de": "Bibliothekar jagt ein fliegendes Buch",
+      "fr": "bibliothécaire poursuivant un livre volant",
+      "es": "bibliotecario persiguiendo un libro volador",
+      "pt": "bibliotecário perseguindo um livro voador",
+      "it": "bibliotecario che insegue un libro volante",
+      "ar": "أمين مكتبة يلاحق كتابا طائرا"
+    }
+  },
+  {
+    "id": "n:hairdresser-styling-a-lion-s-mane",
+    "topic": "occupations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Hairdresser styling a lion's mane.",
+    "labels": {
+      "en": "hairdresser styling a lion's mane",
+      "zh": "替獅子整鬃毛的髮型師",
+      "zh-Hans": "给狮子做鬃毛造型的理发师",
+      "ja": "ライオンのたてがみを整える美容師",
+      "ko": "사자 갈기를 다듬는 미용사",
+      "de": "Friseur stylt eine Löwenmähne",
+      "fr": "coiffeur coiffant une crinière de lion",
+      "es": "peluquero peinando la melena de un león",
+      "pt": "cabeleireiro penteando a juba de um leão",
+      "it": "parrucchiere che acconcia la criniera di un leone",
+      "ar": "مصفف شعر يصفف لبدة أسد"
+    }
+  },
+  {
+    "id": "n:mail-carrier-delivering-to-a-nest",
+    "topic": "occupations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Mail carrier delivering to a nest.",
+    "labels": {
+      "en": "mail carrier delivering to a nest",
+      "zh": "送信到鳥巢的郵差",
+      "zh-Hans": "送信到鸟巢的邮递员",
+      "ja": "鳥の巣に配達する郵便配達員",
+      "ko": "새 둥지에 배달하는 우편집배원",
+      "de": "Briefträger liefert an ein Vogelnest",
+      "fr": "facteur livrant dans un nid",
+      "es": "cartero entregando una carta en un nido",
+      "pt": "carteiro entregando carta em um ninho",
+      "it": "postino che consegna a un nido",
+      "ar": "ساعي بريد يسلم رسالة إلى عش"
+    }
+  },
+  {
+    "id": "n:painter-painting-a-zebra-s-stripes",
+    "topic": "occupations",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Painter painting a zebra's stripes.",
+    "labels": {
+      "en": "painter painting a zebra's stripes",
+      "zh": "替斑馬畫條紋的畫家",
+      "zh-Hans": "给斑马画条纹的画家",
+      "ja": "シマウマのしまを描く画家",
+      "ko": "얼룩말 줄무늬 그리는 화가",
+      "de": "Maler malt Zebrastreifen",
+      "fr": "peintre peignant les rayures d'un zèbre",
+      "es": "pintor pintando las rayas de una cebra",
+      "pt": "pintor pintando as listras de uma zebra",
+      "it": "pittore che dipinge le strisce di una zebra",
+      "ar": "رسام يرسم خطوط حمار وحشي"
+    }
+  },
+  {
+    "id": "n:snail-winning-a-race",
+    "topic": "sports",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Snail winning a race.",
+    "labels": {
+      "en": "snail winning a race",
+      "zh": "贏賽跑的蝸牛",
+      "zh-Hans": "赢赛跑的蜗牛",
+      "ja": "かけっこで優勝するカタツムリ",
+      "ko": "달리기에서 우승하는 달팽이",
+      "de": "Schnecke gewinnt ein Rennen",
+      "fr": "escargot gagnant une course",
+      "es": "caracol ganando una carrera",
+      "pt": "caracol vencendo uma corrida",
+      "it": "lumaca che vince una gara",
+      "ar": "حلزون يفوز بسباق"
+    }
+  },
+  {
+    "id": "n:penguin-playing-basketball",
+    "topic": "sports",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Penguin playing basketball.",
+    "labels": {
+      "en": "penguin playing basketball",
+      "zh": "打籃球的企鵝",
+      "zh-Hans": "打篮球的企鹅",
+      "ja": "バスケをするペンギン",
+      "ko": "농구하는 펭귄",
+      "de": "Pinguin spielt Basketball",
+      "fr": "manchot jouant au basket",
+      "es": "pingüino jugando al baloncesto",
+      "pt": "pinguim jogando basquete",
+      "it": "pinguino che gioca a basket",
+      "ar": "بطريق يلعب كرة السلة"
+    }
+  },
+  {
+    "id": "n:cow-jumping-rope",
+    "topic": "sports",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Cow jumping rope.",
+    "labels": {
+      "en": "cow jumping rope",
+      "zh": "跳繩的牛",
+      "zh-Hans": "跳绳的牛",
+      "ja": "縄跳びをする牛",
+      "ko": "줄넘기하는 소",
+      "de": "Kuh springt Seil",
+      "fr": "vache sautant à la corde",
+      "es": "vaca saltando la cuerda",
+      "pt": "vaca pulando corda",
+      "it": "mucca che salta la corda",
+      "ar": "بقرة تقفز بالحبل"
+    }
+  },
+  {
+    "id": "n:hippo-on-a-balance-beam",
+    "topic": "sports",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Hippo on a balance beam.",
+    "labels": {
+      "en": "hippo on a balance beam",
+      "zh": "行平衡木的河馬",
+      "zh-Hans": "走平衡木的河马",
+      "ja": "平均台の上のカバ",
+      "ko": "평균대 위의 하마",
+      "de": "Nilpferd auf einem Schwebebalken",
+      "fr": "hippopotame sur une poutre",
+      "es": "hipopótamo en una barra de equilibrio",
+      "pt": "hipopótamo na trave de equilíbrio",
+      "it": "ippopotamo sulla trave",
+      "ar": "فرس نهر على عارضة توازن"
+    }
+  },
+  {
+    "id": "n:kangaroo-boxing-a-pillow",
+    "topic": "sports",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Kangaroo boxing a pillow.",
+    "labels": {
+      "en": "kangaroo boxing a pillow",
+      "zh": "打枕頭的袋鼠",
+      "zh-Hans": "拳击枕头的袋鼠",
+      "ja": "枕とボクシングするカンガルー",
+      "ko": "베개와 권투하는 캥거루",
+      "de": "Känguru boxt ein Kissen",
+      "fr": "kangourou boxant un oreiller",
+      "es": "canguro boxeando una almohada",
+      "pt": "canguru boxeando um travesseiro",
+      "it": "canguro che fa boxe con un cuscino",
+      "ar": "كنغر يلاكم وسادة"
+    }
+  },
+  {
+    "id": "n:fox-playing-mini-golf",
+    "topic": "sports",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Fox playing mini golf.",
+    "labels": {
+      "en": "fox playing mini golf",
+      "zh": "打迷你高爾夫的狐狸",
+      "zh-Hans": "打迷你高尔夫的狐狸",
+      "ja": "ミニゴルフをするキツネ",
+      "ko": "미니골프 치는 여우",
+      "de": "Fuchs spielt Minigolf",
+      "fr": "renard jouant au minigolf",
+      "es": "zorro jugando al minigolf",
+      "pt": "raposa jogando minigolfe",
+      "it": "volpe che gioca a minigolf",
+      "ar": "ثعلب يلعب الغولف المصغر"
+    }
+  },
+  {
+    "id": "n:seal-lifting-a-beach-ball",
+    "topic": "sports",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Seal lifting a beach ball.",
+    "labels": {
+      "en": "seal lifting a beach ball",
+      "zh": "舉沙灘波的海豹",
+      "zh-Hans": "举沙滩球的海豹",
+      "ja": "ビーチボールを持ち上げるアザラシ",
+      "ko": "비치볼을 들어 올리는 물범",
+      "de": "Robbe hebt einen Strandball",
+      "fr": "phoque soulevant un ballon de plage",
+      "es": "foca levantando una pelota de playa",
+      "pt": "foca levantando uma bola de praia",
+      "it": "foca che solleva un pallone da spiaggia",
+      "ar": "فقمة ترفع كرة شاطئ"
+    }
+  },
+  {
+    "id": "n:turtle-wearing-running-shoes",
+    "topic": "sports",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Turtle wearing running shoes.",
+    "labels": {
+      "en": "turtle wearing running shoes",
+      "zh": "着跑鞋的烏龜",
+      "zh-Hans": "穿跑鞋的乌龟",
+      "ja": "ランニングシューズのカメ",
+      "ko": "운동화 신은 거북이",
+      "de": "Schildkröte mit Laufschuhen",
+      "fr": "tortue avec des chaussures de course",
+      "es": "tortuga con zapatillas de correr",
+      "pt": "tartaruga de tênis de corrida",
+      "it": "tartaruga con scarpe da corsa",
+      "ar": "سلحفاة ترتدي حذاء جري"
+    }
+  },
+  {
+    "id": "n:octopus-playing-a-drum-kit",
+    "topic": "animals",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Octopus playing a drum kit.",
+    "labels": {
+      "en": "octopus playing a drum kit",
+      "zh": "打爵士鼓的八爪魚",
+      "zh-Hans": "打架子鼓的章鱼",
+      "ja": "ドラムセットを演奏するタコ",
+      "ko": "드럼 세트 연주하는 문어",
+      "de": "Oktopus spielt Schlagzeug",
+      "fr": "pieuvre jouant de la batterie",
+      "es": "pulpo tocando la batería",
+      "pt": "polvo tocando bateria",
+      "it": "polpo che suona la batteria",
+      "ar": "أخطبوط يعزف على طقم طبول"
+    }
+  },
+  {
+    "id": "n:hedgehog-carrying-balloons-on-its-spikes",
+    "topic": "animals",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Hedgehog carrying balloons on its spikes.",
+    "labels": {
+      "en": "hedgehog carrying balloons on its spikes",
+      "zh": "刺上掛氣球的刺蝟",
+      "zh-Hans": "刺上挂气球的刺猬",
+      "ja": "針に風船をつけたハリネズミ",
+      "ko": "가시에 풍선을 단 고슴도치",
+      "de": "Igel trägt Ballons auf seinen Stacheln",
+      "fr": "hérisson portant des ballons sur ses piquants",
+      "es": "erizo con globos en las púas",
+      "pt": "ouriço carregando balões nos espinhos",
+      "it": "riccio con palloncini sugli aculei",
+      "ar": "قنفذ يحمل بالونات على أشواكه"
+    }
+  },
+  {
+    "id": "n:camel-ordering-a-giant-milkshake",
+    "topic": "animals",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Camel ordering a giant milkshake.",
+    "labels": {
+      "en": "camel ordering a giant milkshake",
+      "zh": "點巨型奶昔的駱駝",
+      "zh-Hans": "点巨型奶昔的骆驼",
+      "ja": "巨大シェイクを注文するラクダ",
+      "ko": "거대 밀크셰이크 주문하는 낙타",
+      "de": "Kamel bestellt einen riesigen Milchshake",
+      "fr": "chameau commandant un milk-shake géant",
+      "es": "camello pidiendo un batido gigante",
+      "pt": "camelo pedindo um milk-shake gigante",
+      "it": "cammello che ordina un frappè gigante",
+      "ar": "جمل يطلب مخفوق حليب عملاقا"
+    }
+  },
+  {
+    "id": "n:parrot-teaching-a-pirate-to-talk",
+    "topic": "animals",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Parrot teaching a pirate to talk.",
+    "labels": {
+      "en": "parrot teaching a pirate to talk",
+      "zh": "教海盜說話的鸚鵡",
+      "zh-Hans": "教海盗说话的鹦鹉",
+      "ja": "海賊に話し方を教えるオウム",
+      "ko": "해적에게 말 가르치는 앵무새",
+      "de": "Papagei bringt einem Piraten Sprechen bei",
+      "fr": "perroquet apprenant à parler à un pirate",
+      "es": "loro enseñando a hablar a un pirata",
+      "pt": "papagaio ensinando um pirata a falar",
+      "it": "pappagallo che insegna a parlare a un pirata",
+      "ar": "ببغاء يعلم قرصانا الكلام"
+    }
+  },
+  {
+    "id": "n:crocodile-flossing-its-teeth",
+    "topic": "animals",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Crocodile flossing its teeth.",
+    "labels": {
+      "en": "crocodile flossing its teeth",
+      "zh": "用牙線的鱷魚",
+      "zh-Hans": "用牙线的鳄鱼",
+      "ja": "歯をフロスで磨くワニ",
+      "ko": "치실 쓰는 악어",
+      "de": "Krokodil benutzt Zahnseide",
+      "fr": "crocodile utilisant du fil dentaire",
+      "es": "cocodrilo usando hilo dental",
+      "pt": "crocodilo usando fio dental",
+      "it": "coccodrillo che usa il filo interdentale",
+      "ar": "تمساح ينظف أسنانه بالخيط"
+    }
+  },
+  {
+    "id": "n:sloth-missing-a-bus",
+    "topic": "animals",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Sloth missing a bus.",
+    "labels": {
+      "en": "sloth missing a bus",
+      "zh": "趕唔切巴士的樹懶",
+      "zh-Hans": "没赶上公交车的树懒",
+      "ja": "バスに乗り遅れるナマケモノ",
+      "ko": "버스를 놓친 나무늘보",
+      "de": "Faultier verpasst einen Bus",
+      "fr": "paresseux ratant un bus",
+      "es": "perezoso perdiendo el autobús",
+      "pt": "preguiça perdendo o ônibus",
+      "it": "bradipo che perde l'autobus",
+      "ar": "حيوان الكسلان تفوته الحافلة"
+    }
+  },
+  {
+    "id": "n:whale-singing-into-a-microphone",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Whale singing into a microphone.",
+    "labels": {
+      "en": "whale singing into a microphone",
+      "zh": "對咪高峰唱歌的鯨魚",
+      "zh-Hans": "对麦克风唱歌的鲸鱼",
+      "ja": "マイクで歌うクジラ",
+      "ko": "마이크에 노래하는 고래",
+      "de": "Wal singt in ein Mikrofon",
+      "fr": "baleine chantant dans un micro",
+      "es": "ballena cantando en un micrófono",
+      "pt": "baleia cantando no microfone",
+      "it": "balena che canta al microfono",
+      "ar": "حوت يغني في ميكروفون"
+    }
+  },
+  {
+    "id": "n:raccoon-washing-a-birthday-cake",
+    "topic": "animals",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Raccoon washing a birthday cake.",
+    "labels": {
+      "en": "raccoon washing a birthday cake",
+      "zh": "洗生日蛋糕的浣熊",
+      "zh-Hans": "洗生日蛋糕的浣熊",
+      "ja": "誕生日ケーキを洗うアライグマ",
+      "ko": "생일 케이크 씻는 라쿤",
+      "de": "Waschbär wäscht einen Geburtstagskuchen",
+      "fr": "raton laveur lavant un gâteau d'anniversaire",
+      "es": "mapache lavando una tarta de cumpleaños",
+      "pt": "guaxinim lavando um bolo de aniversário",
+      "it": "procione che lava una torta di compleanno",
+      "ar": "راكون يغسل كعكة عيد ميلاد"
+    }
+  },
+  {
+    "id": "n:beaver-building-a-bathtub-dam",
+    "topic": "animals",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Beaver building a bathtub dam.",
+    "labels": {
+      "en": "beaver building a bathtub dam",
+      "zh": "在浴缸築壩的河狸",
+      "zh-Hans": "在浴缸筑坝的河狸",
+      "ja": "浴槽にダムを作るビーバー",
+      "ko": "욕조에 댐 만드는 비버",
+      "de": "Biber baut einen Damm in der Badewanne",
+      "fr": "castor construisant un barrage dans une baignoire",
+      "es": "castor construyendo una presa en la bañera",
+      "pt": "castor fazendo uma represa na banheira",
+      "it": "castoro che costruisce una diga nella vasca",
+      "ar": "قندس يبني سدا في حوض الاستحمام"
+    }
+  },
+  {
+    "id": "n:monkey-measuring-a-banana",
+    "topic": "animals",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Monkey measuring a banana.",
+    "labels": {
+      "en": "monkey measuring a banana",
+      "zh": "量香蕉長度的馬騮",
+      "zh-Hans": "测量香蕉长度的猴子",
+      "ja": "バナナの長さを測るサル",
+      "ko": "바나나 길이 재는 원숭이",
+      "de": "Affe misst eine Banane",
+      "fr": "singe mesurant une banane",
+      "es": "mono midiendo un plátano",
+      "pt": "macaco medindo uma banana",
+      "it": "scimmia che misura una banana",
+      "ar": "قرد يقيس موزة"
+    }
+  },
+  {
+    "id": "n:spaghetti-escaping-from-a-plate",
+    "topic": "food",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Spaghetti escaping from a plate.",
+    "labels": {
+      "en": "spaghetti escaping from a plate",
+      "zh": "逃離碟子的意粉",
+      "zh-Hans": "逃离盘子的意大利面",
+      "ja": "皿から逃げるスパゲッティ",
+      "ko": "접시에서 도망치는 스파게티",
+      "de": "Spaghetti fliehen vom Teller",
+      "fr": "spaghettis s'échappant d'une assiette",
+      "es": "espaguetis escapando del plato",
+      "pt": "espaguete fugindo do prato",
+      "it": "spaghetti che scappano dal piatto",
+      "ar": "سباغيتي تهرب من طبق"
+    }
+  },
+  {
+    "id": "n:popcorn-jumping-out-of-a-pot",
+    "topic": "food",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Popcorn jumping out of a pot.",
+    "labels": {
+      "en": "popcorn jumping out of a pot",
+      "zh": "跳出煲的爆谷",
+      "zh-Hans": "跳出锅的爆米花",
+      "ja": "鍋から飛び出すポップコーン",
+      "ko": "냄비에서 뛰어나오는 팝콘",
+      "de": "Popcorn springt aus einem Topf",
+      "fr": "pop-corn sautant hors d'une casserole",
+      "es": "palomitas saltando de una olla",
+      "pt": "pipoca pulando da panela",
+      "it": "popcorn che salta fuori dalla pentola",
+      "ar": "فشار يقفز من قدر"
+    }
+  },
+  {
+    "id": "n:cupcake-blowing-out-its-own-candle",
+    "topic": "food",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Cupcake blowing out its own candle.",
+    "labels": {
+      "en": "cupcake blowing out its own candle",
+      "zh": "吹熄自己蠟燭的杯子蛋糕",
+      "zh-Hans": "吹灭自己蜡烛的纸杯蛋糕",
+      "ja": "自分のろうそくを吹き消すカップケーキ",
+      "ko": "자기 촛불을 끄는 컵케이크",
+      "de": "Cupcake bläst seine eigene Kerze aus",
+      "fr": "cupcake soufflant sa propre bougie",
+      "es": "magdalena apagando su propia vela",
+      "pt": "cupcake apagando a própria vela",
+      "it": "cupcake che spegne la propria candela",
+      "ar": "كعكة صغيرة تطفئ شمعتها"
+    }
+  },
+  {
+    "id": "n:cheese-running-from-a-mouse",
+    "topic": "food",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Cheese running from a mouse.",
+    "labels": {
+      "en": "cheese running from a mouse",
+      "zh": "逃避老鼠的芝士",
+      "zh-Hans": "躲避老鼠的奶酪",
+      "ja": "ネズミから逃げるチーズ",
+      "ko": "쥐에게서 도망치는 치즈",
+      "de": "Käse läuft vor einer Maus davon",
+      "fr": "fromage fuyant une souris",
+      "es": "queso huyendo de un ratón",
+      "pt": "queijo fugindo de um rato",
+      "it": "formaggio che scappa da un topo",
+      "ar": "قطعة جبن تهرب من فأر"
+    }
+  },
+  {
+    "id": "n:peas-playing-football-in-a-bowl",
+    "topic": "food",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Peas playing football in a bowl.",
+    "labels": {
+      "en": "peas playing football in a bowl",
+      "zh": "在碗內踢足球的豌豆",
+      "zh-Hans": "在碗里踢足球的豌豆",
+      "ja": "ボウルでサッカーをする豆",
+      "ko": "그릇 안에서 축구하는 완두콩",
+      "de": "Erbsen spielen Fußball in einer Schüssel",
+      "fr": "petits pois jouant au foot dans un bol",
+      "es": "guisantes jugando al fútbol en un cuenco",
+      "pt": "ervilhas jogando futebol em uma tigela",
+      "it": "piselli che giocano a calcio in una ciotola",
+      "ar": "حبات بازلاء تلعب الكرة في وعاء"
+    }
+  },
+  {
+    "id": "n:broccoli-getting-a-haircut",
+    "topic": "food",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Broccoli getting a haircut.",
+    "labels": {
+      "en": "broccoli getting a haircut",
+      "zh": "剪頭髮的西蘭花",
+      "zh-Hans": "理发的西兰花",
+      "ja": "髪を切ってもらうブロッコリー",
+      "ko": "머리 자르는 브로콜리",
+      "de": "Brokkoli bekommt einen Haarschnitt",
+      "fr": "brocoli se faisant couper les cheveux",
+      "es": "brócoli cortándose el pelo",
+      "pt": "brócolis cortando o cabelo",
+      "it": "broccolo dal parrucchiere",
+      "ar": "بروكلي يقص شعره"
+    }
+  },
+  {
+    "id": "n:coconut-cracking-itself-with-a-hammer",
+    "topic": "food",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Coconut cracking itself with a hammer.",
+    "labels": {
+      "en": "coconut cracking itself with a hammer",
+      "zh": "用鎚敲開自己的椰子",
+      "zh-Hans": "用锤子敲开自己的椰子",
+      "ja": "ハンマーで自分を割るココナツ",
+      "ko": "망치로 자신을 깨는 코코넛",
+      "de": "Kokosnuss knackt sich mit einem Hammer",
+      "fr": "noix de coco se cassant avec un marteau",
+      "es": "coco abriéndose con un martillo",
+      "pt": "coco se abrindo com um martelo",
+      "it": "cocco che si apre con un martello",
+      "ar": "جوزة هند تكسر نفسها بمطرقة"
+    }
+  },
+  {
+    "id": "n:sushi-riding-a-conveyor-belt-like-a-surfboard",
+    "topic": "food",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Sushi riding a conveyor belt like a surfboard.",
+    "labels": {
+      "en": "sushi riding a conveyor belt like a surfboard",
+      "zh": "在輸送帶衝浪的壽司",
+      "zh-Hans": "在传送带上冲浪的寿司",
+      "ja": "ベルトコンベヤーでサーフィンする寿司",
+      "ko": "컨베이어 벨트에서 서핑하는 초밥",
+      "de": "Sushi surft auf einem Förderband",
+      "fr": "sushi surfant sur un tapis roulant",
+      "es": "sushi surfeando en una cinta transportadora",
+      "pt": "sushi surfando em uma esteira",
+      "it": "sushi che fa surf su un nastro trasportatore",
+      "ar": "سوشي يتزلج على سير ناقل"
+    }
+  },
+  {
+    "id": "n:robot-tangled-in-fairy-lights",
+    "topic": "things",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Robot tangled in fairy lights.",
+    "labels": {
+      "en": "robot tangled in fairy lights",
+      "zh": "纏滿燈串的機械人",
+      "zh-Hans": "缠满彩灯的机器人",
+      "ja": "電飾に絡まったロボット",
+      "ko": "장식 전구에 엉킨 로봇",
+      "de": "Roboter in einer Lichterkette verheddert",
+      "fr": "robot emmêlé dans une guirlande lumineuse",
+      "es": "robot enredado en luces decorativas",
+      "pt": "robô enrolado em luzinhas",
+      "it": "robot impigliato nelle lucine",
+      "ar": "روبوت متشابك في سلسلة أضواء"
+    }
+  },
+  {
+    "id": "n:washing-machine-eating-socks",
+    "topic": "things",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Washing machine eating socks.",
+    "labels": {
+      "en": "washing machine eating socks",
+      "zh": "食襪的洗衣機",
+      "zh-Hans": "吃袜子的洗衣机",
+      "ja": "靴下を食べる洗濯機",
+      "ko": "양말 먹는 세탁기",
+      "de": "Waschmaschine frisst Socken",
+      "fr": "machine à laver mangeant des chaussettes",
+      "es": "lavadora comiendo calcetines",
+      "pt": "máquina de lavar comendo meias",
+      "it": "lavatrice che mangia calzini",
+      "ar": "غسالة تأكل الجوارب"
+    }
+  },
+  {
+    "id": "n:vacuum-cleaner-chasing-dust-bunnies",
+    "topic": "things",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Vacuum cleaner chasing dust bunnies.",
+    "labels": {
+      "en": "vacuum cleaner chasing dust bunnies",
+      "zh": "追塵球的吸塵機",
+      "zh-Hans": "追灰尘团的吸尘器",
+      "ja": "ほこりの玉を追う掃除機",
+      "ko": "먼지 뭉치를 쫓는 청소기",
+      "de": "Staubsauger jagt Staubknäuel",
+      "fr": "aspirateur poursuivant des moutons de poussière",
+      "es": "aspiradora persiguiendo pelusas",
+      "pt": "aspirador perseguindo bolas de poeira",
+      "it": "aspirapolvere che insegue batuffoli di polvere",
+      "ar": "مكنسة كهربائية تلاحق كرات غبار"
+    }
+  },
+  {
+    "id": "n:refrigerator-wearing-a-winter-coat",
+    "topic": "things",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Refrigerator wearing a winter coat.",
+    "labels": {
+      "en": "refrigerator wearing a winter coat",
+      "zh": "着冬天外套的雪櫃",
+      "zh-Hans": "穿冬衣的冰箱",
+      "ja": "冬のコートを着た冷蔵庫",
+      "ko": "겨울 외투 입은 냉장고",
+      "de": "Kühlschrank im Wintermantel",
+      "fr": "réfrigérateur portant un manteau d'hiver",
+      "es": "nevera con abrigo de invierno",
+      "pt": "geladeira de casaco de inverno",
+      "it": "frigorifero con cappotto invernale",
+      "ar": "ثلاجة ترتدي معطفا شتويا"
+    }
+  },
+  {
+    "id": "n:rubber-duck-steering-a-bathtub",
+    "topic": "things",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Rubber duck steering a bathtub.",
+    "labels": {
+      "en": "rubber duck steering a bathtub",
+      "zh": "駕駛浴缸的膠鴨仔",
+      "zh-Hans": "驾驶浴缸的橡皮鸭",
+      "ja": "浴槽を操縦するゴムのアヒル",
+      "ko": "욕조를 조종하는 고무 오리",
+      "de": "Quietscheente steuert eine Badewanne",
+      "fr": "canard en plastique pilotant une baignoire",
+      "es": "patito de goma conduciendo una bañera",
+      "pt": "pato de borracha pilotando uma banheira",
+      "it": "paperella di gomma al timone di una vasca",
+      "ar": "بطة مطاطية تقود حوض استحمام"
+    }
+  },
+  {
+    "id": "n:lamp-reading-a-book-by-candlelight",
+    "topic": "things",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Lamp reading a book by candlelight.",
+    "labels": {
+      "en": "lamp reading a book by candlelight",
+      "zh": "借燭光睇書的檯燈",
+      "zh-Hans": "借烛光看书的台灯",
+      "ja": "ろうそくの光で読書するランプ",
+      "ko": "촛불 아래 책 읽는 램프",
+      "de": "Lampe liest bei Kerzenlicht",
+      "fr": "lampe lisant à la bougie",
+      "es": "lámpara leyendo a la luz de una vela",
+      "pt": "luminária lendo à luz de vela",
+      "it": "lampada che legge a lume di candela",
+      "ar": "مصباح يقرأ على ضوء شمعة"
+    }
+  },
+  {
+    "id": "n:umbrella-drying-itself-with-a-hairdryer",
+    "topic": "things",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Umbrella drying itself with a hairdryer.",
+    "labels": {
+      "en": "umbrella drying itself with a hairdryer",
+      "zh": "用風筒吹乾自己的雨傘",
+      "zh-Hans": "用吹风机吹干自己的雨伞",
+      "ja": "ドライヤーで自分を乾かす傘",
+      "ko": "헤어드라이어로 자신을 말리는 우산",
+      "de": "Regenschirm föhnt sich trocken",
+      "fr": "parapluie se séchant au sèche-cheveux",
+      "es": "paraguas secándose con un secador",
+      "pt": "guarda-chuva se secando com secador",
+      "it": "ombrello che si asciuga con il phon",
+      "ar": "مظلة تجفف نفسها بمجفف شعر"
+    }
+  },
+  {
+    "id": "n:dentist-examining-a-shark",
+    "topic": "occupations",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Dentist examining a shark.",
+    "labels": {
+      "en": "dentist examining a shark",
+      "zh": "替鯊魚檢查牙齒的牙醫",
+      "zh-Hans": "给鲨鱼检查牙齿的牙医",
+      "ja": "サメの歯を診る歯医者",
+      "ko": "상어 이빨 검사하는 치과 의사",
+      "de": "Zahnarzt untersucht einen Hai",
+      "fr": "dentiste examinant un requin",
+      "es": "dentista examinando a un tiburón",
+      "pt": "dentista examinando um tubarão",
+      "it": "dentista che visita uno squalo",
+      "ar": "طبيب أسنان يفحص قرشا"
+    }
+  },
+  {
+    "id": "n:baker-sleeping-in-a-giant-doughnut",
+    "topic": "occupations",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Baker sleeping in a giant doughnut.",
+    "labels": {
+      "en": "baker sleeping in a giant doughnut",
+      "zh": "睡在巨型冬甩裏的麵包師傅",
+      "zh-Hans": "睡在巨型甜甜圈里的面包师",
+      "ja": "巨大ドーナツで眠るパン屋",
+      "ko": "거대 도넛 안에서 자는 제빵사",
+      "de": "Bäcker schläft in einem riesigen Donut",
+      "fr": "boulanger dormant dans un donut géant",
+      "es": "panadero durmiendo en un dónut gigante",
+      "pt": "padeiro dormindo em uma rosquinha gigante",
+      "it": "fornaio che dorme in una ciambella gigante",
+      "ar": "خباز ينام داخل كعكة حلقية عملاقة"
+    }
+  },
+  {
+    "id": "n:magician-pulling-carrots-from-a-hat",
+    "topic": "occupations",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Magician pulling carrots from a hat.",
+    "labels": {
+      "en": "magician pulling carrots from a hat",
+      "zh": "從帽子變出紅蘿蔔的魔術師",
+      "zh-Hans": "从帽子变出胡萝卜的魔术师",
+      "ja": "帽子からニンジンを出す手品師",
+      "ko": "모자에서 당근 꺼내는 마술사",
+      "de": "Zauberer zieht Karotten aus einem Hut",
+      "fr": "magicien sortant des carottes d'un chapeau",
+      "es": "mago sacando zanahorias de un sombrero",
+      "pt": "mágico tirando cenouras da cartola",
+      "it": "mago che estrae carote da un cappello",
+      "ar": "ساحر يخرج جزرا من قبعة"
+    }
+  },
+  {
+    "id": "n:photographer-taking-a-selfie-with-an-octopus",
+    "topic": "occupations",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Photographer taking a selfie with an octopus.",
+    "labels": {
+      "en": "photographer taking a selfie with an octopus",
+      "zh": "與八爪魚自拍的攝影師",
+      "zh-Hans": "与章鱼自拍的摄影师",
+      "ja": "タコと自撮りする写真家",
+      "ko": "문어와 셀카 찍는 사진가",
+      "de": "Fotograf macht ein Selfie mit einem Oktopus",
+      "fr": "photographe prenant un selfie avec une pieuvre",
+      "es": "fotógrafo haciéndose un selfi con un pulpo",
+      "pt": "fotógrafo tirando selfie com um polvo",
+      "it": "fotografo che fa un selfie con un polpo",
+      "ar": "مصور يلتقط صورة ذاتية مع أخطبوط"
+    }
+  },
+  {
+    "id": "n:plumber-fixing-a-whale-s-blowhole",
+    "topic": "occupations",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Plumber fixing a whale's blowhole.",
+    "labels": {
+      "en": "plumber fixing a whale's blowhole",
+      "zh": "修理鯨魚噴氣孔的水喉匠",
+      "zh-Hans": "修理鲸鱼喷水孔的水管工",
+      "ja": "クジラの噴気孔を直す配管工",
+      "ko": "고래 숨구멍 수리하는 배관공",
+      "de": "Klempner repariert das Blasloch eines Wals",
+      "fr": "plombier réparant l'évent d'une baleine",
+      "es": "fontanero arreglando el espiráculo de una ballena",
+      "pt": "encanador consertando o respiradouro de uma baleia",
+      "it": "idraulico che ripara lo sfiatatoio di una balena",
+      "ar": "سباك يصلح فتحة تنفس حوت"
+    }
+  },
+  {
+    "id": "n:elephant-doing-a-handstand",
+    "topic": "sports",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Elephant doing a handstand.",
+    "labels": {
+      "en": "elephant doing a handstand",
+      "zh": "倒立的大象",
+      "zh-Hans": "倒立的大象",
+      "ja": "逆立ちするゾウ",
+      "ko": "물구나무서는 코끼리",
+      "de": "Elefant macht einen Handstand",
+      "fr": "éléphant faisant le poirier",
+      "es": "elefante haciendo el pino",
+      "pt": "elefante plantando bananeira",
+      "it": "elefante che fa la verticale",
+      "ar": "فيل يقف على يديه"
+    }
+  },
+  {
+    "id": "n:flamingo-ice-skating",
+    "topic": "sports",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Flamingo ice skating.",
+    "labels": {
+      "en": "flamingo ice skating",
+      "zh": "溜冰的紅鶴",
+      "zh-Hans": "滑冰的火烈鸟",
+      "ja": "アイススケートをするフラミンゴ",
+      "ko": "스케이트 타는 홍학",
+      "de": "Flamingo beim Eislaufen",
+      "fr": "flamant rose patinant sur la glace",
+      "es": "flamenco patinando sobre hielo",
+      "pt": "flamingo patinando no gelo",
+      "it": "fenicottero che pattina sul ghiaccio",
+      "ar": "نحام يتزلج على الجليد"
+    }
+  },
+  {
+    "id": "n:penguins-curling-with-a-fish",
+    "topic": "sports",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Penguins curling with a fish.",
+    "labels": {
+      "en": "penguins curling with a fish",
+      "zh": "用魚玩冰壺的企鵝",
+      "zh-Hans": "用鱼玩冰壶的企鹅",
+      "ja": "魚でカーリングするペンギンたち",
+      "ko": "물고기로 컬링하는 펭귄들",
+      "de": "Pinguine spielen Curling mit einem Fisch",
+      "fr": "manchots jouant au curling avec un poisson",
+      "es": "pingüinos jugando al curling con un pez",
+      "pt": "pinguins jogando curling com um peixe",
+      "it": "pinguini che giocano a curling con un pesce",
+      "ar": "بطاريق تلعب الكيرلنغ بسمكة"
+    }
+  },
+  {
+    "id": "n:mouse-pole-vaulting-over-cheese",
+    "topic": "sports",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Mouse pole-vaulting over cheese.",
+    "labels": {
+      "en": "mouse pole-vaulting over cheese",
+      "zh": "撐竿跳過芝士的老鼠",
+      "zh-Hans": "撑竿跳过奶酪的老鼠",
+      "ja": "チーズを棒高跳びで越えるネズミ",
+      "ko": "치즈를 장대높이뛰기로 넘는 쥐",
+      "de": "Maus springt mit einem Stab über Käse",
+      "fr": "souris sautant à la perche au-dessus d'un fromage",
+      "es": "ratón saltando con pértiga sobre un queso",
+      "pt": "rato saltando com vara sobre um queijo",
+      "it": "topo che salta con l'asta sopra un formaggio",
+      "ar": "فأر يقفز بالزانة فوق قطعة جبن"
+    }
+  },
+  {
+    "id": "n:trying-to-fold-an-enormous-map",
+    "topic": "actions",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Trying to fold an enormous map.",
+    "labels": {
+      "en": "trying to fold an enormous map",
+      "zh": "嘗試摺巨型地圖",
+      "zh-Hans": "尝试折巨型地图",
+      "ja": "巨大な地図を畳もうとする",
+      "ko": "거대한 지도를 접으려 하기",
+      "de": "eine riesige Karte zusammenfalten wollen",
+      "fr": "essayer de plier une carte immense",
+      "es": "intentar doblar un mapa enorme",
+      "pt": "tentar dobrar um mapa enorme",
+      "it": "cercare di piegare una mappa enorme",
+      "ar": "محاولة طي خريطة ضخمة"
+    }
+  },
+  {
+    "id": "n:sneezing-a-hat-into-the-air",
+    "topic": "actions",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Sneezing a hat into the air.",
+    "labels": {
+      "en": "sneezing a hat into the air",
+      "zh": "打乞嗤噴飛帽子",
+      "zh-Hans": "打喷嚏把帽子喷上天",
+      "ja": "くしゃみで帽子を吹き飛ばす",
+      "ko": "재채기로 모자를 날리기",
+      "de": "einen Hut beim Niesen wegpusten",
+      "fr": "faire voler son chapeau en éternuant",
+      "es": "estornudar y lanzar el sombrero al aire",
+      "pt": "espirrar e fazer o chapéu voar",
+      "it": "starnutire facendo volare il cappello",
+      "ar": "العطس فتطير القبعة في الهواء"
+    }
+  },
+  {
+    "id": "n:balancing-books-on-your-head-in-the-wind",
+    "topic": "actions",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Balancing books on your head in the wind.",
+    "labels": {
+      "en": "balancing books on your head in the wind",
+      "zh": "大風中頭頂書本保持平衡",
+      "zh-Hans": "大风中头顶书本保持平衡",
+      "ja": "風の中で頭の本を落とさず立つ",
+      "ko": "바람 속에서 머리에 책 올려 균형 잡기",
+      "de": "Bücher im Wind auf dem Kopf balancieren",
+      "fr": "tenir des livres sur la tête dans le vent",
+      "es": "equilibrar libros en la cabeza con viento",
+      "pt": "equilibrar livros na cabeça ao vento",
+      "it": "tenere libri in equilibrio sulla testa al vento",
+      "ar": "موازنة كتب على الرأس في الريح"
+    }
+  },
+  {
+    "id": "n:chasing-your-runaway-shopping-trolley",
+    "topic": "actions",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Chasing your runaway shopping trolley.",
+    "labels": {
+      "en": "chasing your runaway shopping trolley",
+      "zh": "追失控購物車",
+      "zh-Hans": "追失控购物车",
+      "ja": "勝手に走る買い物カートを追う",
+      "ko": "혼자 굴러가는 쇼핑 카트 쫓기",
+      "de": "einem davonrollenden Einkaufswagen nachlaufen",
+      "fr": "poursuivre son chariot qui s'échappe",
+      "es": "perseguir un carrito de compra que se escapa",
+      "pt": "correr atrás de um carrinho de compras desgovernado",
+      "it": "inseguire il carrello della spesa in fuga",
+      "ar": "ملاحقة عربة تسوق هاربة"
+    }
+  },
+  {
+    "id": "n:trying-to-catch-floating-popcorn",
+    "topic": "actions",
+    "difficulty": "hard",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Trying to catch floating popcorn.",
+    "labels": {
+      "en": "trying to catch floating popcorn",
+      "zh": "嘗試接住飄浮的爆谷",
+      "zh-Hans": "尝试接住漂浮的爆米花",
+      "ja": "浮かぶポップコーンを捕まえようとする",
+      "ko": "떠다니는 팝콘 잡으려 하기",
+      "de": "schwebendes Popcorn fangen wollen",
+      "fr": "essayer d'attraper du pop-corn flottant",
+      "es": "intentar atrapar palomitas flotantes",
+      "pt": "tentar pegar pipoca flutuante",
+      "it": "cercare di afferrare popcorn fluttuanti",
+      "ar": "محاولة التقاط فشار عائم"
+    }
+  },
+  {
+    "id": "n:wearing-an-upside-down-backpack",
+    "topic": "actions",
+    "difficulty": "medium",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Wearing an upside-down backpack.",
+    "labels": {
+      "en": "wearing an upside-down backpack",
+      "zh": "倒轉揹書包",
+      "zh-Hans": "背倒置的书包",
+      "ja": "上下逆のリュックを背負う",
+      "ko": "거꾸로 된 배낭 메기",
+      "de": "einen Rucksack verkehrt herum tragen",
+      "fr": "porter un sac à dos à l'envers",
+      "es": "llevar una mochila del revés",
+      "pt": "usar uma mochila de cabeça para baixo",
+      "it": "indossare uno zaino capovolto",
+      "ar": "ارتداء حقيبة ظهر مقلوبة"
+    }
+  },
+  {
+    "id": "n:giraffe-washing-windows-with-its-tongue",
+    "topic": "animals",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Giraffe washing windows with its tongue.",
+    "labels": {
+      "en": "giraffe washing windows with its tongue",
+      "zh": "用脷洗窗的長頸鹿",
+      "zh-Hans": "用舌头擦窗的长颈鹿",
+      "ja": "舌で窓を洗うキリン",
+      "ko": "혀로 창문 닦는 기린",
+      "de": "Giraffe putzt Fenster mit ihrer Zunge",
+      "fr": "girafe lavant des vitres avec sa langue",
+      "es": "jirafa limpiando ventanas con la lengua",
+      "pt": "girafa lavando janelas com a língua",
+      "it": "giraffa che lava le finestre con la lingua",
+      "ar": "زرافة تنظف النوافذ بلسانها"
+    }
+  },
+  {
+    "id": "n:octopus-conducting-an-underwater-orchestra",
+    "topic": "animals",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Octopus conducting an underwater orchestra.",
+    "labels": {
+      "en": "octopus conducting an underwater orchestra",
+      "zh": "指揮水底樂團的八爪魚",
+      "zh-Hans": "指挥水下乐团的章鱼",
+      "ja": "海中オーケストラを指揮するタコ",
+      "ko": "수중 오케스트라 지휘하는 문어",
+      "de": "Oktopus dirigiert ein Unterwasserorchester",
+      "fr": "pieuvre dirigeant un orchestre sous-marin",
+      "es": "pulpo dirigiendo una orquesta submarina",
+      "pt": "polvo regendo uma orquestra submarina",
+      "it": "polpo che dirige un'orchestra sott'acqua",
+      "ar": "أخطبوط يقود أوركسترا تحت الماء"
+    }
+  },
+  {
+    "id": "n:ants-carrying-a-picnic-table",
+    "topic": "animals",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Ants carrying a picnic table.",
+    "labels": {
+      "en": "ants carrying a picnic table",
+      "zh": "搬野餐桌的螞蟻",
+      "zh-Hans": "搬野餐桌的蚂蚁",
+      "ja": "ピクニックテーブルを運ぶアリたち",
+      "ko": "피크닉 탁자를 옮기는 개미들",
+      "de": "Ameisen tragen einen Picknicktisch",
+      "fr": "fourmis portant une table de pique-nique",
+      "es": "hormigas cargando una mesa de pícnic",
+      "pt": "formigas carregando uma mesa de piquenique",
+      "it": "formiche che trasportano un tavolo da picnic",
+      "ar": "نمل يحمل طاولة نزهة"
+    }
+  },
+  {
+    "id": "n:chef-making-pancakes-on-a-moving-train",
+    "topic": "occupations",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Chef making pancakes on a moving train.",
+    "labels": {
+      "en": "chef making pancakes on a moving train",
+      "zh": "在行駛火車上煎班戟的廚師",
+      "zh-Hans": "在行驶火车上煎饼的厨师",
+      "ja": "走る列車でパンケーキを焼くシェフ",
+      "ko": "달리는 기차에서 팬케이크 굽는 요리사",
+      "de": "Koch backt Pfannkuchen im fahrenden Zug",
+      "fr": "chef faisant des crêpes dans un train en marche",
+      "es": "chef haciendo tortitas en un tren en marcha",
+      "pt": "chef fazendo panquecas em um trem em movimento",
+      "it": "cuoco che fa pancake su un treno in movimento",
+      "ar": "طاه يعد الفطائر في قطار متحرك"
+    }
+  },
+  {
+    "id": "n:astronaut-walking-a-dog-on-the-moon",
+    "topic": "occupations",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Astronaut walking a dog on the moon.",
+    "labels": {
+      "en": "astronaut walking a dog on the moon",
+      "zh": "在月球遛狗的太空人",
+      "zh-Hans": "在月球遛狗的宇航员",
+      "ja": "月で犬を散歩させる宇宙飛行士",
+      "ko": "달에서 개를 산책시키는 우주비행사",
+      "de": "Astronaut führt einen Hund auf dem Mond aus",
+      "fr": "astronaute promenant un chien sur la Lune",
+      "es": "astronauta paseando un perro en la Luna",
+      "pt": "astronauta passeando com um cachorro na Lua",
+      "it": "astronauta che porta un cane a spasso sulla Luna",
+      "ar": "رائد فضاء ينزه كلبا على القمر"
+    }
+  },
+  {
+    "id": "n:window-cleaner-cleaning-a-giant-s-glasses",
+    "topic": "occupations",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Window cleaner cleaning a giant's glasses.",
+    "labels": {
+      "en": "window cleaner cleaning a giant's glasses",
+      "zh": "替巨人洗眼鏡的洗窗工人",
+      "zh-Hans": "给巨人擦眼镜的擦窗工人",
+      "ja": "巨人の眼鏡を洗う窓清掃員",
+      "ko": "거인 안경 닦는 유리창 청소부",
+      "de": "Fensterputzer reinigt die Brille eines Riesen",
+      "fr": "laveur de vitres nettoyant les lunettes d'un géant",
+      "es": "limpiador de ventanas limpiando gafas de gigante",
+      "pt": "limpador de janelas limpando óculos de gigante",
+      "it": "lavavetri che pulisce gli occhiali di un gigante",
+      "ar": "عامل نوافذ ينظف نظارة عملاق"
+    }
+  },
+  {
+    "id": "n:vegetables-holding-a-cooking-competition",
+    "topic": "food",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Vegetables holding a cooking competition.",
+    "labels": {
+      "en": "vegetables holding a cooking competition",
+      "zh": "舉行烹飪比賽的蔬菜",
+      "zh-Hans": "举行烹饪比赛的蔬菜",
+      "ja": "料理大会を開く野菜たち",
+      "ko": "요리 대회 여는 채소들",
+      "de": "Gemüse veranstaltet einen Kochwettbewerb",
+      "fr": "légumes organisant un concours de cuisine",
+      "es": "verduras celebrando un concurso de cocina",
+      "pt": "legumes fazendo uma competição culinária",
+      "it": "verdure che fanno una gara di cucina",
+      "ar": "خضروات تقيم مسابقة طبخ"
+    }
+  },
+  {
+    "id": "n:sandwich-layers-escaping-in-different-directions",
+    "topic": "food",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Sandwich layers escaping in different directions.",
+    "labels": {
+      "en": "sandwich layers escaping in different directions",
+      "zh": "各層向不同方向逃走的三文治",
+      "zh-Hans": "各层向不同方向逃走的三明治",
+      "ja": "具が別々の方向へ逃げるサンドイッチ",
+      "ko": "재료가 사방으로 달아나는 샌드위치",
+      "de": "Sandwichschichten fliehen in verschiedene Richtungen",
+      "fr": "couches d'un sandwich fuyant dans tous les sens",
+      "es": "capas de sándwich huyendo en distintas direcciones",
+      "pt": "camadas de sanduíche fugindo para lados diferentes",
+      "it": "strati di un panino che scappano in direzioni diverse",
+      "ar": "طبقات شطيرة تهرب في اتجاهات مختلفة"
+    }
+  },
+  {
+    "id": "n:robot-assembling-itself-from-a-flat-pack-box",
+    "topic": "things",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Robot assembling itself from a flat-pack box.",
+    "labels": {
+      "en": "robot assembling itself from a flat-pack box",
+      "zh": "從平板箱組裝自己的機械人",
+      "zh-Hans": "从平板箱组装自己的机器人",
+      "ja": "組み立てキットから自分を作るロボット",
+      "ko": "조립 상자에서 자신을 조립하는 로봇",
+      "de": "Roboter baut sich aus einem Bausatz zusammen",
+      "fr": "robot s'assemblant à partir d'un kit en boîte",
+      "es": "robot montándose a sí mismo desde una caja",
+      "pt": "robô montando a si mesmo a partir de um kit",
+      "it": "robot che si monta da solo da una scatola",
+      "ar": "روبوت يركب نفسه من صندوق قطع"
+    }
+  },
+  {
+    "id": "n:piano-chasing-its-escaping-keys",
+    "topic": "things",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Piano chasing its escaping keys.",
+    "labels": {
+      "en": "piano chasing its escaping keys",
+      "zh": "追逐逃走琴鍵的鋼琴",
+      "zh-Hans": "追逐逃跑琴键的钢琴",
+      "ja": "逃げる鍵盤を追うピアノ",
+      "ko": "달아나는 건반을 쫓는 피아노",
+      "de": "Klavier jagt seine flüchtenden Tasten",
+      "fr": "piano poursuivant ses touches en fuite",
+      "es": "piano persiguiendo sus teclas fugitivas",
+      "pt": "piano perseguindo suas teclas em fuga",
+      "it": "pianoforte che insegue i suoi tasti in fuga",
+      "ar": "بيانو يلاحق مفاتيحه الهاربة"
+    }
+  },
+  {
+    "id": "n:elephants-playing-volleyball-with-a-balloon",
+    "topic": "sports",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Elephants playing volleyball with a balloon.",
+    "labels": {
+      "en": "elephants playing volleyball with a balloon",
+      "zh": "用氣球打排球的大象",
+      "zh-Hans": "用气球打排球的大象",
+      "ja": "風船でバレーをするゾウたち",
+      "ko": "풍선으로 배구하는 코끼리들",
+      "de": "Elefanten spielen Volleyball mit einem Ballon",
+      "fr": "éléphants jouant au volley avec un ballon gonflable",
+      "es": "elefantes jugando al voleibol con un globo",
+      "pt": "elefantes jogando vôlei com um balão",
+      "it": "elefanti che giocano a pallavolo con un palloncino",
+      "ar": "أفيال تلعب الكرة الطائرة ببالون"
+    }
+  },
+  {
+    "id": "n:snails-competing-in-a-relay-race",
+    "topic": "sports",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Snails competing in a relay race.",
+    "labels": {
+      "en": "snails competing in a relay race",
+      "zh": "參加接力賽的蝸牛",
+      "zh-Hans": "参加接力赛的蜗牛",
+      "ja": "リレー競走をするカタツムリたち",
+      "ko": "계주에 참가하는 달팽이들",
+      "de": "Schnecken laufen ein Staffelrennen",
+      "fr": "escargots participant à une course de relais",
+      "es": "caracoles en una carrera de relevos",
+      "pt": "caracóis competindo em uma corrida de revezamento",
+      "it": "lumache che partecipano a una staffetta",
+      "ar": "حلزونات تتنافس في سباق تتابع"
+    }
+  },
+  {
+    "id": "n:serving-tea-on-a-runaway-skateboard",
+    "topic": "actions",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Serving tea on a runaway skateboard.",
+    "labels": {
+      "en": "serving tea on a runaway skateboard",
+      "zh": "在失控滑板上奉茶",
+      "zh-Hans": "在失控滑板上倒茶",
+      "ja": "暴走するスケートボードでお茶を出す",
+      "ko": "폭주하는 스케이트보드에서 차 대접하기",
+      "de": "auf einem davonrollenden Skateboard Tee servieren",
+      "fr": "servir le thé sur un skateboard incontrôlable",
+      "es": "servir té sobre un monopatín descontrolado",
+      "pt": "servir chá em um skate desgovernado",
+      "it": "servire il tè su uno skateboard fuori controllo",
+      "ar": "تقديم الشاي على لوح تزلج منفلت"
+    }
+  },
+  {
+    "id": "n:packing-a-suitcase-that-keeps-spitting-things-out",
+    "topic": "actions",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Packing a suitcase that keeps spitting things out.",
+    "labels": {
+      "en": "packing a suitcase that keeps spitting things out",
+      "zh": "執一個不停吐東西的行李箱",
+      "zh-Hans": "收拾不停吐东西的行李箱",
+      "ja": "物を吐き出し続けるスーツケースに荷造りする",
+      "ko": "계속 물건을 뱉는 여행 가방 싸기",
+      "de": "einen Koffer packen, der alles wieder ausspuckt",
+      "fr": "faire une valise qui recrache les affaires",
+      "es": "hacer una maleta que escupe las cosas",
+      "pt": "arrumar uma mala que cospe as coisas",
+      "it": "fare una valigia che risputa fuori le cose",
+      "ar": "تعبئة حقيبة تقذف الأشياء باستمرار"
+    }
+  },
+  {
+    "id": "n:catching-laundry-blown-off-a-clothesline",
+    "topic": "actions",
+    "difficulty": "expert",
+    "starter": false,
+    "tags": [
+      "silly"
+    ],
+    "intent": "Catching laundry blown off a clothesline.",
+    "labels": {
+      "en": "catching laundry blown off a clothesline",
+      "zh": "接住被風吹走的晾衫",
+      "zh-Hans": "接住被风吹走的晾晒衣物",
+      "ja": "物干しから飛ばされた洗濯物を捕まえる",
+      "ko": "빨랫줄에서 날아간 빨래 잡기",
+      "de": "von der Leine gewehte Wäsche auffangen",
+      "fr": "rattraper du linge emporté par le vent",
+      "es": "atrapar ropa que el viento arrancó del tendedero",
+      "pt": "pegar roupas que o vento tirou do varal",
+      "it": "afferrare il bucato volato via dal filo",
+      "ar": "التقاط غسيل طار عن الحبل"
+    }
+  }
+]

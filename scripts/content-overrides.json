@@ -1,0 +1,170 @@
+{
+  "w:animals:cow": {
+    "zh": "牛",
+    "reason": "Cow is broader than dairy cow; avoid requiring a specific dairy animal."
+  },
+  "w:occupations:florist": {
+    "zh": "花藝師",
+    "reason": "Florist does not necessarily own the shop."
+  },
+  "w:food:cereal": {
+    "zh": "早餐穀物",
+    "reason": "Cereal includes more than cornflakes."
+  },
+  "w:things:blanket": {
+    "zh": "毛氈",
+    "reason": "Distinguish a blanket from the more general bedding word 被."
+  },
+  "w:things:scissors": {
+    "zh": "剪刀",
+    "reason": "Use widely readable Traditional Chinese for the word card."
+  },
+  "w:hongkong:typhoon-signal": {
+    "zh": "颱風信號",
+    "reason": "English does not specify signal number eight."
+  },
+  "w:fairytales:gingerbread-house": {
+    "zh": "薑餅屋",
+    "reason": "Match the material named in English instead of a generic candy house."
+  },
+  "w:fairytales:magic-beanstalk": {
+    "zh": "魔法豆莖",
+    "reason": "Beanstalk is the climbing plant, not the magic bean itself."
+  },
+  "w:animals:hedgehog": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:animals:bat": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:animals:jellyfish": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:animals:caterpillar": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:food:popsicle": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:food:cupcake": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:food:broccoli": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:things:sofa": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:things:computer": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:things:television": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:things:headphones": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:things:light-bulb": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:things:sunglasses": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:things:gloves": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:things:t-shirt": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:things:helicopter": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:things:fire-truck": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:things:police-car": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:things:ambulance": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:things:magnet": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:things:magnifying-glass": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:nature:volcano": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:nature:cactus": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:nature:alien": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:nature:ufo": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:fairytales:magic-wand": {
+    "difficulty": "easy",
+    "reason": "Distinctive familiar outline or one clear visual cue; easy candidate pending family playtest."
+  },
+  "w:occupations:nurse": {
+    "difficulty": "general",
+    "reason": "Needs regional food knowledge or differentiation from a visually similar role; variety pool pending family playtest."
+  },
+  "w:occupations:singer": {
+    "difficulty": "general",
+    "reason": "Needs regional food knowledge or differentiation from a visually similar role; variety pool pending family playtest."
+  },
+  "w:food:egg-tart": {
+    "difficulty": "general",
+    "reason": "Needs regional food knowledge or differentiation from a visually similar role; variety pool pending family playtest."
+  },
+  "w:food:pineapple-bun": {
+    "difficulty": "general",
+    "reason": "Needs regional food knowledge or differentiation from a visually similar role; variety pool pending family playtest."
+  },
+  "w:hongkong:fishball": {
+    "difficulty": "general",
+    "reason": "Needs regional food knowledge or differentiation from a visually similar role; variety pool pending family playtest."
+  },
+  "w:hongkong:egg-waffle": {
+    "difficulty": "general",
+    "reason": "Needs regional food knowledge or differentiation from a visually similar role; variety pool pending family playtest."
+  },
+  "w:fairytales:princess": {
+    "difficulty": "general",
+    "reason": "Needs regional food knowledge or differentiation from a visually similar role; variety pool pending family playtest."
+  },
+  "w:fairytales:queen": {
+    "difficulty": "general",
+    "reason": "Needs regional food knowledge or differentiation from a visually similar role; variety pool pending family playtest."
+  }
+}

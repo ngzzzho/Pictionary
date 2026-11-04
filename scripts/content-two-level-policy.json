@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-14",
+  "decision": "User removed Hard; retain natural concepts in Standard and park contrived scene combinations. No new words or label changes.",
+  "inputSHA256": "eb94abdd1c107f0c25b7d267764152128bd84662b368a69ae43e6800d4b8ea0b",
+  "expectedInput": 624,
+  "expectedActive": 612,
+  "expectedHeld": 12,
+  "expectedRegraded": 21,
+  "entries": [
+    {
+      "id": "w:occupations:surgeon",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "w:occupations:flight-attendant",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "w:occupations:electrician",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "w:occupations:beekeeper",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "w:occupations:taxi-driver",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "w:occupations:train-driver",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "w:occupations:delivery-rider",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "w:occupations:zookeeper",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "w:food:hot-pot",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "n:kicking-a-puddle",
+      "decision": "hold",
+      "previousDifficulty": "medium",
+      "reason": "踢水氹不是自然常用動作題名，容易只猜到濺水或踩水。"
+    },
+    {
+      "id": "n:looking-through-a-keyhole",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "n:making-a-hand-shadow",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "n:egg-and-spoon-race",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "n:water-polo",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "n:crossing-guard",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "n:threading-a-needle",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "n:changing-a-tyre",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "n:rainbow-over-a-waterfall",
+      "decision": "hold",
+      "previousDifficulty": "medium",
+      "reason": "拼接兩個自然物及位置關係，並非自然單一答案。"
+    },
+    {
+      "id": "n:lightning-striking-a-tree",
+      "decision": "hold",
+      "previousDifficulty": "hard",
+      "reason": "把閃電與指定受擊物件拼成場景，要求猜中額外關係。"
+    },
+    {
+      "id": "n:river-flowing-into-the-sea",
+      "decision": "hold",
+      "previousDifficulty": "hard",
+      "reason": "把河流與大海的空間關係當作完整答案，非自然獨立題名。"
+    },
+    {
+      "id": "n:roots-breaking-a-pavement",
+      "decision": "hold",
+      "previousDifficulty": "hard",
+      "reason": "指定樹根造成路面破裂的因果場景，超出自然名詞或日常動作。"
+    },
+    {
+      "id": "n:bicycle-with-a-basket",
+      "decision": "hold",
+      "previousDifficulty": "medium",
+      "reason": "把單車的附加配件設為必答條件，無須另立題目。"
+    },
+    {
+      "id": "n:car-with-a-roof-rack",
+      "decision": "hold",
+      "previousDifficulty": "medium",
+      "reason": "把汽車的附加配件設為必答條件，無須另立題目。"
+    },
+    {
+      "id": "n:airplane-towing-a-banner",
+      "decision": "hold",
+      "previousDifficulty": "medium",
+      "reason": "指定飛機與橫額的組合場景，並非本輪大路題目的方向。"
+    },
+    {
+      "id": "n:lifting-a-car-with-a-tow-truck",
+      "decision": "hold",
+      "previousDifficulty": "hard",
+      "reason": "把拖車與被吊起汽車拼接，猜到拖車仍須補齊指定場景。"
+    },
+    {
+      "id": "n:post-office",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "n:bridge-opening-for-a-ship",
+      "decision": "hold",
+      "previousDifficulty": "hard",
+      "reason": "要求同時猜中橋的動作及讓船通過的目的，屬拼接句子。"
+    },
+    {
+      "id": "n:human-heart",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "n:seed-sprouting-in-a-jar",
+      "decision": "hold",
+      "previousDifficulty": "medium",
+      "reason": "發芽附加任意容器，要求猜中完整組合。"
+    },
+    {
+      "id": "n:pulley-lifting-a-bucket",
+      "decision": "hold",
+      "previousDifficulty": "hard",
+      "reason": "在滑輪概念上附加指定水桶及吊起關係，沒有必要。"
+    },
+    {
+      "id": "n:castle-moat",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "n:drawbridge",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    },
+    {
+      "id": "n:parade-float",
+      "decision": "standard",
+      "previousDifficulty": "hard",
+      "reason": "自然的物件、職業、運動或日常動作名稱；需要多些線索仍屬標準，不設獨立困難級。"
+    }
+  ]
+}

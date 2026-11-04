@@ -1,0 +1,732 @@
+/* iOS gameplay layout: height-aware, fixed document shape, touch-first controls. */
+body {
+  font-size: 1rem;
+  -webkit-text-size-adjust: 100%;
+}
+button,
+input {
+  font-size: 1rem;
+}
+.btn {
+  font-size: 1.0588rem;
+}
+
+.eyebrow,
+.hint,
+.muted,
+.feature p,
+.play-caption,
+.topic small {
+  font-size: 0.8824rem;
+}
+.word-card strong {
+  font-size: clamp(2rem, 5vw, 2.5882rem);
+  overflow-wrap: anywhere;
+}
+.word-card span {
+  font-size: 1.2941rem;
+}
+.icon-btn,
+.tool,
+.swatch,
+.remove {
+  min-width: 44px;
+  min-height: 44px;
+}
+.judgement-sheet {
+  width: min(520px, calc(100vw - 24px));
+  max-height: 85dvh;
+  overflow-y: auto;
+}
+.judgement-sheet .guesser {
+  min-height: 56px;
+}
+.judgement-sheet .btn {
+  width: 100%;
+  margin-top: 18px;
+}
+.judgement-sheet::backdrop {
+  background: #18213ab3;
+}
+.phase-drawing {
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  padding-top: max(8px, env(safe-area-inset-top));
+  padding-bottom: max(8px, env(safe-area-inset-bottom));
+}
+.phase-drawing header {
+  flex: none;
+  min-height: 44px;
+  margin-bottom: 4px;
+}
+.phase-drawing .play-caption {
+  flex: none;
+  margin-bottom: 6px;
+  gap: 10px;
+}
+.phase-drawing .play-caption span {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.phase-drawing .end-action {
+  display: none;
+}
+.phase-drawing .play-layout {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 200px;
+  gap: 12px;
+}
+.phase-drawing .canvas-panel {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  min-width: 0;
+}
+.phase-drawing .canvas-tools {
+  flex: none;
+  padding: 6px;
+  gap: 6px;
+}
+.phase-drawing .canvas-wrap {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  place-items: center;
+  background: #eaece7;
+  border: 0;
+  border-radius: 18px;
+}
+.phase-drawing canvas {
+  flex: none;
+  background: white;
+  aspect-ratio: auto;
+  border-radius: 4px;
+}
+.phase-drawing .play-sidebar {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  align-self: stretch;
+}
+.phase-drawing .play-sidebar .btn {
+  width: 100%;
+}
+.phase-drawing .timer {
+  margin: 0;
+}
+.phase-drawing .timer > span {
+  display: none;
+}
+.phase-drawing #timer {
+  padding: 0;
+  min-height: 44px;
+  width: 100%;
+}
+.phase-drawing #t-num {
+  font-size: 2.1176rem;
+  font-variant-numeric: tabular-nums;
+}
+.phase-drawing #timer small {
+  font-size: 0.8824rem;
+}
+.phase-drawing .peek {
+  min-height: 44px;
+  margin: 0;
+}
+.phase-drawing .paper-stage {
+  flex: 1;
+  min-height: 0;
+  justify-content: center;
+}
+@media (max-width: 600px) and (orientation: portrait) {
+  .phase-drawing .play-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(0, 1fr) auto;
+    gap: 6px;
+  }
+  .phase-drawing .canvas-tools {
+    justify-content: center;
+  }
+  .phase-drawing .play-sidebar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    padding: 6px;
+  }
+  .phase-drawing .timer {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .phase-drawing .peek {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  .phase-drawing #timer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .phase-drawing #time-progress {
+    display: none;
+  }
+  .phase-drawing #t-num {
+    font-size: 1.7647rem;
+  }
+  .phase-drawing .play-sidebar .btn {
+    padding: 10px 8px;
+    min-height: 52px;
+  }
+}
+.phase-drawing #time-progress {
+  margin: 6px 0 0;
+}
+@media (orientation: landscape) and (max-height: 500px) {
+  .phase-drawing {
+    padding-inline: max(10px, env(safe-area-inset-left))
+      max(10px, env(safe-area-inset-right));
+  }
+  .phase-drawing .play-caption {
+    display: none;
+  }
+  .phase-drawing .play-layout {
+    grid-template-columns: minmax(0, 1fr) 170px;
+    gap: 8px;
+  }
+  .phase-drawing .canvas-tools {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+  }
+  .phase-drawing .swatches,
+  .phase-drawing .tools {
+    flex: none;
+  }
+  .phase-drawing .play-sidebar {
+    gap: 5px;
+    padding: 5px;
+  }
+  .phase-drawing .play-sidebar .btn {
+    min-height: 48px;
+    padding: 8px;
+  }
+  .phase-drawing .play-sidebar #timer small {
+    display: inline;
+    margin-left: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+.artwork-preview {
+  display: block;
+  width: min(100%, 300px);
+  max-height: 260px;
+  margin: 12px auto;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.recap-row .artwork-preview {
+  width: 120px;
+  max-height: 120px;
+  margin: 8px 0;
+}
+.intro-panel {
+  max-width: 650px;
+  margin: 24px auto;
+}
+.intro-panel h1 {
+  font-size: 1.8824rem;
+}
+.intro-steps {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 22px;
+}
+.intro-steps li {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+.intro-steps .pack-icon {
+  width: 48px;
+  height: 48px;
+  flex: none;
+}
+.intro-steps h2 {
+  font-size: 1.1765rem;
+  margin-bottom: 6px;
+}
+.intro-steps p {
+  font-size: 1rem;
+  margin: 0;
+}
+.intro-panel > .btn {
+  width: 100%;
+}
+/* No hidden critical tools in short landscape: all five actions remain visible. */
+.phase-drawing .canvas-tools.compact-tools {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  overflow: visible;
+  gap: 6px;
+}
+.compact-tools > button {
+  flex: none;
+}
+.compact-tools .palette-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 8px;
+  width: auto;
+}
+.brush-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.palette-sheet {
+  width: min(480px, calc(100vw - 24px));
+  max-height: 85dvh;
+  overflow-y: auto;
+}
+.palette-sheet .canvas-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 0;
+  padding: 8px 0 20px;
+}
+.palette-sheet .swatches,
+.palette-sheet .tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+.palette-sheet > .btn {
+  width: 100%;
+}
+.palette-sheet::backdrop {
+  background: #18213ab3;
+}
+@media (max-width: 360px) {
+  .compact-tools {
+    gap: 3px !important;
+  }
+  .compact-tools > .tool {
+    font-size: 0.8824rem;
+  }
+}
+.ui-glyph {
+  display: block;
+  width: 24px;
+  height: 24px;
+  flex: none;
+  pointer-events: none;
+}
+.choice-icon .ui-glyph {
+  width: 32px;
+  height: 32px;
+}
+.topic > span .pack-icon {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+.compact-tools .palette-button {
+  width: 44px;
+  justify-content: center;
+  padding: 0;
+}
+.compact-tools .brush-dot {
+  width: 24px;
+  height: 24px;
+  outline: 2px solid #fff;
+  box-shadow: 0 0 0 3px #24345033;
+}
+
+/* iOS Dynamic Type bridge scales rem typography. Larger categories reflow instead of clipping. */
+:root {
+  font-size: calc(17px * var(--text-scale, 1));
+}
+:root.large-text .phase-drawing {
+  height: auto;
+  min-height: 100dvh;
+}
+:root.large-text .phase-drawing .canvas-wrap {
+  min-height: 260px;
+}
+:root.large-text .phase-drawing .play-layout {
+  grid-template-columns: 1fr;
+}
+:root.large-text .phase-drawing .play-sidebar {
+  display: flex;
+}
+:root.large-text .phase-drawing .canvas-tools.compact-tools {
+  flex-wrap: wrap;
+}
+:root.large-text .phase-drawing .canvas-panel {
+  min-height: 340px;
+}
+:root.large-text .phase-drawing header {
+  flex-wrap: wrap;
+}
+:root.large-text .phase-drawing .play-caption {
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "PingFang HK", "Segoe UI", sans-serif;
+}
+h1,
+h2,
+.header-title,
+#t-num {
+  font-family:
+    ui-rounded,
+    -apple-system,
+    "PingFang HK",
+    sans-serif;
+}
+/* Long imported names and custom prompts wrap without hiding their content. */
+h1,
+h2,
+p,
+.header-title,
+.summary-grid strong,
+.ready-roster > span {
+  overflow-wrap: anywhere;
+}
+.ready-roster > span {
+  max-width: 100%;
+  min-width: 0;
+}
+.stage,
+.word-card,
+.hero-copy {
+  min-width: 0;
+}
+:root.large-text .home-grid {
+  grid-template-columns: 1fr;
+}
+:root.large-text header {
+  flex-wrap: wrap;
+}
+:root.large-text .doodle {
+  display: none;
+}
+
+/* Party UI polish: one primary action, quiet support, consistent paper framing. */
+.session-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 20px 0;
+}
+.session-preview span {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 0.8824rem;
+  font-weight: 650;
+}
+.start-hint {
+  color: var(--muted);
+  font-size: 0.8824rem;
+  max-width: 38ch;
+  margin-top: 12px;
+}
+
+.stage {
+  max-width: 720px;
+  margin-inline: auto;
+}
+.handoff-stage,
+.reveal-stage {
+  padding-block: clamp(24px, 5vh, 56px);
+}
+.handoff-stage > .primary,
+.reveal-stage > .primary {
+  display: block;
+  width: min(100%, 360px);
+  margin: 24px auto 12px;
+}
+.handoff-stage h1 {
+  color: var(--ink);
+}
+.reveal-stage .word-card {
+  border-radius: 22px;
+  padding: 24px 16px;
+  margin: 24px auto;
+}
+.score-gain {
+  display: table;
+  margin: 18px auto;
+  border-radius: 18px;
+  padding: 12px 20px;
+  font-weight: 750;
+  background: #e6f3ee;
+  color: #245e4d;
+}
+.result-timeout .score-gain,
+.result-giveup .score-gain {
+  background: #f1f2f4;
+  color: var(--ink);
+}
+.next-drawer {
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+.score-details {
+  margin-top: 16px;
+}
+.score-details summary {
+  min-height: 44px;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.replay-actions {
+  text-align: center;
+  padding: 24px 0;
+}
+.replay-actions > .primary {
+  width: min(100%, 360px);
+}
+.replay-actions p {
+  color: var(--muted);
+  font-size: 0.8824rem;
+  margin: 12px 0 0;
+}
+button {
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    transform 100ms ease,
+    filter 100ms ease;
+}
+button:active:not(:disabled) {
+  transform: translateY(2px) scale(0.98);
+}
+.time-low #t-num {
+  color: #b34232;
+}
+.time-low #timer {
+  border-bottom: 3px solid #b34232;
+}
+/* ── Refinement batch 2 (2026-10-13): glyph consistency, drawing fit, palette grid, title screen. ── */
+/* Original SVG glyphs replace typographic symbols for state, result and topic cues. */
+.ready-icon .ui-glyph {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 8px;
+  color: var(--coral);
+}
+.result-timeout .ready-icon .ui-glyph {
+  color: var(--muted);
+}
+.result-giveup .ready-icon .ui-glyph {
+  color: var(--green);
+}
+.result-emblem {
+  display: grid;
+  place-items: center;
+  width: 88px;
+  height: 88px;
+  margin: 0 auto 12px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--line);
+}
+.result-correct .result-emblem {
+  background: #e6f3ee;
+  border-color: #b9dccd;
+  color: var(--green);
+}
+.result-correct .result-emblem .ui-glyph {
+  color: var(--green);
+  stroke-width: 2.6;
+}
+.topic > span .ui-glyph {
+  width: 36px;
+  height: 36px;
+  color: var(--coral);
+}
+.pause-cover > span .ui-glyph,
+.paper-stage > span .ui-glyph,
+.cooperation > span .ui-glyph {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 6px;
+}
+.paper-stage > span .ui-glyph {
+  width: 72px;
+  height: 72px;
+  color: var(--green);
+}
+.cooperation > span .ui-glyph {
+  color: var(--coral);
+}
+.recap-mark .ui-glyph {
+  width: 22px;
+  height: 22px;
+}
+.recap-mark.correct {
+  color: var(--green);
+}
+.recap-mark.timeout,
+.recap-mark.giveup {
+  color: var(--muted);
+}
+.team-chip {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.8824rem;
+  font-weight: 750;
+}
+.team-chip.team-0 {
+  background: #ffe5de;
+  color: #9a4435;
+}
+.team-chip.team-1 {
+  background: #dfeeff;
+  color: #35649b;
+}
+
+/* Tool palette: colours in one row, brush sizes with the eraser; undo/redo/clear stay on the canvas bar. */
+.palette-sheet .swatches {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 6px;
+}
+.palette-sheet .swatch {
+  width: auto;
+  min-width: 44px;
+  height: 52px;
+}
+.palette-sheet .swatch::before {
+  width: 28px;
+  height: 28px;
+}
+.palette-sheet .tools {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+}
+.palette-sheet .tool {
+  width: 100%;
+  min-height: 52px;
+}
+
+/* Portrait phones: the square document sets its own height so no idle letterbox bands remain,
+   and the freed space enlarges the clock and the one decisive action. */
+@media (max-width: 600px) and (orientation: portrait) {
+  .phase-drawing .play-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .phase-drawing .canvas-panel {
+    flex: 0 1 auto;
+  }
+  .phase-drawing .canvas-wrap {
+    flex: 0 1 auto;
+    width: 100%;
+    aspect-ratio: var(--doc-ratio, 1);
+    max-height: 100%;
+    background: #fff;
+    border-radius: 0 0 18px 18px;
+  }
+  .phase-drawing .play-sidebar {
+    flex: 1 1 auto;
+    min-height: 0;
+    align-content: center;
+    gap: 8px;
+    padding: 8px;
+  }
+  .phase-drawing #t-num {
+    font-size: 2.3529rem;
+  }
+  .phase-drawing .play-sidebar .btn.primary {
+    min-height: 64px;
+    font-size: 1.1765rem;
+  }
+  .phase-drawing .play-sidebar .btn.text {
+    min-height: 48px;
+  }
+  /* The remaining-time bar spans the rail so the whole table can read the clock at a glance. */
+  .phase-drawing #time-progress {
+    display: block;
+    grid-column: 1 / -1;
+    margin: 0;
+    height: 8px;
+  }
+  .phase-drawing .time-low ~ #time-progress::-webkit-progress-value {
+    background: #b34232;
+  }
+  .phase-drawing .play-sidebar .peek {
+    min-height: 52px;
+  }
+}
+/* Wide tablets: the side rail grows with the screen so the clock and claim button stay table-readable. */
+@media (min-width: 900px) and (orientation: landscape) {
+  .phase-drawing .play-layout {
+    grid-template-columns: minmax(0, 1fr) clamp(200px, 24vw, 300px);
+  }
+  .phase-drawing .play-sidebar {
+    padding: 14px;
+    gap: 14px;
+  }
+  .phase-drawing #t-num {
+    font-size: 2.8235rem;
+  }
+  .phase-drawing .play-sidebar .btn.primary {
+    min-height: 60px;
+    font-size: 1.1176rem;
+  }
+}
+:root.large-text .phase-drawing .canvas-wrap {
+  aspect-ratio: auto;
+}
+
+/* Native touch polish: no text selection or callout bubbles on game controls, no rubber-band scroll in play. */
+button,
+.btn,
+.icon-btn,
+.tool,
+.swatch,
+.choice,
+.option,
+.topic,
+.guesser {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+.shell.playing {
+  -webkit-user-select: none;
+  user-select: none;
+}
+html,
+body {
+  overscroll-behavior-y: none;
+}

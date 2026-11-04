@@ -1,0 +1,11 @@
+[
+  {
+    "file": "assets/scenes/drawing-club-v1.png",
+    "sha256": "fb2af2f4e497c24a0a7436ff392daf869d7d313dabcdaf396dae9079241e2e20",
+    "bytes": 1705263,
+    "width": 1024,
+    "height": 1536,
+    "source": "built-in image_gen",
+    "role": "opaque full-screen drawing clubhouse backdrop"
+  }
+]

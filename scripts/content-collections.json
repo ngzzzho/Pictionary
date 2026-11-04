@@ -1,0 +1,46 @@
+{
+  "transport": {
+    "en": "Things that go",
+    "zh": "交通工具",
+    "wordIds": [
+      "w:things:car",
+      "w:things:bus",
+      "w:things:taxi",
+      "w:things:train",
+      "w:things:airplane",
+      "w:things:boat",
+      "w:things:bicycle",
+      "w:things:tram",
+      "w:things:helicopter",
+      "w:things:ferry",
+      "w:things:motorcycle",
+      "w:things:fire-truck",
+      "w:things:police-car",
+      "w:things:ambulance",
+      "w:things:truck",
+      "w:things:digger",
+      "w:things:crane",
+      "w:hongkong:minibus",
+      "w:hongkong:double-decker-bus",
+      "w:hongkong:cable-car"
+    ]
+  },
+  "space": {
+    "en": "Space explorers",
+    "zh": "太空探險",
+    "wordIds": [
+      "w:occupations:astronaut",
+      "w:things:rocket",
+      "w:nature:sun",
+      "w:nature:moon",
+      "w:nature:star",
+      "w:nature:shooting-star",
+      "w:nature:planet",
+      "w:nature:earth",
+      "w:nature:saturn",
+      "w:nature:alien",
+      "w:nature:ufo",
+      "w:things:telescope"
+    ]
+  }
+}

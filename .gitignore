@@ -1,3 +1,17 @@
 .DS_Store
 Thumbs.db
 node_modules/
+dist/
+.DerivedData/
+ios/App/App/public/
+ios/App/CapApp-SPM/.build/
+
+# Purchased Layer Store binaries remain local; re-import from licensed archive.
+assets/layerlab/
+
+# Generated from licensed Unity metadata by local import.
+css/layerlab-slices.css
+
+# Local Python importer caches are not source assets.
+__pycache__/
+*.py[cod]

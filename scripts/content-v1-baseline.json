@@ -1,0 +1,5939 @@
+{
+  "topics": {
+    "animals": {
+      "en": "Animals",
+      "zh": "動物",
+      "emoji": "🐾"
+    },
+    "occupations": {
+      "en": "Occupations",
+      "zh": "職業",
+      "emoji": "💼"
+    },
+    "sports": {
+      "en": "Sports",
+      "zh": "運動",
+      "emoji": "⚽"
+    },
+    "food": {
+      "en": "Food",
+      "zh": "食物",
+      "emoji": "🍕"
+    },
+    "things": {
+      "en": "Everyday Things",
+      "zh": "日常物品",
+      "emoji": "🏠"
+    },
+    "hongkong": {
+      "en": "Hong Kong",
+      "zh": "香港",
+      "emoji": "🇭🇰"
+    },
+    "cartoons": {
+      "en": "Cartoons",
+      "zh": "卡通",
+      "emoji": "📺"
+    },
+    "actions": {
+      "en": "Actions",
+      "zh": "動作",
+      "emoji": "🏃"
+    },
+    "nature": {
+      "en": "Nature",
+      "zh": "大自然",
+      "emoji": "🌈"
+    },
+    "festivals": {
+      "en": "Festivals",
+      "zh": "節日",
+      "emoji": "🎉"
+    },
+    "fairytales": {
+      "en": "Fairy Tales",
+      "zh": "童話",
+      "emoji": "🧚"
+    }
+  },
+  "collections": {
+    "transport": {
+      "en": "Things that go",
+      "zh": "交通工具",
+      "wordIds": [
+        "w:things:car",
+        "w:things:bus",
+        "w:things:taxi",
+        "w:things:train",
+        "w:things:airplane",
+        "w:things:boat",
+        "w:things:bicycle",
+        "w:things:tram",
+        "w:things:helicopter",
+        "w:things:ferry",
+        "w:things:motorcycle",
+        "w:things:fire-truck",
+        "w:things:police-car",
+        "w:things:ambulance",
+        "w:things:truck",
+        "w:things:digger",
+        "w:things:crane",
+        "w:hongkong:minibus",
+        "w:hongkong:double-decker-bus",
+        "w:hongkong:cable-car"
+      ]
+    },
+    "space": {
+      "en": "Space explorers",
+      "zh": "太空探險",
+      "wordIds": [
+        "w:occupations:astronaut",
+        "w:things:rocket",
+        "w:nature:sun",
+        "w:nature:moon",
+        "w:nature:star",
+        "w:nature:shooting-star",
+        "w:nature:planet",
+        "w:nature:earth",
+        "w:nature:saturn",
+        "w:nature:alien",
+        "w:nature:ufo",
+        "w:things:telescope"
+      ]
+    }
+  },
+  "words": [
+    {
+      "id": "w:animals:dog",
+      "en": "dog",
+      "zh": "狗",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:cat",
+      "en": "cat",
+      "zh": "貓",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:rabbit",
+      "en": "rabbit",
+      "zh": "兔仔",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:hamster",
+      "en": "hamster",
+      "zh": "倉鼠",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:mouse",
+      "en": "mouse",
+      "zh": "老鼠",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:squirrel",
+      "en": "squirrel",
+      "zh": "松鼠",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:hedgehog",
+      "en": "hedgehog",
+      "zh": "刺蝟",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:fox",
+      "en": "fox",
+      "zh": "狐狸",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:wolf",
+      "en": "wolf",
+      "zh": "狼",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:bear",
+      "en": "bear",
+      "zh": "熊",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:polar-bear",
+      "en": "polar bear",
+      "zh": "北極熊",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:panda",
+      "en": "panda",
+      "zh": "熊貓",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:koala",
+      "en": "koala",
+      "zh": "樹熊",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:kangaroo",
+      "en": "kangaroo",
+      "zh": "袋鼠",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:monkey",
+      "en": "monkey",
+      "zh": "馬騮",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:gorilla",
+      "en": "gorilla",
+      "zh": "大猩猩",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:sloth",
+      "en": "sloth",
+      "zh": "樹懶",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:elephant",
+      "en": "elephant",
+      "zh": "大象",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:giraffe",
+      "en": "giraffe",
+      "zh": "長頸鹿",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:zebra",
+      "en": "zebra",
+      "zh": "斑馬",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:lion",
+      "en": "lion",
+      "zh": "獅子",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:tiger",
+      "en": "tiger",
+      "zh": "老虎",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:leopard",
+      "en": "leopard",
+      "zh": "豹",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:cheetah",
+      "en": "cheetah",
+      "zh": "獵豹",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:rhino",
+      "en": "rhino",
+      "zh": "犀牛",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:hippo",
+      "en": "hippo",
+      "zh": "河馬",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:camel",
+      "en": "camel",
+      "zh": "駱駝",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:deer",
+      "en": "deer",
+      "zh": "鹿",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:horse",
+      "en": "horse",
+      "zh": "馬",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:donkey",
+      "en": "donkey",
+      "zh": "驢仔",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:cow",
+      "en": "cow",
+      "zh": "牛",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:sheep",
+      "en": "sheep",
+      "zh": "綿羊",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:goat",
+      "en": "goat",
+      "zh": "山羊",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:pig",
+      "en": "pig",
+      "zh": "豬",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:chicken",
+      "en": "chicken",
+      "zh": "雞",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:rooster",
+      "en": "rooster",
+      "zh": "公雞",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:duck",
+      "en": "duck",
+      "zh": "鴨",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:goose",
+      "en": "goose",
+      "zh": "鵝",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:turkey",
+      "en": "turkey",
+      "zh": "火雞",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:owl",
+      "en": "owl",
+      "zh": "貓頭鷹",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:eagle",
+      "en": "eagle",
+      "zh": "老鷹",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:parrot",
+      "en": "parrot",
+      "zh": "鸚鵡",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:penguin",
+      "en": "penguin",
+      "zh": "企鵝",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:flamingo",
+      "en": "flamingo",
+      "zh": "紅鶴",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:ostrich",
+      "en": "ostrich",
+      "zh": "鴕鳥",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:peacock",
+      "en": "peacock",
+      "zh": "孔雀",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:swan",
+      "en": "swan",
+      "zh": "天鵝",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:bat",
+      "en": "bat",
+      "zh": "蝙蝠",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:snake",
+      "en": "snake",
+      "zh": "蛇",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:lizard",
+      "en": "lizard",
+      "zh": "蜥蜴",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:crocodile",
+      "en": "crocodile",
+      "zh": "鱷魚",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:turtle",
+      "en": "turtle",
+      "zh": "烏龜",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:frog",
+      "en": "frog",
+      "zh": "青蛙",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:dinosaur",
+      "en": "dinosaur",
+      "zh": "恐龍",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:dragon",
+      "en": "dragon",
+      "zh": "龍",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:unicorn",
+      "en": "unicorn",
+      "zh": "獨角獸",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:shark",
+      "en": "shark",
+      "zh": "鯊魚",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:whale",
+      "en": "whale",
+      "zh": "鯨魚",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:dolphin",
+      "en": "dolphin",
+      "zh": "海豚",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:seal",
+      "en": "seal",
+      "zh": "海豹",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:walrus",
+      "en": "walrus",
+      "zh": "海象",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:octopus",
+      "en": "octopus",
+      "zh": "八爪魚",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:jellyfish",
+      "en": "jellyfish",
+      "zh": "水母",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:crab",
+      "en": "crab",
+      "zh": "蟹",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:lobster",
+      "en": "lobster",
+      "zh": "龍蝦",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:seahorse",
+      "en": "seahorse",
+      "zh": "海馬",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:starfish",
+      "en": "starfish",
+      "zh": "海星",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:goldfish",
+      "en": "goldfish",
+      "zh": "金魚",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:snail",
+      "en": "snail",
+      "zh": "蝸牛",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:butterfly",
+      "en": "butterfly",
+      "zh": "蝴蝶",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:caterpillar",
+      "en": "caterpillar",
+      "zh": "毛毛蟲",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:bee",
+      "en": "bee",
+      "zh": "蜜蜂",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:ant",
+      "en": "ant",
+      "zh": "螞蟻",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:spider",
+      "en": "spider",
+      "zh": "蜘蛛",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:ladybug",
+      "en": "ladybug",
+      "zh": "瓢蟲",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:mosquito",
+      "en": "mosquito",
+      "zh": "蚊",
+      "topic": "animals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:worm",
+      "en": "worm",
+      "zh": "蚯蚓",
+      "topic": "animals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:doctor",
+      "en": "doctor",
+      "zh": "醫生",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:nurse",
+      "en": "nurse",
+      "zh": "護士",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:dentist",
+      "en": "dentist",
+      "zh": "牙醫",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:surgeon",
+      "en": "surgeon",
+      "zh": "外科醫生",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:veterinarian",
+      "en": "veterinarian",
+      "zh": "獸醫",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:teacher",
+      "en": "teacher",
+      "zh": "老師",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:scientist",
+      "en": "scientist",
+      "zh": "科學家",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:astronaut",
+      "en": "astronaut",
+      "zh": "太空人",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:pilot",
+      "en": "pilot",
+      "zh": "機師",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:flight-attendant",
+      "en": "flight attendant",
+      "zh": "空中服務員",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:sailor",
+      "en": "sailor",
+      "zh": "水手",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:ship-captain",
+      "en": "ship captain",
+      "zh": "船長",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:soldier",
+      "en": "soldier",
+      "zh": "軍人",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:firefighter",
+      "en": "firefighter",
+      "zh": "消防員",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:police-officer",
+      "en": "police officer",
+      "zh": "警察",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:detective",
+      "en": "detective",
+      "zh": "偵探",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:spy",
+      "en": "spy",
+      "zh": "間諜",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:judge",
+      "en": "judge",
+      "zh": "法官",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:chef",
+      "en": "chef",
+      "zh": "廚師",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:baker",
+      "en": "baker",
+      "zh": "麵包師傅",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:butcher",
+      "en": "butcher",
+      "zh": "肉販",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:waiter",
+      "en": "waiter",
+      "zh": "侍應",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:farmer",
+      "en": "farmer",
+      "zh": "農夫",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:fisherman",
+      "en": "fisherman",
+      "zh": "漁夫",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:gardener",
+      "en": "gardener",
+      "zh": "園丁",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:florist",
+      "en": "florist",
+      "zh": "花藝師",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:carpenter",
+      "en": "carpenter",
+      "zh": "木匠",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:plumber",
+      "en": "plumber",
+      "zh": "水喉匠",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:electrician",
+      "en": "electrician",
+      "zh": "電工",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:mechanic",
+      "en": "mechanic",
+      "zh": "修車師傅",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:construction-worker",
+      "en": "construction worker",
+      "zh": "地盤工人",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:miner",
+      "en": "miner",
+      "zh": "礦工",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:blacksmith",
+      "en": "blacksmith",
+      "zh": "鐵匠",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:beekeeper",
+      "en": "beekeeper",
+      "zh": "養蜂人",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:painter",
+      "en": "painter",
+      "zh": "畫家",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:photographer",
+      "en": "photographer",
+      "zh": "攝影師",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:writer",
+      "en": "writer",
+      "zh": "作家",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:actor",
+      "en": "actor",
+      "zh": "演員",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:singer",
+      "en": "singer",
+      "zh": "歌手",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:dancer",
+      "en": "dancer",
+      "zh": "舞蹈員",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:ballerina",
+      "en": "ballerina",
+      "zh": "芭蕾舞者",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:musician",
+      "en": "musician",
+      "zh": "音樂家",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:dj",
+      "en": "DJ",
+      "zh": "唱片騎師",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:magician",
+      "en": "magician",
+      "zh": "魔術師",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:clown",
+      "en": "clown",
+      "zh": "小丑",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:acrobat",
+      "en": "acrobat",
+      "zh": "雜技演員",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:referee",
+      "en": "referee",
+      "zh": "球證",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:coach",
+      "en": "coach",
+      "zh": "教練",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:lifeguard",
+      "en": "lifeguard",
+      "zh": "救生員",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:taxi-driver",
+      "en": "taxi driver",
+      "zh": "的士司機",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:bus-driver",
+      "en": "bus driver",
+      "zh": "巴士司機",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:train-driver",
+      "en": "train driver",
+      "zh": "火車司機",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:delivery-rider",
+      "en": "delivery rider",
+      "zh": "外賣車手",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:mail-carrier",
+      "en": "mail carrier",
+      "zh": "郵差",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:librarian",
+      "en": "librarian",
+      "zh": "圖書館管理員",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:hairdresser",
+      "en": "hairdresser",
+      "zh": "髮型師",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:barber",
+      "en": "barber",
+      "zh": "理髮師",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:cashier",
+      "en": "cashier",
+      "zh": "收銀員",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:zookeeper",
+      "en": "zookeeper",
+      "zh": "動物園管理員",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:security-guard",
+      "en": "security guard",
+      "zh": "保安員",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:cleaner",
+      "en": "cleaner",
+      "zh": "清潔工人",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:programmer",
+      "en": "programmer",
+      "zh": "程式員",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:youtuber",
+      "en": "youtuber",
+      "zh": "網絡創作者",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:occupations:pirate",
+      "en": "pirate",
+      "zh": "海盜",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:ninja",
+      "en": "ninja",
+      "zh": "忍者",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:cowboy",
+      "en": "cowboy",
+      "zh": "牛仔",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:knight",
+      "en": "knight",
+      "zh": "騎士",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:superhero",
+      "en": "superhero",
+      "zh": "超級英雄",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:wizard",
+      "en": "wizard",
+      "zh": "魔法師",
+      "topic": "occupations",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:soccer",
+      "en": "soccer",
+      "zh": "足球",
+      "topic": "sports",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:basketball",
+      "en": "basketball",
+      "zh": "籃球",
+      "topic": "sports",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:baseball",
+      "en": "baseball",
+      "zh": "棒球",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:tennis",
+      "en": "tennis",
+      "zh": "網球",
+      "topic": "sports",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:table-tennis",
+      "en": "table tennis",
+      "zh": "乒乓球",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:badminton",
+      "en": "badminton",
+      "zh": "羽毛球",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:volleyball",
+      "en": "volleyball",
+      "zh": "排球",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:dodgeball",
+      "en": "dodgeball",
+      "zh": "閃避球",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:golf",
+      "en": "golf",
+      "zh": "高爾夫球",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:bowling",
+      "en": "bowling",
+      "zh": "保齡球",
+      "topic": "sports",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:billiards",
+      "en": "billiards",
+      "zh": "桌球",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:darts",
+      "en": "darts",
+      "zh": "飛鏢",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:archery",
+      "en": "archery",
+      "zh": "射箭",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:fencing",
+      "en": "fencing",
+      "zh": "劍擊",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:boxing",
+      "en": "boxing",
+      "zh": "拳擊",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:karate",
+      "en": "karate",
+      "zh": "空手道",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:judo",
+      "en": "judo",
+      "zh": "柔道",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:taekwondo",
+      "en": "taekwondo",
+      "zh": "跆拳道",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:kung-fu",
+      "en": "kung fu",
+      "zh": "功夫",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:wrestling",
+      "en": "wrestling",
+      "zh": "摔角",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:sumo-wrestling",
+      "en": "sumo wrestling",
+      "zh": "相撲",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:weightlifting",
+      "en": "weightlifting",
+      "zh": "舉重",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:gymnastics",
+      "en": "gymnastics",
+      "zh": "體操",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:trampoline",
+      "en": "trampoline",
+      "zh": "彈床",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:yoga",
+      "en": "yoga",
+      "zh": "瑜伽",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:running",
+      "en": "running",
+      "zh": "跑步",
+      "topic": "sports",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:hurdles",
+      "en": "hurdles",
+      "zh": "跨欄",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:high-jump",
+      "en": "high jump",
+      "zh": "跳高",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:long-jump",
+      "en": "long jump",
+      "zh": "跳遠",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:cycling",
+      "en": "cycling",
+      "zh": "踩單車",
+      "topic": "sports",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:skateboarding",
+      "en": "skateboarding",
+      "zh": "踩滑板",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:roller-skating",
+      "en": "roller skating",
+      "zh": "滾軸溜冰",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:surfing",
+      "en": "surfing",
+      "zh": "滑浪",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:swimming",
+      "en": "swimming",
+      "zh": "游水",
+      "topic": "sports",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:diving",
+      "en": "diving",
+      "zh": "跳水",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:sailing",
+      "en": "sailing",
+      "zh": "帆船",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:rowing",
+      "en": "rowing",
+      "zh": "划艇",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:kayaking",
+      "en": "kayaking",
+      "zh": "獨木舟",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:fishing",
+      "en": "fishing",
+      "zh": "釣魚",
+      "topic": "sports",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:ice-skating",
+      "en": "ice skating",
+      "zh": "溜冰",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:figure-skating",
+      "en": "figure skating",
+      "zh": "花式溜冰",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:ice-hockey",
+      "en": "ice hockey",
+      "zh": "冰上曲棍球",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:skiing",
+      "en": "skiing",
+      "zh": "滑雪",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:snowboarding",
+      "en": "snowboarding",
+      "zh": "滑雪板",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:sledding",
+      "en": "sledding",
+      "zh": "玩雪橇",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:rock-climbing",
+      "en": "rock climbing",
+      "zh": "攀石",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:hiking",
+      "en": "hiking",
+      "zh": "行山",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:horse-riding",
+      "en": "horse riding",
+      "zh": "騎馬",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:frisbee",
+      "en": "frisbee",
+      "zh": "飛盤",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:tug-of-war",
+      "en": "tug of war",
+      "zh": "拔河",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:jump-rope",
+      "en": "jump rope",
+      "zh": "跳繩",
+      "topic": "sports",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:hula-hoop",
+      "en": "hula hoop",
+      "zh": "呼啦圈",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:chess",
+      "en": "chess",
+      "zh": "國際象棋",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:parkour",
+      "en": "parkour",
+      "zh": "跑酷",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:scuba-diving",
+      "en": "scuba diving",
+      "zh": "潛水",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:bungee-jumping",
+      "en": "bungee jumping",
+      "zh": "笨豬跳",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:car-racing",
+      "en": "car racing",
+      "zh": "賽車",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:hide-and-seek",
+      "en": "hide and seek",
+      "zh": "捉迷藏",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:hopscotch",
+      "en": "hopscotch",
+      "zh": "跳飛機",
+      "topic": "sports",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:pizza",
+      "en": "pizza",
+      "zh": "薄餅",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:hamburger",
+      "en": "hamburger",
+      "zh": "漢堡包",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:hot-dog",
+      "en": "hot dog",
+      "zh": "熱狗",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:french-fries",
+      "en": "french fries",
+      "zh": "薯條",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:fried-chicken",
+      "en": "fried chicken",
+      "zh": "炸雞",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:sandwich",
+      "en": "sandwich",
+      "zh": "三文治",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:toast",
+      "en": "toast",
+      "zh": "多士",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:fried-egg",
+      "en": "fried egg",
+      "zh": "煎蛋",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:bacon",
+      "en": "bacon",
+      "zh": "煙肉",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:sausage",
+      "en": "sausage",
+      "zh": "腸仔",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:noodles",
+      "en": "noodles",
+      "zh": "麵",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:spaghetti",
+      "en": "spaghetti",
+      "zh": "意粉",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:dumpling",
+      "en": "dumpling",
+      "zh": "餃子",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:sushi",
+      "en": "sushi",
+      "zh": "壽司",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:fried-rice",
+      "en": "fried rice",
+      "zh": "炒飯",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:dim-sum",
+      "en": "dim sum",
+      "zh": "點心",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:steamed-bun",
+      "en": "steamed bun",
+      "zh": "包仔",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:spring-roll",
+      "en": "spring roll",
+      "zh": "春卷",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:egg-tart",
+      "en": "egg tart",
+      "zh": "蛋撻",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:pineapple-bun",
+      "en": "pineapple bun",
+      "zh": "菠蘿包",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:mooncake",
+      "en": "mooncake",
+      "zh": "月餅",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:hot-pot",
+      "en": "hot pot",
+      "zh": "打邊爐",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:tofu",
+      "en": "tofu",
+      "zh": "豆腐",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:instant-noodles",
+      "en": "instant noodles",
+      "zh": "即食麵",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:seaweed",
+      "en": "seaweed",
+      "zh": "紫菜",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:pancake",
+      "en": "pancake",
+      "zh": "班戟",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:waffle",
+      "en": "waffle",
+      "zh": "窩夫",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:donut",
+      "en": "donut",
+      "zh": "冬甩",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:cookie",
+      "en": "cookie",
+      "zh": "曲奇",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:birthday-cake",
+      "en": "birthday cake",
+      "zh": "生日蛋糕",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:cupcake",
+      "en": "cupcake",
+      "zh": "紙杯蛋糕",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:chocolate",
+      "en": "chocolate",
+      "zh": "朱古力",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:candy",
+      "en": "candy",
+      "zh": "糖果",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:lollipop",
+      "en": "lollipop",
+      "zh": "波板糖",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:ice-cream",
+      "en": "ice cream",
+      "zh": "雪糕",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:popsicle",
+      "en": "popsicle",
+      "zh": "雪條",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:jelly",
+      "en": "jelly",
+      "zh": "啫喱",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:pudding",
+      "en": "pudding",
+      "zh": "布甸",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:popcorn",
+      "en": "popcorn",
+      "zh": "爆谷",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:potato-chips",
+      "en": "potato chips",
+      "zh": "薯片",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:marshmallow",
+      "en": "marshmallow",
+      "zh": "棉花糖",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:gummy-bear",
+      "en": "gummy bear",
+      "zh": "熊仔糖",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:chewing-gum",
+      "en": "chewing gum",
+      "zh": "香口膠",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:cereal",
+      "en": "cereal",
+      "zh": "早餐穀物",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:jam",
+      "en": "jam",
+      "zh": "果醬",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:peanut-butter",
+      "en": "peanut butter",
+      "zh": "花生醬",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:honey",
+      "en": "honey",
+      "zh": "蜜糖",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:cheese",
+      "en": "cheese",
+      "zh": "芝士",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:bread",
+      "en": "bread",
+      "zh": "麵包",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:apple",
+      "en": "apple",
+      "zh": "蘋果",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:banana",
+      "en": "banana",
+      "zh": "香蕉",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:orange",
+      "en": "orange",
+      "zh": "橙",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:grapes",
+      "en": "grapes",
+      "zh": "提子",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:watermelon",
+      "en": "watermelon",
+      "zh": "西瓜",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:strawberry",
+      "en": "strawberry",
+      "zh": "士多啤梨",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:cherry",
+      "en": "cherry",
+      "zh": "車厘子",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:mango",
+      "en": "mango",
+      "zh": "芒果",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:pineapple",
+      "en": "pineapple",
+      "zh": "菠蘿",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:peach",
+      "en": "peach",
+      "zh": "桃",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:pear",
+      "en": "pear",
+      "zh": "梨",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:lemon",
+      "en": "lemon",
+      "zh": "檸檬",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:coconut",
+      "en": "coconut",
+      "zh": "椰子",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:durian",
+      "en": "durian",
+      "zh": "榴槤",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:tomato",
+      "en": "tomato",
+      "zh": "番茄",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:potato",
+      "en": "potato",
+      "zh": "薯仔",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:carrot",
+      "en": "carrot",
+      "zh": "紅蘿蔔",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:corn",
+      "en": "corn",
+      "zh": "粟米",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:broccoli",
+      "en": "broccoli",
+      "zh": "西蘭花",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:mushroom",
+      "en": "mushroom",
+      "zh": "蘑菇",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:pumpkin",
+      "en": "pumpkin",
+      "zh": "南瓜",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:milk",
+      "en": "milk",
+      "zh": "牛奶",
+      "topic": "food",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:juice",
+      "en": "juice",
+      "zh": "果汁",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:soda",
+      "en": "soda",
+      "zh": "汽水",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:bubble-tea",
+      "en": "bubble tea",
+      "zh": "珍珠奶茶",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:milkshake",
+      "en": "milkshake",
+      "zh": "奶昔",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:coffee",
+      "en": "coffee",
+      "zh": "咖啡",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:tea",
+      "en": "tea",
+      "zh": "茶",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:ketchup",
+      "en": "ketchup",
+      "zh": "茄汁",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:steak",
+      "en": "steak",
+      "zh": "牛扒",
+      "topic": "food",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:chair",
+      "en": "chair",
+      "zh": "櫈",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:table",
+      "en": "table",
+      "zh": "檯",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:bed",
+      "en": "bed",
+      "zh": "床",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:pillow",
+      "en": "pillow",
+      "zh": "枕頭",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:blanket",
+      "en": "blanket",
+      "zh": "毛氈",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:sofa",
+      "en": "sofa",
+      "zh": "梳化",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:lamp",
+      "en": "lamp",
+      "zh": "燈",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:clock",
+      "en": "clock",
+      "zh": "時鐘",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:mirror",
+      "en": "mirror",
+      "zh": "鏡",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:window",
+      "en": "window",
+      "zh": "窗",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:door",
+      "en": "door",
+      "zh": "門",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:key",
+      "en": "key",
+      "zh": "鎖匙",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:umbrella",
+      "en": "umbrella",
+      "zh": "雨遮",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:backpack",
+      "en": "backpack",
+      "zh": "背囊",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:book",
+      "en": "book",
+      "zh": "書",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:pencil",
+      "en": "pencil",
+      "zh": "鉛筆",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:eraser",
+      "en": "eraser",
+      "zh": "擦膠",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:ruler",
+      "en": "ruler",
+      "zh": "間尺",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:scissors",
+      "en": "scissors",
+      "zh": "剪刀",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:glue",
+      "en": "glue",
+      "zh": "膠水",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:crayon",
+      "en": "crayon",
+      "zh": "蠟筆",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:paintbrush",
+      "en": "paintbrush",
+      "zh": "畫筆",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:computer",
+      "en": "computer",
+      "zh": "電腦",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:keyboard",
+      "en": "keyboard",
+      "zh": "鍵盤",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:phone",
+      "en": "phone",
+      "zh": "電話",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:television",
+      "en": "television",
+      "zh": "電視",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:camera",
+      "en": "camera",
+      "zh": "相機",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:headphones",
+      "en": "headphones",
+      "zh": "耳機",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:microphone",
+      "en": "microphone",
+      "zh": "咪高峰",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:robot",
+      "en": "robot",
+      "zh": "機械人",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:light-bulb",
+      "en": "light bulb",
+      "zh": "燈膽",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:candle",
+      "en": "candle",
+      "zh": "蠟燭",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:flashlight",
+      "en": "flashlight",
+      "zh": "電筒",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:fan",
+      "en": "fan",
+      "zh": "風扇",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:air-conditioner",
+      "en": "air conditioner",
+      "zh": "冷氣機",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:refrigerator",
+      "en": "refrigerator",
+      "zh": "雪櫃",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:microwave",
+      "en": "microwave",
+      "zh": "微波爐",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:rice-cooker",
+      "en": "rice cooker",
+      "zh": "電飯煲",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:kettle",
+      "en": "kettle",
+      "zh": "水煲",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:cup",
+      "en": "cup",
+      "zh": "杯",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:plate",
+      "en": "plate",
+      "zh": "碟",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:bowl",
+      "en": "bowl",
+      "zh": "碗",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:chopsticks",
+      "en": "chopsticks",
+      "zh": "筷子",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:fork",
+      "en": "fork",
+      "zh": "叉",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:spoon",
+      "en": "spoon",
+      "zh": "匙羹",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:straw",
+      "en": "straw",
+      "zh": "飲管",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:bottle",
+      "en": "bottle",
+      "zh": "水樽",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:lunchbox",
+      "en": "lunchbox",
+      "zh": "飯盒",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:toothbrush",
+      "en": "toothbrush",
+      "zh": "牙刷",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:toothpaste",
+      "en": "toothpaste",
+      "zh": "牙膏",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:soap",
+      "en": "soap",
+      "zh": "番梘",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:towel",
+      "en": "towel",
+      "zh": "毛巾",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:comb",
+      "en": "comb",
+      "zh": "梳",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:glasses",
+      "en": "glasses",
+      "zh": "眼鏡",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:sunglasses",
+      "en": "sunglasses",
+      "zh": "太陽眼鏡",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:hat",
+      "en": "hat",
+      "zh": "帽",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:shoes",
+      "en": "shoes",
+      "zh": "鞋",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:socks",
+      "en": "socks",
+      "zh": "襪",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:gloves",
+      "en": "gloves",
+      "zh": "手套",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:scarf",
+      "en": "scarf",
+      "zh": "頸巾",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:t-shirt",
+      "en": "t-shirt",
+      "zh": "T恤",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:dress",
+      "en": "dress",
+      "zh": "連身裙",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:watch",
+      "en": "watch",
+      "zh": "手錶",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:ring",
+      "en": "ring",
+      "zh": "戒指",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:necklace",
+      "en": "necklace",
+      "zh": "頸鏈",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:wallet",
+      "en": "wallet",
+      "zh": "銀包",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:coin",
+      "en": "coin",
+      "zh": "硬幣",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:piggy-bank",
+      "en": "piggy bank",
+      "zh": "錢罌",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:teddy-bear",
+      "en": "teddy bear",
+      "zh": "熊公仔",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:doll",
+      "en": "doll",
+      "zh": "洋娃娃",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:balloon",
+      "en": "balloon",
+      "zh": "氣球",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:kite",
+      "en": "kite",
+      "zh": "風箏",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:building-blocks",
+      "en": "building blocks",
+      "zh": "積木",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:puzzle",
+      "en": "puzzle",
+      "zh": "砌圖",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:dice",
+      "en": "dice",
+      "zh": "骰仔",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:playing-cards",
+      "en": "playing cards",
+      "zh": "啤牌",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:swing",
+      "en": "swing",
+      "zh": "韆鞦",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:slide",
+      "en": "slide",
+      "zh": "滑梯",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:seesaw",
+      "en": "seesaw",
+      "zh": "搖搖板",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:car",
+      "en": "car",
+      "zh": "汽車",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:bus",
+      "en": "bus",
+      "zh": "巴士",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:tram",
+      "en": "tram",
+      "zh": "電車",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:taxi",
+      "en": "taxi",
+      "zh": "的士",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:train",
+      "en": "train",
+      "zh": "火車",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:airplane",
+      "en": "airplane",
+      "zh": "飛機",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:helicopter",
+      "en": "helicopter",
+      "zh": "直升機",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:rocket",
+      "en": "rocket",
+      "zh": "火箭",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:boat",
+      "en": "boat",
+      "zh": "船",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:ferry",
+      "en": "ferry",
+      "zh": "渡輪",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:bicycle",
+      "en": "bicycle",
+      "zh": "單車",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:motorcycle",
+      "en": "motorcycle",
+      "zh": "電單車",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:fire-truck",
+      "en": "fire truck",
+      "zh": "消防車",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:police-car",
+      "en": "police car",
+      "zh": "警車",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:ambulance",
+      "en": "ambulance",
+      "zh": "救護車",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:truck",
+      "en": "truck",
+      "zh": "貨車",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:digger",
+      "en": "digger",
+      "zh": "挖泥車",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:crane",
+      "en": "crane",
+      "zh": "起重機",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:traffic-light",
+      "en": "traffic light",
+      "zh": "紅綠燈",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:ladder",
+      "en": "ladder",
+      "zh": "梯",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:broom",
+      "en": "broom",
+      "zh": "掃把",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:bucket",
+      "en": "bucket",
+      "zh": "水桶",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:hammer",
+      "en": "hammer",
+      "zh": "鎚仔",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:rope",
+      "en": "rope",
+      "zh": "繩",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:tent",
+      "en": "tent",
+      "zh": "帳篷",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:map",
+      "en": "map",
+      "zh": "地圖",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:treasure-chest",
+      "en": "treasure chest",
+      "zh": "寶箱",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:crown",
+      "en": "crown",
+      "zh": "皇冠",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:magnet",
+      "en": "magnet",
+      "zh": "磁石",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:telescope",
+      "en": "telescope",
+      "zh": "望遠鏡",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:magnifying-glass",
+      "en": "magnifying glass",
+      "zh": "放大鏡",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:medal",
+      "en": "medal",
+      "zh": "獎牌",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:trophy",
+      "en": "trophy",
+      "zh": "獎盃",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:present",
+      "en": "present",
+      "zh": "禮物",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:envelope",
+      "en": "envelope",
+      "zh": "信封",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:stamp",
+      "en": "stamp",
+      "zh": "郵票",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:mailbox",
+      "en": "mailbox",
+      "zh": "信箱",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:trash-can",
+      "en": "trash can",
+      "zh": "垃圾桶",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:toilet",
+      "en": "toilet",
+      "zh": "馬桶",
+      "topic": "things",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:bathtub",
+      "en": "bathtub",
+      "zh": "浴缸",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:stairs",
+      "en": "stairs",
+      "zh": "樓梯",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:elevator",
+      "en": "elevator",
+      "zh": "升降機",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:escalator",
+      "en": "escalator",
+      "zh": "扶手電梯",
+      "topic": "things",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:egg-waffle",
+      "en": "egg waffle",
+      "zh": "雞蛋仔",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:fishball",
+      "en": "fishball",
+      "zh": "魚蛋",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:siu-mai",
+      "en": "siu mai",
+      "zh": "燒賣",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:roast-goose",
+      "en": "roast goose",
+      "zh": "燒鵝",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:char-siu",
+      "en": "char siu",
+      "zh": "叉燒",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:wonton-noodles",
+      "en": "wonton noodles",
+      "zh": "雲吞麵",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:congee",
+      "en": "congee",
+      "zh": "粥",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:french-toast",
+      "en": "french toast",
+      "zh": "西多士",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:milk-tea",
+      "en": "milk tea",
+      "zh": "絲襪奶茶",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:stinky-tofu",
+      "en": "stinky tofu",
+      "zh": "臭豆腐",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:dai-pai-dong",
+      "en": "dai pai dong",
+      "zh": "大牌檔",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:cha-chaan-teng",
+      "en": "cha chaan teng",
+      "zh": "茶餐廳",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:wet-market",
+      "en": "wet market",
+      "zh": "街市",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:minibus",
+      "en": "minibus",
+      "zh": "小巴",
+      "topic": "hongkong",
+      "difficulty": "easy",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:double-decker-bus",
+      "en": "double-decker bus",
+      "zh": "雙層巴士",
+      "topic": "hongkong",
+      "difficulty": "easy",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:star-ferry",
+      "en": "Star Ferry",
+      "zh": "天星小輪",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "held"
+    },
+    {
+      "id": "w:hongkong:peak-tram",
+      "en": "Peak Tram",
+      "zh": "山頂纜車",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "held"
+    },
+    {
+      "id": "w:hongkong:cable-car",
+      "en": "cable car",
+      "zh": "纜車",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:mtr",
+      "en": "MTR",
+      "zh": "港鐵",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "held"
+    },
+    {
+      "id": "w:hongkong:octopus-card",
+      "en": "Octopus card",
+      "zh": "八達通",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "held"
+    },
+    {
+      "id": "w:hongkong:junk-boat",
+      "en": "junk boat",
+      "zh": "中式帆船",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:victoria-harbour",
+      "en": "Victoria Harbour",
+      "zh": "維多利亞港",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:lion-rock",
+      "en": "Lion Rock",
+      "zh": "獅子山",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:big-buddha",
+      "en": "Big Buddha",
+      "zh": "大佛",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:ocean-park",
+      "en": "Ocean Park",
+      "zh": "海洋公園",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "held"
+    },
+    {
+      "id": "w:hongkong:disneyland",
+      "en": "Disneyland",
+      "zh": "迪士尼樂園",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "held"
+    },
+    {
+      "id": "w:hongkong:ferris-wheel",
+      "en": "ferris wheel",
+      "zh": "摩天輪",
+      "topic": "hongkong",
+      "difficulty": "easy",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:skyscraper",
+      "en": "skyscraper",
+      "zh": "摩天大樓",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:bamboo-scaffolding",
+      "en": "bamboo scaffolding",
+      "zh": "竹棚",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:neon-sign",
+      "en": "neon sign",
+      "zh": "霓虹招牌",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:temple",
+      "en": "temple",
+      "zh": "廟",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:typhoon-signal",
+      "en": "typhoon signal",
+      "zh": "颱風信號",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:mahjong",
+      "en": "mahjong",
+      "zh": "麻雀",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:bruce-lee",
+      "en": "Bruce Lee",
+      "zh": "李小龍",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "held"
+    },
+    {
+      "id": "w:hongkong:dragon-dance",
+      "en": "dragon dance",
+      "zh": "舞龍",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:tsing-ma-bridge",
+      "en": "Tsing Ma Bridge",
+      "zh": "青馬大橋",
+      "topic": "hongkong",
+      "difficulty": "general",
+      "region": "HK",
+      "review": "candidate"
+    },
+    {
+      "id": "w:cartoons:doraemon",
+      "en": "Doraemon",
+      "zh": "多啦A夢",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:pikachu",
+      "en": "Pikachu",
+      "zh": "比卡超",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:poke-ball",
+      "en": "Poke Ball",
+      "zh": "精靈球",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:hello-kitty",
+      "en": "Hello Kitty",
+      "zh": "吉蒂貓",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:mcdull",
+      "en": "McDull",
+      "zh": "麥兜",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:mickey-mouse",
+      "en": "Mickey Mouse",
+      "zh": "米奇老鼠",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:donald-duck",
+      "en": "Donald Duck",
+      "zh": "唐老鴨",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:winnie-the-pooh",
+      "en": "Winnie the Pooh",
+      "zh": "小熊維尼",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:dumbo",
+      "en": "Dumbo",
+      "zh": "小飛象",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:stitch",
+      "en": "Stitch",
+      "zh": "史迪仔",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:elsa",
+      "en": "Elsa",
+      "zh": "愛莎",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:olaf",
+      "en": "Olaf",
+      "zh": "小白",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:buzz-lightyear",
+      "en": "Buzz Lightyear",
+      "zh": "巴斯光年",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:woody",
+      "en": "Woody",
+      "zh": "胡迪",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:simba",
+      "en": "Simba",
+      "zh": "辛巴",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:baymax",
+      "en": "Baymax",
+      "zh": "醫神",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:nemo",
+      "en": "Nemo",
+      "zh": "Mo仔",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:dory",
+      "en": "Dory",
+      "zh": "多莉",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:spider-man",
+      "en": "Spider-Man",
+      "zh": "蜘蛛俠",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:superman",
+      "en": "Superman",
+      "zh": "超人",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:batman",
+      "en": "Batman",
+      "zh": "蝙蝠俠",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:iron-man",
+      "en": "Iron Man",
+      "zh": "鐵甲奇俠",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:captain-america",
+      "en": "Captain America",
+      "zh": "美國隊長",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:hulk",
+      "en": "Hulk",
+      "zh": "變形俠醫",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:minions",
+      "en": "Minions",
+      "zh": "迷你兵團",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:peppa-pig",
+      "en": "Peppa Pig",
+      "zh": "粉紅豬小妹",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:spongebob",
+      "en": "SpongeBob",
+      "zh": "海綿寶寶",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:mario",
+      "en": "Mario",
+      "zh": "瑪利歐",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:sonic",
+      "en": "Sonic",
+      "zh": "超音鼠",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:ultraman",
+      "en": "Ultraman",
+      "zh": "鹹蛋超人",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:totoro",
+      "en": "Totoro",
+      "zh": "龍貓",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:anpanman",
+      "en": "Anpanman",
+      "zh": "麵包超人",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:shin-chan",
+      "en": "Shin-chan",
+      "zh": "蠟筆小新",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:conan",
+      "en": "Conan",
+      "zh": "柯南",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:paw-patrol",
+      "en": "Paw Patrol",
+      "zh": "汪汪隊",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:transformers",
+      "en": "Transformers",
+      "zh": "變形金剛",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:godzilla",
+      "en": "Godzilla",
+      "zh": "哥斯拉",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:angry-birds",
+      "en": "Angry Birds",
+      "zh": "憤怒鳥",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:garfield",
+      "en": "Garfield",
+      "zh": "加菲貓",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:snoopy",
+      "en": "Snoopy",
+      "zh": "史努比",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:cartoons:tom-and-jerry",
+      "en": "Tom and Jerry",
+      "zh": "湯姆與謝利",
+      "topic": "cartoons",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:actions:sneezing",
+      "en": "sneezing",
+      "zh": "打乞嗤",
+      "topic": "actions",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:yawning",
+      "en": "yawning",
+      "zh": "打呵欠",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:snoring",
+      "en": "snoring",
+      "zh": "打鼻鼾",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:hiccups",
+      "en": "hiccups",
+      "zh": "打嗝",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:coughing",
+      "en": "coughing",
+      "zh": "咳嗽",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:crying",
+      "en": "crying",
+      "zh": "喊",
+      "topic": "actions",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:laughing",
+      "en": "laughing",
+      "zh": "大笑",
+      "topic": "actions",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:smiling",
+      "en": "smiling",
+      "zh": "微笑",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:brushing-teeth",
+      "en": "brushing teeth",
+      "zh": "刷牙",
+      "topic": "actions",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:washing-face",
+      "en": "washing face",
+      "zh": "洗面",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:taking-a-shower",
+      "en": "taking a shower",
+      "zh": "沖涼",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:combing-hair",
+      "en": "combing hair",
+      "zh": "梳頭",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:sleeping",
+      "en": "sleeping",
+      "zh": "瞓覺",
+      "topic": "actions",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:waking-up",
+      "en": "waking up",
+      "zh": "起身",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:drinking-water",
+      "en": "drinking water",
+      "zh": "飲水",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:clapping",
+      "en": "clapping",
+      "zh": "拍手",
+      "topic": "actions",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:waving",
+      "en": "waving",
+      "zh": "揮手",
+      "topic": "actions",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:dancing",
+      "en": "dancing",
+      "zh": "跳舞",
+      "topic": "actions",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:singing",
+      "en": "singing",
+      "zh": "唱歌",
+      "topic": "actions",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:jumping",
+      "en": "jumping",
+      "zh": "跳",
+      "topic": "actions",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:crawling",
+      "en": "crawling",
+      "zh": "爬行",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:sneaking",
+      "en": "sneaking",
+      "zh": "靜雞雞行",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:climbing-a-tree",
+      "en": "climbing a tree",
+      "zh": "爬樹",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:driving",
+      "en": "driving",
+      "zh": "揸車",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:cooking",
+      "en": "cooking",
+      "zh": "煮飯",
+      "topic": "actions",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:washing-dishes",
+      "en": "washing dishes",
+      "zh": "洗碗",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:sweeping",
+      "en": "sweeping",
+      "zh": "掃地",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:mopping",
+      "en": "mopping",
+      "zh": "拖地",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:ironing",
+      "en": "ironing",
+      "zh": "燙衫",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:hanging-clothes",
+      "en": "hanging clothes",
+      "zh": "晾衫",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:watering-plants",
+      "en": "watering plants",
+      "zh": "淋花",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:walking-the-dog",
+      "en": "walking the dog",
+      "zh": "放狗",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:feeding-fish",
+      "en": "feeding fish",
+      "zh": "餵魚",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:taking-a-selfie",
+      "en": "taking a selfie",
+      "zh": "自拍",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:playing-video-games",
+      "en": "playing video games",
+      "zh": "打機",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:watching-tv",
+      "en": "watching TV",
+      "zh": "睇電視",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:reading-a-book",
+      "en": "reading a book",
+      "zh": "睇書",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:writing",
+      "en": "writing",
+      "zh": "寫字",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:drawing",
+      "en": "drawing",
+      "zh": "畫畫",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:making-a-phone-call",
+      "en": "making a phone call",
+      "zh": "講電話",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:queuing",
+      "en": "queuing",
+      "zh": "排隊",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:hugging",
+      "en": "hugging",
+      "zh": "攬攬",
+      "topic": "actions",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:shaking-hands",
+      "en": "shaking hands",
+      "zh": "握手",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:high-five",
+      "en": "high five",
+      "zh": "擊掌",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:thumbs-up",
+      "en": "thumbs up",
+      "zh": "畀個讚",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:bowing",
+      "en": "bowing",
+      "zh": "鞠躬",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:stretching",
+      "en": "stretching",
+      "zh": "伸懶腰",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:doing-homework",
+      "en": "doing homework",
+      "zh": "做功課",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:packing-schoolbag",
+      "en": "packing schoolbag",
+      "zh": "執書包",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:tying-shoelaces",
+      "en": "tying shoelaces",
+      "zh": "綁鞋帶",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:wearing-a-mask",
+      "en": "wearing a mask",
+      "zh": "戴口罩",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:washing-hands",
+      "en": "washing hands",
+      "zh": "洗手",
+      "topic": "actions",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:blowing-bubbles",
+      "en": "blowing bubbles",
+      "zh": "吹泡泡",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:blowing-out-candles",
+      "en": "blowing out candles",
+      "zh": "吹蠟燭",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:opening-a-present",
+      "en": "opening a present",
+      "zh": "拆禮物",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:whistling",
+      "en": "whistling",
+      "zh": "吹口哨",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:thinking",
+      "en": "thinking",
+      "zh": "諗嘢",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:falling-down",
+      "en": "falling down",
+      "zh": "跌倒",
+      "topic": "actions",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:sun",
+      "en": "sun",
+      "zh": "太陽",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:moon",
+      "en": "moon",
+      "zh": "月亮",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:star",
+      "en": "star",
+      "zh": "星星",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:shooting-star",
+      "en": "shooting star",
+      "zh": "流星",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:rainbow",
+      "en": "rainbow",
+      "zh": "彩虹",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:cloud",
+      "en": "cloud",
+      "zh": "雲",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:rain",
+      "en": "rain",
+      "zh": "落雨",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:lightning",
+      "en": "lightning",
+      "zh": "閃電",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:snowman",
+      "en": "snowman",
+      "zh": "雪人",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:snowflake",
+      "en": "snowflake",
+      "zh": "雪花",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:wind",
+      "en": "wind",
+      "zh": "風",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:tornado",
+      "en": "tornado",
+      "zh": "龍捲風",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:typhoon",
+      "en": "typhoon",
+      "zh": "颱風",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:volcano",
+      "en": "volcano",
+      "zh": "火山",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:mountain",
+      "en": "mountain",
+      "zh": "山",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:river",
+      "en": "river",
+      "zh": "河流",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:waterfall",
+      "en": "waterfall",
+      "zh": "瀑布",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:lake",
+      "en": "lake",
+      "zh": "湖",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:sea",
+      "en": "sea",
+      "zh": "大海",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:wave",
+      "en": "wave",
+      "zh": "海浪",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:island",
+      "en": "island",
+      "zh": "小島",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:beach",
+      "en": "beach",
+      "zh": "沙灘",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:desert",
+      "en": "desert",
+      "zh": "沙漠",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:cactus",
+      "en": "cactus",
+      "zh": "仙人掌",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:forest",
+      "en": "forest",
+      "zh": "森林",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:tree",
+      "en": "tree",
+      "zh": "樹",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:leaf",
+      "en": "leaf",
+      "zh": "樹葉",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:flower",
+      "en": "flower",
+      "zh": "花",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:grass",
+      "en": "grass",
+      "zh": "草",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:rock",
+      "en": "rock",
+      "zh": "石頭",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:cave",
+      "en": "cave",
+      "zh": "山洞",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:sunrise",
+      "en": "sunrise",
+      "zh": "日出",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:sunset",
+      "en": "sunset",
+      "zh": "日落",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:planet",
+      "en": "planet",
+      "zh": "行星",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:earth",
+      "en": "Earth",
+      "zh": "地球",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:saturn",
+      "en": "Saturn",
+      "zh": "土星",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:alien",
+      "en": "alien",
+      "zh": "外星人",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:ufo",
+      "en": "UFO",
+      "zh": "飛碟",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:iceberg",
+      "en": "iceberg",
+      "zh": "冰山",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:coral",
+      "en": "coral",
+      "zh": "珊瑚",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:seashell",
+      "en": "seashell",
+      "zh": "貝殼",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:sand-castle",
+      "en": "sand castle",
+      "zh": "沙堡",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:puddle",
+      "en": "puddle",
+      "zh": "水氹",
+      "topic": "nature",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:fire",
+      "en": "fire",
+      "zh": "火",
+      "topic": "nature",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:red-packet",
+      "en": "red packet",
+      "zh": "利是",
+      "topic": "festivals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:fai-chun",
+      "en": "fai chun",
+      "zh": "揮春",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:lion-dance",
+      "en": "lion dance",
+      "zh": "舞獅",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:dragon-boat",
+      "en": "dragon boat",
+      "zh": "龍舟",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:rice-dumpling",
+      "en": "rice dumpling",
+      "zh": "糉",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:rice-cake",
+      "en": "rice cake",
+      "zh": "年糕",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:candy-box",
+      "en": "candy box",
+      "zh": "全盒",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:god-of-fortune",
+      "en": "god of fortune",
+      "zh": "財神",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:kumquat-tree",
+      "en": "kumquat tree",
+      "zh": "年桔",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:firecracker",
+      "en": "firecracker",
+      "zh": "炮仗",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:fireworks",
+      "en": "fireworks",
+      "zh": "煙花",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:lantern",
+      "en": "lantern",
+      "zh": "燈籠",
+      "topic": "festivals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:christmas-tree",
+      "en": "Christmas tree",
+      "zh": "聖誕樹",
+      "topic": "festivals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:santa-claus",
+      "en": "Santa Claus",
+      "zh": "聖誕老人",
+      "topic": "festivals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:reindeer",
+      "en": "reindeer",
+      "zh": "馴鹿",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:christmas-stocking",
+      "en": "Christmas stocking",
+      "zh": "聖誕襪",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:gingerbread-man",
+      "en": "gingerbread man",
+      "zh": "薑餅人",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:candy-cane",
+      "en": "candy cane",
+      "zh": "拐杖糖",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:jingle-bell",
+      "en": "jingle bell",
+      "zh": "鈴鐺",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:angel",
+      "en": "angel",
+      "zh": "天使",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:jack-o-lantern",
+      "en": "jack-o'-lantern",
+      "zh": "南瓜燈",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:ghost",
+      "en": "ghost",
+      "zh": "鬼",
+      "topic": "festivals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:vampire",
+      "en": "vampire",
+      "zh": "吸血鬼",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:mummy",
+      "en": "mummy",
+      "zh": "木乃伊",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:spider-web",
+      "en": "spider web",
+      "zh": "蜘蛛網",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:easter-egg",
+      "en": "Easter egg",
+      "zh": "復活蛋",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:easter-bunny",
+      "en": "Easter bunny",
+      "zh": "復活節兔仔",
+      "topic": "festivals",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:party-hat",
+      "en": "party hat",
+      "zh": "生日帽",
+      "topic": "festivals",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:mermaid",
+      "en": "mermaid",
+      "zh": "美人魚",
+      "topic": "fairytales",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:witch",
+      "en": "witch",
+      "zh": "女巫",
+      "topic": "fairytales",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:fairy",
+      "en": "fairy",
+      "zh": "仙子",
+      "topic": "fairytales",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:elf",
+      "en": "elf",
+      "zh": "小精靈",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:giant",
+      "en": "giant",
+      "zh": "巨人",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:dwarf",
+      "en": "dwarf",
+      "zh": "小矮人",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:genie",
+      "en": "genie",
+      "zh": "燈神",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:magic-lamp",
+      "en": "magic lamp",
+      "zh": "神燈",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:magic-carpet",
+      "en": "magic carpet",
+      "zh": "魔氈",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:magic-wand",
+      "en": "magic wand",
+      "zh": "魔法棒",
+      "topic": "fairytales",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:castle",
+      "en": "castle",
+      "zh": "城堡",
+      "topic": "fairytales",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:princess",
+      "en": "princess",
+      "zh": "公主",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:prince",
+      "en": "prince",
+      "zh": "王子",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:king",
+      "en": "king",
+      "zh": "國王",
+      "topic": "fairytales",
+      "difficulty": "easy",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:queen",
+      "en": "queen",
+      "zh": "皇后",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:snow-white",
+      "en": "Snow White",
+      "zh": "白雪公主",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:poison-apple",
+      "en": "poison apple",
+      "zh": "毒蘋果",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:cinderella",
+      "en": "Cinderella",
+      "zh": "灰姑娘",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:glass-slipper",
+      "en": "glass slipper",
+      "zh": "玻璃鞋",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:little-red-riding-hood",
+      "en": "Little Red Riding Hood",
+      "zh": "小紅帽",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:big-bad-wolf",
+      "en": "big bad wolf",
+      "zh": "大灰狼",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:three-little-pigs",
+      "en": "Three Little Pigs",
+      "zh": "三隻小豬",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:pinocchio",
+      "en": "Pinocchio",
+      "zh": "小木偶",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:peter-pan",
+      "en": "Peter Pan",
+      "zh": "小飛俠",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "held"
+    },
+    {
+      "id": "w:fairytales:aladdin",
+      "en": "Aladdin",
+      "zh": "阿拉丁",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:rapunzel",
+      "en": "Rapunzel",
+      "zh": "長髮公主",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:sleeping-beauty",
+      "en": "Sleeping Beauty",
+      "zh": "睡公主",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:frog-prince",
+      "en": "frog prince",
+      "zh": "青蛙王子",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:gingerbread-house",
+      "en": "gingerbread house",
+      "zh": "薑餅屋",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:magic-beanstalk",
+      "en": "magic beanstalk",
+      "zh": "魔法豆莖",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:monkey-king",
+      "en": "Monkey King",
+      "zh": "孫悟空",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:ne-zha",
+      "en": "Ne Zha",
+      "zh": "哪吒",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:tooth-fairy",
+      "en": "tooth fairy",
+      "zh": "牙仙",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:ugly-duckling",
+      "en": "Ugly Duckling",
+      "zh": "醜小鴨",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:tortoise-and-the-hare",
+      "en": "Tortoise and the Hare",
+      "zh": "龜兔賽跑",
+      "topic": "fairytales",
+      "difficulty": "general",
+      "region": "global",
+      "review": "candidate"
+    }
+  ]
+}

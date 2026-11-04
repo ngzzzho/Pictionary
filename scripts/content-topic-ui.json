@@ -1,0 +1,233 @@
+{
+  "en": {
+    "topics": {
+      "animals": "Animals",
+      "food": "Food & drink",
+      "things": "Objects",
+      "actions": "Activities & sports",
+      "occupations": "Jobs & characters",
+      "nature": "Nature & science",
+      "transport": "Travel & places"
+    },
+    "ui": {
+      "chooseTopics": "Choose one or more topics",
+      "topicsHint": "Mix your favourites. Counts follow the selected difficulty.",
+      "topicsDone": "Done",
+      "topicAtLeastOne": "Keep at least one topic selected.",
+      "topicSelectedSummary": "Selected topics: {count}",
+      "allLevelCount": "{count} across both levels",
+      "needMoreTopics": "Add another topic or include both levels.",
+      "addTopics": "Add topics"
+    }
+  },
+  "zh": {
+    "topics": {
+      "animals": "動物",
+      "food": "食物與飲品",
+      "things": "物品",
+      "actions": "活動與運動",
+      "occupations": "職業與角色",
+      "nature": "自然與科學",
+      "transport": "交通與地方"
+    },
+    "ui": {
+      "chooseTopics": "選擇一個或多個題材",
+      "topicsHint": "混合你喜愛的題材。題目數量會隨所選難度改變。",
+      "topicsDone": "完成",
+      "topicAtLeastOne": "請至少保留一個題材。",
+      "topicSelectedSummary": "已選題材：{count} 個",
+      "allLevelCount": "兩種難度合共 {count} 題",
+      "needMoreTopics": "增加其他題材，或包含兩種難度。",
+      "addTopics": "增加題材"
+    }
+  },
+  "zh-Hans": {
+    "topics": {
+      "animals": "动物",
+      "food": "食物与饮品",
+      "things": "物品",
+      "actions": "活动与运动",
+      "occupations": "职业与角色",
+      "nature": "自然与科学",
+      "transport": "交通与地方"
+    },
+    "ui": {
+      "chooseTopics": "选择一个或多个题材",
+      "topicsHint": "混合你喜欢的题材。题目数量会随所选难度变化。",
+      "topicsDone": "完成",
+      "topicAtLeastOne": "请至少保留一个题材。",
+      "topicSelectedSummary": "已选题材：{count} 个",
+      "allLevelCount": "两种难度共 {count} 题",
+      "needMoreTopics": "添加其他题材，或包含两种难度。",
+      "addTopics": "添加题材"
+    }
+  },
+  "ja": {
+    "topics": {
+      "animals": "動物",
+      "food": "食べ物と飲み物",
+      "things": "身の回りの物",
+      "actions": "活動とスポーツ",
+      "occupations": "仕事とキャラクター",
+      "nature": "自然と科学",
+      "transport": "乗り物と場所"
+    },
+    "ui": {
+      "chooseTopics": "テーマを1つ以上選ぼう",
+      "topicsHint": "好きなテーマを組み合わせよう。お題の数は選んだ難易度で変わるよ。",
+      "topicsDone": "完了",
+      "topicAtLeastOne": "テーマを1つ以上選んでおいてね。",
+      "topicSelectedSummary": "選択中のテーマ：{count}",
+      "allLevelCount": "両方の難易度で合計 {count} 題",
+      "needMoreTopics": "テーマを増やすか、両方の難易度を選ぼう。",
+      "addTopics": "テーマを追加"
+    }
+  },
+  "ko": {
+    "topics": {
+      "animals": "동물",
+      "food": "음식과 음료",
+      "things": "물건",
+      "actions": "활동과 스포츠",
+      "occupations": "직업과 캐릭터",
+      "nature": "자연과 과학",
+      "transport": "교통수단과 장소"
+    },
+    "ui": {
+      "chooseTopics": "주제를 하나 이상 선택하세요",
+      "topicsHint": "좋아하는 주제를 섞어 보세요. 카드 수는 선택한 난이도에 따라 달라져요.",
+      "topicsDone": "완료",
+      "topicAtLeastOne": "주제를 하나 이상 선택해 두세요.",
+      "topicSelectedSummary": "선택한 주제: {count}개",
+      "allLevelCount": "두 난이도 합계 {count}개",
+      "needMoreTopics": "주제를 추가하거나 두 난이도를 모두 선택하세요.",
+      "addTopics": "주제 추가"
+    }
+  },
+  "de": {
+    "topics": {
+      "animals": "Tiere",
+      "food": "Essen & Trinken",
+      "things": "Gegenstände",
+      "actions": "Aktivitäten & Sport",
+      "occupations": "Berufe & Figuren",
+      "nature": "Natur & Wissenschaft",
+      "transport": "Verkehr & Orte"
+    },
+    "ui": {
+      "chooseTopics": "Wähle ein oder mehrere Themen",
+      "topicsHint": "Mische deine Lieblingsthemen. Die Anzahl richtet sich nach der gewählten Schwierigkeit.",
+      "topicsDone": "Fertig",
+      "topicAtLeastOne": "Lass mindestens ein Thema ausgewählt.",
+      "topicSelectedSummary": "Gewählte Themen: {count}",
+      "allLevelCount": "{count} auf beiden Stufen zusammen",
+      "needMoreTopics": "Füge ein Thema hinzu oder wähle beide Stufen.",
+      "addTopics": "Themen hinzufügen"
+    }
+  },
+  "fr": {
+    "topics": {
+      "animals": "Animaux",
+      "food": "Aliments et boissons",
+      "things": "Objets",
+      "actions": "Activités et sports",
+      "occupations": "Métiers et personnages",
+      "nature": "Nature et sciences",
+      "transport": "Transports et lieux"
+    },
+    "ui": {
+      "chooseTopics": "Choisis un ou plusieurs thèmes",
+      "topicsHint": "Mélange tes thèmes préférés. Le nombre varie selon la difficulté choisie.",
+      "topicsDone": "Terminé",
+      "topicAtLeastOne": "Garde au moins un thème sélectionné.",
+      "topicSelectedSummary": "Thèmes choisis : {count}",
+      "allLevelCount": "{count} pour les deux niveaux réunis",
+      "needMoreTopics": "Ajoute un thème ou choisis les deux niveaux.",
+      "addTopics": "Ajouter des thèmes"
+    }
+  },
+  "es": {
+    "topics": {
+      "animals": "Animales",
+      "food": "Comida y bebida",
+      "things": "Objetos",
+      "actions": "Actividades y deportes",
+      "occupations": "Profesiones y personajes",
+      "nature": "Naturaleza y ciencia",
+      "transport": "Transportes y lugares"
+    },
+    "ui": {
+      "chooseTopics": "Elige uno o varios temas",
+      "topicsHint": "Mezcla tus temas favoritos. La cantidad depende de la dificultad elegida.",
+      "topicsDone": "Listo",
+      "topicAtLeastOne": "Mantén al menos un tema seleccionado.",
+      "topicSelectedSummary": "Temas elegidos: {count}",
+      "allLevelCount": "{count} entre ambos niveles",
+      "needMoreTopics": "Añade otro tema o incluye ambos niveles.",
+      "addTopics": "Añadir temas"
+    }
+  },
+  "pt": {
+    "topics": {
+      "animals": "Animais",
+      "food": "Comidas e bebidas",
+      "things": "Objetos",
+      "actions": "Atividades e esportes",
+      "occupations": "Profissões e personagens",
+      "nature": "Natureza e ciência",
+      "transport": "Transportes e lugares"
+    },
+    "ui": {
+      "chooseTopics": "Escolha um ou mais temas",
+      "topicsHint": "Misture seus temas favoritos. A quantidade depende da dificuldade escolhida.",
+      "topicsDone": "Pronto",
+      "topicAtLeastOne": "Mantenha pelo menos um tema selecionado.",
+      "topicSelectedSummary": "Temas escolhidos: {count}",
+      "allLevelCount": "{count} nos dois níveis juntos",
+      "needMoreTopics": "Adicione outro tema ou inclua os dois níveis.",
+      "addTopics": "Adicionar temas"
+    }
+  },
+  "it": {
+    "topics": {
+      "animals": "Animali",
+      "food": "Cibi e bevande",
+      "things": "Oggetti",
+      "actions": "Attività e sport",
+      "occupations": "Mestieri e personaggi",
+      "nature": "Natura e scienza",
+      "transport": "Trasporti e luoghi"
+    },
+    "ui": {
+      "chooseTopics": "Scegli uno o più temi",
+      "topicsHint": "Mescola i tuoi temi preferiti. Il numero dipende dalla difficoltà scelta.",
+      "topicsDone": "Fatto",
+      "topicAtLeastOne": "Mantieni selezionato almeno un tema.",
+      "topicSelectedSummary": "Temi scelti: {count}",
+      "allLevelCount": "{count} nei due livelli insieme",
+      "needMoreTopics": "Aggiungi un tema o includi entrambi i livelli.",
+      "addTopics": "Aggiungi temi"
+    }
+  },
+  "ar": {
+    "topics": {
+      "animals": "الحيوانات",
+      "food": "الطعام والشراب",
+      "things": "الأشياء",
+      "actions": "الأنشطة والرياضة",
+      "occupations": "المهن والشخصيات",
+      "nature": "الطبيعة والعلوم",
+      "transport": "المواصلات والأماكن"
+    },
+    "ui": {
+      "chooseTopics": "اختر موضوعًا واحدًا أو أكثر",
+      "topicsHint": "امزج مواضيعك المفضلة. يتغير العدد حسب الصعوبة المختارة.",
+      "topicsDone": "تم",
+      "topicAtLeastOne": "أبقِ موضوعًا واحدًا على الأقل محددًا.",
+      "topicSelectedSummary": "المواضيع المختارة: {count}",
+      "allLevelCount": "{count} في المستويين معًا",
+      "needMoreTopics": "أضف موضوعًا آخر أو اختر المستويين معًا.",
+      "addTopics": "إضافة مواضيع"
+    }
+  }
+}

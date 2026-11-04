@@ -1,0 +1,82 @@
+[
+  {
+    "source": "assets/fonts/gensen-rounded-tw-medium.woff2",
+    "sourceBytes": 7748268,
+    "sourceCodepoints": 35382,
+    "parts": [
+      {
+        "file": "assets/fonts/gensen-rounded-tw-medium-core.woff2",
+        "bytes": 711768,
+        "unicodeCodepoints": 3463
+      },
+      {
+        "file": "assets/fonts/gensen-rounded-tw-medium-extended.woff2",
+        "bytes": 6799124,
+        "unicodeCodepoints": 31919
+      }
+    ],
+    "coverageExact": true,
+    "advancesExact": true,
+    "verticalMetricsExact": true
+  },
+  {
+    "source": "assets/fonts/gensen-rounded-tw-bold.woff2",
+    "sourceBytes": 7946960,
+    "sourceCodepoints": 35382,
+    "parts": [
+      {
+        "file": "assets/fonts/gensen-rounded-tw-bold-core.woff2",
+        "bytes": 723344,
+        "unicodeCodepoints": 3463
+      },
+      {
+        "file": "assets/fonts/gensen-rounded-tw-bold-extended.woff2",
+        "bytes": 6972596,
+        "unicodeCodepoints": 31919
+      }
+    ],
+    "coverageExact": true,
+    "advancesExact": true,
+    "verticalMetricsExact": true
+  },
+  {
+    "source": "assets/fonts/noto-sans-jp.woff2",
+    "sourceBytes": 4349992,
+    "sourceCodepoints": 16732,
+    "parts": [
+      {
+        "file": "assets/fonts/noto-sans-jp-core.woff2",
+        "bytes": 772844,
+        "unicodeCodepoints": 2352
+      },
+      {
+        "file": "assets/fonts/noto-sans-jp-extended.woff2",
+        "bytes": 3651668,
+        "unicodeCodepoints": 14380
+      }
+    ],
+    "coverageExact": true,
+    "advancesExact": true,
+    "verticalMetricsExact": true
+  },
+  {
+    "source": "assets/fonts/noto-sans-kr.woff2",
+    "sourceBytes": 3908432,
+    "sourceCodepoints": 23174,
+    "parts": [
+      {
+        "file": "assets/fonts/noto-sans-kr-core.woff2",
+        "bytes": 779240,
+        "unicodeCodepoints": 2903
+      },
+      {
+        "file": "assets/fonts/noto-sans-kr-extended.woff2",
+        "bytes": 3371780,
+        "unicodeCodepoints": 20271
+      }
+    ],
+    "coverageExact": true,
+    "advancesExact": true,
+    "verticalMetricsExact": true
+  }
+]

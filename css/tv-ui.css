@@ -1,0 +1,113 @@
+/* TV controls use the existing skin; the external display itself is native. */
+.screen-tv,
+.screen-tv-safe {
+  max-width: 900px;
+}
+.shell.screen-tv > header {
+  height: auto;
+  min-height: 64px;
+  gap: 12px;
+}
+.screen-tv .header-title {
+  white-space: normal;
+}
+.tv-panel {
+  text-align: start;
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+.tv-panel h1 {
+  font-size: var(--type-title);
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+.tv-panel p {
+  line-height: 1.5;
+  max-width: 65ch;
+}
+.tv-status {
+  font-weight: 700;
+}
+.tv-loading {
+  margin: auto;
+  padding: 32px 20px;
+  max-width: 32rem;
+  text-align: center;
+}
+.tv-loading h1 {
+  font-size: var(--type-title);
+}
+.tv-loading p {
+  line-height: 1.5;
+}
+.tv-guide {
+  margin-block: 24px;
+  padding: 20px;
+  border: 2px solid #8faeba;
+  border-radius: 20px;
+  background: #f1f8fa;
+  color: #123d54;
+}
+.tv-guide h2 {
+  margin-block: 0 16px;
+}
+.tv-guide ol {
+  margin: 0;
+  padding-inline-start: 24px;
+}
+.tv-guide li {
+  padding-inline-start: 8px;
+  margin-block-end: 16px;
+}
+.tv-guide li::marker {
+  font-weight: 800;
+}
+.tv-guide li p {
+  margin-block: 4px;
+}
+.tv-mirror-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.tv-mirror-label strong {
+  min-width: 0;
+}
+.tv-mirror-icon {
+  width: 40px;
+  height: 32px;
+  flex: 0 0 40px;
+}
+.tv-mirror-icon rect {
+  fill: #f1f8fa;
+  stroke: #123d54;
+  stroke-width: 2.5;
+}
+.tv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-block: 20px;
+}
+.tv-actions .btn {
+  flex: 1 1 220px;
+  min-height: 52px;
+  white-space: normal;
+}
+.lobby-header .tv-entry {
+  min-width: 48px;
+  min-height: 48px;
+  padding: 8px 12px;
+  font: 700 1rem var(--font-body);
+}
+@media (max-width: 360px) {
+  .lobby-header .header-actions {
+    gap: 6px;
+  }
+  .lobby-label {
+    letter-spacing: 0.02em;
+  }
+}
+:root.large-text .lobby-header {
+  flex-wrap: wrap;
+}

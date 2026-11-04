@@ -1,0 +1,4706 @@
+{
+  "entries": [
+    {
+      "id": "w:animals:dog",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:cat",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:rabbit",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:hamster",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:mouse",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:squirrel",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:hedgehog",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:fox",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:wolf",
+      "topic": "animals",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:bear",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:polar-bear",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:panda",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:koala",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:kangaroo",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:monkey",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:gorilla",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:sloth",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:elephant",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:giraffe",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:zebra",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:lion",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:tiger",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:leopard",
+      "topic": "animals",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:cheetah",
+      "topic": "animals",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:rhino",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:hippo",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:camel",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:deer",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:horse",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:donkey",
+      "topic": "animals",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:cow",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:sheep",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:goat",
+      "topic": "animals",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:pig",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:chicken",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:rooster",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:duck",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:goose",
+      "topic": "animals",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:turkey",
+      "topic": "animals",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:owl",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:eagle",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:parrot",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:penguin",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:flamingo",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:ostrich",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:peacock",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:swan",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:bat",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:snake",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:lizard",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:crocodile",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:turtle",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:frog",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:dinosaur",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:dragon",
+      "topic": "fantasy",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:unicorn",
+      "topic": "fantasy",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:shark",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:whale",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:dolphin",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:seal",
+      "topic": "animals",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:walrus",
+      "topic": "animals",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:octopus",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:jellyfish",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:crab",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:lobster",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:seahorse",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:starfish",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:goldfish",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:snail",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:butterfly",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:caterpillar",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:bee",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:ant",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:spider",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:ladybug",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:mosquito",
+      "topic": "animals",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:animals:worm",
+      "topic": "animals",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:doctor",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:nurse",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:dentist",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:surgeon",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:veterinarian",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:teacher",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:scientist",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:astronaut",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:pilot",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:flight-attendant",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:sailor",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:ship-captain",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:soldier",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:firefighter",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:police-officer",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:detective",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:spy",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:judge",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:chef",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:baker",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:butcher",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:waiter",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:farmer",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:fisherman",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:gardener",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:florist",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:carpenter",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:plumber",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:electrician",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:mechanic",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:construction-worker",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:miner",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:blacksmith",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:beekeeper",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:painter",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:photographer",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:writer",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Final calibration: Expert is reserved for complex multi-element scenes; specific or easily confused single concepts are not Expert solely because the answer is uncommon."
+    },
+    {
+      "id": "w:occupations:actor",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:singer",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:dancer",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:ballerina",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:musician",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:dj",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:magician",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:clown",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:acrobat",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:referee",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:coach",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:lifeguard",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:taxi-driver",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:bus-driver",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:train-driver",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:delivery-rider",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:mail-carrier",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:librarian",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:hairdresser",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:barber",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:cashier",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:zookeeper",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:security-guard",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:cleaner",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:programmer",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Final calibration: Expert is reserved for complex multi-element scenes; specific or easily confused single concepts are not Expert solely because the answer is uncommon."
+    },
+    {
+      "id": "w:occupations:pirate",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:ninja",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:cowboy",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:knight",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:superhero",
+      "topic": "fantasy",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:occupations:wizard",
+      "topic": "fantasy",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:soccer",
+      "topic": "sports",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:basketball",
+      "topic": "sports",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:baseball",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:tennis",
+      "topic": "sports",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:table-tennis",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:badminton",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:volleyball",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:dodgeball",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:golf",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:bowling",
+      "topic": "sports",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:billiards",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:darts",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:archery",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:fencing",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:boxing",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:karate",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:judo",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Final calibration: Expert is reserved for complex multi-element scenes; specific or easily confused single concepts are not Expert solely because the answer is uncommon."
+    },
+    {
+      "id": "w:sports:taekwondo",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Final calibration: Expert is reserved for complex multi-element scenes; specific or easily confused single concepts are not Expert solely because the answer is uncommon."
+    },
+    {
+      "id": "w:sports:kung-fu",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Final calibration: Expert is reserved for complex multi-element scenes; specific or easily confused single concepts are not Expert solely because the answer is uncommon."
+    },
+    {
+      "id": "w:sports:wrestling",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:sumo-wrestling",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:weightlifting",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:gymnastics",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:trampoline",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:yoga",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:running",
+      "topic": "sports",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:hurdles",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:high-jump",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:long-jump",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:cycling",
+      "topic": "sports",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:skateboarding",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:roller-skating",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:surfing",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:swimming",
+      "topic": "sports",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:diving",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:sailing",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:rowing",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:kayaking",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:fishing",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:ice-skating",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:figure-skating",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:ice-hockey",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:skiing",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:snowboarding",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:sledding",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:rock-climbing",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:hiking",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:horse-riding",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:frisbee",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:tug-of-war",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:jump-rope",
+      "topic": "sports",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:hula-hoop",
+      "topic": "sports",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:chess",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:parkour",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:scuba-diving",
+      "topic": "sports",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:bungee-jumping",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:car-racing",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:hide-and-seek",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:sports:hopscotch",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:pizza",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:hamburger",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:hot-dog",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:french-fries",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:fried-chicken",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:sandwich",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:toast",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:fried-egg",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:bacon",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:sausage",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:noodles",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:spaghetti",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:dumpling",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:sushi",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:fried-rice",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:dim-sum",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:steamed-bun",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:spring-roll",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:egg-tart",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:pineapple-bun",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:mooncake",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:hot-pot",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:tofu",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:instant-noodles",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:seaweed",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:pancake",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:waffle",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:donut",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:cookie",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:birthday-cake",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:cupcake",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:chocolate",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:candy",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:lollipop",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:ice-cream",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:popsicle",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:jelly",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:pudding",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:popcorn",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:potato-chips",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:marshmallow",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:gummy-bear",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:chewing-gum",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:cereal",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:jam",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:peanut-butter",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:honey",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:cheese",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:bread",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:apple",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:banana",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:orange",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:grapes",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:watermelon",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:strawberry",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:cherry",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:mango",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:pineapple",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:peach",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:pear",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:lemon",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:coconut",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:durian",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:tomato",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:potato",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:carrot",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:corn",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:broccoli",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:mushroom",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:pumpkin",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:milk",
+      "topic": "food",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:juice",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:soda",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:bubble-tea",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:milkshake",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:coffee",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:tea",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:ketchup",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:food:steak",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:chair",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:table",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:bed",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:pillow",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:blanket",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:sofa",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:lamp",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:clock",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:mirror",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:window",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:door",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:key",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:umbrella",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:backpack",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:book",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:pencil",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:eraser",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:ruler",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:scissors",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:glue",
+      "topic": "things",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:crayon",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:paintbrush",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:computer",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:keyboard",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:phone",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:television",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:camera",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:headphones",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:microphone",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:robot",
+      "topic": "science",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:light-bulb",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:candle",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:flashlight",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:fan",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:air-conditioner",
+      "topic": "things",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:refrigerator",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:microwave",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:rice-cooker",
+      "topic": "things",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:kettle",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:cup",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:plate",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:bowl",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:chopsticks",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:fork",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:spoon",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:straw",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:bottle",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:lunchbox",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:toothbrush",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:toothpaste",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:soap",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:towel",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:comb",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:glasses",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:sunglasses",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:hat",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:shoes",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:socks",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:gloves",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:scarf",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:t-shirt",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:dress",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:watch",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:ring",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:necklace",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:wallet",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:coin",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:piggy-bank",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:teddy-bear",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:doll",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:balloon",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:kite",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:building-blocks",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:puzzle",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:dice",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:playing-cards",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:swing",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:slide",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:seesaw",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:car",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:bus",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:tram",
+      "topic": "transport",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:taxi",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:train",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:airplane",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:helicopter",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:rocket",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:boat",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:ferry",
+      "topic": "transport",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:bicycle",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:motorcycle",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:fire-truck",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:police-car",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:ambulance",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:truck",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:digger",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:crane",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:traffic-light",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:ladder",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:broom",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:bucket",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:hammer",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:rope",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:tent",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:map",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:treasure-chest",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:crown",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:magnet",
+      "topic": "science",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:telescope",
+      "topic": "science",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:magnifying-glass",
+      "topic": "science",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:medal",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:trophy",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:present",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:envelope",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:stamp",
+      "topic": "things",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:mailbox",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:trash-can",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:toilet",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:bathtub",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:stairs",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:elevator",
+      "topic": "things",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:things:escalator",
+      "topic": "things",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:egg-waffle",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:fishball",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:siu-mai",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:roast-goose",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:char-siu",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:wonton-noodles",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:congee",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:french-toast",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:milk-tea",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:stinky-tofu",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Final calibration: Expert is reserved for complex multi-element scenes; specific or easily confused single concepts are not Expert solely because the answer is uncommon."
+    },
+    {
+      "id": "w:hongkong:dai-pai-dong",
+      "topic": "places",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:cha-chaan-teng",
+      "topic": "places",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:wet-market",
+      "topic": "places",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:minibus",
+      "topic": "transport",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:double-decker-bus",
+      "topic": "transport",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:cable-car",
+      "topic": "transport",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:junk-boat",
+      "topic": "transport",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:victoria-harbour",
+      "topic": "places",
+      "difficulty": "expert",
+      "starter": false,
+      "review": "held",
+      "reason": "Named harbour lacks a fair unique global drawing cue; keep stable historical ID held rather than repurpose as generic harbour."
+    },
+    {
+      "id": "w:hongkong:lion-rock",
+      "topic": "places",
+      "difficulty": "expert",
+      "starter": false,
+      "review": "held",
+      "reason": "Named Hong Kong landmark requires local identification; keep historical ID held rather than repurpose as generic mountain."
+    },
+    {
+      "id": "w:hongkong:big-buddha",
+      "topic": "places",
+      "difficulty": "expert",
+      "starter": false,
+      "review": "held",
+      "reason": "Existing named Hong Kong landmark is not a generic Buddha-statue prompt; retain stable ID held."
+    },
+    {
+      "id": "w:hongkong:ferris-wheel",
+      "topic": "things",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:skyscraper",
+      "topic": "places",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:bamboo-scaffolding",
+      "topic": "things",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:neon-sign",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:temple",
+      "topic": "places",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:hongkong:typhoon-signal",
+      "topic": "things",
+      "difficulty": "expert",
+      "starter": false,
+      "review": "held",
+      "reason": "Hong Kong-specific numbered warning-sign convention is not the generic weather event; retain held rather than repurpose."
+    },
+    {
+      "id": "w:hongkong:mahjong",
+      "topic": "sports",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:dragon-dance",
+      "topic": "celebrations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Specific cultural concept retained in its general topic; no starter familiarity claim."
+    },
+    {
+      "id": "w:hongkong:tsing-ma-bridge",
+      "topic": "places",
+      "difficulty": "expert",
+      "starter": false,
+      "review": "held",
+      "reason": "Named bridge cannot fairly be distinguished globally by a quick drawing; retain held, never repurpose as generic bridge."
+    },
+    {
+      "id": "w:actions:sneezing",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:yawning",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:snoring",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:hiccups",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Final calibration: Expert is reserved for complex multi-element scenes; specific or easily confused single concepts are not Expert solely because the answer is uncommon."
+    },
+    {
+      "id": "w:actions:coughing",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:crying",
+      "topic": "actions",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:laughing",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:smiling",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:brushing-teeth",
+      "topic": "actions",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:washing-face",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:taking-a-shower",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:combing-hair",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:sleeping",
+      "topic": "actions",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:waking-up",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:drinking-water",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:clapping",
+      "topic": "actions",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:waving",
+      "topic": "actions",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:dancing",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:singing",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:jumping",
+      "topic": "actions",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:crawling",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:sneaking",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:climbing-a-tree",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:driving",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:cooking",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:washing-dishes",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:sweeping",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:mopping",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:ironing",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:hanging-clothes",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:watering-plants",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:walking-the-dog",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:feeding-fish",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:taking-a-selfie",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:playing-video-games",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:watching-tv",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:reading-a-book",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:writing",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:drawing",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:making-a-phone-call",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:queuing",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:hugging",
+      "topic": "actions",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:shaking-hands",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:high-five",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:thumbs-up",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:bowing",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:stretching",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:doing-homework",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:packing-schoolbag",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:tying-shoelaces",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:wearing-a-mask",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:washing-hands",
+      "topic": "actions",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:blowing-bubbles",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:blowing-out-candles",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:opening-a-present",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:whistling",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:thinking",
+      "topic": "actions",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:actions:falling-down",
+      "topic": "actions",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:sun",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:moon",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:star",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:shooting-star",
+      "topic": "nature",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:rainbow",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:cloud",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:rain",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:lightning",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:snowman",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:snowflake",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:wind",
+      "topic": "nature",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:tornado",
+      "topic": "nature",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:typhoon",
+      "topic": "nature",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:volcano",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:mountain",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:river",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:waterfall",
+      "topic": "nature",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:lake",
+      "topic": "nature",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:sea",
+      "topic": "nature",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:wave",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:island",
+      "topic": "nature",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:beach",
+      "topic": "nature",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:desert",
+      "topic": "nature",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:cactus",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:forest",
+      "topic": "nature",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:tree",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:leaf",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:flower",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:grass",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:rock",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:cave",
+      "topic": "nature",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:sunrise",
+      "topic": "nature",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:sunset",
+      "topic": "nature",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:planet",
+      "topic": "science",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:earth",
+      "topic": "science",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:saturn",
+      "topic": "science",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:alien",
+      "topic": "fantasy",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:ufo",
+      "topic": "fantasy",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:iceberg",
+      "topic": "nature",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:coral",
+      "topic": "nature",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:seashell",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:sand-castle",
+      "topic": "nature",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:puddle",
+      "topic": "nature",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:nature:fire",
+      "topic": "nature",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:red-packet",
+      "topic": "celebrations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:fai-chun",
+      "topic": "celebrations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:lion-dance",
+      "topic": "celebrations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:dragon-boat",
+      "topic": "transport",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:rice-dumpling",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:rice-cake",
+      "topic": "food",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:candy-box",
+      "topic": "celebrations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:god-of-fortune",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Final calibration: Expert is reserved for complex multi-element scenes; specific or easily confused single concepts are not Expert solely because the answer is uncommon."
+    },
+    {
+      "id": "w:festivals:kumquat-tree",
+      "topic": "celebrations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:firecracker",
+      "topic": "celebrations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:fireworks",
+      "topic": "celebrations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:lantern",
+      "topic": "celebrations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:christmas-tree",
+      "topic": "celebrations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:santa-claus",
+      "topic": "celebrations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:reindeer",
+      "topic": "animals",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:christmas-stocking",
+      "topic": "celebrations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:gingerbread-man",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:candy-cane",
+      "topic": "food",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:jingle-bell",
+      "topic": "things",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:angel",
+      "topic": "fantasy",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:jack-o-lantern",
+      "topic": "celebrations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:ghost",
+      "topic": "fantasy",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:vampire",
+      "topic": "fantasy",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:mummy",
+      "topic": "fantasy",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:spider-web",
+      "topic": "nature",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:easter-egg",
+      "topic": "celebrations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:easter-bunny",
+      "topic": "celebrations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:festivals:party-hat",
+      "topic": "celebrations",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:mermaid",
+      "topic": "fantasy",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:witch",
+      "topic": "fantasy",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:fairy",
+      "topic": "fantasy",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:elf",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:giant",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:dwarf",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:genie",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:magic-lamp",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:magic-carpet",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:magic-wand",
+      "topic": "fantasy",
+      "difficulty": "easy",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:castle",
+      "topic": "places",
+      "difficulty": "easy",
+      "starter": true,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:princess",
+      "topic": "occupations",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:prince",
+      "topic": "occupations",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:king",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:queen",
+      "topic": "occupations",
+      "difficulty": "easy",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:snow-white",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:poison-apple",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Final calibration: Expert is reserved for complex multi-element scenes; specific or easily confused single concepts are not Expert solely because the answer is uncommon."
+    },
+    {
+      "id": "w:fairytales:cinderella",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:glass-slipper",
+      "topic": "fantasy",
+      "difficulty": "medium",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Final calibration: Expert is reserved for complex multi-element scenes; specific or easily confused single concepts are not Expert solely because the answer is uncommon."
+    },
+    {
+      "id": "w:fairytales:little-red-riding-hood",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:big-bad-wolf",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:three-little-pigs",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:pinocchio",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:aladdin",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:rapunzel",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:sleeping-beauty",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:frog-prince",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:gingerbread-house",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:magic-beanstalk",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:monkey-king",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Final calibration: Expert is reserved for complex multi-element scenes; specific or easily confused single concepts are not Expert solely because the answer is uncommon."
+    },
+    {
+      "id": "w:fairytales:ne-zha",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Final calibration: Expert is reserved for complex multi-element scenes; specific or easily confused single concepts are not Expert solely because the answer is uncommon."
+    },
+    {
+      "id": "w:fairytales:tooth-fairy",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate"
+    },
+    {
+      "id": "w:fairytales:ugly-duckling",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Final calibration: Expert is reserved for complex multi-element scenes; specific or easily confused single concepts are not Expert solely because the answer is uncommon."
+    },
+    {
+      "id": "w:fairytales:tortoise-and-the-hare",
+      "topic": "fantasy",
+      "difficulty": "hard",
+      "starter": false,
+      "review": "candidate",
+      "reason": "Final calibration: Expert is reserved for complex multi-element scenes; specific or easily confused single concepts are not Expert solely because the answer is uncommon."
+    }
+  ],
+  "labelFixes": {
+    "w:animals:worm": {
+      "intent": "Earthworm, the long legless soil animal; not an arbitrary insect larva.",
+      "labels": {
+        "en": "earthworm",
+        "zh": "蚯蚓",
+        "zh-Hans": "蚯蚓",
+        "ja": "ミミズ",
+        "ko": "지렁이",
+        "de": "Regenwurm",
+        "fr": "ver de terre",
+        "es": "lombriz",
+        "pt": "minhoca",
+        "it": "lombrico",
+        "ar": "دودة الأرض"
+      }
+    },
+    "w:food:spaghetti": {
+      "intent": "Spaghetti: long thin Italian pasta strands, not all pasta shapes.",
+      "labels": {
+        "en": "spaghetti",
+        "zh": "意大利長麵",
+        "zh-Hans": "意大利长面",
+        "ja": "スパゲッティ",
+        "ko": "스파게티",
+        "de": "Spaghetti",
+        "fr": "spaghettis",
+        "es": "espaguetis",
+        "pt": "espaguete",
+        "it": "spaghetti",
+        "ar": "سباغيتي"
+      }
+    },
+    "w:food:pineapple-bun": {
+      "intent": "Hong Kong sweet bun with a cracked pineapple-pattern crust; pineapple is not a required ingredient.",
+      "labels": {
+        "en": "pineapple bun (cracked crust)",
+        "zh": "菠蘿包",
+        "zh-Hans": "菠萝包",
+        "ja": "香港式のひび割れクッキーパン",
+        "ko": "홍콩식 파인애플 무늬 번",
+        "de": "Hongkonger Brötchen mit rissiger Kruste",
+        "fr": "brioche à croûte craquelée de Hong Kong",
+        "es": "bollo de Hong Kong con corteza cuadriculada",
+        "pt": "pão de Hong Kong com crosta quadriculada",
+        "it": "panino dolce di Hong Kong con crosta screpolata",
+        "ar": "خبز هونغ كونغ بقشرة مربعة النقوش"
+      }
+    },
+    "w:hongkong:milk-tea": {
+      "intent": "Hong Kong-style strained milk tea, without the tapioca pearls of the separate bubble-tea concept.",
+      "labels": {
+        "en": "Hong Kong milk tea",
+        "zh": "絲襪奶茶",
+        "zh-Hans": "丝袜奶茶",
+        "ja": "香港式ミルクティー",
+        "ko": "홍콩식 밀크티",
+        "de": "Hongkonger Milchtee",
+        "fr": "thé au lait hongkongais",
+        "es": "té con leche de Hong Kong",
+        "pt": "chá com leite de Hong Kong",
+        "it": "tè al latte di Hong Kong",
+        "ar": "شاي الحليب الهونغ كونغي"
+      }
+    },
+    "w:hongkong:french-toast": {
+      "intent": "Hong Kong-style thick fried French toast, often served with butter and syrup; retain this specific existing food concept.",
+      "labels": {
+        "en": "Hong Kong-style French toast",
+        "zh": "西多士",
+        "zh-Hans": "西多士",
+        "ja": "香港式フレンチトースト",
+        "ko": "홍콩식 프렌치토스트",
+        "de": "Hongkonger French Toast",
+        "fr": "pain perdu à la hongkongaise",
+        "es": "tostada francesa al estilo de Hong Kong",
+        "pt": "rabanada ao estilo de Hong Kong",
+        "it": "toast alla francese di Hong Kong",
+        "ar": "توست فرنسي على طريقة هونغ كونغ"
+      }
+    },
+    "w:festivals:rice-cake": {
+      "intent": "Nian gao, the traditional Chinese New Year rice cake, not generic puffed rice cakes.",
+      "labels": {
+        "en": "Chinese New Year rice cake",
+        "zh": "農曆新年年糕",
+        "zh-Hans": "农历新年年糕",
+        "ja": "春節のもち菓子（年糕）",
+        "ko": "중국 설 떡(녠가오)",
+        "de": "chinesischer Neujahrs-Reiskuchen",
+        "fr": "gâteau de riz du Nouvel An chinois",
+        "es": "pastel de arroz del Año Nuevo chino",
+        "pt": "bolo de arroz do Ano Novo chinês",
+        "it": "torta di riso del Capodanno cinese",
+        "ar": "كعكة الأرز لرأس السنة الصينية"
+      }
+    },
+    "w:festivals:candy-box": {
+      "intent": "Chinese New Year compartmented sweets tray (chuen hap), not a generic box of candy.",
+      "labels": {
+        "en": "Chinese New Year sweets tray",
+        "zh": "新年全盒",
+        "zh-Hans": "新年分格糖果盒",
+        "ja": "春節の仕切り付き菓子盆",
+        "ko": "중국 설 명절 칸막이 과자 쟁반",
+        "de": "unterteilte Süßigkeitenschale zum chinesischen Neujahr",
+        "fr": "plateau compartimenté de friandises du Nouvel An chinois",
+        "es": "bandeja de dulces del Año Nuevo chino",
+        "pt": "bandeja de doces do Ano Novo chinês",
+        "it": "vassoio di dolci del Capodanno cinese",
+        "ar": "صينية حلوى مقسمة لرأس السنة الصينية"
+      }
+    },
+    "w:occupations:painter": {
+      "intent": "Visual artist painting pictures, not a building or wall painter.",
+      "labels": {
+        "en": "artist (painter)",
+        "zh": "畫家",
+        "zh-Hans": "画家",
+        "ja": "画家",
+        "ko": "화가",
+        "de": "Kunstmaler",
+        "fr": "artiste peintre",
+        "es": "artista pintor",
+        "pt": "artista pintor",
+        "it": "pittore di quadri",
+        "ar": "رسام لوحات"
+      }
+    },
+    "w:things:crane": {
+      "intent": "Construction lifting machine, not the bird.",
+      "labels": {
+        "en": "construction crane",
+        "zh": "起重機",
+        "zh-Hans": "起重机",
+        "ja": "クレーン",
+        "ko": "크레인",
+        "de": "Baukran",
+        "fr": "grue de chantier",
+        "es": "grúa de construcción",
+        "pt": "guindaste de construção",
+        "it": "gru da cantiere",
+        "ar": "رافعة بناء"
+      }
+    },
+    "w:sports:diving": {
+      "intent": "Jumping from a diving board or platform into water, distinct from scuba diving.",
+      "labels": {
+        "en": "diving from a board or platform",
+        "zh": "跳水",
+        "zh-Hans": "跳水",
+        "ja": "飛び込み",
+        "ko": "다이빙대에서 뛰어들기",
+        "de": "Wasserspringen",
+        "fr": "plongeon",
+        "es": "saltos de trampolín",
+        "pt": "saltos ornamentais",
+        "it": "tuffi",
+        "ar": "الغطس من منصة"
+      }
+    },
+    "w:sports:scuba-diving": {
+      "intent": "Underwater swimming with a scuba air cylinder, distinct from jumping into water.",
+      "labels": {
+        "en": "scuba diving",
+        "zh": "水肺潛水",
+        "zh-Hans": "水肺潜水",
+        "ja": "スキューバダイビング",
+        "ko": "스쿠버 다이빙",
+        "de": "Gerätetauchen",
+        "fr": "plongée sous-marine",
+        "es": "buceo con botella",
+        "pt": "mergulho com cilindro",
+        "it": "immersione con bombole",
+        "ar": "الغوص بأسطوانة هواء"
+      }
+    },
+    "w:fairytales:pinocchio": {
+      "intent": "Pinocchio, the traditional wooden story character with a growing nose; not a generic little puppet.",
+      "labels": {
+        "en": "Pinocchio",
+        "zh": "皮諾丘（長鼻木偶）",
+        "zh-Hans": "匹诺曹",
+        "ja": "ピノキオ",
+        "ko": "피노키오",
+        "de": "Pinocchio",
+        "fr": "Pinocchio",
+        "es": "Pinocho",
+        "pt": "Pinóquio",
+        "it": "Pinocchio",
+        "ar": "بينوكيو"
+      }
+    },
+    "w:sports:sailing": {
+      "intent": "Sailing a boat using wind in its sail; activity phrase separates it from candle homonyms.",
+      "labels": {
+        "en": "sailing a boat",
+        "zh": "帆船",
+        "zh-Hans": "帆船运动",
+        "ja": "セーリング",
+        "ko": "요트 타기",
+        "de": "Segeln",
+        "fr": "faire de la voile",
+        "es": "navegar a vela",
+        "pt": "velejar",
+        "it": "andare in barca a vela",
+        "ar": "الإبحار الشراعي"
+      }
+    },
+    "w:sports:fishing": {
+      "intent": "Catching fish using a rod or line; activity wording separates it from peach homonyms.",
+      "labels": {
+        "en": "catching fish",
+        "zh": "釣魚",
+        "zh-Hans": "钓鱼",
+        "ja": "魚釣り",
+        "ko": "낚시",
+        "de": "Angeln",
+        "fr": "pêcher à la ligne",
+        "es": "pesca",
+        "pt": "pesca",
+        "it": "pescare con la canna",
+        "ar": "صيد السمك"
+      }
+    },
+    "w:food:pear": {
+      "intent": "Pear fruit, distinct from the Korean homonym for a boat.",
+      "labels": {
+        "en": "pear",
+        "zh": "梨",
+        "zh-Hans": "梨",
+        "ja": "梨",
+        "ko": "배 (과일)",
+        "de": "Birne",
+        "fr": "poire",
+        "es": "pera",
+        "pt": "pera",
+        "it": "pera",
+        "ar": "كمثرى"
+      }
+    },
+    "w:things:boat": {
+      "intent": "Small general boat or watercraft; distinct from the Korean pear homonym.",
+      "labels": {
+        "en": "boat",
+        "zh": "船",
+        "zh-Hans": "船",
+        "ja": "ボート",
+        "ko": "배 (탈것)",
+        "de": "Boot",
+        "fr": "bateau",
+        "es": "barco",
+        "pt": "barco",
+        "it": "barca",
+        "ar": "قارب"
+      }
+    },
+    "w:things:glasses": {
+      "intent": "Eyeglasses worn to see, not drinking glasses.",
+      "labels": {
+        "en": "eyeglasses",
+        "zh": "眼鏡",
+        "zh-Hans": "眼镜",
+        "ja": "眼鏡",
+        "ko": "안경",
+        "de": "Brille",
+        "fr": "lunettes",
+        "es": "gafas",
+        "pt": "óculos",
+        "it": "occhiali",
+        "ar": "نظارة طبية"
+      }
+    },
+    "w:actions:wearing-a-mask": {
+      "intent": "Putting on or wearing a face covering over the nose and mouth, not a costume mask.",
+      "labels": {
+        "en": "wearing a face mask",
+        "zh": "戴口罩",
+        "zh-Hans": "戴口罩",
+        "ja": "マスクを着ける",
+        "ko": "마스크 쓰기",
+        "de": "eine Gesichtsmaske tragen",
+        "fr": "porter un masque sur le visage",
+        "es": "llevar mascarilla",
+        "pt": "usar máscara no rosto",
+        "it": "indossare una mascherina",
+        "ar": "ارتداء كمامة"
+      }
+    },
+    "w:food:jelly": {
+      "intent": "Wobbly gelatin-style dessert, not fruit preserve or jam.",
+      "labels": {
+        "en": "jelly dessert",
+        "zh": "啫喱",
+        "zh-Hans": "果冻",
+        "ja": "ゼリー",
+        "ko": "젤리",
+        "de": "Wackelpudding",
+        "fr": "dessert en gelée",
+        "es": "gelatina",
+        "pt": "gelatina",
+        "it": "gelatina",
+        "ar": "حلوى هلامية"
+      }
+    },
+    "w:food:pudding": {
+      "intent": "Soft set pudding dessert; draw a bowl or molded dessert rather than a baked cake.",
+      "labels": {
+        "en": "pudding dessert",
+        "zh": "布甸",
+        "zh-Hans": "布丁",
+        "ja": "プリン",
+        "ko": "푸딩",
+        "de": "Pudding",
+        "fr": "flan",
+        "es": "pudín",
+        "pt": "pudim",
+        "it": "budino",
+        "ar": "حلوى البودينغ"
+      }
+    },
+    "w:hongkong:dai-pai-dong": {
+      "intent": "Dai pai dong: traditional Hong Kong open-air cooked-food stall, retain the specific existing scene.",
+      "labels": {
+        "en": "Hong Kong open-air food stall",
+        "zh": "大牌檔",
+        "zh-Hans": "大排档",
+        "ja": "屋外食堂・大牌檔",
+        "ko": "다이파이동 노천 식당",
+        "de": "offener Hongkonger Imbissstand",
+        "fr": "étal de cuisine en plein air de Hong Kong",
+        "es": "puesto de comida al aire libre de Hong Kong",
+        "pt": "barraca de comida ao ar livre de Hong Kong",
+        "it": "chiosco all'aperto di Hong Kong",
+        "ar": "كشك طعام هونغ كونغي مكشوف"
+      }
+    },
+    "w:hongkong:cha-chaan-teng": {
+      "intent": "Cha chaan teng: Hong Kong-style casual cafe/tea restaurant, retain the specific existing scene.",
+      "labels": {
+        "en": "Hong Kong-style cafe",
+        "zh": "茶餐廳",
+        "zh-Hans": "茶餐厅",
+        "ja": "香港式カフェ・茶餐廳",
+        "ko": "차찬텡 홍콩식 카페",
+        "de": "Hongkonger Tee-Restaurant",
+        "fr": "café de style hongkongais",
+        "es": "cafetería al estilo de Hong Kong",
+        "pt": "café ao estilo de Hong Kong",
+        "it": "caffetteria tipica di Hong Kong",
+        "ar": "مقهى هونغ كونغي شعبي"
+      }
+    },
+    "w:hongkong:wet-market": {
+      "intent": "Fresh-food market selling produce/fish/meat, not any market that happens to be wet.",
+      "labels": {
+        "en": "fresh-food market",
+        "zh": "街市",
+        "zh-Hans": "菜市场",
+        "ja": "生鮮市場",
+        "ko": "신선 식품 시장",
+        "de": "Frischwarenmarkt",
+        "fr": "marché de produits frais",
+        "es": "mercado de alimentos frescos",
+        "pt": "mercado de alimentos frescos",
+        "it": "mercato di alimenti freschi",
+        "ar": "سوق أغذية طازجة"
+      }
+    },
+    "w:animals:dragon": {
+      "intent": "Broad mythical dragon: winged or long serpentine traditional depictions both fit; no forced regional form.",
+      "labels": {
+        "en": "dragon",
+        "zh": "龍",
+        "zh-Hans": "龙",
+        "ja": "ドラゴン",
+        "ko": "용",
+        "de": "Drache",
+        "fr": "dragon",
+        "es": "dragón",
+        "pt": "dragão",
+        "it": "drago",
+        "ar": "تنين"
+      }
+    },
+    "w:food:dumpling": {
+      "intent": "Chinese-style filled dumpling (jiaozi/gyoza family), not an unfilled dough ball or sweet fritter.",
+      "labels": {
+        "en": "Chinese filled dumpling",
+        "zh": "餃子",
+        "zh-Hans": "饺子",
+        "ja": "餃子",
+        "ko": "만두",
+        "de": "chinesische Teigtasche",
+        "fr": "ravioli chinois",
+        "es": "empanadilla china",
+        "pt": "bolinho chinês recheado",
+        "it": "raviolo cinese",
+        "ar": "فطائر صينية محشوة"
+      }
+    },
+    "w:food:hot-pot": {
+      "intent": "Chinese-style communal pot of simmering broth with ingredients cooked at the table; dish rather than a generic hot cooking vessel.",
+      "labels": {
+        "en": "Chinese hot pot",
+        "zh": "火鍋",
+        "zh-Hans": "火锅",
+        "ja": "中国式の火鍋",
+        "ko": "중국식 전골",
+        "de": "chinesischer Feuertopf",
+        "fr": "fondue chinoise",
+        "es": "olla caliente china",
+        "pt": "hot pot chinês",
+        "it": "fonduta cinese",
+        "ar": "قدر ساخن صيني"
+      }
+    },
+    "w:food:marshmallow": {
+      "intent": "Soft puffy marshmallow confection, not spun cotton candy.",
+      "labels": {
+        "en": "marshmallow",
+        "zh": "棉花軟糖",
+        "zh-Hans": "棉花软糖",
+        "ja": "マシュマロ",
+        "ko": "마시멜로",
+        "de": "Marshmallow",
+        "fr": "guimauve",
+        "es": "malvavisco",
+        "pt": "marshmallow",
+        "it": "marshmallow",
+        "ar": "مارشميلو"
+      }
+    },
+    "w:things:digger": {
+      "intent": "Construction excavator with a bucket arm, not a person digging.",
+      "labels": {
+        "en": "excavator",
+        "zh": "挖泥車",
+        "zh-Hans": "挖掘机",
+        "ja": "ショベルカー",
+        "ko": "굴착기",
+        "de": "Bagger",
+        "fr": "pelleteuse",
+        "es": "excavadora",
+        "pt": "escavadeira",
+        "it": "escavatore",
+        "ar": "حفارة"
+      }
+    },
+    "w:hongkong:cable-car": {
+      "intent": "Aerial cable car suspended from a cable, not a street-running cable tram.",
+      "labels": {
+        "en": "aerial cable car",
+        "zh": "纜車",
+        "zh-Hans": "缆车",
+        "ja": "ロープウェイ",
+        "ko": "케이블카",
+        "de": "Seilbahn",
+        "fr": "téléphérique",
+        "es": "teleférico",
+        "pt": "teleférico",
+        "it": "funivia",
+        "ar": "تلفريك"
+      }
+    },
+    "w:fairytales:big-bad-wolf": {
+      "intent": "Traditional fairy-tale villain wolf, not every generic wolf; distinct from w:animals:wolf. Draw story cues such as disguising itself or threatening the three pigs without copying a modern adaptation.",
+      "labels": {
+        "en": "fairy-tale big bad wolf",
+        "zh": "童話大野狼",
+        "zh-Hans": "童话大灰狼",
+        "ja": "悪いオオカミ",
+        "ko": "크고 나쁜 늑대",
+        "de": "böser Wolf",
+        "fr": "grand méchant loup",
+        "es": "lobo feroz",
+        "pt": "lobo mau",
+        "it": "lupo cattivo",
+        "ar": "الذئب الشرير"
+      }
+    }
+  }
+}

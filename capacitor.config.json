@@ -1,0 +1,6 @@
+{
+  "appId": "com.local.familydraw",
+  "appName": "Sketch & Guess",
+  "webDir": "dist",
+  "ios": { "contentInset": "never", "preferredContentMode": "mobile" }
+}

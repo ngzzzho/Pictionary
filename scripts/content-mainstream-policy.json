@@ -1,0 +1,14 @@
+{
+  "selectionPolicy": "mainstream-first",
+  "parkTags": ["silly"],
+  "parkDifficulties": ["expert"],
+  "extraHeld": {
+    "n:water-cycle-in-a-jar": "An invisible cycle inside a container is not an ordinary single-picture prompt.",
+    "n:knight-rescuing-a-dragon": "The rescue relationship and story reversal need narrative interpretation.",
+    "n:surprise-party-behind-a-sofa": "Surprise and hidden intent are not directly visible.",
+    "n:test-tube-growing-a-flower": "Invented science scene; a drawing shows a flower in a tube rather than growth.",
+    "n:dragon-egg": "No reliable visual distinction from an ordinary or dinosaur egg, especially for Easy start."
+  },
+  "expectedActive": 795,
+  "expectedParked": 218
+}

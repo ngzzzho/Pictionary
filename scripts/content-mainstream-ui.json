@@ -1,0 +1,90 @@
+{
+  "en": {
+    "ui": {
+      "playlists": "Choose your cards",
+      "subjects": "Choose a subject",
+      "generalHint": "Mix easy, medium and hard cards. Mixed topics also include your custom words.",
+      "pausedDeck": "This earlier deck is paused. Choose an everyday topic for your next game."
+    }
+  },
+  "zh": {
+    "ui": {
+      "playlists": "選擇題目",
+      "subjects": "選擇分類",
+      "generalHint": "混合簡單、中等及困難題目。綜合分類也會加入你的自訂詞語。",
+      "pausedDeck": "這個舊題組已暫停使用。請為下一局選擇日常題材的分類。"
+    }
+  },
+  "zh-Hans": {
+    "ui": {
+      "playlists": "选择题目",
+      "subjects": "选择分类",
+      "generalHint": "混合简单、中等及困难题目。综合分类也会加入你的自定义词语。",
+      "pausedDeck": "这个旧题组已暂停使用。请为下一局选择日常题材的分类。"
+    }
+  },
+  "ja": {
+    "ui": {
+      "playlists": "お題を選ぶ",
+      "subjects": "カテゴリーを選ぶ",
+      "generalHint": "かんたん・ふつう・むずかしいお題を混ぜます。全カテゴリーでは、自作のお題も含まれます。",
+      "pausedDeck": "以前のこのお題セットは現在お休み中です。次のゲームでは、身近なテーマのカテゴリーを選んでください。"
+    }
+  },
+  "ko": {
+    "ui": {
+      "playlists": "문제 고르기",
+      "subjects": "주제 고르기",
+      "generalHint": "쉬움, 보통, 어려움 문제를 섞습니다. 모든 주제를 선택하면 직접 만든 단어도 포함됩니다.",
+      "pausedDeck": "이전 문제 묶음은 현재 사용할 수 없습니다. 다음 게임에서는 일상적인 주제를 골라 주세요."
+    }
+  },
+  "de": {
+    "ui": {
+      "playlists": "Wähle deine Karten",
+      "subjects": "Wähle ein Thema",
+      "generalHint": "Mischt leichte, mittelschwere und schwere Karten. Bei gemischten Themen sind auch deine eigenen Begriffe dabei.",
+      "pausedDeck": "Dieses frühere Kartenset ist vorerst nicht verfügbar. Wähle für dein nächstes Spiel ein Alltagsthema."
+    }
+  },
+  "fr": {
+    "ui": {
+      "playlists": "Choisis tes cartes",
+      "subjects": "Choisis un thème",
+      "generalHint": "Mélange les cartes faciles, moyennes et difficiles. Le mélange de thèmes inclut aussi tes mots personnalisés.",
+      "pausedDeck": "Cet ancien paquet est temporairement indisponible. Choisis un thème du quotidien pour ta prochaine partie."
+    }
+  },
+  "es": {
+    "ui": {
+      "playlists": "Elige tus tarjetas",
+      "subjects": "Elige un tema",
+      "generalHint": "Mezcla tarjetas fáciles, medias y difíciles. La mezcla de temas también incluye tus palabras personalizadas.",
+      "pausedDeck": "Este conjunto anterior no está disponible por ahora. Elige un tema cotidiano para tu próxima partida."
+    }
+  },
+  "pt": {
+    "ui": {
+      "playlists": "Escolha suas cartas",
+      "subjects": "Escolha um tema",
+      "generalHint": "Mistura cartas fáceis, médias e difíceis. A mistura de temas também inclui suas palavras personalizadas.",
+      "pausedDeck": "Este conjunto anterior está indisponível por enquanto. Escolha um tema do dia a dia para sua próxima partida."
+    }
+  },
+  "it": {
+    "ui": {
+      "playlists": "Scegli le tue carte",
+      "subjects": "Scegli un tema",
+      "generalHint": "Mescola carte facili, medie e difficili. Il mix di temi include anche le tue parole personalizzate.",
+      "pausedDeck": "Questo vecchio mazzo non è disponibile al momento. Scegli un tema quotidiano per la prossima partita."
+    }
+  },
+  "ar": {
+    "ui": {
+      "playlists": "اختر بطاقاتك",
+      "subjects": "اختر موضوعًا",
+      "generalHint": "امزج البطاقات السهلة والمتوسطة والصعبة. يشمل خيار جميع المواضيع كلماتك المخصصة أيضًا.",
+      "pausedDeck": "هذه المجموعة السابقة غير متاحة حاليًا. اختر موضوعًا من الحياة اليومية للعبتك التالية."
+    }
+  }
+}

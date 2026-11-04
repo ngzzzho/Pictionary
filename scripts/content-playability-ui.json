@@ -1,0 +1,57 @@
+{
+  "en": {
+    "easyHint": "Familiar shapes or one clear action.",
+    "mediumHint": "Two or three features or clues set the scene.",
+    "hardHint": "Familiar ideas with several visible steps or relationships."
+  },
+  "zh": {
+    "easyHint": "常見輪廓或清楚的單一動作。",
+    "mediumHint": "要用兩三個特徵或場景線索。",
+    "hardHint": "題材仍常見，但要畫出多個步驟或關係。"
+  },
+  "zh-Hans": {
+    "easyHint": "常见轮廓或清楚的单一动作。",
+    "mediumHint": "要用两三个特征或场景线索。",
+    "hardHint": "题材仍常见，但要画出多个步骤或关系。"
+  },
+  "ja": {
+    "easyHint": "身近な形や、ひと目で伝わる動作。",
+    "mediumHint": "2〜3個の特徴や場面のヒントで伝えるお題。",
+    "hardHint": "身近な題材を、複数の動きや物の関係で表すお題。"
+  },
+  "ko": {
+    "easyHint": "익숙한 모양이나 분명한 한 가지 동작.",
+    "mediumHint": "두세 가지 특징이나 상황 단서로 표현해요.",
+    "hardHint": "익숙한 소재를 여러 동작이나 관계로 표현해요."
+  },
+  "de": {
+    "easyHint": "Bekannte Formen oder eine klare Handlung.",
+    "mediumHint": "Zwei oder drei Merkmale oder Hinweise zeigen die Situation.",
+    "hardHint": "Bekannte Begriffe mit mehreren sichtbaren Schritten oder Beziehungen."
+  },
+  "fr": {
+    "easyHint": "Des formes familières ou une action claire.",
+    "mediumHint": "Deux ou trois détails ou indices pour montrer la scène.",
+    "hardHint": "Des idées familières avec plusieurs étapes ou relations visibles."
+  },
+  "es": {
+    "easyHint": "Formas conocidas o una acción clara.",
+    "mediumHint": "Dos o tres rasgos o pistas para mostrar la escena.",
+    "hardHint": "Ideas conocidas con varios pasos o relaciones visibles."
+  },
+  "pt": {
+    "easyHint": "Formas conhecidas ou uma ação clara.",
+    "mediumHint": "Duas ou três características ou pistas para mostrar a cena.",
+    "hardHint": "Ideias conhecidas com várias etapas ou relações visíveis."
+  },
+  "it": {
+    "easyHint": "Forme familiari o una singola azione chiara.",
+    "mediumHint": "Due o tre dettagli o indizi per mostrare la scena.",
+    "hardHint": "Idee familiari con più passaggi o relazioni visibili."
+  },
+  "ar": {
+    "easyHint": "أشكال مألوفة أو فعل واحد واضح.",
+    "mediumHint": "ميزتان أو ثلاث، أو دلائل توضح المشهد.",
+    "hardHint": "أفكار مألوفة تتضمن عدة خطوات أو علاقات يمكن رسمها."
+  }
+}

@@ -1,0 +1,20 @@
+/* Shared live-text tokens. Pack skins are mapped in layerlab.css. */
+:root {
+  --font-body:
+    "Rubik", "GenSen Rounded", -apple-system, "PingFang HK", sans-serif;
+  --font-display: "Fredoka", "GenSen Rounded", ui-rounded, sans-serif;
+  --type-caption: 0.9412rem;
+  --type-body: 1rem;
+  --type-button: 1.1765rem;
+  --type-section: 1.1765rem;
+  --type-title: 1.8824rem;
+  --type-word: 2.3529rem;
+  --word-fill: #fff8e2;
+  --bg: #f7f6f0;
+  --ink: #243450;
+  --muted: #566477;
+  --line: #e6e6de;
+  --coral: #e96755;
+  --green: #428b76;
+  --blue: #4383cd;
+}
